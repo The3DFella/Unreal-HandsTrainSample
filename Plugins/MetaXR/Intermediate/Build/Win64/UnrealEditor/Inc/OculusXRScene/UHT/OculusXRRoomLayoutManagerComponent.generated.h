@@ -21,7 +21,7 @@ struct FOculusXRRoomLayout;
 struct FOculusXRUInt64;
 
 // ********** Begin Class UOculusXRRoomLayoutManagerComponent **************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusRoomLayoutSceneCaptureComplete_Handler); \
 	DECLARE_FUNCTION(execLoadTriangleMesh); \
 	DECLARE_FUNCTION(execGetRoomLayout); \
@@ -31,7 +31,7 @@ struct FOculusXRUInt64;
 struct Z_Construct_UClass_UOculusXRRoomLayoutManagerComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRRoomLayoutManagerComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRRoomLayoutManagerComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRRoomLayoutManagerComponent(ETypeConstructPhase); \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRRoomLayoutManagerComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRRoomLayoutManagerComponent(UOculusXRRoomLayoutManagerComponent&&) = delete; \
 	UOculusXRRoomLayoutManagerComponent(const UOculusXRRoomLayoutManagerComponent&) = delete; \
@@ -50,13 +50,13 @@ public: \
 	NO_API virtual ~UOculusXRRoomLayoutManagerComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_10_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_10_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,6 +66,6 @@ class UOculusXRRoomLayoutManagerComponent;
 // ********** End Class UOculusXRRoomLayoutManagerComponent ****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRRoomLayoutManagerComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

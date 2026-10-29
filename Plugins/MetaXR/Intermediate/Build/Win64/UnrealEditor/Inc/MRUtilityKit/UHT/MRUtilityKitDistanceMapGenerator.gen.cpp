@@ -150,9 +150,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Capture the distance map.\n\x09 * @return The captured distance map.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Capture the distance map.\n@return The captured distance map." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -205,9 +209,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Create mask meshes for the given room.\n\x09 * These mask meshes are needed for the distance map to be rendered. It should only be called once before\n\x09 * CaptureDistanceMap in case the SpawnMode has been set to None.\n\x09 * The operation that this function executes is expensive. It only needs to be called after the room has been\n\x09 * created or updated.\n\x09 * @param Room The room for which the masked meshes should be created.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create mask meshes for the given room.\nThese mask meshes are needed for the distance map to be rendered. It should only be called once before\nCaptureDistanceMap in case the SpawnMode has been set to None.\nThe operation that this function executes is expensive. It only needs to be called after the room has been\ncreated or updated.\n@param Room The room for which the masked meshes should be created." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -318,9 +326,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return the captured distance map. Be sure to call CaptureDistanceMap() before\n\x09 * @return The captured distance map.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return the captured distance map. Be sure to call CaptureDistanceMap() before\n@return The captured distance map." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -426,9 +438,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Retrieve the view info from the scene capture. This is useful for re projection of\n\x09 * the distance map in a material.\n\x09 * @return The view info.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve the view info from the scene capture. This is useful for re projection of\nthe distance map in a material.\n@return The view info." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -587,9 +603,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Remove mask meshes for the given room.\n\x09 * This function should only be executed when SpawnMode is set to None.\n\x09 * It only needs to be called after a room has been removed.\n\x09 * @param Room The room for which the masked meshes should be removed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove mask meshes for the given room.\nThis function should only be executed when SpawnMode is set to None.\nIt only needs to be called after a room has been removed.\n@param Room The room for which the masked meshes should be removed." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -696,11 +716,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Generates a distance map that can be used in materials to calculate the distance to various objects.\n * This can enable interesting effects. With the distance map you can get the distance from scene objects\n * or walls in a material shader.\n *\n * The Jump Flood Algorithm is used to generate the distance map. This is fast enough to regenerate\n * every tick.\n *\n * To capture a distance map after a room has been loaded call CaptureDistanceMap().\n * It will return a captured distance map. In case you already called CaptureDistanceMap()\n * you can receive the last captured distance map with GetDistanceMap(). No other setup is required.\n *\n * This class will create procedural meshes for every anchor to create a mask. These meshes have their\n * visibility set to scene capture only. That however means that if you place a scene capture component yourself\n * that the meshes will show up in your scene capture component. The actors that have the procedural meshes\n * attached are tagged with GMRUK_DISTANCE_MAP_ACTOR_TAG. In case you don't want them to show up in your\n * scene capture you can hide them by receiving all these actors with the tag GMRUK_DISTANCE_MAP_ACTOR_TAG\n * and add these to the scene captures hidden actors.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Distance Map Generator" },
 		{ "IncludePath", "MRUtilityKitDistanceMapGenerator.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generates a distance map that can be used in materials to calculate the distance to various objects.\nThis can enable interesting effects. With the distance map you can get the distance from scene objects\nor walls in a material shader.\n\nThe Jump Flood Algorithm is used to generate the distance map. This is fast enough to regenerate\nevery tick.\n\nTo capture a distance map after a room has been loaded call CaptureDistanceMap().\nIt will return a captured distance map. In case you already called CaptureDistanceMap()\nyou can receive the last captured distance map with GetDistanceMap(). No other setup is required.\n\nThis class will create procedural meshes for every anchor to create a mask. These meshes have their\nvisibility set to scene capture only. That however means that if you place a scene capture component yourself\nthat the meshes will show up in your scene capture component. The actors that have the procedural meshes\nattached are tagged with GMRUK_DISTANCE_MAP_ACTOR_TAG. In case you don't want them to show up in your\nscene capture you can hide them by receiving all these actors with the tag GMRUK_DISTANCE_MAP_ACTOR_TAG\nand add these to the scene captures hidden actors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnReady_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -708,9 +732,13 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DistanceMapGenerationMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The mode in which the final distance map should be generated.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The mode in which the final distance map should be generated." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -728,39 +756,63 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RenderTarget1_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * First render target for jump flood algorithm.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "First render target for jump flood algorithm." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RenderTarget2_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Second render target for jump flood algorithm.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Second render target for jump flood algorithm." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DistanceMapRenderTarget_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Render target for the final distance map\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Render target for the final distance map" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaskMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material to render a mask that gets used to calculate the distance map.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material to render a mask that gets used to calculate the distance map." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JFPassMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material that executes a pass of the jump flood algorithm.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material that executes a pass of the jump flood algorithm." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DistanceMapFreeSpaceMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material to render final distance map\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDistanceMapGenerator.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material to render final distance map" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DistanceMapOccupiedSpaceMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -828,16 +880,16 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_CaptureDistanceMap, "CaptureDistanceMap" }, // 2c42dbfd7fe20e340493d579f793cfd2e9874f05
-		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_CreateMaskMeshesForRoom, "CreateMaskMeshesForRoom" }, // 85303246a8c4bb069dee73edf68a5d99490b4c54
+		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_CaptureDistanceMap, "CaptureDistanceMap" }, // c1d3f821365f33444408a8971eb30739be83e65a
+		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_CreateMaskMeshesForRoom, "CreateMaskMeshesForRoom" }, // 133c05aaa805d78afa1ad336deb10382ee560a9e
 		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_CreateMaskMeshOfAnchor, "CreateMaskMeshOfAnchor" }, // 9c63aba0b8b4ffac7415e58d362f59a31bfc0f3c
-		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_GetDistanceMap, "GetDistanceMap" }, // ffbdf744fe672f335141a3a68b82d92060eac509
+		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_GetDistanceMap, "GetDistanceMap" }, // 692b4a74529ba7bce42e889e6f4e2fd7caabfab3
 		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_GetDistanceMapRenderTarget, "GetDistanceMapRenderTarget" }, // c0a45536730148c132145611bd1ecc2bbf02e91a
-		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_GetSceneCaptureView, "GetSceneCaptureView" }, // 21e66dbde2a4c903c881397e2f48c2e8be5c9176
+		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_GetSceneCaptureView, "GetSceneCaptureView" }, // 430e168011ad29724e9a8b729787865f78cb4ccf
 		{ &Z_Construct_UDelegateFunction_AMRUKDistanceMapGenerator_OnReady__DelegateSignature, "OnReady__DelegateSignature" }, // dd6c59a82d5bc24481957f5d3fc58a4170485101
 		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_OnRoomCreated, "OnRoomCreated" }, // 71a914b2c63f34974775b6257127b1748b5893b2
 		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_OnRoomUpdated, "OnRoomUpdated" }, // 5ad5c1be9b5e6f0929bbf167d29c5a88c6082e2f
-		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_RemoveMaskMeshesFromRoom, "RemoveMaskMeshesFromRoom" }, // d73e78b0b9b471725a3482fdc2f5e17003ff5c27
+		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_RemoveMaskMeshesFromRoom, "RemoveMaskMeshesFromRoom" }, // 6e30b7ca0c97c01be672f46b7b6ff9814015b1fb
 		{ &Z_Construct_UFunction_AMRUKDistanceMapGenerator_UpdateMaskMeshOfAnchor, "UpdateMaskMeshOfAnchor" }, // c2ae10f1b8915065376d605a3b7853575d9b3a13
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -854,7 +906,7 @@ const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DistanceMapGen
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, Root), Z_Construct_UClass_USceneComponent, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Root_MetaData), NewProp_Root_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_SceneCapture2D = { "SceneCapture2D", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, SceneCapture2D), Z_Construct_UClass_USceneCaptureComponent2D, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SceneCapture2D_MetaData), NewProp_SceneCapture2D_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_SpawnMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // 9aaa30d266ddf9b26a48a402d10bef878b6a1931
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // a81a39a3c2baadd905d9be1ef0fe13d87d7487cc
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_RenderTarget1 = { "RenderTarget1", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, RenderTarget1), Z_Construct_UClass_UCanvasRenderTarget2D, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RenderTarget1_MetaData), NewProp_RenderTarget1_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_RenderTarget2 = { "RenderTarget2", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, RenderTarget2), Z_Construct_UClass_UCanvasRenderTarget2D, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RenderTarget2_MetaData), NewProp_RenderTarget2_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_DistanceMapRenderTarget = { "DistanceMapRenderTarget", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDistanceMapGenerator, DistanceMapRenderTarget), Z_Construct_UClass_UCanvasRenderTarget2D, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DistanceMapRenderTarget_MetaData), NewProp_DistanceMapRenderTarget_MetaData) };
@@ -961,17 +1013,17 @@ AMRUKDistanceMapGenerator::~AMRUKDistanceMapGenerator() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDistanceMapGenerator_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDistanceMapGenerator_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ Z_Construct_UEnum_MRUtilityKit_EMRUKDistanceMapGenerationMode, TEXT("EMRUKDistanceMapGenerationMode"), &ZRIE_EMRUKDistanceMapGenerationMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 452135529U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKDistanceMapGenerator, TEXT("AMRUKDistanceMapGenerator"), &Z_Registration_Info_UClass_AMRUKDistanceMapGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDistanceMapGenerator), 4055630980U) },
+		{ Z_Construct_UClass_AMRUKDistanceMapGenerator, TEXT("AMRUKDistanceMapGenerator"), &Z_Registration_Info_UClass_AMRUKDistanceMapGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDistanceMapGenerator), 3553514818U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDistanceMapGenerator_h__Script_MRUtilityKit_1a13b94a1e702b9f51f5a6e86f73a4e7f3014f82{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDistanceMapGenerator_h__Script_MRUtilityKit_6a7dcc8abb95e8969e29350cf01b5c8f7c46a783{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

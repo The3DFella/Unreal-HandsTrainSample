@@ -31,10 +31,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The rule processor handles registration and querying of rules\n */" },
+#endif
 		{ "IncludePath", "OculusXRMultiPlayerTestingSubsystem.h" },
 		{ "ModuleRelativePath", "Public/OculusXRMultiPlayerTestingSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The rule processor handles registration and querying of rules" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -109,14 +113,14 @@ UOculusXRMultiPlayerTestingSubsystem::~UOculusXRMultiPlayerTestingSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRMultiPlayerTestingSubsystem_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRMultiPlayerTestingSubsystem_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRMultiPlayerTestingSubsystem, TEXT("UOculusXRMultiPlayerTestingSubsystem"), &Z_Registration_Info_UClass_UOculusXRMultiPlayerTestingSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMultiPlayerTestingSubsystem), 540196265U) },
+		{ Z_Construct_UClass_UOculusXRMultiPlayerTestingSubsystem, TEXT("UOculusXRMultiPlayerTestingSubsystem"), &Z_Registration_Info_UClass_UOculusXRMultiPlayerTestingSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMultiPlayerTestingSubsystem), 757558418U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRMultiPlayerTestingSubsystem_h__Script_OculusXRHMD_b47310ab3a57adb68f4ce32eb2993e927f316b9b{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRMultiPlayerTestingSubsystem_h__Script_OculusXRHMD_fc4ea7a8019f66abe44bef2c248543f459e5e820{
 	TEXT("/Script/OculusXRHMD"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -34,13 +34,17 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "OculusHand" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Handles conversion of components created for the legacy Oculus controller pose into\n * the OpenXR Grip pose. Attach components that need to be transformed under this component.\n */" },
+#endif
 		{ "DisplayName", "OculusXR Legacy Pose Transform Component" },
 		{ "HideCategories", "Trigger PhysicsVolume" },
 		{ "IncludePath", "OculusXRLegacyPoseTransformComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/OculusXRLegacyPoseTransformComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles conversion of components created for the legacy Oculus controller pose into\nthe OpenXR Grip pose. Attach components that need to be transformed under this component." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -114,14 +118,14 @@ UOculusXRLegacyPoseTransformComponent::~UOculusXRLegacyPoseTransformComponent() 
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h__Script_OculusXRInput_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h__Script_OculusXRInput_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent, TEXT("UOculusXRLegacyPoseTransformComponent"), &Z_Registration_Info_UClass_UOculusXRLegacyPoseTransformComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLegacyPoseTransformComponent), 4051217759U) },
+		{ Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent, TEXT("UOculusXRLegacyPoseTransformComponent"), &Z_Registration_Info_UClass_UOculusXRLegacyPoseTransformComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLegacyPoseTransformComponent), 1306910819U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h__Script_OculusXRInput_13a5a1d7fde23dc82cf13d4e4dba4f15cf0af802{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h__Script_OculusXRInput_3a253b054ec6b9c2ccb1898452bc7d97fef4f84c{
 	TEXT("/Script/OculusXRInput"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

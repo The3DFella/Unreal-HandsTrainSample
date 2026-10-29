@@ -26,7 +26,7 @@ struct FMRUKCameraIntrinsics;
 struct Z_Construct_UScriptStruct_FMRUKCameraIntrinsics_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKCameraIntrinsics(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_35_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_35_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKCameraIntrinsics_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKCameraIntrinsics(ETypeConstructPhase::Inner); }
 
@@ -35,7 +35,7 @@ struct FMRUKCameraIntrinsics;
 // ********** End ScriptStruct FMRUKCameraIntrinsics ***********************************************
 
 // ********** Begin Class UMRUKPassthroughCameraAccessSubsystem ************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetTimestamp); \
 	DECLARE_FUNCTION(execWorldToViewportPoint); \
 	DECLARE_FUNCTION(execViewportPointToWorldSpaceRay); \
@@ -49,7 +49,7 @@ struct FMRUKCameraIntrinsics;
 struct Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem(ETypeConstructPhase); \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKPassthroughCameraAccessSubsystem)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKPassthroughCameraAccessSubsystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -70,13 +70,13 @@ public: \
 	NO_API virtual ~UMRUKPassthroughCameraAccessSubsystem();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_49_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_49_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_52_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,7 +86,7 @@ class UMRUKPassthroughCameraAccessSubsystem;
 // ********** End Class UMRUKPassthroughCameraAccessSubsystem **************************************
 
 // ********** Begin Class UMRUKPassthroughCameraAccess *********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnResume); \
 	DECLARE_FUNCTION(execOnSuspend); \
 	DECLARE_FUNCTION(execIsCameraPlaying); \
@@ -103,7 +103,7 @@ class UMRUKPassthroughCameraAccessSubsystem;
 struct Z_Construct_UClass_UMRUKPassthroughCameraAccess_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKPassthroughCameraAccess(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKPassthroughCameraAccess_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKPassthroughCameraAccess(ETypeConstructPhase); \
@@ -112,7 +112,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKPassthroughCameraAccess)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UMRUKPassthroughCameraAccess(UMRUKPassthroughCameraAccess&&) = delete; \
 	UMRUKPassthroughCameraAccess(const UMRUKPassthroughCameraAccess&) = delete; \
@@ -122,13 +122,13 @@ public: \
 	NO_API virtual ~UMRUKPassthroughCameraAccess();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_129_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_129_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_132_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -138,7 +138,7 @@ class UMRUKPassthroughCameraAccess;
 // ********** End Class UMRUKPassthroughCameraAccess ***********************************************
 
 // ********** Begin Class UMRUKPassthroughCameraAccessTexture **************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetWidth); \
 	DECLARE_FUNCTION(execGetHeight); \
 	DECLARE_FUNCTION(execGetAspectRatio);
@@ -147,7 +147,7 @@ class UMRUKPassthroughCameraAccess;
 struct Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture(ETypeConstructPhase); \
@@ -156,7 +156,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKPassthroughCameraAccessTexture)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	MRUTILITYKIT_API UMRUKPassthroughCameraAccessTexture(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -167,13 +167,13 @@ public: \
 	MRUTILITYKIT_API virtual ~UMRUKPassthroughCameraAccessTexture();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_225_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_225_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h_228_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -183,7 +183,7 @@ class UMRUKPassthroughCameraAccessTexture;
 // ********** End Class UMRUKPassthroughCameraAccessTexture ****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h
 
 // ********** Begin Enum EMRUKCameraEye ************************************************************
 #define FOREACH_ENUM_EMRUKCAMERAEYE(op) \

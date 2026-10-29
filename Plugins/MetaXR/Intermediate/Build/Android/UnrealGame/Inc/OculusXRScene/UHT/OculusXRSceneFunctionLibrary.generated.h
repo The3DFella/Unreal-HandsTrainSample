@@ -22,7 +22,7 @@ struct FOculusXRRoomLayout;
 struct FOculusXRUInt64;
 
 // ********** Begin Class UOculusXRSceneFunctionLibrary ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetRoomLabel); \
 	DECLARE_FUNCTION(execGetRoomLayout); \
 	DECLARE_FUNCTION(execRequestBoundaryVisibility); \
@@ -33,7 +33,7 @@ struct FOculusXRUInt64;
 struct Z_Construct_UClass_UOculusXRSceneFunctionLibrary_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRSceneFunctionLibrary(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSceneFunctionLibrary_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRSceneFunctionLibrary(ETypeConstructPhase); \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSceneFunctionLibrary)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRSceneFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -54,13 +54,13 @@ public: \
 	NO_API virtual ~UOculusXRSceneFunctionLibrary();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_10_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_10_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -70,6 +70,6 @@ class UOculusXRSceneFunctionLibrary;
 // ********** End Class UOculusXRSceneFunctionLibrary **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

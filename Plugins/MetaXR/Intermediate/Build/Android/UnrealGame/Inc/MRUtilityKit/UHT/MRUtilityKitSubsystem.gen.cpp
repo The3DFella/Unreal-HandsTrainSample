@@ -487,9 +487,13 @@ struct UHT_STATICS
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -531,9 +535,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Removes and clears every room.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes and clears every room." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -575,9 +583,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Configure which types of trackables to track. This enables or disables keyboard and QR code tracking.\n\x09 * @param Configuration The tracker configuration specifying which types of trackables to enable.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Configure which types of trackables to track. This enables or disables keyboard and QR code tracking.\n@param Configuration The tracker configuration specifying which types of trackables to enable." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Configuration_MetaData[] = {
 		{ "NativeConst", "" },
@@ -592,7 +604,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function ConfigureTrackers Property Definitions ********************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Configuration = { "Configuration", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventConfigureTrackers_Parms, Configuration), Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Configuration_MetaData), NewProp_Configuration_MetaData) }; // 20bbcc5de4a03cbe1cf8a3671ac45a8790dc3fd1
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Configuration = { "Configuration", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventConfigureTrackers_Parms, Configuration), Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Configuration_MetaData), NewProp_Configuration_MetaData) }; // fd80a2a24e5de9634425ea9dc39165e8e443f869
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Configuration,
 };
@@ -630,9 +642,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This function creates an environment raycaster, which is used to perform raycasting operations\n\x09 * against the device depth. Unlike Raycast() and RaycastAll(), no space setup is required for\n\x09 * performing these raycasts. It initializes the necessary components and resources required for\n\x09 * the raycasting process. The environment raycaster may take a few frames to initialize. During\n\x09 * this time, its status can be checked using the EnvironmentRaycasterStatus() function. Alternatively,\n\x09 * you can directly call RaycastEnvironment(), which will return a status of NotReady if the\n\x09 * raycaster is not yet ready.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This function creates an environment raycaster, which is used to perform raycasting operations\nagainst the device depth. Unlike Raycast() and RaycastAll(), no space setup is required for\nperforming these raycasts. It initializes the necessary components and resources required for\nthe raycasting process. The environment raycaster may take a few frames to initialize. During\nthis time, its status can be checked using the EnvironmentRaycasterStatus() function. Alternatively,\nyou can directly call RaycastEnvironment(), which will return a status of NotReady if the\nraycaster is not yet ready." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -670,9 +686,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Destroy the environment raycaster.\n\x09 * This function is responsible for cleaning up and releasing any resources\n\x09 * associated with the environment raycaster. It should be called when the\n\x09 * raycaster is no longer needed to ensure proper resource management and\n\x09 * avoid memory leaks.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Destroy the environment raycaster.\nThis function is responsible for cleaning up and releasing any resources\nassociated with the environment raycaster. It should be called when the\nraycaster is no longer needed to ensure proper resource management and\navoid memory leaks." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -710,9 +730,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Disables and stops all trackers.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Disables and stops all trackers." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -754,9 +778,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the status of the environment raycaster.\n\x09 * This function returns the current status of the environment raycaster,\n\x09 * which indicates whether the raycaster is ready to perform raycasting operations,\n\x09 * is still initializing, or has encountered an error.\n\x09 * @return The current status of the environment raycaster.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the status of the environment raycaster.\nThis function returns the current status of the environment raycaster,\nwhich indicates whether the raycaster is ready to perform raycasting operations,\nis still initializing, or has encountered an error.\n@return The current status of the environment raycaster." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -770,7 +798,7 @@ struct UHT_STATICS
 
 // ********** Begin Function EnvironmentRaycasterStatus Property Definitions ***********************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventEnvironmentRaycasterStatus_Parms, ReturnValue), Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycasterStatus, METADATA_PARAMS(0, nullptr) }; // d32fae40b35fac393d069d5421be022c87483fac
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventEnvironmentRaycasterStatus_Parms, ReturnValue), Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycasterStatus, METADATA_PARAMS(0, nullptr) }; // 8c04a09cb961894a02d0bb79574e55ddb787b799
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_ReturnValue_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_ReturnValue,
@@ -819,10 +847,14 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoCreateRefTerm", "LabelFilter" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get a suggested pose (position & rotation) from a raycast to place objects on surfaces in the scene.\n\x09 * There are different positioning modes available. Default just uses the position where the raycast\n\x09 * hit the object. Edge snaps the position to the edge that is nearest to the user and Center simply\n\x09 * centers the position on top of the surface.\n\x09 * @param RayOrigin         The origin of the ray.\n\x09 * @param RayDirection      The direction of the ray.\n\x09 * @param MaxDist           The maximum distance the ray should travel.\n\x09 * @param LabelFilter       The label filter can be used to include/exclude certain labels from the search.\n\x09 * @param OutPose           The calculated pose.\n\x09 * @param PositioningMethod The method that should be used for determining the position on the surface.\n\x09 * @return                  The anchor that was hit by the ray if any. Otherwise a null pointer.\n\x09 */" },
+#endif
 		{ "CPP_Default_PositioningMethod", "Default" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a suggested pose (position & rotation) from a raycast to place objects on surfaces in the scene.\nThere are different positioning modes available. Default just uses the position where the raycast\nhit the object. Edge snaps the position to the edge that is nearest to the user and Center simply\ncenters the position on top of the surface.\n@param RayOrigin         The origin of the ray.\n@param RayDirection      The direction of the ray.\n@param MaxDist           The maximum distance the ray should travel.\n@param LabelFilter       The label filter can be used to include/exclude certain labels from the search.\n@param OutPose           The calculated pose.\n@param PositioningMethod The method that should be used for determining the position on the surface.\n@return                  The anchor that was hit by the ray if any. Otherwise a null pointer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RayOrigin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -853,10 +885,10 @@ struct UHT_STATICS
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RayOrigin = { "RayOrigin", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, RayOrigin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RayOrigin_MetaData), NewProp_RayOrigin_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RayDirection = { "RayDirection", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, RayDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RayDirection_MetaData), NewProp_RayDirection_MetaData) };
 const UECodeGen_Private::FDoublePropertyParams UHT_STATICS::NewProp_MaxDist = { "MaxDist", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Double, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, MaxDist), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 3e35ac6f915202ca4c74cb538f49941f8aea8503
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 24abff6d460a2cf96abe632a3c772a3d003a8c5f
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutPose = { "OutPose", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, OutPose), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_PositioningMethod_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_PositioningMethod = { "PositioningMethod", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, PositioningMethod), Z_Construct_UEnum_MRUtilityKit_EMRUKPositioningMethod, METADATA_PARAMS(0, nullptr) }; // 923a97a7b86e7aeacb783ca8f2d0009349c7a699
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_PositioningMethod = { "PositioningMethod", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, PositioningMethod), Z_Construct_UEnum_MRUtilityKit_EMRUKPositioningMethod, METADATA_PARAMS(0, nullptr) }; // 370fd55aaa5b511496c376175cbe3e2fa3bdbb35
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventGetBestPoseFromRaycast_Parms, ReturnValue), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_RayOrigin,
@@ -911,9 +943,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return the room that the headset is currently in. If the headset is not in any given room\n\x09 * then it will return the room the headset was last in when this function was called.\n\x09 * If the headset hasn't been in a valid room yet then return the first room in the list.\n\x09 * If no rooms have been loaded yet then return null.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return the room that the headset is currently in. If the headset is not in any given room\nthen it will return the room the headset was last in when this function was called.\nIf the headset hasn't been in a valid room yet then return the first room in the list.\nIf no rooms have been loaded yet then return null." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -967,10 +1003,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return the longest wall in the current room that has no other walls behind it.\n\x09 * @param Tolerance The tolerance to use when determining wall that are behind.\n\x09 * @return          The wall anchor that is the key wall in the room.\n\x09 */" },
+#endif
 		{ "CPP_Default_Tolerance", "0.100000" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return the longest wall in the current room that has no other walls behind it.\n@param Tolerance The tolerance to use when determining wall that are behind.\n@return          The wall anchor that is the key wall in the room." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1028,9 +1068,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return the largest surface for a given label in the current room.\n\x09 * @param Label The label of the surfaces to search in.\n\x09 * @return      The anchor that has the largest surface if any. Otherwise, a null pointer.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return the largest surface for a given label in the current room.\n@param Label The label of the surfaces to search in.\n@return      The anchor that has the largest surface if any. Otherwise, a null pointer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Label_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1093,11 +1137,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Checks if the given position is on or inside of any scene volume in the rooms.\n\x09 * All rooms will be checked and the first anchors scene volume that has the point on or inside it will be returned.\n\x09 * @param WorldPosition      The position in world space to check\n\x09 * @param TestVerticalBounds Whether the vertical bounds should be checked or not\n\x09 * @param Tolerance          Tolerance\n\x09 * @return\x09\x09\x09\x09\x09 The anchor the WorldPosition is in. A null pointer otherwise.\n\x09 */" },
+#endif
 		{ "CPP_Default_TestVerticalBounds", "true" },
 		{ "CPP_Default_Tolerance", "0.000000" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if the given position is on or inside of any scene volume in the rooms.\nAll rooms will be checked and the first anchors scene volume that has the point on or inside it will be returned.\n@param WorldPosition      The position in world space to check\n@param TestVerticalBounds Whether the vertical bounds should be checked or not\n@param Tolerance          Tolerance\n@return                                       The anchor the WorldPosition is in. A null pointer otherwise." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldPosition_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1169,9 +1217,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Launch the scene capture. After a successful capture the scene should be updated.\n\x09 * @return Whether the capture was successful.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the scene capture. After a successful capture the scene should be updated.\n@return Whether the capture was successful." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1228,10 +1280,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load rooms and anchors from the device.\n\x09 * If the scene is already loaded the scene will be updated with the changes.\n\x09 */" },
+#endif
 		{ "CPP_Default_SceneModel", "V1" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load rooms and anchors from the device.\nIf the scene is already loaded the scene will be updated with the changes." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1289,10 +1345,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load rooms and anchors from a JSON representation.\n\x09 * If the scene is already loaded the scene will be updated with the changes.\n\x09 */" },
+#endif
 		{ "CPP_Default_SceneModel", "V1" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load rooms and anchors from a JSON representation.\nIf the scene is already loaded the scene will be updated with the changes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_String_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1358,10 +1418,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load specific rooms (given by their UUIDs) and their anchors.\n\x09 * If the scene is already loaded the scene will be updated with the changes.\n\x09 */" },
+#endif
 		{ "CPP_Default_SceneModel", "V1" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load specific rooms (given by their UUIDs) and their anchors.\nIf the scene is already loaded the scene will be updated with the changes." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1435,9 +1499,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoCreateRefTerm", "LabelFilter" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Cast a ray and return the closest hit anchor in the scene.\n\x09 * @param Origin      Origin The origin of the ray.\n\x09 * @param Direction   Direction The direction of the ray.\n\x09 * @param MaxDist     The maximum distance the ray should travel.\n\x09 * @param LabelFilter The label filter can be used to include/exclude certain labels from the search.\n\x09 * @param OutHit      The closest hit.\n\x09 * @return            The anchor that the ray hit\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cast a ray and return the closest hit anchor in the scene.\n@param Origin      Origin The origin of the ray.\n@param Direction   Direction The direction of the ray.\n@param MaxDist     The maximum distance the ray should travel.\n@param LabelFilter The label filter can be used to include/exclude certain labels from the search.\n@param OutHit      The closest hit.\n@return            The anchor that the ray hit" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Origin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1466,8 +1534,8 @@ struct UHT_STATICS
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Origin_MetaData), NewProp_Origin_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, Direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Direction_MetaData), NewProp_Direction_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_MaxDist = { "MaxDist", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, MaxDist), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 3e35ac6f915202ca4c74cb538f49941f8aea8503
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutHit = { "OutHit", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, OutHit), Z_Construct_UScriptStruct_FMRUKHit, METADATA_PARAMS(0, nullptr) }; // ac31f483ff11e65b5da8cc3df47cad778fced961
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 24abff6d460a2cf96abe632a3c772a3d003a8c5f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutHit = { "OutHit", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, OutHit), Z_Construct_UScriptStruct_FMRUKHit, METADATA_PARAMS(0, nullptr) }; // 152ba4ff6c3a5074e5301872b2cb24dc7e81c9b1
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycast_Parms, ReturnValue), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Origin,
@@ -1526,9 +1594,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoCreateRefTerm", "LabelFilter" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Cast a ray and collect hits against the volumes and plane bounds in every room in the scene.\n\x09 * The order of the hits in the array is not specified.\n\x09 * @param Origin      Origin The origin of the ray.\n\x09 * @param Direction   Direction The direction of the ray.\n\x09 * @param MaxDist     The maximum distance the ray should travel.\n\x09 * @param LabelFilter The label filter can be used to include/exclude certain labels from the search.\n\x09 * @param OutHits     The hits the ray collected.\n\x09 * @param OutAnchors  The anchors that were hit. Each anchor in this array corresponds to a entry at the same position in OutHits.\n\x09 * @return            Whether the ray hit anything\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cast a ray and collect hits against the volumes and plane bounds in every room in the scene.\nThe order of the hits in the array is not specified.\n@param Origin      Origin The origin of the ray.\n@param Direction   Direction The direction of the ray.\n@param MaxDist     The maximum distance the ray should travel.\n@param LabelFilter The label filter can be used to include/exclude certain labels from the search.\n@param OutHits     The hits the ray collected.\n@param OutAnchors  The anchors that were hit. Each anchor in this array corresponds to a entry at the same position in OutHits.\n@return            Whether the ray hit anything" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Origin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1564,9 +1636,9 @@ struct UHT_STATICS
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Origin_MetaData), NewProp_Origin_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, Direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Direction_MetaData), NewProp_Direction_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_MaxDist = { "MaxDist", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, MaxDist), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 3e35ac6f915202ca4c74cb538f49941f8aea8503
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutHits_Inner = { "OutHits", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMRUKHit, METADATA_PARAMS(0, nullptr) }; // ac31f483ff11e65b5da8cc3df47cad778fced961
-const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_OutHits = { "OutHits", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, OutHits), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // ac31f483ff11e65b5da8cc3df47cad778fced961
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 24abff6d460a2cf96abe632a3c772a3d003a8c5f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutHits_Inner = { "OutHits", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMRUKHit, METADATA_PARAMS(0, nullptr) }; // 152ba4ff6c3a5074e5301872b2cb24dc7e81c9b1
+const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_OutHits = { "OutHits", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, OutHits), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 152ba4ff6c3a5074e5301872b2cb24dc7e81c9b1
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_OutAnchors_Inner = { "OutAnchors", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, 0, Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_OutAnchors = { "OutAnchors", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastAll_Parms, OutAnchors), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKSubsystem_eventRaycastAll_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
@@ -1627,10 +1699,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Perform a raycast in the environment using the device's depth information.\n\x09 *\n\x09 * This function casts a ray from the specified origin in the given direction and returns\n\x09 * the first hit encountered within the specified maximum distance. It is necessary to call\n\x09 * CreateEnvironmentRaycaster() before using this function to ensure that the environment\n\x09 * raycaster is properly initialized. After raycasting is finished, DestroyEnvironmentRaycaster()\n\x09 * can be called to clean up any resources associated with the raycaster.\n\x09 *\n\x09 * The status of the returned FMRUKEnvironmentRaycastHit can be checked to determine if the\n\x09 * raycast was successful.\n\x09 *\n\x09 * @param Origin      The starting point of the ray in world space.\n\x09 * @param Direction   The direction in which the ray is cast.\n\x09 * @param MaxDistance The maximum distance the ray should travel. Defaults to 0, which is treated as infinity.\n\x09 * @return            A structure containing information about the raycast hit, if any.\n\x09 */" },
+#endif
 		{ "CPP_Default_MaxDistance", "0.000000" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Perform a raycast in the environment using the device's depth information.\n\nThis function casts a ray from the specified origin in the given direction and returns\nthe first hit encountered within the specified maximum distance. It is necessary to call\nCreateEnvironmentRaycaster() before using this function to ensure that the environment\nraycaster is properly initialized. After raycasting is finished, DestroyEnvironmentRaycaster()\ncan be called to clean up any resources associated with the raycaster.\n\nThe status of the returned FMRUKEnvironmentRaycastHit can be checked to determine if the\nraycast was successful.\n\n@param Origin      The starting point of the ray in world space.\n@param Direction   The direction in which the ray is cast.\n@param MaxDistance The maximum distance the ray should travel. Defaults to 0, which is treated as infinity.\n@return            A structure containing information about the raycast hit, if any." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Origin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1654,7 +1730,7 @@ struct UHT_STATICS
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastEnvironment_Parms, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Origin_MetaData), NewProp_Origin_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastEnvironment_Parms, Direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Direction_MetaData), NewProp_Direction_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_MaxDistance = { "MaxDistance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastEnvironment_Parms, MaxDistance), METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastEnvironment_Parms, ReturnValue), Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit, METADATA_PARAMS(0, nullptr) }; // d237ff3be3cdfac51f3bd811fa3b8952147d6bc0
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventRaycastEnvironment_Parms, ReturnValue), Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit, METADATA_PARAMS(0, nullptr) }; // 1a3c2f076bb0400ea909555c5cb78589f7947da6
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Origin,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Direction,
@@ -1701,9 +1777,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Save all rooms and anchors to JSON. This JSON representation can than later be used by\n\x09 * LoadSceneFromJsonString() to load the scene again.\n\x09 * @return the JSON string.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Save all rooms and anchors to JSON. This JSON representation can than later be used by\nLoadSceneFromJsonString() to load the scene again.\n@return the JSON string." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1756,9 +1836,13 @@ struct UHT_STATICS
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// ~FTickableGameObject interface\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "~FTickableGameObject interface" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1821,9 +1905,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Shares a collection of rooms with a group.\n\x09 * Once shared, the room and the anchors contained in it can be loaded by calling\n\x09 * UMRUKSubsystem::LoadSceneFromDevice() with the room UUIDs.\n\x09 * @param GroupUUID The group ID to which the rooms will be shared.\n\x09 * @return        Result of share attempt.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Shares a collection of rooms with a group.\nOnce shared, the room and the anchors contained in it can be loaded by calling\nUMRUKSubsystem::LoadSceneFromDevice() with the room UUIDs.\n@param GroupUUID The group ID to which the rooms will be shared.\n@return        Result of share attempt." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomsToShare_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1894,13 +1982,17 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn meshes on the position of the anchors of each room.\n\x09 * The actors should have Z as up Y as right and X as forward.\n\x09 * The pivot point should be in the bottom center.\n\x09 * @param SpawnGroups                A map which tells to spawn which actor to a given label.\n\x09 * @param ProceduralMaterial         Material to apply on top of the procedural mesh if any.\n\x09 * @param CutHoleLabels\x09\x09         Labels for which the generated mesh should have holes. Only works with planes.\n\x09 * @param ShouldFallbackToProcedural Whether or not it should by default fallback to generating a procedural mesh if no actor class has been specified for a label.\n\x09 * @return                           The spawned actors.\n\x09 */" },
+#endif
 		{ "CPP_Default_ProceduralMaterial", "None" },
 		{ "CPP_Default_ShouldFallbackToProcedural", "true" },
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AMRUKAnchorActorSpawner instead." },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn meshes on the position of the anchors of each room.\nThe actors should have Z as up Y as right and X as forward.\nThe pivot point should be in the bottom center.\n@param SpawnGroups                A map which tells to spawn which actor to a given label.\n@param ProceduralMaterial         Material to apply on top of the procedural mesh if any.\n@param CutHoleLabels                  Labels for which the generated mesh should have holes. Only works with planes.\n@param ShouldFallbackToProcedural Whether or not it should by default fallback to generating a procedural mesh if no actor class has been specified for a label.\n@return                           The spawned actors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroups_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1930,9 +2022,9 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function SpawnInterior Property Definitions ************************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_SpawnGroups_Key_KeyProp = { "SpawnGroups_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInterior_Parms, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInterior_Parms, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_CutHoleLabels_Inner = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_CutHoleLabels = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInterior_Parms, CutHoleLabels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CutHoleLabels_MetaData), NewProp_CutHoleLabels_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ProceduralMaterial = { "ProceduralMaterial", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInterior_Parms, ProceduralMaterial), Z_Construct_UClass_UMaterialInterface, METADATA_PARAMS(0, nullptr) };
@@ -1996,13 +2088,17 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn meshes on the position of the anchors of each room from a random stream.\n\x09 * The actors should have Z as up Y as right and X as forward.\n\x09 * The pivot point should be in the bottom center.\n\x09 * @param SpawnGroups                A map which tells to spawn which actor to a given label.\n\x09 * @param RandomStream               A random generator to choose randomly between actor classes if there a multiple for one label.\n\x09 * @param CutHoleLabels\x09\x09         Labels for which the generated mesh should have holes. Only works with planes.\n\x09 * @param ProceduralMaterial         Material to apply on top of the procedural mesh if any.\n\x09 * @param ShouldFallbackToProcedural Whether or not it should by default fallback to generating a procedural mesh if no actor class has been specified for a label.\n\x09 * @return                           The spawned actors.\n\x09 */" },
+#endif
 		{ "CPP_Default_ProceduralMaterial", "None" },
 		{ "CPP_Default_ShouldFallbackToProcedural", "true" },
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AMRUKAnchorActorSpawner instead." },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn meshes on the position of the anchors of each room from a random stream.\nThe actors should have Z as up Y as right and X as forward.\nThe pivot point should be in the bottom center.\n@param SpawnGroups                A map which tells to spawn which actor to a given label.\n@param RandomStream               A random generator to choose randomly between actor classes if there a multiple for one label.\n@param CutHoleLabels                  Labels for which the generated mesh should have holes. Only works with planes.\n@param ProceduralMaterial         Material to apply on top of the procedural mesh if any.\n@param ShouldFallbackToProcedural Whether or not it should by default fallback to generating a procedural mesh if no actor class has been specified for a label.\n@return                           The spawned actors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroups_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2036,9 +2132,9 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function SpawnInteriorFromStream Property Definitions **************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_SpawnGroups_Key_KeyProp = { "SpawnGroups_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInteriorFromStream_Parms, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInteriorFromStream_Parms, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RandomStream = { "RandomStream", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInteriorFromStream_Parms, RandomStream), Z_Construct_UScriptStruct_FRandomStream, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RandomStream_MetaData), NewProp_RandomStream_MetaData) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_CutHoleLabels_Inner = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_CutHoleLabels = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventSpawnInteriorFromStream_Parms, CutHoleLabels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CutHoleLabels_MetaData), NewProp_CutHoleLabels_MetaData) };
@@ -2103,9 +2199,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Finds the closest seat given a ray.\n\x09 * @param RayOrigin The origin of the ray.\n\x09 * @param RayDirection The direction of the ray.\n\x09 * @param OutSeatTransform The seat pose.\n\x09 * @return If any seat was found the Anchor that has seats available will be returned. Otherwise a null pointer.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Finds the closest seat given a ray.\n@param RayOrigin The origin of the ray.\n@param RayDirection The direction of the ray.\n@param OutSeatTransform The seat pose.\n@return If any seat was found the Anchor that has seats available will be returned. Otherwise a null pointer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RayOrigin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2181,10 +2281,14 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "AutoCreateRefTerm", "LabelFilter" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Get the position on the surface that is closest to the given position with respect to the distance in all rooms.\n\x09 *  @param WorldPosition      The position in world space from which the closest surface point should be found.\n\x09 *  @param OutSurfacePosition The closest position on the closest surface if any. Otherwise zero.\n\x09 *  @param LabelFilter        The label filter can be used to include/exclude certain labels from the search.\n\x09 *  @param MaxDistance        The distance to which a closest surface position should be searched. Everything below or equal to zero will be treated as infinity.\n\x09 *  @return                   The Anchor on which the closest surface position was found or a null pointer otherwise.\n\x09 */" },
+#endif
 		{ "CPP_Default_MaxDistance", "0.000000" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the position on the surface that is closest to the given position with respect to the distance in all rooms.\n@param WorldPosition      The position in world space from which the closest surface point should be found.\n@param OutSurfacePosition The closest position on the closest surface if any. Otherwise zero.\n@param LabelFilter        The label filter can be used to include/exclude certain labels from the search.\n@param MaxDistance        The distance to which a closest surface position should be searched. Everything below or equal to zero will be treated as infinity.\n@return                   The Anchor on which the closest surface position was found or a null pointer otherwise." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldPosition_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2208,7 +2312,7 @@ struct UHT_STATICS
 // ********** Begin Function TryGetClosestSurfacePosition Property Definitions *********************
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_WorldPosition = { "WorldPosition", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, WorldPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WorldPosition_MetaData), NewProp_WorldPosition_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSurfacePosition = { "OutSurfacePosition", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, OutSurfacePosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 3e35ac6f915202ca4c74cb538f49941f8aea8503
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LabelFilter = { "LabelFilter", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, LabelFilter), Z_Construct_UScriptStruct_FMRUKLabelFilter, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LabelFilter_MetaData), NewProp_LabelFilter_MetaData) }; // 24abff6d460a2cf96abe632a3c772a3d003a8c5f
 const UECodeGen_Private::FDoublePropertyParams UHT_STATICS::NewProp_MaxDistance = { "MaxDistance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Double, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, MaxDistance), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKSubsystem_eventTryGetClosestSurfacePosition_Parms, ReturnValue), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
@@ -2255,40 +2359,64 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The Mixed Reality Utility Kit subsystem.\n *\n * This subsystem acts as a container for scene/anchor data. It has methods to load\n * the scene data from the device or a JSON file. After the scene data has been loaded\n * it will be stored inside the subsystem to make it possible to query the data from\n * everywhere. In addition, it offers methods to fulfill queries on the scene data\n * like ray casts or simple content placement.\n *\n * The subsystem only contains core functionality that is useful for most cases.\n * More specific functionality is part of actors. For example, if your goal is to spawn\n * meshes in the place of scene anchors you can place the AMRUKAnchorActorSpawner in the\n * level to do this. When a level loads you would first load the anchor data from the\n * device with this subsystem by calling LoadSceneFromDevice() and then the AMRUKAnchorActorSpawner\n * will listen for the subsystem to load the scene data and then spawn the actors accordingly.\n *\n * You can expect methods in this subsystem to take all loaded rooms into consideration when computing.\n * If you want to use a method only on a single specific room, there is most of the time a method\n * with the same name on the AMRUKRoom.\n */" },
+#endif
 		{ "IncludePath", "MRUtilityKitSubsystem.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Mixed Reality Utility Kit subsystem.\n\nThis subsystem acts as a container for scene/anchor data. It has methods to load\nthe scene data from the device or a JSON file. After the scene data has been loaded\nit will be stored inside the subsystem to make it possible to query the data from\neverywhere. In addition, it offers methods to fulfill queries on the scene data\nlike ray casts or simple content placement.\n\nThe subsystem only contains core functionality that is useful for most cases.\nMore specific functionality is part of actors. For example, if your goal is to spawn\nmeshes in the place of scene anchors you can place the AMRUKAnchorActorSpawner in the\nlevel to do this. When a level loads you would first load the anchor data from the\ndevice with this subsystem by calling LoadSceneFromDevice() and then the AMRUKAnchorActorSpawner\nwill listen for the subsystem to load the scene data and then spawn the actors accordingly.\n\nYou can expect methods in this subsystem to take all loaded rooms into consideration when computing.\nIf you want to use a method only on a single specific room, there is most of the time a method\nwith the same name on the AMRUKRoom." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SceneLoadStatus_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The status of the scene loading. When loading from device this is an asynchronous process\n\x09 * so will be in the Busy state until it moves to Complete or Failed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The status of the scene loading. When loading from device this is an asynchronous process\nso will be in the Busy state until it moves to Complete or Failed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnSceneLoaded_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that will trigger when a scene is loaded either from Device or from JSON.\n\x09 * The Success parameter indicates whether the scene was loaded successfully or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that will trigger when a scene is loaded either from Device or from JSON.\nThe Success parameter indicates whether the scene was loaded successfully or not." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnRoomCreated_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired after a room has been created.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired after a room has been created." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnRoomUpdated_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired after a room has been updated.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired after a room has been updated." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnRoomRemoved_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired when a room gets removed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired when a room gets removed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTrackablesConfigured_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -2296,56 +2424,92 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTrackableAdded_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired when a trackable is detected and localized.\n\x09 * Trackables are dynamic objects like keyboards and QR codes that can be tracked in the environment.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired when a trackable is detected and localized.\nTrackables are dynamic objects like keyboards and QR codes that can be tracked in the environment." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTrackableUpdated_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired when a trackable's properties are updated.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired when a trackable's properties are updated." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTrackableRemoved_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired when a trackable is no longer detected.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired when a trackable is no longer detected." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnCaptureComplete_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that will trigger when the capture flow completed.\n\x09 * The Success parameter indicates whether the scene was captured successfully or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that will trigger when the capture flow completed.\nThe Success parameter indicates whether the scene was captured successfully or not." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Rooms_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Contains a list of rooms that are tracked by the mixed reality utility kit subsystem.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains a list of rooms that are tracked by the mixed reality utility kit subsystem." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Trackables_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * A list of trackables that have been discovered.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A list of trackables that have been discovered." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnableWorldLock_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * When world locking is enabled the position of the VR Pawn will be adjusted each frame to ensure\n\x09 * the room anchors are where they should be relative to the camera position. This is necessary to\n\x09 * ensure the position of the virtual objects in the world do not get out of sync with the real world.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When world locking is enabled the position of the VR Pawn will be adjusted each frame to ensure\nthe room anchors are where they should be relative to the camera position. This is necessary to\nensure the position of the virtual objects in the world do not get out of sync with the real world." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnShareRoomsComplete_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An event that gets fired after rooms have been shared. It is fired once per call to ShareRooms().\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An event that gets fired after rooms have been shared. It is fired once per call to ShareRooms()." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomLayoutManagerActor_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_endif OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_endif OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomLayoutManager_MetaData[] = {
 		{ "EditInline", "true" },
@@ -2417,41 +2581,41 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKSubsystem_ClearScene, "ClearScene" }, // 5a6899cae0026bac99f73bea2751cef84f985254
-		{ &Z_Construct_UFunction_UMRUKSubsystem_ConfigureTrackers, "ConfigureTrackers" }, // 44d09cf7e24b7d11c3618a80c9f9c7dad8483a22
-		{ &Z_Construct_UFunction_UMRUKSubsystem_CreateEnvironmentRaycaster, "CreateEnvironmentRaycaster" }, // 4501ddfadd8f314b62e32b7ade47560e3c068d7a
-		{ &Z_Construct_UFunction_UMRUKSubsystem_DestroyEnvironmentRaycaster, "DestroyEnvironmentRaycaster" }, // 4e8a3228c5619ff2053d2b9fbf46e7054fac4ec6
-		{ &Z_Construct_UFunction_UMRUKSubsystem_DisableTrackers, "DisableTrackers" }, // de7bf9473db0c1ee923278284234280196e97fe0
-		{ &Z_Construct_UFunction_UMRUKSubsystem_EnvironmentRaycasterStatus, "EnvironmentRaycasterStatus" }, // 5833c97095d52250cf6fa340d1c3c55214bc3429
-		{ &Z_Construct_UFunction_UMRUKSubsystem_GetBestPoseFromRaycast, "GetBestPoseFromRaycast" }, // f18ad73e5d951728811ec597228067e900183751
-		{ &Z_Construct_UFunction_UMRUKSubsystem_GetCurrentRoom, "GetCurrentRoom" }, // 6121e2d6e2911728effa4ebdb047e0fff39ad0ba
-		{ &Z_Construct_UFunction_UMRUKSubsystem_GetKeyWall, "GetKeyWall" }, // dd5cec1b82d5d2279cffaee79ae88cd66af4a50b
-		{ &Z_Construct_UFunction_UMRUKSubsystem_GetLargestSurface, "GetLargestSurface" }, // 90b2399946171774679ace20205992830e5f7553
-		{ &Z_Construct_UFunction_UMRUKSubsystem_IsPositionInSceneVolume, "IsPositionInSceneVolume" }, // 507cc61832bc913f3b5e174a4010b242809c2551
-		{ &Z_Construct_UFunction_UMRUKSubsystem_LaunchSceneCapture, "LaunchSceneCapture" }, // 0ced49e443b58b42ae1e1768a635e9fd4ef33ac7
-		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSceneFromDevice, "LoadSceneFromDevice" }, // 7904e2a9242b3d8277a1a14adabc68c3d72b026c
-		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSceneFromJsonString, "LoadSceneFromJsonString" }, // eeee6f32d1e104cd8d4ec40f7e9fd1a230200ef5
-		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSharedSceneFromGroup, "LoadSharedSceneFromGroup" }, // 6e7ffafa9828d398d2e8f20fa1dd71584a985e04
+		{ &Z_Construct_UFunction_UMRUKSubsystem_ClearScene, "ClearScene" }, // 73bd4816f2cd0031232e1e7246fc4f1b26fb9d89
+		{ &Z_Construct_UFunction_UMRUKSubsystem_ConfigureTrackers, "ConfigureTrackers" }, // 9312879d731b7393a1ef753dd8563ae9ba7b2d59
+		{ &Z_Construct_UFunction_UMRUKSubsystem_CreateEnvironmentRaycaster, "CreateEnvironmentRaycaster" }, // 932d3420d90294d39940950e5176363382b38ea0
+		{ &Z_Construct_UFunction_UMRUKSubsystem_DestroyEnvironmentRaycaster, "DestroyEnvironmentRaycaster" }, // f3f206ad2fd9041ec7c9836d2ba197d7ffc20efb
+		{ &Z_Construct_UFunction_UMRUKSubsystem_DisableTrackers, "DisableTrackers" }, // 9cf918667fcc26b6659774a8aa127d2885040844
+		{ &Z_Construct_UFunction_UMRUKSubsystem_EnvironmentRaycasterStatus, "EnvironmentRaycasterStatus" }, // 1e5669274ce8fdf4eda713e969146037916fd41e
+		{ &Z_Construct_UFunction_UMRUKSubsystem_GetBestPoseFromRaycast, "GetBestPoseFromRaycast" }, // caeab2c48762cae363e00c00893f7e67f2df2ceb
+		{ &Z_Construct_UFunction_UMRUKSubsystem_GetCurrentRoom, "GetCurrentRoom" }, // 645012a85d785d28333f6d0aaf347164ca78be52
+		{ &Z_Construct_UFunction_UMRUKSubsystem_GetKeyWall, "GetKeyWall" }, // 28fa6599f17bc10871faab4ff81c0deb5f193e47
+		{ &Z_Construct_UFunction_UMRUKSubsystem_GetLargestSurface, "GetLargestSurface" }, // be85b1069dad3bcbd766488edc63800575487c92
+		{ &Z_Construct_UFunction_UMRUKSubsystem_IsPositionInSceneVolume, "IsPositionInSceneVolume" }, // 00576ef29a5bf7baacf845b01cdb4e9b936a0817
+		{ &Z_Construct_UFunction_UMRUKSubsystem_LaunchSceneCapture, "LaunchSceneCapture" }, // 5670228f6d544f6c48c0b3cc5f0934a7b674cbb4
+		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSceneFromDevice, "LoadSceneFromDevice" }, // 22b3e351ce1138f61a6e80fa890b4d64aa4a8ae4
+		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSceneFromJsonString, "LoadSceneFromJsonString" }, // 49958bfd832ec834d3c0a749bc1b71978c7dc209
+		{ &Z_Construct_UFunction_UMRUKSubsystem_LoadSharedSceneFromGroup, "LoadSharedSceneFromGroup" }, // 4096f2a72c507436d5ab14f05267bf17f6937a7c
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnCaptureComplete__DelegateSignature, "OnCaptureComplete__DelegateSignature" }, // 0a9b906b3d10892907855c8827bc592976ab12f6
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnLoaded__DelegateSignature, "OnLoaded__DelegateSignature" }, // 2b75805200931e06513c343f6c4a9c8f1eed8aa9
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomCreated__DelegateSignature, "OnRoomCreated__DelegateSignature" }, // 6780cbdc3c75b4b3e9b59df3055ec75e9b9b6165
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomRemoved__DelegateSignature, "OnRoomRemoved__DelegateSignature" }, // 65cae3d2c8e2ab0e225408088c8da3cecea6ae1d
-		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomsShared__DelegateSignature, "OnRoomsShared__DelegateSignature" }, // f88a2933c5edab92e76f91c4f274cce87a598515
+		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomsShared__DelegateSignature, "OnRoomsShared__DelegateSignature" }, // 4870510a3747b86418bdfc750e29a133babb3efc
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomUpdated__DelegateSignature, "OnRoomUpdated__DelegateSignature" }, // 44e1a41ba703e48175ef0ba0742504ca8dee4dc2
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnTrackableAdded__DelegateSignature, "OnTrackableAdded__DelegateSignature" }, // d75c044f6ee1784d79d5638fed32fd1674c7fe74
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnTrackableRemoved__DelegateSignature, "OnTrackableRemoved__DelegateSignature" }, // ffeec087e248a2af64008b628e5a2aad11d8633d
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnTrackablesConfigured__DelegateSignature, "OnTrackablesConfigured__DelegateSignature" }, // c8c03a24a72f13ff31f48d84b0d69d750f149fe0
 		{ &Z_Construct_UDelegateFunction_UMRUKSubsystem_OnTrackableUpdated__DelegateSignature, "OnTrackableUpdated__DelegateSignature" }, // 49d6a992479ed08e25b402a1004a8a57ddd4d870
-		{ &Z_Construct_UFunction_UMRUKSubsystem_Raycast, "Raycast" }, // c3faa2a9b312c663164635a0aae3c1f131e6e789
-		{ &Z_Construct_UFunction_UMRUKSubsystem_RaycastAll, "RaycastAll" }, // 7fc2d87ec65af8ba8a28c95c4146696a613c778c
-		{ &Z_Construct_UFunction_UMRUKSubsystem_RaycastEnvironment, "RaycastEnvironment" }, // 6c351a57f950a16988dda79e0524409f1f5d11da
-		{ &Z_Construct_UFunction_UMRUKSubsystem_SaveSceneToJsonString, "SaveSceneToJsonString" }, // e812b1837447465db770975877a3bd9b86441a44
-		{ &Z_Construct_UFunction_UMRUKSubsystem_SceneCaptureComplete, "SceneCaptureComplete" }, // 2e4cca2a0f634a83fb80dcad8ed43efb78cf7404
-		{ &Z_Construct_UFunction_UMRUKSubsystem_ShareRooms, "ShareRooms" }, // 16a6edbea35d494a222be39378718e78b4ad0dec
-		{ &Z_Construct_UFunction_UMRUKSubsystem_SpawnInterior, "SpawnInterior" }, // afb4ea201386b1607542b82150ebf3326d6cf0a7
-		{ &Z_Construct_UFunction_UMRUKSubsystem_SpawnInteriorFromStream, "SpawnInteriorFromStream" }, // 4d77667a0a185fb81864fe654f86b4a489040a61
-		{ &Z_Construct_UFunction_UMRUKSubsystem_TryGetClosestSeatPose, "TryGetClosestSeatPose" }, // d88c4ece10c81192e10d08417151d9eda0108f5f
-		{ &Z_Construct_UFunction_UMRUKSubsystem_TryGetClosestSurfacePosition, "TryGetClosestSurfacePosition" }, // fccd3497f11cf2785b1186a226d0b4cce78eda49
+		{ &Z_Construct_UFunction_UMRUKSubsystem_Raycast, "Raycast" }, // dd2904a66c8a97aad3ea17b2bcf253f294ec2863
+		{ &Z_Construct_UFunction_UMRUKSubsystem_RaycastAll, "RaycastAll" }, // 57f614e96eefca93d4d9ff7a90e87f7dfb537119
+		{ &Z_Construct_UFunction_UMRUKSubsystem_RaycastEnvironment, "RaycastEnvironment" }, // 63af5bf0a7303d8e05517e89ec9703df72669881
+		{ &Z_Construct_UFunction_UMRUKSubsystem_SaveSceneToJsonString, "SaveSceneToJsonString" }, // db6539019ae2b30c5211075c777df4231303dea7
+		{ &Z_Construct_UFunction_UMRUKSubsystem_SceneCaptureComplete, "SceneCaptureComplete" }, // aac650010798ccf4efb7106350190fd36c26220d
+		{ &Z_Construct_UFunction_UMRUKSubsystem_ShareRooms, "ShareRooms" }, // cc71ac21c2cff2700332cb461bff3e0110b60a45
+		{ &Z_Construct_UFunction_UMRUKSubsystem_SpawnInterior, "SpawnInterior" }, // a03a44ff3b7da1bd1c080215ab437d51dfc7c896
+		{ &Z_Construct_UFunction_UMRUKSubsystem_SpawnInteriorFromStream, "SpawnInteriorFromStream" }, // 13bdcf10ec702e9ac06302e4b5222f099cc02231
+		{ &Z_Construct_UFunction_UMRUKSubsystem_TryGetClosestSeatPose, "TryGetClosestSeatPose" }, // 0270b7ae5d8c84babf495066f1735a09573447e2
+		{ &Z_Construct_UFunction_UMRUKSubsystem_TryGetClosestSurfacePosition, "TryGetClosestSurfacePosition" }, // d8ac23009d6a57df8acecb2a566364a9973fac6d
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -2478,7 +2642,7 @@ const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Trackables_V
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Trackables_Key_KeyProp = { "Trackables_Key", nullptr, (EPropertyFlags)0x0100000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMRUKTrackableKey, METADATA_PARAMS(0, nullptr) }; // 185be2ed79e34c02d34b7cbcbbb48e2f17c67422
 const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_Trackables = { "Trackables", nullptr, (EPropertyFlags)0x0114000000022815, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, Trackables), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Trackables_MetaData), NewProp_Trackables_MetaData) }; // 185be2ed79e34c02d34b7cbcbbb48e2f17c67422
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_EnableWorldLock = { "EnableWorldLock", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UMRUKSubsystem), &UHT_STATICS::NewProp_EnableWorldLock_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnableWorldLock_MetaData), NewProp_EnableWorldLock_MetaData) };
-const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnShareRoomsComplete = { "OnShareRoomsComplete", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, OnShareRoomsComplete), Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomsShared__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnShareRoomsComplete_MetaData), NewProp_OnShareRoomsComplete_MetaData) }; // f88a2933c5edab92e76f91c4f274cce87a598515
+const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnShareRoomsComplete = { "OnShareRoomsComplete", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, OnShareRoomsComplete), Z_Construct_UDelegateFunction_UMRUKSubsystem_OnRoomsShared__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnShareRoomsComplete_MetaData), NewProp_OnShareRoomsComplete_MetaData) }; // 4870510a3747b86418bdfc750e29a133babb3efc
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_RoomLayoutManagerActor = { "RoomLayoutManagerActor", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, RoomLayoutManagerActor), Z_Construct_UClass_AActor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RoomLayoutManagerActor_MetaData), NewProp_RoomLayoutManagerActor_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_RoomLayoutManager = { "RoomLayoutManager", nullptr, (EPropertyFlags)0x0040000000080008, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, RoomLayoutManager), Z_Construct_UClass_UOculusXRRoomLayoutManagerComponent, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RoomLayoutManager_MetaData), NewProp_RoomLayoutManager_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_CachedCurrentRoom = { "CachedCurrentRoom", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UMRUKSubsystem, CachedCurrentRoom), Z_Construct_UClass_AMRUKRoom, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CachedCurrentRoom_MetaData), NewProp_CachedCurrentRoom_MetaData) };
@@ -2577,14 +2741,14 @@ UMRUKSubsystem::~UMRUKSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSubsystem_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSubsystem_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKSubsystem, TEXT("UMRUKSubsystem"), &Z_Registration_Info_UClass_UMRUKSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKSubsystem), 366048424U) },
+		{ Z_Construct_UClass_UMRUKSubsystem, TEXT("UMRUKSubsystem"), &Z_Registration_Info_UClass_UMRUKSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKSubsystem), 3943326373U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSubsystem_h__Script_MRUtilityKit_f22bac95854ece5f08bb3f062822aac783ac79fb{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSubsystem_h__Script_MRUtilityKit_d7693317976a3fe16b07f6df03742d7725fae63a{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -19,7 +19,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h
 
 // ********** Begin Enum ESetupRulePlatform ********************************************************
 #define FOREACH_ENUM_ESETUPRULEPLATFORM(op) \

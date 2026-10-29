@@ -25,7 +25,7 @@ class UStaticMeshComponent;
 struct FLinearColor;
 
 // ********** Begin Class UOculusXRPassthroughLayerBase ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execRemoveColorLut); \
 	DECLARE_FUNCTION(execSetColorLUTWeight); \
 	DECLARE_FUNCTION(execSetColorLUTTarget); \
@@ -48,7 +48,7 @@ struct FLinearColor;
 struct Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics;
 OCULUSXRPASSTHROUGH_API UClass* Z_Construct_UClass_UOculusXRPassthroughLayerBase(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics; \
 	friend OCULUSXRPASSTHROUGH_API UClass* ::Z_Construct_UClass_UOculusXRPassthroughLayerBase(ETypeConstructPhase); \
@@ -57,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRPassthroughLayerBase)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRPassthroughLayerBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -69,13 +69,13 @@ public: \
 	NO_API virtual ~UOculusXRPassthroughLayerBase();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_30_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_30_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -88,7 +88,7 @@ class UOculusXRPassthroughLayerBase;
 struct Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed_Statics;
 OCULUSXRPASSTHROUGH_API UClass* Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed_Statics; \
 	friend OCULUSXRPASSTHROUGH_API UClass* ::Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed(ETypeConstructPhase); \
@@ -97,7 +97,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRStereoLayerShapeReconstructed)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRStereoLayerShapeReconstructed(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -109,12 +109,12 @@ public: \
 	NO_API virtual ~UOculusXRStereoLayerShapeReconstructed();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_277_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_277_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_280_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -127,7 +127,7 @@ class UOculusXRStereoLayerShapeReconstructed;
 struct Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined_Statics;
 OCULUSXRPASSTHROUGH_API UClass* Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined_Statics; \
 	friend OCULUSXRPASSTHROUGH_API UClass* ::Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined(ETypeConstructPhase); \
@@ -136,7 +136,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRStereoLayerShapeUserDefined)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRStereoLayerShapeUserDefined(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -148,12 +148,12 @@ public: \
 	NO_API virtual ~UOculusXRStereoLayerShapeUserDefined();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_298_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_298_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_301_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -163,7 +163,7 @@ class UOculusXRStereoLayerShapeUserDefined;
 // ********** End Class UOculusXRStereoLayerShapeUserDefined ***************************************
 
 // ********** Begin Class UOculusXRPassthroughLayerComponent ***************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_RPC_WRAPPERS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_RPC_WRAPPERS \
 	DECLARE_FUNCTION(execOnAnyLayerResumedEvent); \
 	DECLARE_FUNCTION(execMarkPassthroughStyleForUpdate); \
 	DECLARE_FUNCTION(execIsSurfaceGeometryComponent); \
@@ -179,7 +179,7 @@ class UOculusXRStereoLayerShapeUserDefined;
 struct Z_Construct_UClass_UOculusXRPassthroughLayerComponent_Statics;
 OCULUSXRPASSTHROUGH_API UClass* Z_Construct_UClass_UOculusXRPassthroughLayerComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_INCLASS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPassthroughLayerComponent_Statics; \
 	friend OCULUSXRPASSTHROUGH_API UClass* ::Z_Construct_UClass_UOculusXRPassthroughLayerComponent(ETypeConstructPhase); \
@@ -188,7 +188,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRPassthroughLayerComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_STANDARD_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRPassthroughLayerComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRPassthroughLayerComponent) \
@@ -200,13 +200,13 @@ public: \
 	NO_API virtual ~UOculusXRPassthroughLayerComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_344_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_GENERATED_BODY_LEGACY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_344_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_RPC_WRAPPERS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_STANDARD_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_RPC_WRAPPERS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_INCLASS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_347_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -216,6 +216,6 @@ class UOculusXRPassthroughLayerComponent;
 // ********** End Class UOculusXRPassthroughLayerComponent *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRBoneCorrection_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBoneCorrection(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_38_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_38_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBoneCorrection_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBoneCorrection(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FOculusXRBoneCorrection;
 struct Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_59_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_59_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FOculusXRBoneCorrectionSet;
 struct Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset_Statics;
 OCULUSXRMOVEMENT_API UClass* Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_INCLASS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset_Statics; \
 	friend OCULUSXRMOVEMENT_API UClass* ::Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset(ETypeConstructPhase); \
@@ -55,7 +55,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRLiveLinkRetargetBodyAsset)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRLiveLinkRetargetBodyAsset(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRLiveLinkRetargetBodyAsset) \
@@ -67,12 +67,12 @@ public: \
 	NO_API virtual ~UOculusXRLiveLinkRetargetBodyAsset();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_76_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_GENERATED_BODY_LEGACY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_76_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_STANDARD_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_INCLASS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h_79_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -82,7 +82,7 @@ class UOculusXRLiveLinkRetargetBodyAsset;
 // ********** End Class UOculusXRLiveLinkRetargetBodyAsset *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h
 
 // ********** Begin Enum EOculusXRAxis *************************************************************
 #define FOREACH_ENUM_EOCULUSXRAXIS(op) \

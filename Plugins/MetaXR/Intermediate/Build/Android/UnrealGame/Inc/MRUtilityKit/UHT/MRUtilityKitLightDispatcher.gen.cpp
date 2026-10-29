@@ -40,9 +40,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Add a actor to the AdditionalActorsToLookForPointLightComponents list.\n\x09 * This should be used during runtime instead of adding actors directly to AdditionalActorsToLookForPointLightComponents.\n\x09 * @param Actor Actor to add to AdditionalActorsToLookForPointLightComponents.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add a actor to the AdditionalActorsToLookForPointLightComponents list.\nThis should be used during runtime instead of adding actors directly to AdditionalActorsToLookForPointLightComponents.\n@param Actor Actor to add to AdditionalActorsToLookForPointLightComponents." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -93,9 +97,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "CallInEditor", "true" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Only callable in the editor from the scene, will update the linked parameter collection with the info\n\x09 * of the point lights in the scene (based on the parameters), updating the highlight effect in the process.\n\x09 * This is meant to preview the effect in the editor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only callable in the editor from the scene, will update the linked parameter collection with the info\nof the point lights in the scene (based on the parameters), updating the highlight effect in the process.\nThis is meant to preview the effect in the editor." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -133,36 +141,56 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * If you want to have highlights from lights over passthrough use this actor to collect all point lights in the scene and send them to the M_Highlights material.\n * It lights and sends them to a highlight material, which can be used to achieve highlights over Passthrough.\n * The highlight effect is achieved by using a material parameter collection.\n * See the PTRL Sample Project for an example of how to use this.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Light Dispatcher" },
 		{ "IncludePath", "MRUtilityKitLightDispatcher.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If you want to have highlights from lights over passthrough use this actor to collect all point lights in the scene and send them to the M_Highlights material.\nIt lights and sends them to a highlight material, which can be used to achieve highlights over Passthrough.\nThe highlight effect is achieved by using a material parameter collection.\nSee the PTRL Sample Project for an example of how to use this." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Collection_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The material parameter collection in which to fill lights data.\n\x09 * This parameter collection gets then send to the shader.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The material parameter collection in which to fill lights data.\nThis parameter collection gets then send to the shader." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShouldFetchPointLightsAtBeginPlay_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether all point lights should be fetched automatically at BeginPlay().\n\x09 * The automatic fetching only works for PointLightActors. Actors that have PointLightComponents\n\x09 * attached to them will not be detected. These should be specified in AdditionalActorsToLookForPointLightComponents.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether all point lights should be fetched automatically at BeginPlay().\nThe automatic fetching only works for PointLightActors. Actors that have PointLightComponents\nattached to them will not be detected. These should be specified in AdditionalActorsToLookForPointLightComponents." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AdditionalActorsToLookForPointLightComponents_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * List of actor(s) that contain a PointLightComponent that should contribute to the highlight effect.\n\x09 * Use AddAdditionalPointLightActor to add actors during runtime.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of actor(s) that contain a PointLightComponent that should contribute to the highlight effect.\nUse AddAdditionalPointLightActor to add actors during runtime." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ManualPointLights_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * PointLightActors to use for the highlight effect (not available if \"Fetch Point Lights At Begin Play\" is true).\n\x09 */" },
+#endif
 		{ "EditCondition", "!ShouldFetchPointLightsAtBeginPlay" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitLightDispatcher.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PointLightActors to use for the highlight effect (not available if \"Fetch Point Lights At Begin Play\" is true)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointLightComponents_MetaData[] = {
 		{ "EditInline", "true" },
@@ -191,8 +219,8 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKLightDispatcher_AddAdditionalPointLightActor, "AddAdditionalPointLightActor" }, // 4c9f76b9f9f8c00e7b42dff6eb0f2dddfa47e3c1
-		{ &Z_Construct_UFunction_AMRUKLightDispatcher_ForceUpdateCollection, "ForceUpdateCollection" }, // 699bf6aa0aec2206353606e9340124fe978fed56
+		{ &Z_Construct_UFunction_AMRUKLightDispatcher_AddAdditionalPointLightActor, "AddAdditionalPointLightActor" }, // 1e5264b6a11bbd95610d1aebfd9b6d9f125b7467
+		{ &Z_Construct_UFunction_AMRUKLightDispatcher_ForceUpdateCollection, "ForceUpdateCollection" }, // dad75517532a0fa3209452a0b13da78937c9f77b
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -289,14 +317,14 @@ AMRUKLightDispatcher::~AMRUKLightDispatcher() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitLightDispatcher_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitLightDispatcher_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKLightDispatcher, TEXT("AMRUKLightDispatcher"), &Z_Registration_Info_UClass_AMRUKLightDispatcher, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKLightDispatcher), 2832664356U) },
+		{ Z_Construct_UClass_AMRUKLightDispatcher, TEXT("AMRUKLightDispatcher"), &Z_Registration_Info_UClass_AMRUKLightDispatcher, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKLightDispatcher), 2709833481U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitLightDispatcher_h__Script_MRUtilityKit_ac2f5d364b0a9c00351cad95bf86899fa3ea4d28{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitLightDispatcher_h__Script_MRUtilityKit_63155bc3701bc75203fd6677188f753e5b7e37ec{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

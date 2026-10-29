@@ -593,7 +593,9 @@ struct UHT_STATICS
 		{ "All.Name", "EMRUKComponentType::All" },
 		{ "All.ToolTip", "All component types." },
 		{ "Bitflags", "" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This enum is used to specify the component type, scene anchors can either have plane or volume components associated with them or both.\n */" },
+#endif
 		{ "Mesh.Comment", "/// Mesh component type.\n" },
 		{ "Mesh.Name", "EMRUKComponentType::Mesh" },
 		{ "Mesh.ToolTip", "Mesh component type." },
@@ -605,7 +607,9 @@ struct UHT_STATICS
 		{ "Plane.Comment", "/// Plane component type.\n" },
 		{ "Plane.Name", "EMRUKComponentType::Plane" },
 		{ "Plane.ToolTip", "Plane component type." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This enum is used to specify the component type, scene anchors can either have plane or volume components associated with them or both." },
+#endif
 		{ "UseEnumValuesAsMaskValuesInEditor", "true" },
 		{ "Volume.Comment", "/// Volume component type.\n" },
 		{ "Volume.Name", "EMRUKComponentType::Volume" },
@@ -666,27 +670,43 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Describes a Raycast hit in the MRUK (Mixed Reality Utility Kit). This structure is created by the AMRUKAnchor::Raycast and AMRUKAnchor::RaycastAll methods. You can read the position where the raycast hit, the normal of the surface that was hit, and the distance from the origin to the raycast hit position.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Describes a Raycast hit in the MRUK (Mixed Reality Utility Kit). This structure is created by the AMRUKAnchor::Raycast and AMRUKAnchor::RaycastAll methods. You can read the position where the raycast hit, the normal of the surface that was hit, and the distance from the origin to the raycast hit position." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitPosition_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The position where the raycast hit.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The position where the raycast hit." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitNormal_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The normal of the surface that was hit.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The normal of the surface that was hit." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HitDistance_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The distance between the origin of the ray to the hit position.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The distance between the origin of the ray to the hit position." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -759,29 +779,45 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Label filter to use in MRUK (Mixed Reality Utility Kit). You can use this to filter anchors by their labels.\n * Use the IncludedLabels and ExcludedLabels list to specify which labels to include and exclude.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Label filter to use in MRUK (Mixed Reality Utility Kit). You can use this to filter anchors by their labels.\nUse the IncludedLabels and ExcludedLabels list to specify which labels to include and exclude." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IncludedLabels_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If included labels is not empty then the anchor must have at\n\x09 * least one of the labels in this list.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If included labels is not empty then the anchor must have at\nleast one of the labels in this list." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExcludedLabels_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Anchors with any of the labels in this exclusion list\n\x09 * will be ignored.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Anchors with any of the labels in this exclusion list\nwill be ignored." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ComponentTypes_MetaData[] = {
 		{ "Bitmask", "" },
 		{ "BitmaskEnum", "/Script/MRUtilityKit.EMRUKComponentType" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enum flags representing component types to include, by default include all component types.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enum flags representing component types to include, by default include all component types." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -860,21 +896,33 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Represents a configuration for adjusting the UV texture coordinates of a plane.\n *\n * It contains properties to specify an offset and scale to be applied to the UV texture coordinates.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents a configuration for adjusting the UV texture coordinates of a plane.\n\nIt contains properties to specify an offset and scale to be applied to the UV texture coordinates." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Offset_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Offset applied to the UV texture coordinates.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Offset applied to the UV texture coordinates." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Scale_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Scale applied to the UV texture coordinates.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Scale applied to the UV texture coordinates." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -944,21 +992,33 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Texture coordinate modes for MRUK (Mixed Reality Utility Kit). You can use this to specify the texture coordinate mode for the U and V directions.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture coordinate modes for MRUK (Mixed Reality Utility Kit). You can use this to specify the texture coordinate mode for the U and V directions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_U_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Texture Coordinate mode for the U direction.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture Coordinate mode for the U direction." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_V_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Texture Coordinate mode for the V direction.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture Coordinate mode for the V direction." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1034,39 +1094,63 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This struct represents a configuration for spawning an actor in the scene.\n *\n * It contains properties to specify the class of the actor to spawn, whether to match the aspect ratio of the volume,\n * whether to calculate the facing direction of the actor, and what scaling and alignment modes to apply to the actor.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This struct represents a configuration for spawning an actor in the scene.\n\nIt contains properties to specify the class of the actor to spawn, whether to match the aspect ratio of the volume,\nwhether to calculate the facing direction of the actor, and what scaling and alignment modes to apply to the actor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Actor_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The class of actor to spawn.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The class of actor to spawn." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MatchAspectRatio_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * When match aspect ratio is enabled then the actor will be rotated\n\x09 * to try and match the aspect ratio of the volume as closely as possible.\n\x09 * This is most useful for long and thin volumes, keep this disabled for\n\x09 * objects with an aspect ratio close to 1:1. Only applies to volumes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When match aspect ratio is enabled then the actor will be rotated\nto try and match the aspect ratio of the volume as closely as possible.\nThis is most useful for long and thin volumes, keep this disabled for\nobjects with an aspect ratio close to 1:1. Only applies to volumes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CalculateFacingDirection_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * When calculate facing direction is enabled the actor will be rotated to\n\x09 * face away from the closest wall. If match aspect ratio is also enabled\n\x09 * then that will take precedence and it will be constrained to a choice\n\x09 * between 2 directions only. Only applies to volumes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When calculate facing direction is enabled the actor will be rotated to\nface away from the closest wall. If match aspect ratio is also enabled\nthen that will take precedence and it will be constrained to a choice\nbetween 2 directions only. Only applies to volumes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScalingMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set what scaling mode to apply to the actor. By default the actor will\n\x09 * be stretched to fit the size of the plane/volume. But in some cases\n\x09 * this may not be desirable and can be customized here.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set what scaling mode to apply to the actor. By default the actor will\nbe stretched to fit the size of the plane/volume. But in some cases\nthis may not be desirable and can be customized here." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AlignMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set what alignment mode to apply to the actor. By default the actor will\n\x09 * be aligned that its bounding box matches the one from the anchor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set what alignment mode to apply to the actor. By default the actor will\nbe aligned that its bounding box matches the one from the anchor." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1161,7 +1245,9 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This enum is used to specify the fallback behaviour when spawning a scene actor.\n * Specify whether to fallback to a procedural mesh or not.\n */" },
+#endif
 		{ "Default.Comment", "/// Don't override the fallback to procedural standard behaviour.\n" },
 		{ "Default.Name", "EMRUKFallbackToProceduralOverwrite::Default" },
 		{ "Default.ToolTip", "Don't override the fallback to procedural standard behaviour." },
@@ -1172,7 +1258,9 @@ struct UHT_STATICS
 		{ "NoFallback.Comment", "/// Don't fallback to a procedural mesh.\n" },
 		{ "NoFallback.Name", "EMRUKFallbackToProceduralOverwrite::NoFallback" },
 		{ "NoFallback.ToolTip", "Don't fallback to a procedural mesh." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This enum is used to specify the fallback behaviour when spawning a scene actor.\nSpecify whether to fallback to a procedural mesh or not." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1227,27 +1315,43 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Holds a configuration for spawning a group of actors.\n *\n * It contains properties to specify a list of actors to choose from, the selection mode when multiple actors are specified,\n * and whether to fall back to spawning a procedural mesh if no actor class has been specified for this label.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Holds a configuration for spawning a group of actors.\n\nIt contains properties to specify a list of actors to choose from, the selection mode when multiple actors are specified,\nand whether to fall back to spawning a procedural mesh if no actor class has been specified for this label." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Actors_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * List of actors to choose from, multiple actors can be specified and\n\x09 * the selection criteria will be determined by the SelectionMode option.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of actors to choose from, multiple actors can be specified and\nthe selection criteria will be determined by the SelectionMode option." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SelectionMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the selection mode when multiple different actors are specified.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the selection mode when multiple different actors are specified." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FallbackToProcedural_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Control if there should happen a fallback to spawning a procedural mesh\n\x09 * in case no actor class has been specified for this label. The global\n\x09 * fallback behaviour can be specified in the AMRUKAnchorActorSpawner.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Control if there should happen a fallback to spawning a procedural mesh\nin case no actor class has been specified for this label. The global\nfallback behaviour can be specified in the AMRUKAnchorActorSpawner." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1268,12 +1372,12 @@ struct UHT_STATICS
 }; // struct UHT_STATICS
 
 // ********** Begin ScriptStruct FMRUKSpawnGroup Property Definitions ******************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
-const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKSpawnGroup, Actors), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Actors_MetaData), NewProp_Actors_MetaData) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
+const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKSpawnGroup, Actors), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Actors_MetaData), NewProp_Actors_MetaData) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_SelectionMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SelectionMode = { "SelectionMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKSpawnGroup, SelectionMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnerSelectionMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SelectionMode_MetaData), NewProp_SelectionMode_MetaData) }; // af61c05e63f4c07457a33295502b0bb6cafae8f9
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_FallbackToProcedural_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_FallbackToProcedural = { "FallbackToProcedural", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKSpawnGroup, FallbackToProcedural), Z_Construct_UEnum_MRUtilityKit_EMRUKFallbackToProceduralOverwrite, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FallbackToProcedural_MetaData), NewProp_FallbackToProcedural_MetaData) }; // cabccba4481e2d5e66926f7211d4c206d8cefce3
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_FallbackToProcedural = { "FallbackToProcedural", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKSpawnGroup, FallbackToProcedural), Z_Construct_UEnum_MRUtilityKit_EMRUKFallbackToProceduralOverwrite, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FallbackToProcedural_MetaData), NewProp_FallbackToProcedural_MetaData) }; // 791e847f19698ec9058b256340593a12a4198f30
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Actors_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Actors,
@@ -1334,7 +1438,9 @@ struct UHT_STATICS
 		{ "AllRooms.Name", "EMRUKSpawnMode::AllRooms" },
 		{ "AllRooms.ToolTip", "Spawn in every room and keep on spawning whenever a new room was discovered." },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This spawnmode controls how the MR Utility Kit handles spawning actors in the scene, either for all rooms, only for the current room or not at all.\n */" },
+#endif
 		{ "CurrentRoomOnly.Comment", "/// Will only take the current room into account. This enables legacy single room behaviour. Keep in mind that if your\n/// experience loads multiple rooms and you use that mode the behaviour might be undefined.\n" },
 		{ "CurrentRoomOnly.Name", "EMRUKSpawnMode::CurrentRoomOnly" },
 		{ "CurrentRoomOnly.ToolTip", "Will only take the current room into account. This enables legacy single room behaviour. Keep in mind that if your\nexperience loads multiple rooms and you use that mode the behaviour might be undefined." },
@@ -1342,7 +1448,9 @@ struct UHT_STATICS
 		{ "None.Comment", "/// Do not spawn anything on loading a scene or rooms.\n" },
 		{ "None.Name", "EMRUKSpawnMode::None" },
 		{ "None.ToolTip", "Do not spawn anything on loading a scene or rooms." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This spawnmode controls how the MR Utility Kit handles spawning actors in the scene, either for all rooms, only for the current room or not at all." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1399,7 +1507,9 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This enum is used to specify the environment raycast hit status.\n * It indicates whether a raycast hit an object, missed, or encountered\n * other conditions such as occlusion or being outside the field of view.\n */" },
+#endif
 		{ "Failure.Comment", "/// Indicates a failure in the raycasting process.\n/// This status indicates a failure in the raycasting process, which can occur if the raycaster fails to initialize or encounters an unexpected error.\n" },
 		{ "Failure.Name", "EMRUKEnvironmentRaycastHitStatus::Failure" },
 		{ "Failure.ToolTip", "Indicates a failure in the raycasting process.\nThis status indicates a failure in the raycasting process, which can occur if the raycaster fails to initialize or encounters an unexpected error." },
@@ -1419,7 +1529,9 @@ struct UHT_STATICS
 		{ "RayOccluded.Comment", "/// Indicates that the ray itself is occluded by depth.\n" },
 		{ "RayOccluded.Name", "EMRUKEnvironmentRaycastHitStatus::RayOccluded" },
 		{ "RayOccluded.ToolTip", "Indicates that the ray itself is occluded by depth." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This enum is used to specify the environment raycast hit status.\nIt indicates whether a raycast hit an object, missed, or encountered\nother conditions such as occlusion or being outside the field of view." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1479,7 +1591,9 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This enum is used to specify the status of the environment raycaster.\n * It indicates whether the raycaster is stopped, in the process of being created, or ready for use.\n */" },
+#endif
 		{ "Creating.Comment", "/// Indicates that the raycaster is in the process of being created.\n" },
 		{ "Creating.Name", "EMRUKEnvironmentRaycasterStatus::Creating" },
 		{ "Creating.ToolTip", "Indicates that the raycaster is in the process of being created." },
@@ -1490,7 +1604,9 @@ struct UHT_STATICS
 		{ "Stopped.Comment", "/// Indicates that the raycaster is stopped.\n" },
 		{ "Stopped.Name", "EMRUKEnvironmentRaycasterStatus::Stopped" },
 		{ "Stopped.ToolTip", "Indicates that the raycaster is stopped." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This enum is used to specify the status of the environment raycaster.\nIt indicates whether the raycaster is stopped, in the process of being created, or ready for use." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1547,7 +1663,9 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Specifies the type of trackable object.\n */" },
+#endif
 		{ "Keyboard.Comment", "/// Keyboard trackable.\n" },
 		{ "Keyboard.Name", "EMRUKTrackableType::Keyboard" },
 		{ "Keyboard.ToolTip", "Keyboard trackable." },
@@ -1558,7 +1676,9 @@ struct UHT_STATICS
 		{ "QRCode.Comment", "/// QR code trackable.\n" },
 		{ "QRCode.Name", "EMRUKTrackableType::QRCode" },
 		{ "QRCode.ToolTip", "QR code trackable." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies the type of trackable object." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1618,7 +1738,9 @@ struct UHT_STATICS
 		{ "BinaryPayload.Name", "EMRUKMarkerPayloadType::BinaryPayload" },
 		{ "BinaryPayload.ToolTip", "Binary payload." },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Specifies the type of marker payload for trackables like QR codes.\n */" },
+#endif
 		{ "InvalidPayload.Comment", "/// Invalid payload (cannot be decoded).\n" },
 		{ "InvalidPayload.Name", "EMRUKMarkerPayloadType::InvalidPayload" },
 		{ "InvalidPayload.ToolTip", "Invalid payload (cannot be decoded)." },
@@ -1629,7 +1751,9 @@ struct UHT_STATICS
 		{ "StringPayload.Comment", "/// String payload.\n" },
 		{ "StringPayload.Name", "EMRUKMarkerPayloadType::StringPayload" },
 		{ "StringPayload.ToolTip", "String payload." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies the type of marker payload for trackables like QR codes." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1685,21 +1809,33 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Configuration for trackable tracking. Use this to enable or disable different types of trackables.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Configuration for trackable tracking. Use this to enable or disable different types of trackables." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableKeyboardTracking_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether keyboard tracking should be enabled.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether keyboard tracking should be enabled." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableQRCodeTracking_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether QR code tracking should be enabled.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether QR code tracking should be enabled." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1777,33 +1913,53 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Represents a hit result from an environment raycast.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents a hit result from an environment raycast." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_status_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The status of the raycast hit, indicating whether it hit an object, missed, or encountered other conditions.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The status of the raycast hit, indicating whether it hit an object, missed, or encountered other conditions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_point_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The point in the world where the raycast hit.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The point in the world where the raycast hit." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_orientation_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The orientation of the hit point.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The orientation of the hit point." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_normal_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The normal vector of the hit point.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKit.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The normal vector of the hit point." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1824,7 +1980,7 @@ struct UHT_STATICS
 
 // ********** Begin ScriptStruct FMRUKEnvironmentRaycastHit Property Definitions *******************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_status_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_status = { "status", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKEnvironmentRaycastHit, status), Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycastHitStatus, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_status_MetaData), NewProp_status_MetaData) }; // 1bb8a93b93c10db41c8dac9f3e47312b3b73bbd7
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_status = { "status", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKEnvironmentRaycastHit, status), Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycastHitStatus, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_status_MetaData), NewProp_status_MetaData) }; // b2edf319ae11f2feca8d0e4171b7feb941885fd2
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_point = { "point", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKEnvironmentRaycastHit, point), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_point_MetaData), NewProp_point_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_orientation = { "orientation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKEnvironmentRaycastHit, orientation), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_orientation_MetaData), NewProp_orientation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_normal = { "normal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FMRUKEnvironmentRaycastHit, normal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_normal_MetaData), NewProp_normal_MetaData) };
@@ -1931,7 +2087,7 @@ UScriptStruct* Z_Construct_UScriptStruct_FMRUKTrackableKey(ETypeConstructPhase P
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1942,27 +2098,27 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnerSelectionMode, TEXT("EMRUKSpawnerSelectionMode"), &ZRIE_EMRUKSpawnerSelectionMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2942419038U) },
 		{ Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnerScalingMode, TEXT("EMRUKSpawnerScalingMode"), &ZRIE_EMRUKSpawnerScalingMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1994921845U) },
 		{ Z_Construct_UEnum_MRUtilityKit_EMRUKAlignMode, TEXT("EMRUKAlignMode"), &ZRIE_EMRUKAlignMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3704361955U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKComponentType, TEXT("EMRUKComponentType"), &ZRIE_EMRUKComponentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4158476891U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKFallbackToProceduralOverwrite, TEXT("EMRUKFallbackToProceduralOverwrite"), &ZRIE_EMRUKFallbackToProceduralOverwrite, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3401370532U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, TEXT("EMRUKSpawnMode"), &ZRIE_EMRUKSpawnMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2594844882U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycastHitStatus, TEXT("EMRUKEnvironmentRaycastHitStatus"), &ZRIE_EMRUKEnvironmentRaycastHitStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 465086779U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycasterStatus, TEXT("EMRUKEnvironmentRaycasterStatus"), &ZRIE_EMRUKEnvironmentRaycasterStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3543117376U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKTrackableType, TEXT("EMRUKTrackableType"), &ZRIE_EMRUKTrackableType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3288519866U) },
-		{ Z_Construct_UEnum_MRUtilityKit_EMRUKMarkerPayloadType, TEXT("EMRUKMarkerPayloadType"), &ZRIE_EMRUKMarkerPayloadType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2390568343U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKComponentType, TEXT("EMRUKComponentType"), &ZRIE_EMRUKComponentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 191008975U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKFallbackToProceduralOverwrite, TEXT("EMRUKFallbackToProceduralOverwrite"), &ZRIE_EMRUKFallbackToProceduralOverwrite, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2032043135U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, TEXT("EMRUKSpawnMode"), &ZRIE_EMRUKSpawnMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2820290979U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycastHitStatus, TEXT("EMRUKEnvironmentRaycastHitStatus"), &ZRIE_EMRUKEnvironmentRaycastHitStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3001938713U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKEnvironmentRaycasterStatus, TEXT("EMRUKEnvironmentRaycasterStatus"), &ZRIE_EMRUKEnvironmentRaycasterStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2349113500U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKTrackableType, TEXT("EMRUKTrackableType"), &ZRIE_EMRUKTrackableType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3460736882U) },
+		{ Z_Construct_UEnum_MRUtilityKit_EMRUKMarkerPayloadType, TEXT("EMRUKMarkerPayloadType"), &ZRIE_EMRUKMarkerPayloadType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3207534979U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FMRUKHit, Z_Construct_UScriptStruct_FMRUKHit_Statics::NewStructOps, TEXT("MRUKHit"),&Z_Registration_Info_UScriptStruct_FMRUKHit, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKHit), 2888955011U) },
-		{ Z_Construct_UScriptStruct_FMRUKLabelFilter, Z_Construct_UScriptStruct_FMRUKLabelFilter_Statics::NewStructOps, TEXT("MRUKLabelFilter"),&Z_Registration_Info_UScriptStruct_FMRUKLabelFilter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKLabelFilter), 1043704943U) },
-		{ Z_Construct_UScriptStruct_FMRUKPlaneUV, Z_Construct_UScriptStruct_FMRUKPlaneUV_Statics::NewStructOps, TEXT("MRUKPlaneUV"),&Z_Registration_Info_UScriptStruct_FMRUKPlaneUV, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKPlaneUV), 1940405767U) },
-		{ Z_Construct_UScriptStruct_FMRUKTexCoordModes, Z_Construct_UScriptStruct_FMRUKTexCoordModes_Statics::NewStructOps, TEXT("MRUKTexCoordModes"),&Z_Registration_Info_UScriptStruct_FMRUKTexCoordModes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKTexCoordModes), 2986590691U) },
-		{ Z_Construct_UScriptStruct_FMRUKSpawnActor, Z_Construct_UScriptStruct_FMRUKSpawnActor_Statics::NewStructOps, TEXT("MRUKSpawnActor"),&Z_Registration_Info_UScriptStruct_FMRUKSpawnActor, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKSpawnActor), 3404490419U) },
-		{ Z_Construct_UScriptStruct_FMRUKSpawnGroup, Z_Construct_UScriptStruct_FMRUKSpawnGroup_Statics::NewStructOps, TEXT("MRUKSpawnGroup"),&Z_Registration_Info_UScriptStruct_FMRUKSpawnGroup, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKSpawnGroup), 754548782U) },
-		{ Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, Z_Construct_UScriptStruct_FMRUKTrackerConfiguration_Statics::NewStructOps, TEXT("MRUKTrackerConfiguration"),&Z_Registration_Info_UScriptStruct_FMRUKTrackerConfiguration, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKTrackerConfiguration), 549178461U) },
-		{ Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit, Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit_Statics::NewStructOps, TEXT("MRUKEnvironmentRaycastHit"),&Z_Registration_Info_UScriptStruct_FMRUKEnvironmentRaycastHit, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKEnvironmentRaycastHit), 3526885179U) },
+		{ Z_Construct_UScriptStruct_FMRUKHit, Z_Construct_UScriptStruct_FMRUKHit_Statics::NewStructOps, TEXT("MRUKHit"),&Z_Registration_Info_UScriptStruct_FMRUKHit, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKHit), 355181823U) },
+		{ Z_Construct_UScriptStruct_FMRUKLabelFilter, Z_Construct_UScriptStruct_FMRUKLabelFilter_Statics::NewStructOps, TEXT("MRUKLabelFilter"),&Z_Registration_Info_UScriptStruct_FMRUKLabelFilter, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKLabelFilter), 615251821U) },
+		{ Z_Construct_UScriptStruct_FMRUKPlaneUV, Z_Construct_UScriptStruct_FMRUKPlaneUV_Statics::NewStructOps, TEXT("MRUKPlaneUV"),&Z_Registration_Info_UScriptStruct_FMRUKPlaneUV, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKPlaneUV), 1258332988U) },
+		{ Z_Construct_UScriptStruct_FMRUKTexCoordModes, Z_Construct_UScriptStruct_FMRUKTexCoordModes_Statics::NewStructOps, TEXT("MRUKTexCoordModes"),&Z_Registration_Info_UScriptStruct_FMRUKTexCoordModes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKTexCoordModes), 3887362296U) },
+		{ Z_Construct_UScriptStruct_FMRUKSpawnActor, Z_Construct_UScriptStruct_FMRUKSpawnActor_Statics::NewStructOps, TEXT("MRUKSpawnActor"),&Z_Registration_Info_UScriptStruct_FMRUKSpawnActor, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKSpawnActor), 3369579706U) },
+		{ Z_Construct_UScriptStruct_FMRUKSpawnGroup, Z_Construct_UScriptStruct_FMRUKSpawnGroup_Statics::NewStructOps, TEXT("MRUKSpawnGroup"),&Z_Registration_Info_UScriptStruct_FMRUKSpawnGroup, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKSpawnGroup), 4230142119U) },
+		{ Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, Z_Construct_UScriptStruct_FMRUKTrackerConfiguration_Statics::NewStructOps, TEXT("MRUKTrackerConfiguration"),&Z_Registration_Info_UScriptStruct_FMRUKTrackerConfiguration, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKTrackerConfiguration), 4253065890U) },
+		{ Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit, Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit_Statics::NewStructOps, TEXT("MRUKEnvironmentRaycastHit"),&Z_Registration_Info_UScriptStruct_FMRUKEnvironmentRaycastHit, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKEnvironmentRaycastHit), 440151815U) },
 		{ Z_Construct_UScriptStruct_FMRUKTrackableKey, Z_Construct_UScriptStruct_FMRUKTrackableKey_Statics::NewStructOps, TEXT("MRUKTrackableKey"),&Z_Registration_Info_UScriptStruct_FMRUKTrackableKey, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKTrackableKey), 408675053U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h__Script_MRUtilityKit_4f0b07cfe2ecdfb11cbb655ceb08ec356e94b877{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h__Script_MRUtilityKit_88c339dafff8e2bd464c98da2f5b258bc2c442b3{
 	TEXT("/Script/MRUtilityKit"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

@@ -331,10 +331,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n// Find sessions\n//\n" },
+#endif
 		{ "IncludePath", "OculusXRColocationLatentActions.h" },
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find sessions" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SessionFound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
@@ -509,10 +513,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n// Start advertisement\n//\n" },
+#endif
 		{ "IncludePath", "OculusXRColocationLatentActions.h" },
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Start advertisement" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnComplete_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
@@ -670,10 +678,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n// Stop advertisement\n//\n" },
+#endif
 		{ "IncludePath", "OculusXRColocationLatentActions.h" },
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop advertisement" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnComplete_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRColocationLatentActions.h" },
@@ -773,16 +785,16 @@ UOculusXRAsyncAction_StopColocationSessionAdvertisement::~UOculusXRAsyncAction_S
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationLatentActions_h__Script_OculusXRColocation_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationLatentActions_h__Script_OculusXRColocation_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRAsyncAction_DiscoverColocationSessions, TEXT("UOculusXRAsyncAction_DiscoverColocationSessions"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_DiscoverColocationSessions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_DiscoverColocationSessions), 1246266458U) },
-		{ Z_Construct_UClass_UOculusXRAsyncAction_StartColocationSessionAdvertisement, TEXT("UOculusXRAsyncAction_StartColocationSessionAdvertisement"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_StartColocationSessionAdvertisement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_StartColocationSessionAdvertisement), 2870674188U) },
-		{ Z_Construct_UClass_UOculusXRAsyncAction_StopColocationSessionAdvertisement, TEXT("UOculusXRAsyncAction_StopColocationSessionAdvertisement"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_StopColocationSessionAdvertisement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_StopColocationSessionAdvertisement), 1102028936U) },
+		{ Z_Construct_UClass_UOculusXRAsyncAction_DiscoverColocationSessions, TEXT("UOculusXRAsyncAction_DiscoverColocationSessions"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_DiscoverColocationSessions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_DiscoverColocationSessions), 2483204700U) },
+		{ Z_Construct_UClass_UOculusXRAsyncAction_StartColocationSessionAdvertisement, TEXT("UOculusXRAsyncAction_StartColocationSessionAdvertisement"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_StartColocationSessionAdvertisement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_StartColocationSessionAdvertisement), 4029406598U) },
+		{ Z_Construct_UClass_UOculusXRAsyncAction_StopColocationSessionAdvertisement, TEXT("UOculusXRAsyncAction_StopColocationSessionAdvertisement"), &Z_Registration_Info_UClass_UOculusXRAsyncAction_StopColocationSessionAdvertisement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAsyncAction_StopColocationSessionAdvertisement), 2524886612U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationLatentActions_h__Script_OculusXRColocation_745a095c045605ae2695f7d40f0e3537a9086ea2{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationLatentActions_h__Script_OculusXRColocation_70261f49adb72138104d6ea8e852dfa1948895b5{
 	TEXT("/Script/OculusXRColocation"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -18,14 +18,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UOculusXREyeTrackingComponent ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execClearRotationValues);
 
 
 struct Z_Construct_UClass_UOculusXREyeTrackingComponent_Statics;
 OCULUSXRMOVEMENT_API UClass* Z_Construct_UClass_UOculusXREyeTrackingComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXREyeTrackingComponent_Statics; \
 	friend OCULUSXRMOVEMENT_API UClass* ::Z_Construct_UClass_UOculusXREyeTrackingComponent(ETypeConstructPhase); \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXREyeTrackingComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXREyeTrackingComponent(UOculusXREyeTrackingComponent&&) = delete; \
 	UOculusXREyeTrackingComponent(const UOculusXREyeTrackingComponent&) = delete; \
@@ -44,13 +44,13 @@ public: \
 	NO_API virtual ~UOculusXREyeTrackingComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_27_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_27_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -60,6 +60,6 @@ class UOculusXREyeTrackingComponent;
 // ********** End Class UOculusXREyeTrackingComponent **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

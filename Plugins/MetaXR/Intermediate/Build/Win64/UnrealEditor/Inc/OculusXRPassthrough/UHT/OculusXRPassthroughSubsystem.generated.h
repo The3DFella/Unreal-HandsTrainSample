@@ -26,7 +26,7 @@ struct FOculusXRPersistentPassthroughParameters;
 struct Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate_Statics;
 OCULUSXRPASSTHROUGH_API UScriptStruct* Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_20_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_20_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate(ETypeConstructPhase::Inner); }
 
@@ -35,7 +35,7 @@ struct FLightingEstimation_LightingEstimate;
 // ********** End ScriptStruct FLightingEstimation_LightingEstimate ********************************
 
 // ********** Begin Class UOculusXRPassthroughSubsystem ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetEnvironmentMap); \
 	DECLARE_FUNCTION(execGetLightingEstimateColorCorrection); \
 	DECLARE_FUNCTION(execGetEnvironmentMapLightingEstimate); \
@@ -51,7 +51,7 @@ struct FLightingEstimation_LightingEstimate;
 struct Z_Construct_UClass_UOculusXRPassthroughSubsystem_Statics;
 OCULUSXRPASSTHROUGH_API UClass* Z_Construct_UClass_UOculusXRPassthroughSubsystem(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPassthroughSubsystem_Statics; \
 	friend OCULUSXRPASSTHROUGH_API UClass* ::Z_Construct_UClass_UOculusXRPassthroughSubsystem(ETypeConstructPhase); \
@@ -60,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRPassthroughSubsystem)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRPassthroughSubsystem(UOculusXRPassthroughSubsystem&&) = delete; \
 	UOculusXRPassthroughSubsystem(const UOculusXRPassthroughSubsystem&) = delete; \
@@ -70,13 +70,13 @@ public: \
 	NO_API virtual ~UOculusXRPassthroughSubsystem();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_35_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_35_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,6 +86,6 @@ class UOculusXRPassthroughSubsystem;
 // ********** End Class UOculusXRPassthroughSubsystem **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

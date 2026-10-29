@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRRedistPackage_Statics;
 OCULUSXREDITOR_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRRedistPackage(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_40_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_40_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRRedistPackage_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRRedistPackage(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FOculusXRRedistPackage;
 struct Z_Construct_UScriptStruct_FOculusXRAssetConfig_Statics;
 OCULUSXREDITOR_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAssetConfig(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_55_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_55_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAssetConfig_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAssetConfig(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FOculusXRAssetConfig;
 struct Z_Construct_UScriptStruct_FOculusXRAssetConfigArray_Statics;
 OCULUSXREDITOR_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAssetConfigArray(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_73_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_73_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAssetConfigArray_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAssetConfigArray(ETypeConstructPhase::Inner); }
 
@@ -58,7 +58,7 @@ struct FOculusXRAssetConfigArray;
 struct Z_Construct_UClass_UOculusXRPlatformToolSettings_Statics;
 OCULUSXREDITOR_API UClass* Z_Construct_UClass_UOculusXRPlatformToolSettings(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPlatformToolSettings_Statics; \
 	friend OCULUSXREDITOR_API UClass* ::Z_Construct_UClass_UOculusXRPlatformToolSettings(ETypeConstructPhase); \
@@ -69,7 +69,7 @@ public: \
 
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRPlatformToolSettings(UOculusXRPlatformToolSettings&&) = delete; \
 	UOculusXRPlatformToolSettings(const UOculusXRPlatformToolSettings&) = delete; \
@@ -79,12 +79,12 @@ public: \
 	NO_API virtual ~UOculusXRPlatformToolSettings();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_82_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_82_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h_85_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -94,7 +94,7 @@ class UOculusXRPlatformToolSettings;
 // ********** End Class UOculusXRPlatformToolSettings **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h
 
 // ********** Begin Enum EOculusXRPlatformTarget ***************************************************
 #define FOREACH_ENUM_EOCULUSXRPLATFORMTARGET(op) \

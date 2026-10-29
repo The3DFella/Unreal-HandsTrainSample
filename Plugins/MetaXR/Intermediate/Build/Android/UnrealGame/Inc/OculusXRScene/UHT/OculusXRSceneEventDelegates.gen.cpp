@@ -170,14 +170,14 @@ UOculusXRSceneEventDelegates::~UOculusXRSceneEventDelegates() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRSceneEventDelegates, TEXT("UOculusXRSceneEventDelegates"), &Z_Registration_Info_UClass_UOculusXRSceneEventDelegates, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneEventDelegates), 4291613250U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h__Script_OculusXRScene_cb12072ee54f9118241bb44b1288f6a0acaa294e{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h__Script_OculusXRScene_cb12072ee54f9118241bb44b1288f6a0acaa294e{
 	TEXT("/Script/OculusXRScene"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

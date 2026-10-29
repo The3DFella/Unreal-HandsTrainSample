@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRColocationSubsystem_Statics;
 OCULUSXRCOLOCATION_API UClass* Z_Construct_UClass_UOculusXRColocationSubsystem(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRColocationSubsystem_Statics; \
 	friend OCULUSXRCOLOCATION_API UClass* ::Z_Construct_UClass_UOculusXRColocationSubsystem(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRColocationSubsystem)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRColocationSubsystem(UOculusXRColocationSubsystem&&) = delete; \
 	UOculusXRColocationSubsystem(const UOculusXRColocationSubsystem&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UOculusXRColocationSubsystem();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_12_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_12_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UOculusXRColocationSubsystem;
 // ********** End Class UOculusXRColocationSubsystem ***********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

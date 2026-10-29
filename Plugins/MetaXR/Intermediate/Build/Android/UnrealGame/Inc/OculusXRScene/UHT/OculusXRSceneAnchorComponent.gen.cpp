@@ -34,12 +34,16 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintSpawnableComponent", "" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * DEPRECATED: AOculusXRSceneActor and associated classes are deprecated (v65), please use MR Utility Kit instead\n * (https://developer.oculus.com/documentation/unreal/unreal-mr-utility-kit-overview)\n */" },
+#endif
 		{ "DisplayName", "OculusXR Scene Anchor Component" },
 		{ "IncludePath", "OculusXRSceneAnchorComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRSceneAnchorComponent.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED: AOculusXRSceneActor and associated classes are deprecated (v65), please use MR Utility Kit instead\n(https://developer.oculus.com/documentation/unreal/unreal-mr-utility-kit-overview)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SemanticClassifications_MetaData[] = {
 		{ "Category", "OculusXR|Scene Anchor Component" },
@@ -137,14 +141,14 @@ UOculusXRSceneAnchorComponent::~UOculusXRSceneAnchorComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRSceneAnchorComponent, TEXT("UOculusXRSceneAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRSceneAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneAnchorComponent), 33906361U) },
+		{ Z_Construct_UClass_UOculusXRSceneAnchorComponent, TEXT("UOculusXRSceneAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRSceneAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneAnchorComponent), 838249101U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h__Script_OculusXRScene_2b9fae6062b4ed21738ee48da4dcc7204cda4ada{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h__Script_OculusXRScene_571d10decf3fb95acc72fb5c38da105d205c1d60{
 	TEXT("/Script/OculusXRScene"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -90,9 +90,13 @@ struct UHT_STATICS
 		{ "ColorMapType_None.DisplayName", "None" },
 		{ "ColorMapType_None.Name", "ColorMapType_None" },
 		{ "ColorMapType_None.ToolTip", "No color map is applied" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The color mapping technique which can be applied to a passthrough layer.\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-color-mapping/ for more details.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerShapes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The color mapping technique which can be applied to a passthrough layer.\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-color-mapping/ for more details." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -208,15 +212,15 @@ UEnum* Z_Construct_UEnum_OculusXRHMD_EOculusXRPassthroughLayerOrder(ETypeConstru
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, TEXT("EOculusXRColorMapType"), &ZRIE_EOculusXRColorMapType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2193768334U) },
+		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, TEXT("EOculusXRColorMapType"), &ZRIE_EOculusXRColorMapType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3061806451U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRPassthroughLayerOrder, TEXT("EOculusXRPassthroughLayerOrder"), &ZRIE_EOculusXRPassthroughLayerOrder, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3354506609U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_f6525e566ce09ce61adc7c32ada50f5028f03f59{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_e6ef996bb0d26352706d40654da9f05bfe209a6a{
 	TEXT("/Script/OculusXRHMD"),
 	nullptr, 0,
 	nullptr, 0,

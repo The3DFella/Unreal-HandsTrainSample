@@ -107,14 +107,14 @@ UOculusXRColocationSubsystem::~UOculusXRColocationSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h__Script_OculusXRColocation_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h__Script_OculusXRColocation_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRColocationSubsystem, TEXT("UOculusXRColocationSubsystem"), &Z_Registration_Info_UClass_UOculusXRColocationSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRColocationSubsystem), 2309458927U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h__Script_OculusXRColocation_4757bf128b66c4955c73df67b5d09e5fb6698fef{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSubsystem_h__Script_OculusXRColocation_4757bf128b66c4955c73df67b5d09e5fb6698fef{
 	TEXT("/Script/OculusXRColocation"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

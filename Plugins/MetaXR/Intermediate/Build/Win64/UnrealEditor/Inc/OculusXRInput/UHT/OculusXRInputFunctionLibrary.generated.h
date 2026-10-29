@@ -35,7 +35,7 @@ struct FOculusXRCapsuleCollider;
 struct Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics;
 OCULUSXRINPUT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRCapsuleCollider(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_138_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_138_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRCapsuleCollider(ETypeConstructPhase::Inner); }
 
@@ -44,7 +44,7 @@ struct FOculusXRCapsuleCollider;
 // ********** End ScriptStruct FOculusXRCapsuleCollider ********************************************
 
 // ********** Begin Class UOculusXRInputFunctionLibrary ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_RPC_WRAPPERS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_RPC_WRAPPERS \
 	DECLARE_FUNCTION(execGetLegacyOculusPoseTransform); \
 	DECLARE_FUNCTION(execGetControllerDrivenHandPoses); \
 	DECLARE_FUNCTION(execSetControllerDrivenHandPoses); \
@@ -79,7 +79,7 @@ struct FOculusXRCapsuleCollider;
 struct Z_Construct_UClass_UOculusXRInputFunctionLibrary_Statics;
 OCULUSXRINPUT_API UClass* Z_Construct_UClass_UOculusXRInputFunctionLibrary(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_INCLASS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRInputFunctionLibrary_Statics; \
 	friend OCULUSXRINPUT_API UClass* ::Z_Construct_UClass_UOculusXRInputFunctionLibrary(ETypeConstructPhase); \
@@ -88,7 +88,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRInputFunctionLibrary)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRInputFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRInputFunctionLibrary) \
@@ -100,13 +100,13 @@ public: \
 	NO_API virtual ~UOculusXRInputFunctionLibrary();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_148_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_GENERATED_BODY_LEGACY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_148_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_RPC_WRAPPERS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_STANDARD_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_RPC_WRAPPERS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_INCLASS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_151_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -116,7 +116,7 @@ class UOculusXRInputFunctionLibrary;
 // ********** End Class UOculusXRInputFunctionLibrary **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h
 
 // ********** Begin Enum EOculusXRHandType *********************************************************
 #define FOREACH_ENUM_EOCULUSXRHANDTYPE(op) \

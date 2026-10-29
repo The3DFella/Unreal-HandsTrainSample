@@ -54,10 +54,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// namespace XRSpaceFlags\n" },
+#endif
 		{ "FullBody.Name", "EOculusXRBodyJointSet::FullBody" },
 		{ "ModuleRelativePath", "Public/OculusXRMovementTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "namespace XRSpaceFlags" },
+#endif
 		{ "UpperBody.Name", "EOculusXRBodyJointSet::UpperBody" },
 	};
 #endif // WITH_METADATA
@@ -1823,11 +1827,11 @@ UScriptStruct* Z_Construct_UScriptStruct_FOculusXREyeGazesState(ETypeConstructPh
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRBodyJointSet, TEXT("EOculusXRBodyJointSet"), &ZRIE_EOculusXRBodyJointSet, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3846661765U) },
+		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRBodyJointSet, TEXT("EOculusXRBodyJointSet"), &ZRIE_EOculusXRBodyJointSet, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3282581660U) },
 		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRBodyTrackingFidelity, TEXT("EOculusXRBodyTrackingFidelity"), &ZRIE_EOculusXRBodyTrackingFidelity, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1015708359U) },
 		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRBoneID, TEXT("EOculusXRBoneID"), &ZRIE_EOculusXRBoneID, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1466579967U) },
 		{ Z_Construct_UEnum_OculusXRMovement_EFaceTrackingDataSource, TEXT("EFaceTrackingDataSource"), &ZRIE_EFaceTrackingDataSource, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3622463032U) },
@@ -1849,7 +1853,7 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FOculusXREyeGazesState, Z_Construct_UScriptStruct_FOculusXREyeGazesState_Statics::NewStructOps, TEXT("OculusXREyeGazesState"),&Z_Registration_Info_UScriptStruct_FOculusXREyeGazesState, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXREyeGazesState), 1540582107U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_0fab9d95483d78301d86fc524e1f433508c89650{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_89667191bde3777f969ea6ae1d2a6e1894ff55ae{
 	TEXT("/Script/OculusXRMovement"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

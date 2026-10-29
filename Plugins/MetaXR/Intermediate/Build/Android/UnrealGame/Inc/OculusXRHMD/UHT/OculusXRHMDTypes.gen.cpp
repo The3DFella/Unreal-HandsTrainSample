@@ -70,7 +70,9 @@ struct UHT_STATICS
 		{ "All.DisplayName", "All Devices" },
 		{ "All.Name", "EOculusXRTrackedDeviceType::All" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Tracked device types corresponding to ovrTrackedDeviceType enum*/" },
+#endif
 		{ "DeviceObjectZero.DisplayName", "DeviceObject Zero" },
 		{ "DeviceObjectZero.Name", "EOculusXRTrackedDeviceType::DeviceObjectZero" },
 		{ "HMD.DisplayName", "HMD" },
@@ -82,7 +84,9 @@ struct UHT_STATICS
 		{ "None.Name", "EOculusXRTrackedDeviceType::None" },
 		{ "RTouch.DisplayName", "Right Hand" },
 		{ "RTouch.Name", "EOculusXRTrackedDeviceType::RTouch" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tracked device types corresponding to ovrTrackedDeviceType enum" },
+#endif
 		{ "Touch.DisplayName", "All Hands" },
 		{ "Touch.Name", "EOculusXRTrackedDeviceType::Touch" },
 	};
@@ -227,39 +231,63 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Name of the user's profile. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Name of the user's profile." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Gender_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Gender of the user (\"male\", \"female\", etc). */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gender of the user (\"male\", \"female\", etc)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerHeight_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Height of the player, in meters */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Height of the player, in meters" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EyeHeight_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Height of the player, in meters */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Height of the player, in meters" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IPD_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Interpupillary distance of the player, in meters */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Interpupillary distance of the player, in meters" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NeckToEyeDistance_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Neck-to-eye distance, in meters. X - horizontal, Y - vertical. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Neck-to-eye distance, in meters. X - horizontal, Y - vertical." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExtraFields_MetaData[] = {
 		{ "Category", "Input|HeadMountedDisplay" },
@@ -481,9 +509,13 @@ struct UHT_STATICS
 		{ "Boundary_Outer.Name", "EOculusXRBoundaryType::Boundary_Outer" },
 		{ "Boundary_PlayArea.DisplayName", "Play Area" },
 		{ "Boundary_PlayArea.Name", "EOculusXRBoundaryType::Boundary_PlayArea" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Guardian boundary types*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Guardian boundary types" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -632,12 +664,16 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n * Hand tracking settings. Please check https://developer.oculus.com/documentation/unreal/unreal-hand-tracking/\n * for detailed information.\n */" },
+#endif
 		{ "ControllersAndHands.Name", "EOculusXRHandTrackingSupport::ControllersAndHands" },
 		{ "ControllersOnly.Name", "EOculusXRHandTrackingSupport::ControllersOnly" },
 		{ "HandsOnly.Name", "EOculusXRHandTrackingSupport::HandsOnly" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hand tracking settings. Please check https://developer.oculus.com/documentation/unreal/unreal-hand-tracking/\nfor detailed information." },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -1100,39 +1136,63 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n * Information about relationships between a triggered boundary (EOculusXRBoundaryType::Boundary_Outer or\n * EOculusXRBoundaryType::Boundary_PlayArea) and a device or point in the world.\n * All dimensions, points, and vectors are returned in Unreal world coordinate space.\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Information about relationships between a triggered boundary (EOculusXRBoundaryType::Boundary_Outer or\nEOculusXRBoundaryType::Boundary_PlayArea) and a device or point in the world.\nAll dimensions, points, and vectors are returned in Unreal world coordinate space." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IsTriggering_MetaData[] = {
 		{ "Category", "Boundary Test Result" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Is there a triggering interaction between the device/point and specified boundary? */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Is there a triggering interaction between the device/point and specified boundary?" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeviceType_MetaData[] = {
 		{ "Category", "Boundary Test Result" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Device type triggering boundary (EOculusXRTrackedDeviceType::None if BoundaryTestResult corresponds to a point rather than a device) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Device type triggering boundary (EOculusXRTrackedDeviceType::None if BoundaryTestResult corresponds to a point rather than a device)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClosestDistance_MetaData[] = {
 		{ "Category", "Boundary Test Result" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Distance of device/point to surface of boundary specified by BoundaryType */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Distance of device/point to surface of boundary specified by BoundaryType" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClosestPoint_MetaData[] = {
 		{ "Category", "Boundary Test Result" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Closest point on surface corresponding to specified boundary */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Closest point on surface corresponding to specified boundary" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClosestPointNormal_MetaData[] = {
 		{ "Category", "Boundary Test Result" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Normal of closest point */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Normal of closest point" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1159,7 +1219,7 @@ struct UHT_STATICS
 // ********** Begin ScriptStruct FOculusXRGuardianTestResult Property Definitions ******************
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_IsTriggering = { "IsTriggering", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(FOculusXRGuardianTestResult), &UHT_STATICS::NewProp_IsTriggering_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IsTriggering_MetaData), NewProp_IsTriggering_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_DeviceType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRGuardianTestResult, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeviceType_MetaData), NewProp_DeviceType_MetaData) }; // 89be8033432191e994bf3382af611bd8db362474
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRGuardianTestResult, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeviceType_MetaData), NewProp_DeviceType_MetaData) }; // acf429d83a3748ebfd59a9340053b1a765452c66
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_ClosestDistance = { "ClosestDistance", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRGuardianTestResult, ClosestDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClosestDistance_MetaData), NewProp_ClosestDistance_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ClosestPoint = { "ClosestPoint", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRGuardianTestResult, ClosestPoint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClosestPoint_MetaData), NewProp_ClosestPoint_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ClosestPointNormal = { "ClosestPointNormal", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRGuardianTestResult, ClosestPointNormal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClosestPointNormal_MetaData), NewProp_ClosestPointNormal_MetaData) };
@@ -1285,37 +1345,51 @@ struct UHT_STATICS
 		{ "AllowedClasses", "/Script/Engine.Texture" },
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture to display" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TransformInMeters_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "transform of center of quad (meters)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_QuadSizeInMeters_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Dimensions in meters." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeltaRotation_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A delta rotation that will be added each rendering frame (half rate of full vsync)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextureOffset_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture offset amount from the top left corner." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextureScale_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Texture scale." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bNoAlphaChannel_MetaData[] = {
 		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the splash layer uses it's alpha channel." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1852,66 +1926,106 @@ struct UHT_STATICS
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AppCpuTime_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** App CPU Time (ms) */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "AppCpuTime is deprecated and not supported by OpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "App CPU Time (ms)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AppGpuTime_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** App GPU Time (ms) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "App GPU Time (ms)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ComCpuTime_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Compositor CPU Time (ms) */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "ComCpuTime is deprecated and not supported by OpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compositor CPU Time (ms)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ComGpuTime_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Compositor GPU Time (ms) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compositor GPU Time (ms)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DroppedFrames_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Compositor Dropped Frames */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compositor Dropped Frames" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GpuUtil_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** System GPU Util % */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "System GPU Util %" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CpuUtilAvg_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** System CPU Util Avg % */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "System CPU Util Avg %" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CpuUtilWorst_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** System CPU Util Worst % */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "System CPU Util Worst %" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ComSpaceWarpMode_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Compositor SpaceWarp Mode: 0: Disabled; 1: Enabled */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compositor SpaceWarp Mode: 0: Disabled; 1: Enabled" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CpuCoreUtil_MetaData[] = {
 		{ "Category", "Performance Metrics" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** CPU Core Util % */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "CPU Core Util %" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2078,7 +2192,9 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Resolution of the environment map for Lighting Estimation */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
 		{ "Resolution_128.Comment", "/** 128x128 resolution */" },
 		{ "Resolution_128.DisplayName", "128x128" },
@@ -2101,7 +2217,9 @@ struct UHT_STATICS
 		{ "Resolution_64.Name", "Resolution_64" },
 		{ "Resolution_64.ToolTip", "64x64 resolution" },
 		{ "Resolution_MAX.Name", "Resolution_MAX" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Resolution of the environment map for Lighting Estimation" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -2160,7 +2278,9 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Pixel format of the environment map for Lighting Estimation */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
 		{ "PixelFormat_MAX.Name", "PixelFormat_MAX" },
 		{ "PixelFormat_Rgba16f.Comment", "/** RGBA16f */" },
@@ -2171,7 +2291,9 @@ struct UHT_STATICS
 		{ "PixelFormat_Rgba32f.DisplayName", "RGBA32f" },
 		{ "PixelFormat_Rgba32f.Name", "PixelFormat_Rgba32f" },
 		{ "PixelFormat_Rgba32f.ToolTip", "RGBA32f" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pixel format of the environment map for Lighting Estimation" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -2228,7 +2350,9 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Cube face of the environment map for Lighting Estimation */" },
+#endif
 		{ "CubeFace_NegativeX.Comment", "/** Front face (-X) */" },
 		{ "CubeFace_NegativeX.DisplayName", "Negative X" },
 		{ "CubeFace_NegativeX.Name", "CubeFace_NegativeX" },
@@ -2254,7 +2378,9 @@ struct UHT_STATICS
 		{ "CubeFace_PositiveZ.Name", "CubeFace_PositiveZ" },
 		{ "CubeFace_PositiveZ.ToolTip", "Top face (+Z)" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cube face of the environment map for Lighting Estimation" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -2304,16 +2430,16 @@ UEnum* Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace(ETypeConstruct
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, TEXT("EOculusXRTrackedDeviceType"), &ZRIE_EOculusXRTrackedDeviceType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2310963251U) },
+		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, TEXT("EOculusXRTrackedDeviceType"), &ZRIE_EOculusXRTrackedDeviceType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2901682648U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRFoveatedRenderingMethod, TEXT("EOculusXRFoveatedRenderingMethod"), &ZRIE_EOculusXRFoveatedRenderingMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1217290393U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRFoveatedRenderingLevel, TEXT("EOculusXRFoveatedRenderingLevel"), &ZRIE_EOculusXRFoveatedRenderingLevel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1907838910U) },
-		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, TEXT("EOculusXRBoundaryType"), &ZRIE_EOculusXRBoundaryType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 561556228U) },
+		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, TEXT("EOculusXRBoundaryType"), &ZRIE_EOculusXRBoundaryType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1020203356U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRColorSpace, TEXT("EOculusXRColorSpace"), &ZRIE_EOculusXRColorSpace, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1518286784U) },
-		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingSupport, TEXT("EOculusXRHandTrackingSupport"), &ZRIE_EOculusXRHandTrackingSupport, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2271777473U) },
+		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingSupport, TEXT("EOculusXRHandTrackingSupport"), &ZRIE_EOculusXRHandTrackingSupport, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3352627990U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingFrequency, TEXT("EOculusXRHandTrackingFrequency"), &ZRIE_EOculusXRHandTrackingFrequency, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2643485169U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingVersion, TEXT("EOculusXRHandTrackingVersion"), &ZRIE_EOculusXRHandTrackingVersion, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3575390292U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRProcessorPerformanceLevel, TEXT("EOculusXRProcessorPerformanceLevel"), &ZRIE_EOculusXRProcessorPerformanceLevel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4210882124U) },
@@ -2329,19 +2455,19 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_OculusXRHMD_EFaceTrackingDataSourceConfig, TEXT("EFaceTrackingDataSourceConfig"), &ZRIE_EFaceTrackingDataSourceConfig, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 174629142U) },
 		{ Z_Construct_UEnum_OculusXRHMD_ESystemSplashBackgroundType, TEXT("ESystemSplashBackgroundType"), &ZRIE_ESystemSplashBackgroundType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3959421221U) },
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRMPPoseRestoreType, TEXT("EOculusXRMPPoseRestoreType"), &ZRIE_EOculusXRMPPoseRestoreType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 186756555U) },
-		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_Resolution, TEXT("ELightingEstimation_Resolution"), &ZRIE_ELightingEstimation_Resolution, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3336090455U) },
-		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_PixelFormat, TEXT("ELightingEstimation_PixelFormat"), &ZRIE_ELightingEstimation_PixelFormat, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4062361015U) },
-		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace, TEXT("ELightingEstimation_CubeFace"), &ZRIE_ELightingEstimation_CubeFace, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1087283647U) },
+		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_Resolution, TEXT("ELightingEstimation_Resolution"), &ZRIE_ELightingEstimation_Resolution, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3332568678U) },
+		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_PixelFormat, TEXT("ELightingEstimation_PixelFormat"), &ZRIE_ELightingEstimation_PixelFormat, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1892602603U) },
+		{ Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace, TEXT("ELightingEstimation_CubeFace"), &ZRIE_ELightingEstimation_CubeFace, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1268988577U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField, Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField_Statics::NewStructOps, TEXT("OculusXRHmdUserProfileField"),&Z_Registration_Info_UScriptStruct_FOculusXRHmdUserProfileField, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRHmdUserProfileField), 554975864U) },
-		{ Z_Construct_UScriptStruct_FOculusXRHmdUserProfile, Z_Construct_UScriptStruct_FOculusXRHmdUserProfile_Statics::NewStructOps, TEXT("OculusXRHmdUserProfile"),&Z_Registration_Info_UScriptStruct_FOculusXRHmdUserProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRHmdUserProfile), 1217479368U) },
-		{ Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, Z_Construct_UScriptStruct_FOculusXRGuardianTestResult_Statics::NewStructOps, TEXT("OculusXRGuardianTestResult"),&Z_Registration_Info_UScriptStruct_FOculusXRGuardianTestResult, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRGuardianTestResult), 1426401412U) },
-		{ Z_Construct_UScriptStruct_FOculusXRSplashDesc, Z_Construct_UScriptStruct_FOculusXRSplashDesc_Statics::NewStructOps, TEXT("OculusXRSplashDesc"),&Z_Registration_Info_UScriptStruct_FOculusXRSplashDesc, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRSplashDesc), 3675326242U) },
-		{ Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics, Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics_Statics::NewStructOps, TEXT("OculusXRPerformanceMetrics"),&Z_Registration_Info_UScriptStruct_FOculusXRPerformanceMetrics, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRPerformanceMetrics), 344236548U) },
+		{ Z_Construct_UScriptStruct_FOculusXRHmdUserProfile, Z_Construct_UScriptStruct_FOculusXRHmdUserProfile_Statics::NewStructOps, TEXT("OculusXRHmdUserProfile"),&Z_Registration_Info_UScriptStruct_FOculusXRHmdUserProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRHmdUserProfile), 1361222771U) },
+		{ Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, Z_Construct_UScriptStruct_FOculusXRGuardianTestResult_Statics::NewStructOps, TEXT("OculusXRGuardianTestResult"),&Z_Registration_Info_UScriptStruct_FOculusXRGuardianTestResult, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRGuardianTestResult), 1524467160U) },
+		{ Z_Construct_UScriptStruct_FOculusXRSplashDesc, Z_Construct_UScriptStruct_FOculusXRSplashDesc_Statics::NewStructOps, TEXT("OculusXRSplashDesc"),&Z_Registration_Info_UScriptStruct_FOculusXRSplashDesc, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRSplashDesc), 2780134296U) },
+		{ Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics, Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics_Statics::NewStructOps, TEXT("OculusXRPerformanceMetrics"),&Z_Registration_Info_UScriptStruct_FOculusXRPerformanceMetrics, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRPerformanceMetrics), 934842449U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_e9d2b812efcda7f77d18884d7cdf521187eb3a82{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_dc72fc81e1dd97033cb648a83d8ede06b82a55f1{
 	TEXT("/Script/OculusXRHMD"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

@@ -189,15 +189,23 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PositionOffset_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Position offset in local space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Position offset in local space." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RotationOffset_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Rotation offset in local space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Rotation offset in local space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -272,15 +280,23 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Bones_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set of bones to which the correction will be applied.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set of bones to which the correction will be applied." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoneCorrection_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The correction for this set.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The correction for this set." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -302,7 +318,7 @@ struct UHT_STATICS
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Bones_ElementProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_Bones_ElementProp = { "Bones", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OculusXRMovement_EOculusXRBoneID, METADATA_PARAMS(0, nullptr) }; // 576a3bff3a4ec47021e6905217f95ba0b04d5736
 const UECodeGen_Private::FSetPropertyParams UHT_STATICS::NewProp_Bones = { "Bones", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Set, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRBoneCorrectionSet, Bones), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Bones_MetaData), NewProp_Bones_MetaData) }; // 576a3bff3a4ec47021e6905217f95ba0b04d5736
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_BoneCorrection = { "BoneCorrection", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRBoneCorrectionSet, BoneCorrection), Z_Construct_UScriptStruct_FOculusXRBoneCorrection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoneCorrection_MetaData), NewProp_BoneCorrection_MetaData) }; // 063cda54dd7c056b393a93fee6d2a71066780da8
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_BoneCorrection = { "BoneCorrection", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRBoneCorrectionSet, BoneCorrection), Z_Construct_UScriptStruct_FOculusXRBoneCorrection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoneCorrection_MetaData), NewProp_BoneCorrection_MetaData) }; // 58970334863dc194ddcf12597ff76709c048020c
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Bones_ElementProp_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Bones_ElementProp,
@@ -362,33 +378,53 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoneRemapping_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Remapping from bone ID to target skeleton's bone name.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remapping from bone ID to target skeleton's bone name." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GlobalCorrection_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Correction applied to all bones.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Correction applied to all bones." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocalCorrections_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Groups of local bone corrections.\n\x09 *\n\x09 * Order matters. A bone can be corrected multiple times.\n\x09 * Corrections will be applied with the same order as in this array.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Groups of local bone corrections.\n\nOrder matters. A bone can be corrected multiple times.\nCorrections will be applied with the same order as in this array." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RetargetingMode_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Switch between retargeting modes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Switch between retargeting modes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ForwardMesh_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Forward vector axis is the direction towards which the target mesh is oriented.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetBodyAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Forward vector axis is the direction towards which the target mesh is oriented." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -418,9 +454,9 @@ const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_BoneRemapping_
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoneRemapping_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoneRemapping_Key_KeyProp = { "BoneRemapping_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OculusXRMovement_EOculusXRBoneID, METADATA_PARAMS(0, nullptr) }; // 576a3bff3a4ec47021e6905217f95ba0b04d5736
 const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_BoneRemapping = { "BoneRemapping", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, BoneRemapping), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoneRemapping_MetaData), NewProp_BoneRemapping_MetaData) }; // 576a3bff3a4ec47021e6905217f95ba0b04d5736
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_GlobalCorrection = { "GlobalCorrection", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, GlobalCorrection), Z_Construct_UScriptStruct_FOculusXRBoneCorrection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GlobalCorrection_MetaData), NewProp_GlobalCorrection_MetaData) }; // 063cda54dd7c056b393a93fee6d2a71066780da8
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LocalCorrections_Inner = { "LocalCorrections", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet, METADATA_PARAMS(0, nullptr) }; // a9d113133b774989df6409c8cd4260385fc4152c
-const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_LocalCorrections = { "LocalCorrections", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, LocalCorrections), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalCorrections_MetaData), NewProp_LocalCorrections_MetaData) }; // a9d113133b774989df6409c8cd4260385fc4152c
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_GlobalCorrection = { "GlobalCorrection", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, GlobalCorrection), Z_Construct_UScriptStruct_FOculusXRBoneCorrection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GlobalCorrection_MetaData), NewProp_GlobalCorrection_MetaData) }; // 58970334863dc194ddcf12597ff76709c048020c
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LocalCorrections_Inner = { "LocalCorrections", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet, METADATA_PARAMS(0, nullptr) }; // 8cbb146796068fe2cb89648b89c8ec0932a018fc
+const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_LocalCorrections = { "LocalCorrections", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, LocalCorrections), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocalCorrections_MetaData), NewProp_LocalCorrections_MetaData) }; // 8cbb146796068fe2cb89648b89c8ec0932a018fc
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_RetargetingMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_RetargetingMode = { "RetargetingMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetBodyAsset, RetargetingMode), Z_Construct_UEnum_OculusXRMovement_EOculusXRRetargetingMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RetargetingMode_MetaData), NewProp_RetargetingMode_MetaData) }; // 78f1e460769c81d5cead6bd623e73237406a9639
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_ForwardMesh_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
@@ -502,7 +538,7 @@ UOculusXRLiveLinkRetargetBodyAsset::~UOculusXRLiveLinkRetargetBodyAsset() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -510,14 +546,14 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRRetargetingMode, TEXT("EOculusXRRetargetingMode"), &ZRIE_EOculusXRRetargetingMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2029118560U) },
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FOculusXRBoneCorrection, Z_Construct_UScriptStruct_FOculusXRBoneCorrection_Statics::NewStructOps, TEXT("OculusXRBoneCorrection"),&Z_Registration_Info_UScriptStruct_FOculusXRBoneCorrection, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRBoneCorrection), 104651348U) },
-		{ Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet, Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet_Statics::NewStructOps, TEXT("OculusXRBoneCorrectionSet"),&Z_Registration_Info_UScriptStruct_FOculusXRBoneCorrectionSet, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRBoneCorrectionSet), 2849051411U) },
+		{ Z_Construct_UScriptStruct_FOculusXRBoneCorrection, Z_Construct_UScriptStruct_FOculusXRBoneCorrection_Statics::NewStructOps, TEXT("OculusXRBoneCorrection"),&Z_Registration_Info_UScriptStruct_FOculusXRBoneCorrection, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRBoneCorrection), 1486291764U) },
+		{ Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet, Z_Construct_UScriptStruct_FOculusXRBoneCorrectionSet_Statics::NewStructOps, TEXT("OculusXRBoneCorrectionSet"),&Z_Registration_Info_UScriptStruct_FOculusXRBoneCorrectionSet, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRBoneCorrectionSet), 2361070695U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset, TEXT("UOculusXRLiveLinkRetargetBodyAsset"), &Z_Registration_Info_UClass_UOculusXRLiveLinkRetargetBodyAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLiveLinkRetargetBodyAsset), 1244412003U) },
+		{ Z_Construct_UClass_UOculusXRLiveLinkRetargetBodyAsset, TEXT("UOculusXRLiveLinkRetargetBodyAsset"), &Z_Registration_Info_UClass_UOculusXRLiveLinkRetargetBodyAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLiveLinkRetargetBodyAsset), 1978459321U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h__Script_OculusXRMovement_121550adbfb5cbe7a1e039b91bbf6c556fd22c97{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetBodyAsset_h__Script_OculusXRMovement_dcb68bb5abc01330f9ae61daee95e2a33bc15394{
 	TEXT("/Script/OculusXRMovement"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

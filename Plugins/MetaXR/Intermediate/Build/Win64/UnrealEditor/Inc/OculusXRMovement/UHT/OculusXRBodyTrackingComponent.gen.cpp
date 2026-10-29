@@ -94,9 +94,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Restore all bones to their initial transforms\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Restore all bones to their initial transforms" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -144,23 +148,35 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BodyTrackingMode_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * How are the results of body tracking applied to the mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How are the results of body tracking applied to the mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoneNames_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The bone name associated with each bone ID.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The bone name associated with each bone ID." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ConfidenceThreshold_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Do not apply body state to bones if confidence is lower than this value. Confidence is in range [0,1].\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Do not apply body state to bones if confidence is lower than this value. Confidence is in range [0,1]." },
+#endif
 		{ "UIMax", "1" },
 		{ "UIMin", "0" },
 	};
@@ -181,7 +197,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms, "ResetAllBoneTransforms" }, // a8d9224519a06f46865e833f162b4f27bd9fc17f
+		{ &Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms, "ResetAllBoneTransforms" }, // 4a9fb5c49ad52d9920fe764965e48e80a7fa5c44
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -276,17 +292,17 @@ UOculusXRBodyTrackingComponent::~UOculusXRBodyTrackingComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ Z_Construct_UEnum_OculusXRMovement_EOculusXRBodyTrackingMode, TEXT("EOculusXRBodyTrackingMode"), &ZRIE_EOculusXRBodyTrackingMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 407619112U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRBodyTrackingComponent, TEXT("UOculusXRBodyTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRBodyTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRBodyTrackingComponent), 3687000546U) },
+		{ Z_Construct_UClass_UOculusXRBodyTrackingComponent, TEXT("UOculusXRBodyTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRBodyTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRBodyTrackingComponent), 1301877345U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h__Script_OculusXRMovement_20523d8b85e3bf08b1cf7eb8809ef2589641f2bd{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h__Script_OculusXRMovement_8d077c7c553460c43327a485cb9bb0f0611d421f{
 	TEXT("/Script/OculusXRMovement"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

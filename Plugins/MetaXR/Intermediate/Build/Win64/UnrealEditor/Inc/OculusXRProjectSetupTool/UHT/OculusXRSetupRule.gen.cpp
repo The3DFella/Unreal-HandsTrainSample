@@ -33,7 +33,9 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Rule platforms\n */" },
+#endif
 		{ "MetaLink.Comment", "// Link\n" },
 		{ "MetaLink.DisplayName", "Link" },
 		{ "MetaLink.Name", "ESetupRulePlatform::MetaLink" },
@@ -50,7 +52,9 @@ struct UHT_STATICS
 		{ "None.Comment", "// None\n" },
 		{ "None.Name", "ESetupRulePlatform::None" },
 		{ "None.ToolTip", "None" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Rule platforms" },
+#endif
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -99,14 +103,14 @@ UEnum* Z_Construct_UEnum_OculusXRProjectSetupTool_ESetupRulePlatform(ETypeConstr
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h__Script_OculusXRProjectSetupTool_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h__Script_OculusXRProjectSetupTool_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ Z_Construct_UEnum_OculusXRProjectSetupTool_ESetupRulePlatform, TEXT("ESetupRulePlatform"), &ZRIE_ESetupRulePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 776496691U) },
+		{ Z_Construct_UEnum_OculusXRProjectSetupTool_ESetupRulePlatform, TEXT("ESetupRulePlatform"), &ZRIE_ESetupRulePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4190549736U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h__Script_OculusXRProjectSetupTool_e281eba6fef1646c3e7c49fea5b7e419660456af{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRSetupRule_h__Script_OculusXRProjectSetupTool_f876193e75023cf009744c8ac19866083424ba81{
 	TEXT("/Script/OculusXRProjectSetupTool"),
 	nullptr, 0,
 	nullptr, 0,

@@ -727,7 +727,7 @@ UOculusXRStorableAnchorComponent::~UOculusXRStorableAnchorComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponents_h__Script_OculusXRAnchors_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponents_h__Script_OculusXRAnchors_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -738,7 +738,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UOculusXRStorableAnchorComponent, TEXT("UOculusXRStorableAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRStorableAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStorableAnchorComponent), 670213937U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponents_h__Script_OculusXRAnchors_0ea48dbe21a0e112a48aff322f2179dbce7b75b5{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponents_h__Script_OculusXRAnchors_0ea48dbe21a0e112a48aff322f2179dbce7b75b5{
 	TEXT("/Script/OculusXRAnchors"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

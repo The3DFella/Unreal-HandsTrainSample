@@ -100,9 +100,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Orient and scale the given actor to the anchors plane or volume bounds.\n\x09 * @param Anchor The anchor\n\x09 * @param Actor The actor which should be oriented and scaled to the given anchor.\n\x09 * @param ScalingMode The scaling mode that should be used when doing the matching.\n\x09 * @param bCalculateFacingDirection Whether or not the facing direction of the anchor should be calculated and used for the orientation process.\n\x09 * @param bMatchAspectRatio Whether or not the aspect ratio of the anchor should be matched.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Orient and scale the given actor to the anchors plane or volume bounds.\n@param Anchor The anchor\n@param Actor The actor which should be oriented and scaled to the given anchor.\n@param ScalingMode The scaling mode that should be used when doing the matching.\n@param bCalculateFacingDirection Whether or not the facing direction of the anchor should be calculated and used for the orientation process.\n@param bMatchAspectRatio Whether or not the aspect ratio of the anchor should be matched." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -219,9 +223,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Override this method to inject custom scaling logic into the orientation process of an actor. The scale that this method returns\n\x09 * gets used to scale the actor that will be spawned.\n\x09 * @param Anchor The anchor for which the actor gets spawned.\n\x09 * @param Actor The actor that gets spawned.\n\x09 * @param ChildBounds the rotated bounding box of the actor that should be spawned. For planes only X and Y components are relevant.\n\x09 * @param Scale The scale that will be applied to the actor that will be spawned in place of the anchor. For planes only X and Y components are relevant.\n\x09 * @return The offset that should be applied to the actor. In case it's a plane anchor only the X and Y component are relevant.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override this method to inject custom scaling logic into the orientation process of an actor. The scale that this method returns\ngets used to scale the actor that will be spawned.\n@param Anchor The anchor for which the actor gets spawned.\n@param Actor The actor that gets spawned.\n@param ChildBounds the rotated bounding box of the actor that should be spawned. For planes only X and Y components are relevant.\n@param Scale The scale that will be applied to the actor that will be spawned in place of the anchor. For planes only X and Y components are relevant.\n@return The offset that should be applied to the actor. In case it's a plane anchor only the X and Y component are relevant." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ChildBounds_MetaData[] = {
 		{ "NativeConst", "" },
@@ -323,9 +331,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Override this method to inject custom scaling logic into the orientation process of an actor. The scale that this method returns\n\x09 * gets used to scale the actor that will be spawned.\n\x09 * @param Anchor The anchor for which the actor gets spawned.\n\x09 * @param SpawnedActor The actor that gets spawned.\n\x09 * @param StretchedScale The scale that would need to be applied to the actor to make it match with the bounding box of the anchor.\n\x09 *                       In case it's a plane anchor only the X and Y component of the scale are relevant.\n\x09 * @return The scale that should be applied to the actor. In case it's a plane anchor only the X and Y component are relevant.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override this method to inject custom scaling logic into the orientation process of an actor. The scale that this method returns\ngets used to scale the actor that will be spawned.\n@param Anchor The anchor for which the actor gets spawned.\n@param SpawnedActor The actor that gets spawned.\n@param StretchedScale The scale that would need to be applied to the actor to make it match with the bounding box of the anchor.\n                      In case it's a plane anchor only the X and Y component of the scale are relevant.\n@return The scale that should be applied to the actor. In case it's a plane anchor only the X and Y component are relevant." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StretchedScale_MetaData[] = {
 		{ "NativeConst", "" },
@@ -393,9 +405,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return all spawned actors from all rooms.\n\x09 * @param Actors The spawned actors.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return all spawned actors from all rooms.\n@param Actors The spawned actors." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -453,9 +469,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Return all spawned actors from the give room.\n\x09 * @param Room The room from which the actors should be returned\n\x09 * @param Actors The spawned actors.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return all spawned actors from the give room.\n@param Room The room from which the actors should be returned\n@param Actors The spawned actors." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -731,9 +751,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Select the SpawnActor based on the size that matches best the anchor bounds.\n\x09 * @param Anchor The anchor for which a actor should be spawned.\n\x09 * @param SpawnGroup The spawn group.\n\x09 * @param OutSpawnActor The found spawn actor.\n\x09 * @return True if a SpawnActor could be found. Otherwise, false.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Select the SpawnActor based on the size that matches best the anchor bounds.\n@param Anchor The anchor for which a actor should be spawned.\n@param SpawnGroup The spawn group.\n@param OutSpawnActor The found spawn actor.\n@return True if a SpawnActor could be found. Otherwise, false." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroup_MetaData[] = {
 		{ "NativeConst", "" },
@@ -756,8 +780,8 @@ struct UHT_STATICS
 
 // ********** Begin Function SelectSpawnActorClosestSize Property Definitions **********************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventSelectSpawnActorClosestSize_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Anchor,
@@ -835,9 +859,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Override this method to inject custom actor selection logic. This will be called for every actor that gets spawned by the AMRUKAnchorActorSpawner.\n\x09 * @param Anchor The anchor for which a actor should be spawned\n\x09 * @param SpawnGroup The group of actors that can be used for decision making.\n\x09 * @param RandomStream A random stream to randomize outputs if necessary.\n\x09 * @param OutSpawnActor The actor which should be spawned.\n\x09 * @return Whether the selection process was successful or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override this method to inject custom actor selection logic. This will be called for every actor that gets spawned by the AMRUKAnchorActorSpawner.\n@param Anchor The anchor for which a actor should be spawned\n@param SpawnGroup The group of actors that can be used for decision making.\n@param RandomStream A random stream to randomize outputs if necessary.\n@param OutSpawnActor The actor which should be spawned.\n@return Whether the selection process was successful or not." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroup_MetaData[] = {
 		{ "NativeConst", "" },
@@ -864,9 +892,9 @@ struct UHT_STATICS
 
 // ********** Begin Function SelectSpawnActorCustom Property Definitions ***************************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RandomStream = { "RandomStream", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, RandomStream), Z_Construct_UScriptStruct_FRandomStream, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RandomStream_MetaData), NewProp_RandomStream_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventSelectSpawnActorCustom_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Anchor,
@@ -920,9 +948,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Select a SpawnActor from the SpawnGroup with respect to the given selection mode in SpawnGroup.\n\x09 * @param Anchor The anchor for which the actor should be spawned.\n\x09 * @param SpawnGroup The spawn group.\n\x09 * @param RandomStream The random stream\n\x09 * @param OutSpawnActor The found spawn actor\n\x09 * @return True if a spawn actor has been found. Otherwise, false.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Select a SpawnActor from the SpawnGroup with respect to the given selection mode in SpawnGroup.\n@param Anchor The anchor for which the actor should be spawned.\n@param SpawnGroup The spawn group.\n@param RandomStream The random stream\n@param OutSpawnActor The found spawn actor\n@return True if a spawn actor has been found. Otherwise, false." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroup_MetaData[] = {
 		{ "NativeConst", "" },
@@ -949,9 +981,9 @@ struct UHT_STATICS
 
 // ********** Begin Function SelectSpawnActorFromSpawnGroup Property Definitions *******************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RandomStream = { "RandomStream", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, RandomStream), Z_Construct_UScriptStruct_FRandomStream, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RandomStream_MetaData), NewProp_RandomStream_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventSelectSpawnActorFromSpawnGroup_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Anchor,
@@ -1004,9 +1036,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Select the SpawnActor randomly\n\x09 * @param SpawnGroup The spawn group.\n\x09 * @param RandomStream The random stream to use for the random selection.\n\x09 * @param OutSpawnActor The found spawn actor.\n\x09 * @return True if a SpawnActor could be found. Otherwise, false.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Select the SpawnActor randomly\n@param SpawnGroup The spawn group.\n@param RandomStream The random stream to use for the random selection.\n@param OutSpawnActor The found spawn actor.\n@return True if a SpawnActor could be found. Otherwise, false." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroup_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1031,9 +1067,9 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function SelectSpawnActorRandom Property Definitions ***************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RandomStream = { "RandomStream", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms, RandomStream), Z_Construct_UScriptStruct_FRandomStream, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RandomStream_MetaData), NewProp_RandomStream_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnActor = { "OutSpawnActor", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms, OutSpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(0, nullptr) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventSelectSpawnActorRandom_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_SpawnGroup,
@@ -1082,9 +1118,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if for the given SpawnGroup a procedural mesh should be spawned.\n\x09 * @param SpawnGroup The spawn group to check\n\x09 * @return Whether a procedural mesh should be spawned or not\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if for the given SpawnGroup a procedural mesh should be spawned.\n@param SpawnGroup The spawn group to check\n@return Whether a procedural mesh should be spawned or not" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroup_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1104,7 +1144,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function ShouldAnchorFallbackToProceduralMesh Property Definitions *************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldAnchorFallbackToProceduralMesh_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldAnchorFallbackToProceduralMesh_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventShouldAnchorFallbackToProceduralMesh_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_SpawnGroup,
@@ -1151,9 +1191,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if there should be spawned a actor for the given label. This function may return false in case\n\x09 * the spawner should fallback to a procedural mesh.\n\x09 * @param Anchor The anchor where the actor should be spawned\n\x09 * @param Label The label of the anchor\n\x09 * @param OutSpawnGroup Will be set in case a actor should be spawned\n\x09 * @return Whether or not a actor should be spawned for the anchor\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if there should be spawned a actor for the given label. This function may return false in case\nthe spawner should fallback to a procedural mesh.\n@param Anchor The anchor where the actor should be spawned\n@param Label The label of the anchor\n@param OutSpawnGroup Will be set in case a actor should be spawned\n@return Whether or not a actor should be spawned for the anchor" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Label_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1177,7 +1221,7 @@ struct UHT_STATICS
 // ********** Begin Function ShouldSpawnActorForAnchor Property Definitions ************************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldSpawnActorForAnchor_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_Label = { "Label", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldSpawnActorForAnchor_Parms, Label), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Label_MetaData), NewProp_Label_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnGroup = { "OutSpawnGroup", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldSpawnActorForAnchor_Parms, OutSpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutSpawnGroup = { "OutSpawnGroup", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventShouldSpawnActorForAnchor_Parms, OutSpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(MRUKAnchorActorSpawner_eventShouldSpawnActorForAnchor_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Anchor,
@@ -1225,9 +1269,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawns the meshes for the given labels above on the anchor positions in each room.\n\x09 * There might be multiple actor classes for a give label. If thats the case a actor class will be chosen radomly.\n\x09 * The seed for this random generator can be set by AnchorRandomSpawnSeed.\n\x09 * This function will be called automatically after the mixed reality utility kit initialized unless\n\x09 * the option SpawnOnStart is set to false.\n\x09 * If there is no actor class specified for a label then a procedural mesh matching the anchors volume and plane\n\x09 * will be generated.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawns the meshes for the given labels above on the anchor positions in each room.\nThere might be multiple actor classes for a give label. If thats the case a actor class will be chosen radomly.\nThe seed for this random generator can be set by AnchorRandomSpawnSeed.\nThis function will be called automatically after the mixed reality utility kit initialized unless\nthe option SpawnOnStart is set to false.\nIf there is no actor class specified for a label then a procedural mesh matching the anchors volume and plane\nwill be generated." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1306,9 +1354,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method gets called by the default implementation of SpawnAnchorActorForLabel() to spawn the anchor and orient and scale\n\x09 * it correct to the given anchor. If you are planning to implement a custom spawning logic you likely want to use this function\n\x09 * in the end to actually spawn the actor as it takes care of orientation and scaling of the actor with regards to the anchor bounds.\n\x09 * @param Anchor The anchor to spawn the actor for.\n\x09 * @param SpawnActor Information on which actor should be spawned.\n\x09 * @return The spawned actor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method gets called by the default implementation of SpawnAnchorActorForLabel() to spawn the anchor and orient and scale\nit correct to the given anchor. If you are planning to implement a custom spawning logic you likely want to use this function\nin the end to actually spawn the actor as it takes care of orientation and scaling of the actor with regards to the anchor bounds.\n@param Anchor The anchor to spawn the actor for.\n@param SpawnActor Information on which actor should be spawned.\n@return The spawned actor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnActor_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1326,7 +1378,7 @@ struct UHT_STATICS
 
 // ********** Begin Function SpawnAnchorActor Property Definitions *********************************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActor_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnActor = { "SpawnActor", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActor_Parms, SpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnActor_MetaData), NewProp_SpawnActor_MetaData) }; // caec66b3f0c7cc487df365b013231390cd3acf4f
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnActor = { "SpawnActor", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActor_Parms, SpawnActor), Z_Construct_UScriptStruct_FMRUKSpawnActor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnActor_MetaData), NewProp_SpawnActor_MetaData) }; // c8d7b4ba55042e4d5d6f69504e74f01b2a779cda
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActor_Parms, ReturnValue), Z_Construct_UClass_AActor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Anchor,
@@ -1401,9 +1453,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method gets called by the default implementation of the SpawnAnchorActorsInRoom() for every label that should spawn a actor.\n\x09 * By overwriting this function it is possible to inject custom spawning logic for actors on a per label basis.\n\x09 * When implementing a custom spawning logic you may want to use SpawnAnchorActor() to spawn the actual actor and take care of it's\n\x09 * orientation and scaling to match the anchors bounds.\n\x09 * @param Anchor The anchor to spawn a actor for.\n\x09 * @param Label The label to spawn a actor for.\n\x09 * @param SpawnGroup Information on which actor should be spawned.\n\x09 * @param RandomStream A random stream for implementing the random selection logic.\n\x09 * @return The spawned actor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method gets called by the default implementation of the SpawnAnchorActorsInRoom() for every label that should spawn a actor.\nBy overwriting this function it is possible to inject custom spawning logic for actors on a per label basis.\nWhen implementing a custom spawning logic you may want to use SpawnAnchorActor() to spawn the actual actor and take care of it's\norientation and scaling to match the anchors bounds.\n@param Anchor The anchor to spawn a actor for.\n@param Label The label to spawn a actor for.\n@param SpawnGroup Information on which actor should be spawned.\n@param RandomStream A random stream for implementing the random selection logic.\n@return The spawned actor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Label_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1430,7 +1486,7 @@ struct UHT_STATICS
 // ********** Begin Function SpawnAnchorActorForLabel Property Definitions *************************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Anchor = { "Anchor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, Anchor), Z_Construct_UClass_AMRUKAnchor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_Label = { "Label", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, Label), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Label_MetaData), NewProp_Label_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroup = { "SpawnGroup", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, SpawnGroup), Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroup_MetaData), NewProp_SpawnGroup_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RandomStream = { "RandomStream", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, RandomStream), Z_Construct_UScriptStruct_FRandomStream, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RandomStream_MetaData), NewProp_RandomStream_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKAnchorActorSpawner_eventSpawnAnchorActorForLabel_Parms, ReturnValue), Z_Construct_UClass_AActor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
@@ -1500,9 +1556,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method gets called by the AnchorActorSpawner when it wants to spawn actors and procedural meshes in the room.\n\x09 * It's possible to overwrite this function in Blueprint or C++ to implement custom spawning logic.\n\x09 * The protected methods in the AnchorActorSpawner contain helper functions which can be useful when implementing\n\x09 * a custom spawning logic. When implementing a custom spawning logic you may want to use SpawnAnchorActor() to spawn\n\x09 * the actual actor and take care of it's orientation and scaling to match the anchors bounds.\n\x09 * @param Room The room to spawn actors for.\n\x09 * @param RandomStream A random stream to be used with the random selection mode.\n\x09 * @return A list of all spawned actors.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method gets called by the AnchorActorSpawner when it wants to spawn actors and procedural meshes in the room.\nIt's possible to overwrite this function in Blueprint or C++ to implement custom spawning logic.\nThe protected methods in the AnchorActorSpawner contain helper functions which can be useful when implementing\na custom spawning logic. When implementing a custom spawning logic you may want to use SpawnAnchorActor() to spawn\nthe actual actor and take care of it's orientation and scaling to match the anchors bounds.\n@param Room The room to spawn actors for.\n@param RandomStream A random stream to be used with the random selection mode.\n@return A list of all spawned actors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RandomStream_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1570,9 +1630,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn procedural meshes for every anchor that needs them. Including walls, ceiling and floor.\n\x09 * The method determines if procedural mesh should be spawned or not based on the settings of the\n\x09 * AnchorActorSpawner.\n\x09 * @param Room The room to spawn in.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn procedural meshes for every anchor that needs them. Including walls, ceiling and floor.\nThe method determines if procedural mesh should be spawned or not based on the settings of the\nAnchorActorSpawner.\n@param Room The room to spawn in." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1633,9 +1697,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn a procedural mesh for all walls if no wall actor is given to the spawner.\n\x09 * This will take care of generating seamless UVs for the walls.\n\x09 * @param Room The room to spawn in.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn a procedural mesh for all walls if no wall actor is given to the spawner.\nThis will take care of generating seamless UVs for the walls.\n@param Room The room to spawn in." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1696,9 +1764,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn a procedural mesh for the given anchor if the settings on the AnchorActorSpawner say so.\n\x09 * @param Anchor The anchor for which the procedural mesh should be spawned\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn a procedural mesh for the given anchor if the settings on the AnchorActorSpawner say so.\n@param Anchor The anchor for which the procedural mesh should be spawned" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1756,9 +1828,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn a procedural mesh for the ceiling if no ceiling actor is given to the spawner.\n\x09 * @param Room The room to spawn in.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn a procedural mesh for the ceiling if no ceiling actor is given to the spawner.\n@param Room The room to spawn in." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1819,9 +1895,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn a procedural mesh for the floor if no floor actor is given to the spawner.\n\x09 * @param Room The room to spawn in.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn a procedural mesh for the floor if no floor actor is given to the spawner.\n@param Room The room to spawn in." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1877,53 +1957,85 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Spawns meshes on anchor positions.\n * If the out of the box functionality doesn't match your goals the AnchorActorSpawner provides way to inject\n * custom spawning logic into every step of it's spawning process by overwriting certain functions.\n * For this please take a look at SpawnAnchorActorsForRoom(), SpawnAnchorActorForLabel(), and SpawnAnchorActor().\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Anchor Actor Spawner" },
 		{ "IncludePath", "MRUtilityKitAnchorActorSpawner.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawns meshes on anchor positions.\nIf the out of the box functionality doesn't match your goals the AnchorActorSpawner provides way to inject\ncustom spawning logic into every step of it's spawning process by overwriting certain functions.\nFor this please take a look at SpawnAnchorActorsForRoom(), SpawnAnchorActorForLabel(), and SpawnAnchorActor()." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnActorsSpawned_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Event that gets fired when the interior spawner finished spawning actors.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event that gets fired when the interior spawner finished spawning actors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AnchorRandomSpawnSeed_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Seed to use for the random generator that decideds wich actor class to\n\x09 * spawn if there a given multiple for a label.\n\x09 * negative values will have the effect to initialize the random generator\n\x09 * to a random seed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Seed to use for the random generator that decideds wich actor class to\nspawn if there a given multiple for a label.\nnegative values will have the effect to initialize the random generator\nto a random seed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether actors should be spawned automatically after the mixed reality\n\x09 * utility kit has been initialized. This should not be changed after the scene has been loaded.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether actors should be spawned automatically after the mixed reality\nutility kit has been initialized. This should not be changed after the scene has been loaded." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProceduralMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material to use when falling back to procedural material.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material to use when falling back to procedural material." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShouldFallbackToProcedural_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether or not the spawner should fallback to procedural meshes in case no actor\n\x09 * class has been defined for a label. This behaviour can be overwritten on the label\n\x09 * basis in SpawnGroups.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not the spawner should fallback to procedural meshes in case no actor\nclass has been defined for a label. This behaviour can be overwritten on the label\nbasis in SpawnGroups." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CutHoleLabels_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Labels for which holes should be created in the parents plane mesh.\n\x09 * E.g. if holes are needed in the walls where the windows and doors are, specify DOOR_FRAME and WINDOW_FRAME.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Labels for which holes should be created in the parents plane mesh.\nE.g. if holes are needed in the walls where the windows and doors are, specify DOOR_FRAME and WINDOW_FRAME." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnGroups_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * A map of Actor classes to spawn for the given label.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitAnchorActorSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A map of Actor classes to spawn for the given label." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1973,31 +2085,31 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_AttachAndFitActorToAnchor, "AttachAndFitActorToAnchor" }, // 020fc7e24d71bb7c15d8370d559dfc0dcee1f1f1
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ComputeCustomAlign, "ComputeCustomAlign" }, // c76b934ca1ef593b2621efabc6bb1138c5ad409b
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ComputeCustomScaling, "ComputeCustomScaling" }, // 39922773705adfce7f052a0d1750de2b78ee17d0
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_GetSpawnedActors, "GetSpawnedActors" }, // d2a9269da0656ba457bbf2d56bf36e53faf6adea
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_GetSpawnedActorsByRoom, "GetSpawnedActorsByRoom" }, // 1e4bbec67798c0ed25149e09db755de72d17d861
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_AttachAndFitActorToAnchor, "AttachAndFitActorToAnchor" }, // e1594409c772368edf3403d4b8f602799b32097e
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ComputeCustomAlign, "ComputeCustomAlign" }, // 45ae5c04932cae697fb63c00f4fa6b2a5006e518
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ComputeCustomScaling, "ComputeCustomScaling" }, // 26b9bcc4b5b4d635436fe849e29641767c873e10
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_GetSpawnedActors, "GetSpawnedActors" }, // 60da03bc9185ce90e1f1c7ba870cb175cebe869c
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_GetSpawnedActorsByRoom, "GetSpawnedActorsByRoom" }, // 2b3b20c2cb099a1013e3bc2d3830a90e90607db2
 		{ &Z_Construct_UDelegateFunction_AMRUKAnchorActorSpawner_OnInteriorSpawned__DelegateSignature, "OnInteriorSpawned__DelegateSignature" }, // ab6722e62cb860dae95c74e7f191b42c436788b8
 		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_OnRoomCreated, "OnRoomCreated" }, // 77a282f8fd01cc93a245725a428394ded2fe0f1b
 		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_OnRoomRemoved, "OnRoomRemoved" }, // de6f75020fd1d3e6d77e59e48f9daeb8f96c4384
 		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_OnRoomUpdated, "OnRoomUpdated" }, // 2d921cfac5eca1319099d9be3ed9ce38dd606259
 		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_RemoveActors, "RemoveActors" }, // 909dfd9b5d1f6158d169509ef04fb219de05aa0b
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorClosestSize, "SelectSpawnActorClosestSize" }, // 7b495ff268856910d897849fadebe79c94a4236b
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorCustom, "SelectSpawnActorCustom" }, // f682b5792df3733e183d5d03d76425952b2184c3
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorFromSpawnGroup, "SelectSpawnActorFromSpawnGroup" }, // 8edd1adb6ac774cbb4a14b5faecdd3ca3bdffd3c
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorRandom, "SelectSpawnActorRandom" }, // 21d629ed0f5167837e918abb0061e1139bf1cb65
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ShouldAnchorFallbackToProceduralMesh, "ShouldAnchorFallbackToProceduralMesh" }, // 11f2aa40a9de5e9df1061a11e98b048b831f8535
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ShouldSpawnActorForAnchor, "ShouldSpawnActorForAnchor" }, // b0336df69badcaa3cd170b6eeb29d52a42f98019
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnActors, "SpawnActors" }, // 9dc6a55c463299b0bce6be16e50c3c7a46421e68
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActor, "SpawnAnchorActor" }, // 496f38aa232d65cec516a166b1b80c015b4ece23
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActorForLabel, "SpawnAnchorActorForLabel" }, // b67779391c341ad02213ec9fe5060f7b08e5b315
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActorsInRoom, "SpawnAnchorActorsInRoom" }, // a97630781550c3a8d2bb51b36da1f1f1b9cd99ee
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshesInRoom, "SpawnProceduralMeshesInRoom" }, // c07631385b996ee993edc94fd21d98c02ba8adc7
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshesOnWallsIfNoWallActorGiven, "SpawnProceduralMeshesOnWallsIfNoWallActorGiven" }, // ff6a7d11bd7773c653803fb6f3f5ae7f1d628118
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshForAnchorIfNeeded, "SpawnProceduralMeshForAnchorIfNeeded" }, // 87f3c6036e952c6868a6fd8af50dab2586021096
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshOnCeilingIfNoCeilingActorGiven, "SpawnProceduralMeshOnCeilingIfNoCeilingActorGiven" }, // 8679bc080dc87b6a0d775126fccd0bb8e60285bb
-		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshOnFloorIfNoFloorActorGiven, "SpawnProceduralMeshOnFloorIfNoFloorActorGiven" }, // f2aa3baf606d523248767af3bd2dfa8e245cf0a1
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorClosestSize, "SelectSpawnActorClosestSize" }, // 7d40dc35f427bf831545b3a8a51ca96869b2b761
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorCustom, "SelectSpawnActorCustom" }, // 54c2f3e49e0432ccb71a89d175215f47e5303dc2
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorFromSpawnGroup, "SelectSpawnActorFromSpawnGroup" }, // de64a82fd31fc286547c1f77e991114874dd8964
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SelectSpawnActorRandom, "SelectSpawnActorRandom" }, // 5154e468b79ac11aed7dbbb4e36101660fafc9a8
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ShouldAnchorFallbackToProceduralMesh, "ShouldAnchorFallbackToProceduralMesh" }, // 0bf48e201625bb93ae81cdcbaaa4445201af9b57
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_ShouldSpawnActorForAnchor, "ShouldSpawnActorForAnchor" }, // 7162204dbbbd476ad6c751f979afab00a80de806
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnActors, "SpawnActors" }, // d8e7c1b30dafedbd2146cf7136b267b42e24dd96
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActor, "SpawnAnchorActor" }, // cfc06bf511991d477d62c07168e7c97b5226b6c7
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActorForLabel, "SpawnAnchorActorForLabel" }, // 86f94f7c086c28297465ea583731ac1487466af0
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnAnchorActorsInRoom, "SpawnAnchorActorsInRoom" }, // 578b70cb3b220284c7398a1692c580f8732a781c
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshesInRoom, "SpawnProceduralMeshesInRoom" }, // b455153c28a9e62863262e8f02cb575b1799fe95
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshesOnWallsIfNoWallActorGiven, "SpawnProceduralMeshesOnWallsIfNoWallActorGiven" }, // 8c3afb4e60b5ee563f896c5af8f5a1bc603831ca
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshForAnchorIfNeeded, "SpawnProceduralMeshForAnchorIfNeeded" }, // 44a91103f272d922d166cf3357463b90a6b97966
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshOnCeilingIfNoCeilingActorGiven, "SpawnProceduralMeshOnCeilingIfNoCeilingActorGiven" }, // a67f9b0a061201c913847cb750cb806d4522ec98
+		{ &Z_Construct_UFunction_AMRUKAnchorActorSpawner_SpawnProceduralMeshOnFloorIfNoFloorActorGiven, "SpawnProceduralMeshOnFloorIfNoFloorActorGiven" }, // 0e40a46ff60152c7a3a89bf954db8a26abda88fa
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -2010,14 +2122,14 @@ struct UHT_STATICS
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnActorsSpawned = { "OnActorsSpawned", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, OnActorsSpawned), Z_Construct_UDelegateFunction_AMRUKAnchorActorSpawner_OnInteriorSpawned__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnActorsSpawned_MetaData), NewProp_OnActorsSpawned_MetaData) }; // ab6722e62cb860dae95c74e7f191b42c436788b8
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_AnchorRandomSpawnSeed = { "AnchorRandomSpawnSeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, AnchorRandomSpawnSeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AnchorRandomSpawnSeed_MetaData), NewProp_AnchorRandomSpawnSeed_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_SpawnMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // 9aaa30d266ddf9b26a48a402d10bef878b6a1931
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // a81a39a3c2baadd905d9be1ef0fe13d87d7487cc
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ProceduralMaterial = { "ProceduralMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, ProceduralMaterial), Z_Construct_UClass_UMaterialInterface, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ProceduralMaterial_MetaData), NewProp_ProceduralMaterial_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ShouldFallbackToProcedural = { "ShouldFallbackToProcedural", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(AMRUKAnchorActorSpawner), &UHT_STATICS::NewProp_ShouldFallbackToProcedural_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShouldFallbackToProcedural_MetaData), NewProp_ShouldFallbackToProcedural_MetaData) };
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_CutHoleLabels_Inner = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_CutHoleLabels = { "CutHoleLabels", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, CutHoleLabels), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CutHoleLabels_MetaData), NewProp_CutHoleLabels_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_SpawnGroups_ValueProp = { "SpawnGroups", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FMRUKSpawnGroup, METADATA_PARAMS(0, nullptr) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_SpawnGroups_Key_KeyProp = { "SpawnGroups_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // 2cf9802ef83d082d326a8e8ff786333b33b25889
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_SpawnGroups = { "SpawnGroups", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKAnchorActorSpawner, SpawnGroups), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnGroups_MetaData), NewProp_SpawnGroups_MetaData) }; // fc22d8a790d916b6944371d466d333d3d175d7b5
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_OnActorsSpawned,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_AnchorRandomSpawnSeed,
@@ -2101,14 +2213,14 @@ AMRUKAnchorActorSpawner::~AMRUKAnchorActorSpawner() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitAnchorActorSpawner_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitAnchorActorSpawner_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKAnchorActorSpawner, TEXT("AMRUKAnchorActorSpawner"), &Z_Registration_Info_UClass_AMRUKAnchorActorSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKAnchorActorSpawner), 387367632U) },
+		{ Z_Construct_UClass_AMRUKAnchorActorSpawner, TEXT("AMRUKAnchorActorSpawner"), &Z_Registration_Info_UClass_AMRUKAnchorActorSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKAnchorActorSpawner), 2311045238U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitAnchorActorSpawner_h__Script_MRUtilityKit_5b94c0332face6c4a141febd7843f23fd506af51{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitAnchorActorSpawner_h__Script_MRUtilityKit_efb4d48f80be4197f8bb0fca399c39a9f931e811{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -36,9 +36,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|OculusXRFaceTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Clears all face expression values.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Clears all face expression values." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -81,9 +85,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|OculusXRFaceTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get a face expression value given an expression key.\n\x09 *\n\x09 * @param Expression : The expression key that will be queried.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a face expression value given an expression key.\n\n@param Expression : The expression key that will be queried." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -144,9 +152,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|OculusXRFaceTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set face expression value with expression key and value(0-1).\n\x09 *\n\x09 * @param Expression : The expression key that will be modified.\n\x09 * @param Value : The new value to assign to the expression, 0 will remove all changes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set face expression value with expression key and value(0-1).\n\n@param Expression : The expression key that will be modified.\n@param Value : The new value to assign to the expression, 0 will remove all changes." },
+#endif
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -213,45 +225,73 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetMeshComponentName_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The name of the skinned mesh component that this component targets for facial expression.\n\x09 * This must be the name of a component on this actor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The name of the skinned mesh component that this component targets for facial expression.\nThis must be the name of a component on this actor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InvalidFaceDataResetTime_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If the face data is invalid for at least this or longer than this time then all face blendshapes/morph targets are reset to zero.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the face data is invalid for at least this or longer than this time then all face blendshapes/morph targets are reset to zero." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExpressionNames_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The list of expressions that this component supports.\n\x09 * Names are validated on startup so only valid morph targets on the skeletal mesh will be targeted.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The list of expressions that this component supports.\nNames are validated on startup so only valid morph targets on the skeletal mesh will be targeted." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExpressionModifiers_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * An array of optional expression modifiers that can be applied.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An array of optional expression modifiers that can be applied." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUpdateFace_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This flag determines if the face should be updated or not during the components tick.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This flag determines if the face should be updated or not during the components tick." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseModifiers_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This flag determines if the face should be modified with Expression Modifiers or not during the components tick.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This flag determines if the face should be modified with Expression Modifiers or not during the components tick." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetMeshComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The mesh component targeted for expressions\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/OculusXRFaceTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The mesh component targeted for expressions" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -284,9 +324,9 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_ClearExpressionValues, "ClearExpressionValues" }, // ba1d8de63e745d43d08fead2f99f922216699232
-		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_GetExpressionValue, "GetExpressionValue" }, // dbe37d2c6c7d00f6828bd8ac728ad2a58e73399b
-		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_SetExpressionValue, "SetExpressionValue" }, // 78166316c2f9186071745176102ee24ada1fb26a
+		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_ClearExpressionValues, "ClearExpressionValues" }, // 28e0d112750bf542e582ac88a4866e4e006139a2
+		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_GetExpressionValue, "GetExpressionValue" }, // 4806cbe0d43821f922615128789c05765c99f9c1
+		{ &Z_Construct_UFunction_UOculusXRFaceTrackingComponent_SetExpressionValue, "SetExpressionValue" }, // 35fa76687b42530cc79f1841bcf89d2837591cc4
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -389,14 +429,14 @@ UOculusXRFaceTrackingComponent::~UOculusXRFaceTrackingComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRFaceTrackingComponent_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRFaceTrackingComponent_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRFaceTrackingComponent, TEXT("UOculusXRFaceTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRFaceTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRFaceTrackingComponent), 342356835U) },
+		{ Z_Construct_UClass_UOculusXRFaceTrackingComponent, TEXT("UOculusXRFaceTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRFaceTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRFaceTrackingComponent), 2941649383U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRFaceTrackingComponent_h__Script_OculusXRMovement_2489c78382f22ef587bf87bd72139ceaa10b804f{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRFaceTrackingComponent_h__Script_OculusXRMovement_0f7ba6cdace60aae6cc6e20c95896c7ad9df6889{
 	TEXT("/Script/OculusXRMovement"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

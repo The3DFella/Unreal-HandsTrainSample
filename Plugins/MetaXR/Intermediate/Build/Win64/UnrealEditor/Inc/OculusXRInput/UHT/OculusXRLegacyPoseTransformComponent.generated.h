@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent_Statics;
 OCULUSXRINPUT_API UClass* Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_INCLASS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent_Statics; \
 	friend OCULUSXRINPUT_API UClass* ::Z_Construct_UClass_UOculusXRLegacyPoseTransformComponent(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRLegacyPoseTransformComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRLegacyPoseTransformComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRLegacyPoseTransformComponent) \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UOculusXRLegacyPoseTransformComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_15_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_GENERATED_BODY_LEGACY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_15_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_STANDARD_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_INCLASS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UOculusXRLegacyPoseTransformComponent;
 // ********** End Class UOculusXRLegacyPoseTransformComponent **************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRLegacyPoseTransformComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

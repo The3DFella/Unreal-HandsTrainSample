@@ -182,9 +182,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Generate color LUT from array. Array should have format of exploded cube. Its size should be power of 2. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generate color LUT from array. Array should have format of exploded cube. Its size should be power of 2." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InColorArray_MetaData[] = {
 		{ "NativeConst", "" },
@@ -248,35 +252,51 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * @brief This class represents a color look-up table (LUT) that can be applied to an \\ref UOculusXRPassthroughLayerBase\n * in order to change the color reproduction of that passthrough layer.\n *\n * Color LUTs map each RGB input color to a new RGB(A) color. It unlocks a number of effects:\n * - Color grading and color correction\n * - Stylizations, such as posterization or hue rotation\n * - Color filtering and chroma keying.\n *\n * To apply a color LUT to a Passthrough layer, create a new instance of `UOculusXRPassthroughLayerComponent`\n * and call \\ref UOculusXRPassthroughLayerBase::SetColorLUTSource()\"/>.\n *\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-color-mapping/ to learn more about passthrough and color LUTs.\n */" },
+#endif
 		{ "DisplayName", "Passthrough Color LUT" },
 		{ "IncludePath", "OculusXRPassthroughColorLut.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief This class represents a color look-up table (LUT) that can be applied to an \\ref UOculusXRPassthroughLayerBase\nin order to change the color reproduction of that passthrough layer.\n\nColor LUTs map each RGB input color to a new RGB(A) color. It unlocks a number of effects:\n- Color grading and color correction\n- Stylizations, such as posterization or hue rotation\n- Color filtering and chroma keying.\n\nTo apply a color LUT to a Passthrough layer, create a new instance of `UOculusXRPassthroughLayerComponent`\nand call \\ref UOculusXRPassthroughLayerBase::SetColorLUTSource()\"/>.\n\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-color-mapping/ to learn more about passthrough and color LUTs." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorLutType_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Keeps the information of the source of the current LUT instance. The source can be an array, another LUT texture, or None. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Keeps the information of the source of the current LUT instance. The source can be an array, another LUT texture, or None." },
+#endif
 	};
 #if WITH_EDITORONLY_DATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LutTexture_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color LUT texture. */" },
+#endif
 		{ "EditCondition", "ColorLutType == EColorLutType::TextureLUT" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT texture." },
+#endif
 	};
 #endif // WITH_EDITORONLY_DATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IgnoreAlphaChannel_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Informs if the alpha channel of LUT should be ignored. */" },
+#endif
 		{ "EditCondition", "ColorLutType == EColorLutType::TextureLUT" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Informs if the alpha channel of LUT should be ignored." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StoredTextureData_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
@@ -302,7 +322,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray, "SetLutFromArray" }, // 74b6c9a7431ff169fb53821dc3f04aa8dbab2e3f
+		{ &Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray, "SetLutFromArray" }, // 60db52c0fe417f6e9d77950e94ffb8e9dd3ccac1
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -398,7 +418,7 @@ UOculusXRPassthroughColorLut::~UOculusXRPassthroughColorLut() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h__Script_OculusXRPassthrough_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h__Script_OculusXRPassthrough_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -408,10 +428,10 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FLutTextureData, Z_Construct_UScriptStruct_FLutTextureData_Statics::NewStructOps, TEXT("LutTextureData"),&Z_Registration_Info_UScriptStruct_FLutTextureData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FLutTextureData), 2130028865U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPassthroughColorLut, TEXT("UOculusXRPassthroughColorLut"), &Z_Registration_Info_UClass_UOculusXRPassthroughColorLut, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughColorLut), 3575259070U) },
+		{ Z_Construct_UClass_UOculusXRPassthroughColorLut, TEXT("UOculusXRPassthroughColorLut"), &Z_Registration_Info_UClass_UOculusXRPassthroughColorLut, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughColorLut), 3114414827U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h__Script_OculusXRPassthrough_eb3a7b1b9eb0f348ae70d87e11f78e2332dbbc7d{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h__Script_OculusXRPassthrough_ad1e18744fc721fbad85db7a15e2fb5a17d5fc40{
 	TEXT("/Script/OculusXRPassthrough"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

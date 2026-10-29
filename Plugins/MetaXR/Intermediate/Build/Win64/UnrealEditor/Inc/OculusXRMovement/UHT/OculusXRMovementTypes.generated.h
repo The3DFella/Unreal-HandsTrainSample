@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRBodyJoint_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBodyJoint(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_125_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_125_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBodyJoint_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBodyJoint(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FOculusXRBodyJoint;
 struct Z_Construct_UScriptStruct_FOculusXRBodyState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBodyState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_147_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_147_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBodyState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBodyState(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FOculusXRBodyState;
 struct Z_Construct_UScriptStruct_FOculusXRBodySkeletonBone_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBodySkeletonBone(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_170_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_170_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBodySkeletonBone_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBodySkeletonBone(ETypeConstructPhase::Inner); }
 
@@ -58,7 +58,7 @@ struct FOculusXRBodySkeletonBone;
 struct Z_Construct_UScriptStruct_FOculusXRBodySkeleton_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBodySkeleton(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_193_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_193_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBodySkeleton_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBodySkeleton(ETypeConstructPhase::Inner); }
 
@@ -70,7 +70,7 @@ struct FOculusXRBodySkeleton;
 struct Z_Construct_UScriptStruct_FOculusXRBodySkeletonState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRBodySkeletonState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_207_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_207_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRBodySkeletonState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRBodySkeletonState(ETypeConstructPhase::Inner); }
 
@@ -82,7 +82,7 @@ struct FOculusXRBodySkeletonState;
 struct Z_Construct_UScriptStruct_FOculusXRFaceState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRFaceState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_314_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_314_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRFaceState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRFaceState(ETypeConstructPhase::Inner); }
 
@@ -94,7 +94,7 @@ struct FOculusXRFaceState;
 struct Z_Construct_UScriptStruct_FOculusXRFaceVisemesState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRFaceVisemesState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_361_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_361_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRFaceVisemesState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRFaceVisemesState(ETypeConstructPhase::Inner); }
 
@@ -106,7 +106,7 @@ struct FOculusXRFaceVisemesState;
 struct Z_Construct_UScriptStruct_FOculusXRFaceExpressionModifier_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRFaceExpressionModifier(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_378_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_378_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRFaceExpressionModifier_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRFaceExpressionModifier(ETypeConstructPhase::Inner); }
 
@@ -118,7 +118,7 @@ struct FOculusXRFaceExpressionModifier;
 struct Z_Construct_UScriptStruct_FOculusXREyeGazeState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXREyeGazeState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_406_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_406_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXREyeGazeState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXREyeGazeState(ETypeConstructPhase::Inner); }
 
@@ -130,7 +130,7 @@ struct FOculusXREyeGazeState;
 struct Z_Construct_UScriptStruct_FOculusXREyeGazesState_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXREyeGazesState(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_426_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h_426_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXREyeGazesState_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXREyeGazesState(ETypeConstructPhase::Inner); }
 
@@ -139,7 +139,7 @@ struct FOculusXREyeGazesState;
 // ********** End ScriptStruct FOculusXREyeGazesState **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h
 
 // ********** Begin Enum EOculusXRBodyJointSet *****************************************************
 #define FOREACH_ENUM_EOCULUSXRBODYJOINTSET(op) \

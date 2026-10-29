@@ -19,7 +19,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h
 
 // ********** Begin Enum EOculusXRColorMapType *****************************************************
 #define FOREACH_ENUM_EOCULUSXRCOLORMAPTYPE(op) \

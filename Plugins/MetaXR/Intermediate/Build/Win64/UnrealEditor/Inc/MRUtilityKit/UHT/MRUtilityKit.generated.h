@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FMRUKHit_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKHit(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_147_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_147_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKHit_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKHit(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FMRUKHit;
 struct Z_Construct_UScriptStruct_FMRUKLabelFilter_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKLabelFilter(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_175_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_175_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKLabelFilter_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKLabelFilter(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FMRUKLabelFilter;
 struct Z_Construct_UScriptStruct_FMRUKPlaneUV_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKPlaneUV(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_213_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_213_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKPlaneUV_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKPlaneUV(ETypeConstructPhase::Inner); }
 
@@ -58,7 +58,7 @@ struct FMRUKPlaneUV;
 struct Z_Construct_UScriptStruct_FMRUKTexCoordModes_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKTexCoordModes(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_234_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_234_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKTexCoordModes_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKTexCoordModes(ETypeConstructPhase::Inner); }
 
@@ -70,7 +70,7 @@ struct FMRUKTexCoordModes;
 struct Z_Construct_UScriptStruct_FMRUKSpawnActor_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKSpawnActor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_258_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_258_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKSpawnActor_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKSpawnActor(ETypeConstructPhase::Inner); }
 
@@ -82,7 +82,7 @@ struct FMRUKSpawnActor;
 struct Z_Construct_UScriptStruct_FMRUKSpawnGroup_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKSpawnGroup(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_324_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_324_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKSpawnGroup_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKSpawnGroup(ETypeConstructPhase::Inner); }
 
@@ -94,7 +94,7 @@ struct FMRUKSpawnGroup;
 struct Z_Construct_UScriptStruct_FMRUKTrackerConfiguration_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKTrackerConfiguration(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_480_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_480_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKTrackerConfiguration_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKTrackerConfiguration(ETypeConstructPhase::Inner); }
 
@@ -106,7 +106,7 @@ struct FMRUKTrackerConfiguration;
 struct Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_501_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_501_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKEnvironmentRaycastHit(ETypeConstructPhase::Inner); }
 
@@ -118,7 +118,7 @@ struct FMRUKEnvironmentRaycastHit;
 struct Z_Construct_UScriptStruct_FMRUKTrackableKey_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKTrackableKey(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h_531_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h_531_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKTrackableKey_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKTrackableKey(ETypeConstructPhase::Inner); }
 
@@ -127,7 +127,7 @@ struct FMRUKTrackableKey;
 // ********** End ScriptStruct FMRUKTrackableKey ***************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKit_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKit_h
 
 // ********** Begin Enum EMRUKSceneModel ***********************************************************
 #define FOREACH_ENUM_EMRUKSCENEMODEL(op) \

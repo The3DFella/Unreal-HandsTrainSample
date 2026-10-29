@@ -34,42 +34,62 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This AssertUserData is used to hold both LODForOccluderMesh and CustomOccluderMesh for UStaticMeshes or USkeletalMeshes.\n * Note that LODForOccluderMesh and CustomOccluderMesh are exclusive.\n */" },
+#endif
 		{ "IncludePath", "OccluderMeshAssetUserData.h" },
 		{ "ModuleRelativePath", "Private/OccluderMeshAssetUserData.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This AssertUserData is used to hold both LODForOccluderMesh and CustomOccluderMesh for UStaticMeshes or USkeletalMeshes.\nNote that LODForOccluderMesh and CustomOccluderMesh are exclusive." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CustomOccluderMesh_MetaData[] = {
 		{ "Category", "CustomOccluder" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *\x09Specifies the custom occluder mesh for software occlusion\n\x09 *  Mutually exclusive with LODForOccluderMesh\n\x09 */" },
+#endif
 		{ "DisplayName", "Custom Occluder Mesh" },
 		{ "EditCondition", "LODForOccluderMesh < 0" },
 		{ "ModuleRelativePath", "Private/OccluderMeshAssetUserData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies the custom occluder mesh for software occlusion\nMutually exclusive with LODForOccluderMesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CustomOccluderMeshScale_MetaData[] = {
 		{ "Category", "CustomOccluder" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *\x09Specifies the custom occluder mesh scale if different with that of the parent component\n\x09 */" },
+#endif
 		{ "DisplayName", "Custom Occluder Mesh Scale" },
 		{ "EditCondition", "CustomOccluderMesh != nullptr" },
 		{ "ModuleRelativePath", "Private/OccluderMeshAssetUserData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies the custom occluder mesh scale if different with that of the parent component" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CustomOccluderMeshOffset_MetaData[] = {
 		{ "Category", "CustomOccluder" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *\x09Specifies the custom occluder mesh offset if different with that of the parent component\n\x09 */" },
+#endif
 		{ "DisplayName", "Custom Occluder Mesh Offset" },
 		{ "EditCondition", "CustomOccluderMesh != nullptr" },
 		{ "ModuleRelativePath", "Private/OccluderMeshAssetUserData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies the custom occluder mesh offset if different with that of the parent component" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LODForOccluderMesh_MetaData[] = {
 		{ "Category", "LOD" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *\x09Specifies which staticmesh LOD to use as occluder geometry for software occlusion. Not suitable for skeletal meshes.\n\x09 *  Mutually exclusive with CustomOccluderMesh\n\x09 *  Set to -1 to not use this mesh as occluder\n\x09 */" },
+#endif
 		{ "DisplayName", "Parent StaticMesh LOD For Occluder Mesh" },
 		{ "ModuleRelativePath", "Private/OccluderMeshAssetUserData.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies which staticmesh LOD to use as occluder geometry for software occlusion. Not suitable for skeletal meshes.\nMutually exclusive with CustomOccluderMesh\nSet to -1 to not use this mesh as occluder" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -163,14 +183,14 @@ IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UOccluderMeshAssetUserData)
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRSoftwareOcclusion_Private_OccluderMeshAssetUserData_h__Script_OculusXRSoftwareOcclusion_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRSoftwareOcclusion_Private_OccluderMeshAssetUserData_h__Script_OculusXRSoftwareOcclusion_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOccluderMeshAssetUserData, TEXT("UOccluderMeshAssetUserData"), &Z_Registration_Info_UClass_UOccluderMeshAssetUserData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOccluderMeshAssetUserData), 3664767949U) },
+		{ Z_Construct_UClass_UOccluderMeshAssetUserData, TEXT("UOccluderMeshAssetUserData"), &Z_Registration_Info_UClass_UOccluderMeshAssetUserData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOccluderMeshAssetUserData), 2268862131U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRSoftwareOcclusion_Private_OccluderMeshAssetUserData_h__Script_OculusXRSoftwareOcclusion_178e56af0ea5eb033a2151150f1189bf23652714{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRSoftwareOcclusion_Private_OccluderMeshAssetUserData_h__Script_OculusXRSoftwareOcclusion_ee134519d32a6f0efa26d2dbaf43b281baf3538a{
 	TEXT("/Script/OculusXRSoftwareOcclusion"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

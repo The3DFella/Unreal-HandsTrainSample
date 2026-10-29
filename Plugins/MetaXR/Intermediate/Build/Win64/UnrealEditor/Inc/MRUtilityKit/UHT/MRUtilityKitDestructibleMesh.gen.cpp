@@ -74,14 +74,18 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Destructible mesh component. Creates mesh segments for the given geometry.\n * The segments will be created async.\n * In addition, its possible to define areas that are indestructible.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Destructible Mesh Component" },
 		{ "HideCategories", "Object LOD Mobility Trigger" },
 		{ "IncludePath", "MRUtilityKitDestructibleMesh.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Destructible mesh component. Creates mesh segments for the given geometry.\nThe segments will be created async.\nIn addition, its possible to define areas that are indestructible." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnMeshesGenerated_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -89,21 +93,33 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GlobalMeshMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material to display on the global mesh\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material to display on the global mesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReservedTop_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Area on the top of the mesh that should be indestructible.\n\x09 * The area is given in centimeters 1.0 == 1 cm.\n\x09 * -1.0 means no reserved area.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area on the top of the mesh that should be indestructible.\nThe area is given in centimeters 1.0 == 1 cm.\n-1.0 means no reserved area." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReservedBottom_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Area on the bottom of the mesh that should be indestructible.\n\x09 * The area is given in centimeters 1.0 == 1 cm\n\x09 * -1.0 means no reserved area.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area on the bottom of the mesh that should be indestructible.\nThe area is given in centimeters 1.0 == 1 cm\n-1.0 means no reserved area." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -210,10 +226,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Create a destructible mesh for the given room. If the global mesh has not yet been loaded\n\x09 * this function will attempt to load the global mesh from the device.\n\x09 * @param Room The room\n\x09 */" },
+#endif
 		{ "CPP_Default_Room", "None" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create a destructible mesh for the given room. If the global mesh has not yet been loaded\nthis function will attempt to load the global mesh from the device.\n@param Room The room" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -267,9 +287,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Remove a segment of the global mesh. Takes care of not removing the reserved global mesh segment.\n\x09 * @param Mesh The mesh to remove\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Remove a segment of the global mesh. Takes care of not removing the reserved global mesh segment.\n@param Mesh The mesh to remove" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[] = {
 		{ "EditInline", "true" },
@@ -324,12 +348,16 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Actor that constructs a destructible mesh for the given room\n * The actor will automatically attach to the global mesh anchor of the given room to take it location and orientation.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Destructible Global Mesh" },
 		{ "IncludePath", "MRUtilityKitDestructibleMesh.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Actor that constructs a destructible mesh for the given room\nThe actor will automatically attach to the global mesh anchor of the given room to take it location and orientation." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DestructibleMeshComponent_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -338,21 +366,33 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitX_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the X axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the X axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitY_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the Y axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the Y axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitZ_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the Z axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the Z axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -369,8 +409,8 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMesh_CreateDestructibleMesh, "CreateDestructibleMesh" }, // dceaabeccc179c21faafd84156c143fc71384ae0
-		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMesh_RemoveGlobalMeshSegment, "RemoveGlobalMeshSegment" }, // 90a329aaacdcc0c00d9268a0c3e31698e642e027
+		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMesh_CreateDestructibleMesh, "CreateDestructibleMesh" }, // 09761d5ceccf4668993201a29babaa4cc0b0256e
+		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMesh_RemoveGlobalMeshSegment, "RemoveGlobalMeshSegment" }, // ff1ed2ce9c54acf354055b61396beb4e5e1e72be
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -470,9 +510,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Add new destructible mesh for the given room. A mesh will only get spawned if no\n\x09 * destructible mesh has been spawned for the room yet.\n\x09 * @param Room The room.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add new destructible mesh for the given room. A mesh will only get spawned if no\ndestructible mesh has been spawned for the room yet.\n@param Room The room." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -530,9 +574,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Find the destructible mesh that has been spawned for the given room.\n\x09 * @param Room Room to look for the destructible mesh\n\x09 * @return The destructible mesh\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find the destructible mesh that has been spawned for the given room.\n@param Room Room to look for the destructible mesh\n@return The destructible mesh" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -693,54 +741,86 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The destructible global mesh spawner allows to spawn (automatically) destructible global meshes\n * when new rooms are created.\n * A destructible global mesh is a version of the global mesh that can be destructed during runtime.\n * The bulk of the work is performed in UDestructibleMeshComponent. It will perform on start a one time\n * preprocessing step to segment the given global mesh into smaller chunks. After that the chunks can be used\n * during the game and removed (e.g. with ray casts) at any time during the game simulating as if the global\n * mesh would crack down. To enhance the visual quality when cracking the (e.g. removing mesh chunks) global mesh\n * a particle system could be used. The system allows to define areas that should be non destructible.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Destructible Global Mesh Spawner" },
 		{ "IncludePath", "MRUtilityKitDestructibleMesh.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The destructible global mesh spawner allows to spawn (automatically) destructible global meshes\nwhen new rooms are created.\nA destructible global mesh is a version of the global mesh that can be destructed during runtime.\nThe bulk of the work is performed in UDestructibleMeshComponent. It will perform on start a one time\npreprocessing step to segment the given global mesh into smaller chunks. After that the chunks can be used\nduring the game and removed (e.g. with ray casts) at any time during the game simulating as if the global\nmesh would crack down. To enhance the visual quality when cracking the (e.g. removing mesh chunks) global mesh\na particle system could be used. The system allows to define areas that should be non destructible." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether destructible meshes should be spawned automatically.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether destructible meshes should be spawned automatically." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GlobalMeshMaterial_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Material to display on the global mesh\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material to display on the global mesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitX_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the X axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the X axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitY_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the Y axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the Y axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointsPerUnitZ_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The number of points per unit along the Z axis\n\x09 * Increase this value to get smaller cracks in the global mesh.\n\x09 * Decrease this value to get bigger cracks in the global mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The number of points per unit along the Z axis\nIncrease this value to get smaller cracks in the global mesh.\nDecrease this value to get bigger cracks in the global mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReservedTop_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Area on the top of the mesh that should be indestructible.\n\x09 * The area is given in centimeters 1.0 == 1 cm\n\x09 * -1.0 means no reserved area.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area on the top of the mesh that should be indestructible.\nThe area is given in centimeters 1.0 == 1 cm\n-1.0 means no reserved area." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReservedBottom_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Area on the bottom of the mesh that should be indestructible.\n\x09 * The area is given in centimeters 1.0 == 1 cm\n\x09 * -1.0 means no reserved area.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDestructibleMesh.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Area on the bottom of the mesh that should be indestructible.\nThe area is given in centimeters 1.0 == 1 cm\n-1.0 means no reserved area." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -763,8 +843,8 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_AddDestructibleGlobalMesh, "AddDestructibleGlobalMesh" }, // 40728c54db482214658c2d919292180328513c37
-		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_FindDestructibleMeshForRoom, "FindDestructibleMeshForRoom" }, // baeca86604c375b6f800225866e3cb864b06bba2
+		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_AddDestructibleGlobalMesh, "AddDestructibleGlobalMesh" }, // 6129b3f3adeaf388115b0a353a758f3da4b9c5d0
+		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_FindDestructibleMeshForRoom, "FindDestructibleMeshForRoom" }, // e2bc99aba0928945ac320b90c74e6f6d1d65070a
 		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_OnRoomCreated, "OnRoomCreated" }, // 1b4a27fa072b9af7e5806134c711ba9b5c122619
 		{ &Z_Construct_UFunction_AMRUKDestructibleGlobalMeshSpawner_OnRoomRemoved, "OnRoomRemoved" }, // 662ac7d186770bda9697e30e823c409396df7b84
 	};
@@ -777,7 +857,7 @@ struct UHT_STATICS
 
 // ********** Begin Class AMRUKDestructibleGlobalMeshSpawner Property Definitions ******************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_SpawnMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDestructibleGlobalMeshSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // 9aaa30d266ddf9b26a48a402d10bef878b6a1931
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDestructibleGlobalMeshSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // a81a39a3c2baadd905d9be1ef0fe13d87d7487cc
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_GlobalMeshMaterial = { "GlobalMeshMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDestructibleGlobalMeshSpawner, GlobalMeshMaterial), Z_Construct_UClass_UMaterialInterface, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GlobalMeshMaterial_MetaData), NewProp_GlobalMeshMaterial_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_PointsPerUnitX = { "PointsPerUnitX", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDestructibleGlobalMeshSpawner, PointsPerUnitX), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PointsPerUnitX_MetaData), NewProp_PointsPerUnitX_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_PointsPerUnitY = { "PointsPerUnitY", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKDestructibleGlobalMeshSpawner, PointsPerUnitY), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PointsPerUnitY_MetaData), NewProp_PointsPerUnitY_MetaData) };
@@ -864,16 +944,16 @@ AMRUKDestructibleGlobalMeshSpawner::~AMRUKDestructibleGlobalMeshSpawner() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKDestructibleMeshComponent, TEXT("UMRUKDestructibleMeshComponent"), &Z_Registration_Info_UClass_UMRUKDestructibleMeshComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKDestructibleMeshComponent), 259787971U) },
-		{ Z_Construct_UClass_AMRUKDestructibleGlobalMesh, TEXT("AMRUKDestructibleGlobalMesh"), &Z_Registration_Info_UClass_AMRUKDestructibleGlobalMesh, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDestructibleGlobalMesh), 374612176U) },
-		{ Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner, TEXT("AMRUKDestructibleGlobalMeshSpawner"), &Z_Registration_Info_UClass_AMRUKDestructibleGlobalMeshSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDestructibleGlobalMeshSpawner), 2143502103U) },
+		{ Z_Construct_UClass_UMRUKDestructibleMeshComponent, TEXT("UMRUKDestructibleMeshComponent"), &Z_Registration_Info_UClass_UMRUKDestructibleMeshComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKDestructibleMeshComponent), 2248925213U) },
+		{ Z_Construct_UClass_AMRUKDestructibleGlobalMesh, TEXT("AMRUKDestructibleGlobalMesh"), &Z_Registration_Info_UClass_AMRUKDestructibleGlobalMesh, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDestructibleGlobalMesh), 2752412142U) },
+		{ Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner, TEXT("AMRUKDestructibleGlobalMeshSpawner"), &Z_Registration_Info_UClass_AMRUKDestructibleGlobalMeshSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDestructibleGlobalMeshSpawner), 268999881U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_54a47b1a45cbd80f44ab1a3e56136b3472bd465c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_800bb1ffac34f9d438b859e61f0e887d45a8b3fd{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_33_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_33_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FOculusXRHmdUserProfileField;
 struct Z_Construct_UScriptStruct_FOculusXRHmdUserProfile_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRHmdUserProfile(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_49_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_49_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRHmdUserProfile_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRHmdUserProfile(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FOculusXRHmdUserProfile;
 struct Z_Construct_UScriptStruct_FOculusXRGuardianTestResult_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRGuardianTestResult(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_220_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_220_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRGuardianTestResult_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRGuardianTestResult(ETypeConstructPhase::Inner); }
 
@@ -58,7 +58,7 @@ struct FOculusXRGuardianTestResult;
 struct Z_Construct_UScriptStruct_FOculusXRSplashDesc_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSplashDesc(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_256_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_256_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSplashDesc_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSplashDesc(ETypeConstructPhase::Inner); }
 
@@ -70,7 +70,7 @@ struct FOculusXRSplashDesc;
 struct Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_379_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_379_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics(ETypeConstructPhase::Inner); }
 
@@ -79,7 +79,7 @@ struct FOculusXRPerformanceMetrics;
 // ********** End ScriptStruct FOculusXRPerformanceMetrics *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h
 
 // ********** Begin Enum EOculusXRTrackedDeviceType ************************************************
 #define FOREACH_ENUM_EOCULUSXRTRACKEDDEVICETYPE(op) \

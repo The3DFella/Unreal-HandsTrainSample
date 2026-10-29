@@ -94,7 +94,9 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "OculusXREditorSettings.h" },
 		{ "ModuleRelativePath", "Public/OculusXREditorSettings.h" },
 	};
@@ -211,17 +213,17 @@ UOculusXREditorSettings::~UOculusXREditorSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXREditorSettings_h__Script_OculusXREditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXREditorSettings_h__Script_OculusXREditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ Z_Construct_UEnum_OculusXREditor_EOculusXRPlatform, TEXT("EOculusXRPlatform"), &ZRIE_EOculusXRPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3346556949U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXREditorSettings, TEXT("UOculusXREditorSettings"), &Z_Registration_Info_UClass_UOculusXREditorSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXREditorSettings), 211771273U) },
+		{ Z_Construct_UClass_UOculusXREditorSettings, TEXT("UOculusXREditorSettings"), &Z_Registration_Info_UClass_UOculusXREditorSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXREditorSettings), 3388490297U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Public_OculusXREditorSettings_h__Script_OculusXREditor_28a5f3a45866b23f66f43719ce0df6a58aceaefa{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXREditorSettings_h__Script_OculusXREditor_e3b0bba67211f20cd23d91d8cef46f5a88dcd165{
 	TEXT("/Script/OculusXREditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRHandComponent_Statics;
 OCULUSXRINPUT_API UClass* Z_Construct_UClass_UOculusXRHandComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_INCLASS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRHandComponent_Statics; \
 	friend OCULUSXRINPUT_API UClass* ::Z_Construct_UClass_UOculusXRHandComponent(ETypeConstructPhase); \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRHandComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_STANDARD_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRHandComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRHandComponent) \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~UOculusXRHandComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_27_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_GENERATED_BODY_LEGACY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_27_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_STANDARD_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_INCLASS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h_30_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ class UOculusXRHandComponent;
 // ********** End Class UOculusXRHandComponent *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h
 
 // ********** Begin Enum EOculusXRConfidenceBehavior ***********************************************
 #define FOREACH_ENUM_EOCULUSXRCONFIDENCEBEHAVIOR(op) \

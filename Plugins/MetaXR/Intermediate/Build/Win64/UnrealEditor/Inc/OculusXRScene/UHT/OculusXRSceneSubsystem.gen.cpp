@@ -38,9 +38,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// FTickableGameObject implementation End\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FTickableGameObject implementation End" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -218,7 +222,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRSceneSubsystem_GetBoundaryVisibility, "GetBoundaryVisibility" }, // 45ce14ea5fce72b2efd5bda4fad05fff5d74c236
+		{ &Z_Construct_UFunction_UOculusXRSceneSubsystem_GetBoundaryVisibility, "GetBoundaryVisibility" }, // d329d73776a7d77e588568a0ba44c34c3894bd8b
 		{ &Z_Construct_UFunction_UOculusXRSceneSubsystem_GetRequestedBoundaryVisibility, "GetRequestedBoundaryVisibility" }, // 505c4767e65c0ef398863ff69e61cd6c7b626b6e
 		{ &Z_Construct_UFunction_UOculusXRSceneSubsystem_SetRequestedBoundaryVisibility, "SetRequestedBoundaryVisibility" }, // b79dbd7bdb9f6932d66f6b96808eed165d938911
 	};
@@ -295,14 +299,14 @@ UOculusXRSceneSubsystem::~UOculusXRSceneSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneSubsystem_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneSubsystem_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRSceneSubsystem, TEXT("UOculusXRSceneSubsystem"), &Z_Registration_Info_UClass_UOculusXRSceneSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneSubsystem), 1109002510U) },
+		{ Z_Construct_UClass_UOculusXRSceneSubsystem, TEXT("UOculusXRSceneSubsystem"), &Z_Registration_Info_UClass_UOculusXRSceneSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneSubsystem), 405751448U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneSubsystem_h__Script_OculusXRScene_507f1e90f6495b0c94332c24d1f152cc3683aae2{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneSubsystem_h__Script_OculusXRScene_7a03a3830fe85d98694af840bce40b4c01a2fea4{
 	TEXT("/Script/OculusXRScene"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

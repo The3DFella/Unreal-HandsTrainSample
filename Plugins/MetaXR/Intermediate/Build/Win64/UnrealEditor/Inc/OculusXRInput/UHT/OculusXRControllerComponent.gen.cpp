@@ -42,15 +42,23 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkeletonType_MetaData[] = {
 		{ "Category", "Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The skeleton that will be loaded */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRControllerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The skeleton that will be loaded" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RenderWhenUsingControllerDrivenHands_MetaData[] = {
 		{ "Category", "Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should this controller be rendered when using controller driven hand poses */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRControllerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should this controller be rendered when using controller driven hand poses" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -144,14 +152,14 @@ UOculusXRControllerComponent::~UOculusXRControllerComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRControllerComponent_h__Script_OculusXRInput_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRControllerComponent_h__Script_OculusXRInput_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRControllerComponent, TEXT("UOculusXRControllerComponent"), &Z_Registration_Info_UClass_UOculusXRControllerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRControllerComponent), 3565821858U) },
+		{ Z_Construct_UClass_UOculusXRControllerComponent, TEXT("UOculusXRControllerComponent"), &Z_Registration_Info_UClass_UOculusXRControllerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRControllerComponent), 3231080641U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRControllerComponent_h__Script_OculusXRInput_88e26ca923c9e4967ba3862490df53f53436392c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRControllerComponent_h__Script_OculusXRInput_aac934dd36f1ce33b1394473e46029df15a89748{
 	TEXT("/Script/OculusXRInput"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

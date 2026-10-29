@@ -19,7 +19,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationTypes_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationTypes_h
 
 // ********** Begin Enum EColocationResult *********************************************************
 #define FOREACH_ENUM_ECOLOCATIONRESULT(op) \

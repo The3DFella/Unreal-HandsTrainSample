@@ -35,9 +35,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Hide the current anchor. This method needs only to be called to hide the anchor\n\x09 * that was displayed by ShowAnchorAtRayHit().\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the current anchor. This method needs only to be called to hide the anchor\nthat was displayed by ShowAnchorAtRayHit()." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -75,9 +79,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Hide the current anchor space actor. This method needs only to be called to hide the\n\x09 * anchor space that was displayed by ShowAnchorAtRayHit().\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the current anchor space actor. This method needs only to be called to hide the\nanchor space that was displayed by ShowAnchorAtRayHit()." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -120,9 +128,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Shoot a ray and display the anchors coordinate system and labels that was hit by the ray if any.\n\x09 * Call HideAnchor() to get rid of the displayed anchor.\n\x09 * @param Origin The ray origin.\n\x09 * @param Direction The ray direction.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Shoot a ray and display the anchors coordinate system and labels that was hit by the ray if any.\nCall HideAnchor() to get rid of the displayed anchor.\n@param Origin The ray origin.\n@param Direction The ray direction." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Origin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -187,9 +199,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Shoot a ray and display the anchors space that was hit by the ray if any.\n\x09 * Call HideAnchorSpace() to get rid of the displayed anchor space.\n\x09 * @param Origin The ray origin.\n\x09 * @param Direction The ray direction.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Shoot a ray and display the anchors space that was hit by the ray if any.\nCall HideAnchorSpace() to get rid of the displayed anchor space.\n@param Origin The ray origin.\n@param Direction The ray direction." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Origin_MetaData[] = {
 		{ "NativeConst", "" },
@@ -250,35 +266,55 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Various debugging utilities for the scene.\n * This component can for example attached to the player pawn. The various methods can\n * then be called on input from the pawn.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Debug Component" },
 		{ "IncludePath", "MRUtilityKitDebugComponent.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Various debugging utilities for the scene.\nThis component can for example attached to the player pawn. The various methods can\nthen be called on input from the pawn." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GizmoActorClass_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The gizmo to show when visualizing an anchor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The gizmo to show when visualizing an anchor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextActorClass_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The text to show when visualizing an anchor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The text to show when visualizing an anchor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GizmoScale_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The scale that should be applied to the gizmo before displaying it.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The scale that should be applied to the gizmo before displaying it." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextScale_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The scale that should be applied to the text before displaying it.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The scale that should be applied to the text before displaying it." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ActiveGizmoActor_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MRUtilityKitDebugComponent.h" },
@@ -309,10 +345,10 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKDebugComponent_HideAnchor, "HideAnchor" }, // c346424e497bb466c7a4b5b3812274bc6c6da5cf
-		{ &Z_Construct_UFunction_UMRUKDebugComponent_HideAnchorSpace, "HideAnchorSpace" }, // 57669eeab772585e9270b41acb775426d74442b6
-		{ &Z_Construct_UFunction_UMRUKDebugComponent_ShowAnchorAtRayHit, "ShowAnchorAtRayHit" }, // ddae5d61b8d1a20e01ae5c0f956679e483fd5a39
-		{ &Z_Construct_UFunction_UMRUKDebugComponent_ShowAnchorSpaceAtRayHit, "ShowAnchorSpaceAtRayHit" }, // a29e8434ff16366f5372f62d8e02ff780eb7d352
+		{ &Z_Construct_UFunction_UMRUKDebugComponent_HideAnchor, "HideAnchor" }, // 66c51d457d0cf04767937fe4c1bdf44c500894ed
+		{ &Z_Construct_UFunction_UMRUKDebugComponent_HideAnchorSpace, "HideAnchorSpace" }, // 592dc04ad6dbd515bb3474d09cabe7b8a145dc25
+		{ &Z_Construct_UFunction_UMRUKDebugComponent_ShowAnchorAtRayHit, "ShowAnchorAtRayHit" }, // 9e69942b0649080acb4d0d10dc8197744cecc9dd
+		{ &Z_Construct_UFunction_UMRUKDebugComponent_ShowAnchorSpaceAtRayHit, "ShowAnchorSpaceAtRayHit" }, // 2015d7df85532a61bb7c8ef60b82a02736489a3a
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -407,14 +443,14 @@ UMRUKDebugComponent::~UMRUKDebugComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDebugComponent_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDebugComponent_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKDebugComponent, TEXT("UMRUKDebugComponent"), &Z_Registration_Info_UClass_UMRUKDebugComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKDebugComponent), 147877579U) },
+		{ Z_Construct_UClass_UMRUKDebugComponent, TEXT("UMRUKDebugComponent"), &Z_Registration_Info_UClass_UMRUKDebugComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKDebugComponent), 2906522888U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDebugComponent_h__Script_MRUtilityKit_8d39a4e783f8066c3a49165e31bda6fdbb162ace{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDebugComponent_h__Script_MRUtilityKit_ae4f445ab1159a966d2bdcd4883c67a3c198efef{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

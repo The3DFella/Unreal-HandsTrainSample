@@ -19,14 +19,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct FOculusXRUUID;
 
 // ********** Begin Class UOculusXRPlaneAnchorComponent ********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetPositionAndSize);
 
 
 struct Z_Construct_UClass_UOculusXRPlaneAnchorComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRPlaneAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPlaneAnchorComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRPlaneAnchorComponent(ETypeConstructPhase); \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRPlaneAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRPlaneAnchorComponent(UOculusXRPlaneAnchorComponent&&) = delete; \
 	UOculusXRPlaneAnchorComponent(const UOculusXRPlaneAnchorComponent&) = delete; \
@@ -45,13 +45,13 @@ public: \
 	NO_API virtual ~UOculusXRPlaneAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_8_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_8_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,14 +61,14 @@ class UOculusXRPlaneAnchorComponent;
 // ********** End Class UOculusXRPlaneAnchorComponent **********************************************
 
 // ********** Begin Class UOculusXRVolumeAnchorComponent *******************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetPositionAndSize);
 
 
 struct Z_Construct_UClass_UOculusXRVolumeAnchorComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRVolumeAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRVolumeAnchorComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRVolumeAnchorComponent(ETypeConstructPhase); \
@@ -77,7 +77,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRVolumeAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRVolumeAnchorComponent(UOculusXRVolumeAnchorComponent&&) = delete; \
 	UOculusXRVolumeAnchorComponent(const UOculusXRVolumeAnchorComponent&) = delete; \
@@ -87,13 +87,13 @@ public: \
 	NO_API virtual ~UOculusXRVolumeAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_22_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_22_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -103,14 +103,14 @@ class UOculusXRVolumeAnchorComponent;
 // ********** End Class UOculusXRVolumeAnchorComponent *********************************************
 
 // ********** Begin Class UOculusXRSemanticClassificationAnchorComponent ***************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetSemanticClassifications);
 
 
 struct Z_Construct_UClass_UOculusXRSemanticClassificationAnchorComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRSemanticClassificationAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSemanticClassificationAnchorComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRSemanticClassificationAnchorComponent(ETypeConstructPhase); \
@@ -119,7 +119,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSemanticClassificationAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRSemanticClassificationAnchorComponent(UOculusXRSemanticClassificationAnchorComponent&&) = delete; \
 	UOculusXRSemanticClassificationAnchorComponent(const UOculusXRSemanticClassificationAnchorComponent&) = delete; \
@@ -129,13 +129,13 @@ public: \
 	NO_API virtual ~UOculusXRSemanticClassificationAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_36_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_36_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_39_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -145,14 +145,14 @@ class UOculusXRSemanticClassificationAnchorComponent;
 // ********** End Class UOculusXRSemanticClassificationAnchorComponent *****************************
 
 // ********** Begin Class UOculusXRRoomLayoutAnchorComponent ***************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetRoomLayout);
 
 
 struct Z_Construct_UClass_UOculusXRRoomLayoutAnchorComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRRoomLayoutAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRRoomLayoutAnchorComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRRoomLayoutAnchorComponent(ETypeConstructPhase); \
@@ -161,7 +161,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRRoomLayoutAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRRoomLayoutAnchorComponent(UOculusXRRoomLayoutAnchorComponent&&) = delete; \
 	UOculusXRRoomLayoutAnchorComponent(const UOculusXRRoomLayoutAnchorComponent&) = delete; \
@@ -171,13 +171,13 @@ public: \
 	NO_API virtual ~UOculusXRRoomLayoutAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_50_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_50_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_53_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -190,7 +190,7 @@ class UOculusXRRoomLayoutAnchorComponent;
 struct Z_Construct_UClass_UOculusXRTriangleMeshAnchorComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRTriangleMeshAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRTriangleMeshAnchorComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRTriangleMeshAnchorComponent(ETypeConstructPhase); \
@@ -199,7 +199,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRTriangleMeshAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRTriangleMeshAnchorComponent(UOculusXRTriangleMeshAnchorComponent&&) = delete; \
 	UOculusXRTriangleMeshAnchorComponent(const UOculusXRTriangleMeshAnchorComponent&) = delete; \
@@ -209,12 +209,12 @@ public: \
 	NO_API virtual ~UOculusXRTriangleMeshAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_64_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_64_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h_67_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -224,6 +224,6 @@ class UOculusXRTriangleMeshAnchorComponent;
 // ********** End Class UOculusXRTriangleMeshAnchorComponent ***************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

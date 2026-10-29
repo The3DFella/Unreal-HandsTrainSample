@@ -98,9 +98,13 @@ struct UHT_STATICS
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_INTERNAL_CODE // XR_META_lighting_estimation\n// @cond DOXYGEN_WARNINGS\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_INTERNAL_CODE  XR_META_lighting_estimation\n@cond DOXYGEN_WARNINGS" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -435,7 +439,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function GetEnvironmentMapLightingEstimate Property Definitions ****************
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_CubeFace = { "CubeFace", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventGetEnvironmentMapLightingEstimate_Parms, CubeFace), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace, METADATA_PARAMS(0, nullptr) }; // 40cea1bf774bf458a1423f167be6fe7f44eb5cb6
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_CubeFace = { "CubeFace", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventGetEnvironmentMapLightingEstimate_Parms, CubeFace), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace, METADATA_PARAMS(0, nullptr) }; // 4ba33aa1ca409081a77e9a3270d230b8addad1be
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutLightingEstimate = { "OutLightingEstimate", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventGetEnvironmentMapLightingEstimate_Parms, OutLightingEstimate), Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate, METADATA_PARAMS(0, nullptr) }; // 7f81bd223b2e6b94fa39134e18d941ecc3683361
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bUpdateTexture = { "bUpdateTexture", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRPassthroughSubsystem_eventGetEnvironmentMapLightingEstimate_Parms), &UHT_STATICS::NewProp_bUpdateTexture_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
@@ -606,9 +610,13 @@ struct UHT_STATICS
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Category", "Passthrough|Persistent" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Creates a Reconstructed Passthrough layer that stays alive until \"Destroy Persistent Passthrough\" is called.\n\x09 * If used in blueprints, layer's parameters are available in the Details window when selecting the node.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Creates a Reconstructed Passthrough layer that stays alive until \"Destroy Persistent Passthrough\" is called.\nIf used in blueprints, layer's parameters are available in the Details window when selecting the node." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LayerResumed_MetaData[] = {
 		{ "NativeConst", "" },
@@ -628,7 +636,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function InitializePersistentPassthrough Property Definitions ******************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Parameters = { "Parameters", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventInitializePersistentPassthrough_Parms, Parameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(0, nullptr) }; // b5649aea41103dd7e4fc54d1598dc2a247a61a3e
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Parameters = { "Parameters", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventInitializePersistentPassthrough_Parms, Parameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(0, nullptr) }; // f60dba641b6907809055df15d23ac88321672792
 const UECodeGen_Private::FDelegatePropertyParams UHT_STATICS::NewProp_LayerResumed = { "LayerResumed", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Delegate, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventInitializePersistentPassthrough_Parms, LayerResumed), Z_Construct_UDelegateFunction_OculusXRPassthrough_OculusXRPassthrough_LayerResumed_Single__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LayerResumed_MetaData), NewProp_LayerResumed_MetaData) }; // 5b0c871b621cd6fbec6da3d4f7d0cd0293fc7063
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventInitializePersistentPassthrough_Parms, ReturnValue), Z_Construct_UClass_UOculusXRPersistentPassthroughInstance, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReturnValue_MetaData), NewProp_ReturnValue_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
@@ -675,9 +683,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough|Lighting Estimation" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_INTERNAL_CODE // XR_META_lighting_estimation\n// @cond DOXYGEN_WARNINGS\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_INTERNAL_CODE  XR_META_lighting_estimation\n@cond DOXYGEN_WARNINGS" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -754,8 +766,8 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function StartLightingEstimation Property Definitions **************************
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Resolution = { "Resolution", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventStartLightingEstimation_Parms, Resolution), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_Resolution, METADATA_PARAMS(0, nullptr) }; // c6d8b35718fc9d515cdebdb989fa97c49533a52c
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_PixelFormat = { "PixelFormat", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventStartLightingEstimation_Parms, PixelFormat), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_PixelFormat, METADATA_PARAMS(0, nullptr) }; // f222b5b76e617a78db31694c344cca24f363c9f1
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Resolution = { "Resolution", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventStartLightingEstimation_Parms, Resolution), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_Resolution, METADATA_PARAMS(0, nullptr) }; // c6a2f6664df700276272d774ec5452bae40498e7
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_PixelFormat = { "PixelFormat", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughSubsystem_eventStartLightingEstimation_Parms, PixelFormat), Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_PixelFormat, METADATA_PARAMS(0, nullptr) }; // 70ced2eb176c08065c706f96da72306eea22f8bc
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRPassthroughSubsystem_eventStartLightingEstimation_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Resolution,
@@ -834,11 +846,15 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// @endcond\n// metaxr_redact_endif // XR_META_lighting_estimation\n" },
+#endif
 		{ "DisplayName", "Passthrough Subsystem" },
 		{ "IncludePath", "OculusXRPassthroughSubsystem.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@endcond\nmetaxr_redact_endif  XR_META_lighting_estimation" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnAnyLayerResumed_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
@@ -847,15 +863,23 @@ struct UHT_STATICS
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PPTInstance_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// @endcond\n// metaxr_redact_endif // XR_META_lighting_estimation\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@endcond\nmetaxr_redact_endif  XR_META_lighting_estimation" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LightingEstimation_CubeFaces_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_INTERNAL_CODE // XR_META_lighting_estimation\n// @cond DOXYGEN_WARNINGS\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_INTERNAL_CODE  XR_META_lighting_estimation\n@cond DOXYGEN_WARNINGS" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnvironmentMap_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughSubsystem.h" },
@@ -888,12 +912,12 @@ struct UHT_STATICS
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_DestroyPersistentPassthrough, "DestroyPersistentPassthrough" }, // 428af68c9691ad6f4d2d6b72fd3989ecb613a739
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetDirectionalLightingEstimate, "GetDirectionalLightingEstimate" }, // bb97d83f244f6b7b0acff4ae174761f962e64593
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetEnvironmentMap, "GetEnvironmentMap" }, // 3d9e881b3a1d7df58c7213a01738930aaacc3a66
-		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetEnvironmentMapLightingEstimate, "GetEnvironmentMapLightingEstimate" }, // 518826e31ecf8eaa7d00359eebab8856ad3ca6a1
+		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetEnvironmentMapLightingEstimate, "GetEnvironmentMapLightingEstimate" }, // d264bb162a544ca07685032d470e316decf24b02
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetLightingEstimateColorCorrection, "GetLightingEstimateColorCorrection" }, // 3159ea144394acb3a7616ece7f16a4176526d555
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_GetPersistentPassthrough, "GetPersistentPassthrough" }, // 251f7d75f7471aeeb6428987e732c933bc6291a5
-		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_InitializePersistentPassthrough, "InitializePersistentPassthrough" }, // 35c05c78a799111cfae69b790cbe6378ab517664
-		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_IsLightingEstimationRunning, "IsLightingEstimationRunning" }, // cd11578ff54c54eec3ab6960ccdf8b46208f0266
-		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_StartLightingEstimation, "StartLightingEstimation" }, // ebb899bc903f7884716af6a0124346fd6f1fb366
+		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_InitializePersistentPassthrough, "InitializePersistentPassthrough" }, // 18204e9a37afc22783254fa1c9935604293b0fb9
+		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_IsLightingEstimationRunning, "IsLightingEstimationRunning" }, // 3c42ee2729eff4daf2491e34342d6414e7efc292
+		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_StartLightingEstimation, "StartLightingEstimation" }, // b278cbf12af7201fbfa9e013305d6b35e5ff4f81
 		{ &Z_Construct_UFunction_UOculusXRPassthroughSubsystem_StopLightingEstimation, "StopLightingEstimation" }, // 38108eab32bf5718313e041b5268f048019fa6e0
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -905,7 +929,7 @@ struct UHT_STATICS
 
 // ********** Begin Class UOculusXRPassthroughSubsystem Property Definitions ***********************
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnAnyLayerResumed = { "OnAnyLayerResumed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughSubsystem, OnAnyLayerResumed), Z_Construct_UDelegateFunction_OculusXRPassthrough_OculusXRPassthrough_AnyLayerResumed__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnAnyLayerResumed_MetaData), NewProp_OnAnyLayerResumed_MetaData) }; // 1391ba596d0fb6c8c243ee6e18848d0c9d04fec8
-const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnLightingEstimateChanged = { "OnLightingEstimateChanged", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughSubsystem, OnLightingEstimateChanged), Z_Construct_UDelegateFunction_OculusXRPassthrough_OculusXRPassthrough_LightingEstimateChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnLightingEstimateChanged_MetaData), NewProp_OnLightingEstimateChanged_MetaData) }; // 554778f800c54581523f65728abcee4201b81e8b
+const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnLightingEstimateChanged = { "OnLightingEstimateChanged", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughSubsystem, OnLightingEstimateChanged), Z_Construct_UDelegateFunction_OculusXRPassthrough_OculusXRPassthrough_LightingEstimateChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnLightingEstimateChanged_MetaData), NewProp_OnLightingEstimateChanged_MetaData) }; // eb7c6c5b8859d78d3ee199b331d2ecb405080f76
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_PPTInstance = { "PPTInstance", nullptr, (EPropertyFlags)0x0040000000080008, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughSubsystem, PPTInstance), Z_Construct_UClass_UOculusXRPersistentPassthroughInstance, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PPTInstance_MetaData), NewProp_PPTInstance_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LightingEstimation_CubeFaces_Inner = { "LightingEstimation_CubeFaces", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate, METADATA_PARAMS(0, nullptr) }; // 7f81bd223b2e6b94fa39134e18d941ecc3683361
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_LightingEstimation_CubeFaces = { "LightingEstimation_CubeFaces", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughSubsystem, LightingEstimation_CubeFaces), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LightingEstimation_CubeFaces_MetaData), NewProp_LightingEstimation_CubeFaces_MetaData) }; // 7f81bd223b2e6b94fa39134e18d941ecc3683361
@@ -987,17 +1011,17 @@ UOculusXRPassthroughSubsystem::~UOculusXRPassthroughSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h__Script_OculusXRPassthrough_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h__Script_OculusXRPassthrough_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate, Z_Construct_UScriptStruct_FLightingEstimation_LightingEstimate_Statics::NewStructOps, TEXT("LightingEstimation_LightingEstimate"),&Z_Registration_Info_UScriptStruct_FLightingEstimation_LightingEstimate, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FLightingEstimation_LightingEstimate), 2139208994U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPassthroughSubsystem, TEXT("UOculusXRPassthroughSubsystem"), &Z_Registration_Info_UClass_UOculusXRPassthroughSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughSubsystem), 3410160111U) },
+		{ Z_Construct_UClass_UOculusXRPassthroughSubsystem, TEXT("UOculusXRPassthroughSubsystem"), &Z_Registration_Info_UClass_UOculusXRPassthroughSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughSubsystem), 244587054U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h__Script_OculusXRPassthrough_cfb29db716f7fff0be1fac5ee75b627ce73031d5{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughSubsystem_h__Script_OculusXRPassthrough_c51b42ce329f98fd6c8027aa1a57cbcbe87662fb{
 	TEXT("/Script/OculusXRPassthrough"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

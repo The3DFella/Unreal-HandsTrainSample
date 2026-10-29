@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FSceneTypesPlaceholder_Statics;
 OCULUSXRSCENE_API UScriptStruct* Z_Construct_UScriptStruct_FSceneTypesPlaceholder(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h_10_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h_10_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FSceneTypesPlaceholder_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FSceneTypesPlaceholder(ETypeConstructPhase::Inner); }
 
@@ -31,7 +31,7 @@ struct FSceneTypesPlaceholder;
 // ********** End ScriptStruct FSceneTypesPlaceholder **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h
 
 // ********** Begin Enum EOculusXRBoundaryVisibility ***********************************************
 #define FOREACH_ENUM_EOCULUSXRBOUNDARYVISIBILITY(op) \

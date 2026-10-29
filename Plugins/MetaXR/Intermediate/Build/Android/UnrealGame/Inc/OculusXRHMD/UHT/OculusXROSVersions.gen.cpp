@@ -31,9 +31,13 @@ struct UHT_STATICS
 	static inline consteval int16 GetStructAlignment() { return alignof(FOculusXROSVersion); }
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Struct that wraps the version number, this allows for better customization of the appearance in the editor.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXROSVersions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Struct that wraps the version number, this allows for better customization of the appearance in the editor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Version_MetaData[] = {
 		{ "Category", "OculusXR" },
@@ -107,14 +111,14 @@ UScriptStruct* Z_Construct_UScriptStruct_FOculusXROSVersion(ETypeConstructPhase 
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXROSVersions_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXROSVersions_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FOculusXROSVersion, Z_Construct_UScriptStruct_FOculusXROSVersion_Statics::NewStructOps, TEXT("OculusXROSVersion"),&Z_Registration_Info_UScriptStruct_FOculusXROSVersion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXROSVersion), 643275812U) },
+		{ Z_Construct_UScriptStruct_FOculusXROSVersion, Z_Construct_UScriptStruct_FOculusXROSVersion_Statics::NewStructOps, TEXT("OculusXROSVersion"),&Z_Registration_Info_UScriptStruct_FOculusXROSVersion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXROSVersion), 3761528750U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXROSVersions_h__Script_OculusXRHMD_baa4d9b6f8169beb2e13d685ee197caa941e2649{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXROSVersions_h__Script_OculusXRHMD_74f69bfdd6d25a97d1fd0f76e27ac9e818a7bcdf{
 	TEXT("/Script/OculusXRHMD"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

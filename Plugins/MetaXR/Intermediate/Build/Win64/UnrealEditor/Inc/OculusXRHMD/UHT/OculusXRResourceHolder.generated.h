@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRResourceHolder_Statics;
 OCULUSXRHMD_API UClass* Z_Construct_UClass_UOculusXRResourceHolder(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_INCLASS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRResourceHolder_Statics; \
 	friend OCULUSXRHMD_API UClass* ::Z_Construct_UClass_UOculusXRResourceHolder(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRResourceHolder)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRResourceHolder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRResourceHolder) \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UOculusXRResourceHolder();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_14_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_GENERATED_BODY_LEGACY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_14_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_STANDARD_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_INCLASS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UOculusXRResourceHolder;
 // ********** End Class UOculusXRResourceHolder ****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

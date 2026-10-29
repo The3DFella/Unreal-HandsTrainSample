@@ -18,14 +18,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UMRUKSeatsComponent ******************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execCalculateSeatPoses);
 
 
 struct Z_Construct_UClass_UMRUKSeatsComponent_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKSeatsComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKSeatsComponent_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKSeatsComponent(ETypeConstructPhase); \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKSeatsComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKSeatsComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -46,13 +46,13 @@ public: \
 	NO_API virtual ~UMRUKSeatsComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_13_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_13_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,6 +62,6 @@ class UMRUKSeatsComponent;
 // ********** End Class UMRUKSeatsComponent ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

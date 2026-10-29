@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRTelemetryPrivacySettings_Statics;
 OCULUSXRTELEMETRY_API UClass* Z_Construct_UClass_UOculusXRTelemetryPrivacySettings(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_INCLASS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRTelemetryPrivacySettings_Statics; \
 	friend OCULUSXRTELEMETRY_API UClass* ::Z_Construct_UClass_UOculusXRTelemetryPrivacySettings(ETypeConstructPhase); \
@@ -33,7 +33,7 @@ public: \
 	[[deprecated("Do not call _getUObject(), use Cast.")]] virtual UObject* _getUObject() const override { return const_cast<UOculusXRTelemetryPrivacySettings*>(this); }
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_STANDARD_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	OCULUSXRTELEMETRY_API UOculusXRTelemetryPrivacySettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRTelemetryPrivacySettings) \
@@ -45,12 +45,12 @@ public: \
 	OCULUSXRTELEMETRY_API virtual ~UOculusXRTelemetryPrivacySettings();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_10_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_GENERATED_BODY_LEGACY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_10_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_STANDARD_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_INCLASS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -60,6 +60,6 @@ class UOculusXRTelemetryPrivacySettings;
 // ********** End Class UOculusXRTelemetryPrivacySettings ******************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRTelemetry_Private_OculusXRTelemetryPrivacySettings_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

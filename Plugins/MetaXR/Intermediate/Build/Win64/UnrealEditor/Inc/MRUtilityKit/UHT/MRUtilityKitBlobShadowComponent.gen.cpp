@@ -34,9 +34,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "CallInEditor", "true" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Only callable in the editor from the scene, will update the blob shadow size, position and material parameters\n\x09 * to give a preview how the blob shadow would look like.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only callable in the editor from the scene, will update the blob shadow size, position and material parameters\nto give a preview how the blob shadow would look like." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -76,54 +80,82 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Adds a blob shadow below the actor.\n * The blob shadow will position and resize itself automatically during runtime.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Blob Shadow Component" },
 		{ "HideCategories", "Object Activation Components|Activation Trigger" },
 		{ "IncludePath", "MRUtilityKitBlobShadowComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a blob shadow below the actor.\nThe blob shadow will position and resize itself automatically during runtime." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Roundness_MetaData[] = {
 		{ "Category", "MR Utility Kit|Aspect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Controls the look of the blob shadow corners (0 = squared corners, 1 = rounded corners).\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Controls the look of the blob shadow corners (0 = squared corners, 1 = rounded corners)." },
+#endif
 		{ "UIMax", "1" },
 		{ "UIMin", "0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Gradient_MetaData[] = {
 		{ "Category", "MR Utility Kit|Aspect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Controls the look of the blob shadow alpha (0 = fully opaque, 1 = gradient from the center).\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Controls the look of the blob shadow alpha (0 = fully opaque, 1 = gradient from the center)." },
+#endif
 		{ "UIMax", "1" },
 		{ "UIMin", "0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GradientPower_MetaData[] = {
 		{ "Category", "MR Utility Kit|Aspect" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Controls the curve of the blob shadow alpha gradient (only available if Gradient > 0).\n\x09 */" },
+#endif
 		{ "EditCondition", "Gradient > 0" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Controls the curve of the blob shadow alpha gradient (only available if Gradient > 0)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExtraExtent_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Increase or decrease the calculated blob shadow size by a fixed amount.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Increase or decrease the calculated blob shadow size by a fixed amount." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxVerticalDistance_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Maximum distance the actor can be away from the ground until the blob shadow is not shown anymore.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Maximum distance the actor can be away from the ground until the blob shadow is not shown anymore." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FadeDistance_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Distance from the ground until the blob shadow starts to fade.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Distance from the ground until the blob shadow starts to fade." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DynMaterial_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MRUtilityKitBlobShadowComponent.h" },
@@ -145,7 +177,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKBlobShadowComponent_UpdatePlaneSizeAndPosition, "UpdatePlaneSizeAndPosition" }, // 8a7c98a39ac4f007dbddbb2ec5a2c408b02382ba
+		{ &Z_Construct_UFunction_UMRUKBlobShadowComponent_UpdatePlaneSizeAndPosition, "UpdatePlaneSizeAndPosition" }, // 6755297e4346f18ee208be2345ee5e0f8d77fa46
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -240,14 +272,14 @@ UMRUKBlobShadowComponent::~UMRUKBlobShadowComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBlobShadowComponent_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBlobShadowComponent_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKBlobShadowComponent, TEXT("UMRUKBlobShadowComponent"), &Z_Registration_Info_UClass_UMRUKBlobShadowComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKBlobShadowComponent), 3227123579U) },
+		{ Z_Construct_UClass_UMRUKBlobShadowComponent, TEXT("UMRUKBlobShadowComponent"), &Z_Registration_Info_UClass_UMRUKBlobShadowComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKBlobShadowComponent), 3614990654U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBlobShadowComponent_h__Script_MRUtilityKit_a0cf2c0f0165ff0c57827c2da97f0a72a3dbb09c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBlobShadowComponent_h__Script_MRUtilityKit_c5bd80ec9a7adba7a4cac0d3a897da10e5b63e1f{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

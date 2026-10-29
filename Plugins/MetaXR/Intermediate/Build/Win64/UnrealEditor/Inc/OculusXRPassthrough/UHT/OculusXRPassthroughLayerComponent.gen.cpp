@@ -49,9 +49,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Clears any color maps previously applied to this layer and sets ColorMapType to \\ref ColorMapType_None value */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Clears any color maps previously applied to this layer and sets ColorMapType to \\ref ColorMapType_None value" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -93,9 +97,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method allows to enable or disable the color mapping technique which is configured for this passthrough layer.\n\x09 * @param bInEnableColorMap Specify `true` to enable the color mapping, and `false` to disable it.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method allows to enable or disable the color mapping technique which is configured for this passthrough layer.\n@param bInEnableColorMap Specify `true` to enable the color mapping, and `false` to disable it." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -153,9 +161,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enable or disables the color map curve used to convert grayscale passthrough to color. This mehtod only has an effect when the color mapping type is set to \\ref ColorMapType_GrayscaleToColor.\n\x09 * See \\ref bUseColorMapCurve for more details.\n\x09 * @param bInEnableColorMapCurve Specify `true` to apply the color map curve.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable or disables the color map curve used to convert grayscale passthrough to color. This mehtod only has an effect when the color mapping type is set to \\ref ColorMapType_GrayscaleToColor.\nSee \\ref bUseColorMapCurve for more details.\n@param bInEnableColorMapCurve Specify `true` to apply the color map curve." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -213,9 +225,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method allows to enable or disable the edge rendering in this passthrough layer. See \\ref bEnableEdgeColor for more details.\n\x09 * @param bInEnableEdgeColor Specify `true` to enable edge rendering.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method allows to enable or disable the edge rendering in this passthrough layer. See \\ref bEnableEdgeColor for more details.\n@param bInEnableEdgeColor Specify `true` to enable edge rendering." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -269,9 +285,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Removes color grading if any is active */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes color grading if any is active" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -315,12 +335,16 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method allows to configure brightness and contrast adjustment for Passthrough images. It fails if ColorMapType is not set to ColorMapType_ColorAdjustment.\n\x09 * @param InContrast Contast of passthrough. Valid range: [-1, 1]. A value of 0 means that contrast is left unchanged.\n\x09 * @param InBrightness Brightness of passthrough. Valid range: [-1, 1]. A value of 0 means that brightness is left unchanged.\n\x09 * @param InSaturation Saturation of passthrough. Valid range: [-1, 1]. A value of 0 means that saturation is left unchanged.\n\x09 */" },
+#endif
 		{ "CPP_Default_InBrightness", "0.000000" },
 		{ "CPP_Default_InContrast", "0.000000" },
 		{ "CPP_Default_InSaturation", "0.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method allows to configure brightness and contrast adjustment for Passthrough images. It fails if ColorMapType is not set to ColorMapType_ColorAdjustment.\n@param InContrast Contast of passthrough. Valid range: [-1, 1]. A value of 0 means that contrast is left unchanged.\n@param InBrightness Brightness of passthrough. Valid range: [-1, 1]. A value of 0 means that brightness is left unchanged.\n@param InSaturation Saturation of passthrough. Valid range: [-1, 1]. A value of 0 means that saturation is left unchanged." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -382,9 +406,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set color map array directly instead through a color curve. This method only has an affect when \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set color map array directly instead through a color curve. This method only has an affect when \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InColorArray_MetaData[] = {
 		{ "NativeConst", "" },
@@ -444,9 +472,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets Color LUT source.\n\x09 * If ColorMapType is `Color LUT`, then source will be blended with passthrough\n\x09 * using folowing formula:\n\x09 * Result = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )\n\x09 * If ColorMapType is `Interpolated Color LUT`, then source will be blended with color LUT target\n\x09 * using folowing formula:\n\x09 * Result = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets Color LUT source.\nIf ColorMapType is `Color LUT`, then source will be blended with passthrough\nusing folowing formula:\nResult = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )\nIf ColorMapType is `Interpolated Color LUT`, then source will be blended with color LUT target\nusing folowing formula:\nResult = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -500,9 +532,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets Color LUT target.\n\x09 * If ColorMapType is `Interpolated Color LUT`, then target will be blended with passthrough\n\x09 * using folowing formula:\n\x09 * Result = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\n\x09 * Note: If ColorLUTSource is not specified, Color LUT will be not be applied to the Passthrough layer.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets Color LUT target.\nIf ColorMapType is `Interpolated Color LUT`, then target will be blended with passthrough\nusing folowing formula:\nResult = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\nNote: If ColorLUTSource is not specified, Color LUT will be not be applied to the Passthrough layer." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -556,10 +592,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the color LUT weight. See \\ref LutWeight for more details */" },
+#endif
 		{ "CPP_Default_InWeight", "1.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the color LUT weight. See \\ref LutWeight for more details" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -615,12 +655,16 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the color map controls for grayscale and grayscale to rgb color mappings. The method fails if ColorMapType is not set to ColorMapType_Grayscale or ColorMapType_GrayscaleToColor.\n\x09 * @param InContrast Contast of passthrough. Valid range: [-1, 1]. A value of 0 means that contrast is left unchanged.\n\x09 * @param InBrightness Brightness of passthrough. Valid range: [-1, 1]. A value of 0 means that brightness is left unchanged.\n\x09 * @param InPosterize Posterize of passthrough. Ranges from 0 to 1, where 0 = no posterization (no effect), 1 = reduce to two colors.\n\x09 */" },
+#endif
 		{ "CPP_Default_InBrightness", "0.000000" },
 		{ "CPP_Default_InContrast", "0.000000" },
 		{ "CPP_Default_InPosterize", "0.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the color map controls for grayscale and grayscale to rgb color mappings. The method fails if ColorMapType is not set to ColorMapType_Grayscale or ColorMapType_GrayscaleToColor.\n@param InContrast Contast of passthrough. Valid range: [-1, 1]. A value of 0 means that contrast is left unchanged.\n@param InBrightness Brightness of passthrough. Valid range: [-1, 1]. A value of 0 means that brightness is left unchanged.\n@param InPosterize Posterize of passthrough. Ranges from 0 to 1, where 0 = no posterization (no effect), 1 = reduce to two colors." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -682,9 +726,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the color curve that will be added to the color map in grayscale modes --> will be converted into a gradient */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the color curve that will be added to the color map in grayscale modes --> will be converted into a gradient" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -738,9 +786,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the color mapping technique applied to the passthrough texture if \\ref bEnableColorMap is set to `true` */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the color mapping technique applied to the passthrough texture if \\ref bEnableColorMap is set to `true`" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -752,7 +804,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function SetColorMapType Property Definitions **********************************
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_InColorMapType = { "InColorMapType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughLayerBase_eventSetColorMapType_Parms, InColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(0, nullptr) }; // 82c23f8e672fd79b0b621c686c025efde8589673
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_InColorMapType = { "InColorMapType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRPassthroughLayerBase_eventSetColorMapType_Parms, InColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(0, nullptr) }; // b67f7573e0e48cb614e62aac84f93e9a5af55b38
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_InColorMapType,
 };
@@ -795,11 +847,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method allows to configure the color scale and offset values applied to passthrough pixels.\n\x09 * The method only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor.\n\x09 * @param InColorScale Color value that will be multiplied to the pixel color values during compositing. Default is `{1,1,1,1}`\n\x09 * @param InColorOffset Color value that will be added to the pixel color values during compositing. Default is `{0,0,0,0}`.\n\x09 */" },
+#endif
 		{ "CPP_Default_InColorOffset", "(R=0.000000,G=0.000000,B=0.000000,A=1.000000)" },
 		{ "CPP_Default_InColorScale", "(R=1.000000,G=1.000000,B=1.000000,A=1.000000)" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method allows to configure the color scale and offset values applied to passthrough pixels.\nThe method only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor.\n@param InColorScale Color value that will be multiplied to the pixel color values during compositing. Default is `{1,1,1,1}`\n@param InColorOffset Color value that will be added to the pixel color values during compositing. Default is `{0,0,0,0}`." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -857,9 +913,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method controls the color of the edges when edge rendering is enabled. See \\ref EdgeColor for more details.\n\x09 * @param InEdgeColor Edge rendering color.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method controls the color of the edges when edge rendering is enabled. See \\ref EdgeColor for more details.\n@param InEdgeColor Edge rendering color." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -913,9 +973,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Specifies whether passthrough should appear on top of (\\ref PassthroughLayerOrder_Overlay)\n\x09 * or beneath (\\ref PassthroughLayerOrder_Underlay) the virtual content. The default is `Underlay`.\n\x09 * `Overlay` is deprecated.\n\x09 * See \\ref LayerOrder property for more details */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies whether passthrough should appear on top of (\\ref PassthroughLayerOrder_Overlay)\nor beneath (\\ref PassthroughLayerOrder_Underlay) the virtual content. The default is `Underlay`.\n`Overlay` is deprecated.\nSee \\ref LayerOrder property for more details" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -969,9 +1033,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * This method changes the passthrough texture opacity. See \\ref TextureOpacityFactor for more details.\n\x09 * @param InOpacity New value of the passthrough texture opacity.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This method changes the passthrough texture opacity. See \\ref TextureOpacityFactor for more details.\n@param InOpacity New value of the passthrough texture opacity." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1020,155 +1088,227 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * @brief Represents a layer used for passthrough.\n *\n * The Passthrough API enables you to show the user's real environment in your mixed reality experiences.\n * It offers several options to customize the appearance of passthrough, such as adjusting opacity,\n * highlight salient edges in the image, or control the color reproduction.\n * For passthrough to be visible, it must be enabled in the Meta XR Plugin\n * via the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n *\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-overview/ to learn more about passthrough and its features\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-tutorial/ to create a simple app which uses passthrough\n */" },
+#endif
 		{ "DisplayName", "Passthrough Layer Base" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief Represents a layer used for passthrough.\n\nThe Passthrough API enables you to show the user's real environment in your mixed reality experiences.\nIt offers several options to customize the appearance of passthrough, such as adjusting opacity,\nhighlight salient edges in the image, or control the color reproduction.\nFor passthrough to be visible, it must be enabled in the Meta XR Plugin\nvia the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-overview/ to learn more about passthrough and its features\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-tutorial/ to create a simple app which uses passthrough" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LayerOrder_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Specifies whether passthrough should appear on top of (when \\ref LayerOrder is `PassthroughLayerOrder_Overlay`)\n\x09 * or beneath (when \\ref LayerOrder is `PassthroughLayerOrder_Underlay`) the virtual content. The default is `Underlay`.\n\x09 * `Overlay` is deprecated.\n\x09 */" },
+#endif
 		{ "DisplayName", "Layer Placement" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specifies whether passthrough should appear on top of (when \\ref LayerOrder is `PassthroughLayerOrder_Overlay`)\nor beneath (when \\ref LayerOrder is `PassthroughLayerOrder_Underlay`) the virtual content. The default is `Underlay`.\n`Overlay` is deprecated." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TextureOpacityFactor_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1.000000" },
 		{ "ClampMin", "0.000000" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Defines the passthrough opacity. It can be used to blend between passthrough and VR when \\ref LayerOrder is set to `Overlay`,\n\x09 * or to dim passthrough when \\ref LayerOrder is set to `Underlay`.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Defines the passthrough opacity. It can be used to blend between passthrough and VR when \\ref LayerOrder is set to `Overlay`,\nor to dim passthrough when \\ref LayerOrder is set to `Underlay`." },
+#endif
 		{ "UIMax", "1.000000" },
 		{ "UIMin", "0.000000" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableEdgeColor_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enables or disables edge rendering.\n\x09 * Use this flag to toggle the edge rendering but retain the previously selected color (including alpha) in the UI when it is disabled.\n\x09 */" },
+#endif
 		{ "DisplayName", "Enable Edge Rendering" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enables or disables edge rendering.\nUse this flag to toggle the edge rendering but retain the previously selected color (including alpha) in the UI when it is disabled." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EdgeColor_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color for the edge rendering. */" },
+#endif
 		{ "EditCondition", "bEnableEdgeColor" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color for the edge rendering." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableColorMap_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enables or disables the color mapping for this layer */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enables or disables the color mapping for this layer" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorMapType_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Represents the color mapping technique applied to this layer. Prefer setting it with \\ref SetColorMapType() method */" },
+#endif
 		{ "EditCondition", "bEnableColorMap" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents the color mapping technique applied to this layer. Prefer setting it with \\ref SetColorMapType() method" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseColorMapCurve_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Controls whether to use a color map curve or a gradient. Use it together with \\ref ColorMapCurve property, or set it with \\ref EnableColorMapCurve(). */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Controls whether to use a color map curve or a gradient. Use it together with \\ref ColorMapCurve property, or set it with \\ref EnableColorMapCurve()." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorMapCurve_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contains color mapping gradient which is used to convert grayscale passthrough to color. This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor. */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && bUseColorMapCurve && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains color mapping gradient which is used to convert grayscale passthrough to color. This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Contrast_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contains contrast setting for color mapping. Ranges from -1 (minimum) to 1 (maximum). This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_ColorAdjustment, \\ref ColorMapType_Grayscale or \\ref ColorMapType_GrayscaleToColor. */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains contrast setting for color mapping. Ranges from -1 (minimum) to 1 (maximum). This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_ColorAdjustment, \\ref ColorMapType_Grayscale or \\ref ColorMapType_GrayscaleToColor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Brightness_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contains brightness setting for color mapping. Ranges from -1 (minimum) to 1 (maximum). This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_ColorAdjustment, \\ref ColorMapType_Grayscale or \\ref ColorMapType_GrayscaleToColor. */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains brightness setting for color mapping. Ranges from -1 (minimum) to 1 (maximum). This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_ColorAdjustment, \\ref ColorMapType_Grayscale or \\ref ColorMapType_GrayscaleToColor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Posterize_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contains posterize setting for grayscale and grayscale to color mappings. Ranges from 0 to 1, where 0 = no posterization (no effect), 1 = reduce to two colors. */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains posterize setting for grayscale and grayscale to color mappings. Ranges from 0 to 1, where 0 = no posterization (no effect), 1 = reduce to two colors." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Saturation_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contains saturation for color adjustment mapping. Ranges from -1 (minimum) to 1 (maximum). */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains saturation for color adjustment mapping. Ranges from -1 (minimum) to 1 (maximum)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LutWeight_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Controls how \\ref ColorMapType_ColorLut color mapping technique is applied to passthrough.\n\x09 * If the value is 0, then the appearance of Passthrough is unchanged. If it is 1, the colors are fully taken from the LUT. Values between 0 and 1 lead to a linear interpolation\n\x09 * between the original color and the LUT color. If two LUTs are provided LutWeight is used to blend them.\n\x09 * This value can be animated to create smooth transitions.\n\x09 * Default is 0.0 (LUT not applied). Set to 1.0 to fully apply the selected LUT.\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Controls how \\ref ColorMapType_ColorLut color mapping technique is applied to passthrough.\nIf the value is 0, then the appearance of Passthrough is unchanged. If it is 1, the colors are fully taken from the LUT. Values between 0 and 1 lead to a linear interpolation\nbetween the original color and the LUT color. If two LUTs are provided LutWeight is used to blend them.\nThis value can be animated to create smooth transitions.\nDefault is 0.0 (LUT not applied). Set to 1.0 to fully apply the selected LUT." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorLUTSource_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Color LUT properties. If only \\ref ColorLUTSource is provided it will be blended with passthrough layer using following formula:\n\x09 *  Result = ColorLUTSource * LutWeight + Passthrough * ( 1 - LutWeight )\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT properties. If only \\ref ColorLUTSource is provided it will be blended with passthrough layer using following formula:\nResult = ColorLUTSource * LutWeight + Passthrough * ( 1 - LutWeight )" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorLUTTarget_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Color LUT properties. If both \\ref ColorLUTSource and \\ref ColorLUTTarget are provided they will be blended using following formula:\n\x09 *  Result = ColorLUTsSource * ( 1 - LutWeight ) + ColorLUTsTarget * LutWeight\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT properties. If both \\ref ColorLUTSource and \\ref ColorLUTTarget are provided they will be blended using following formula:\nResult = ColorLUTsSource * ( 1 - LutWeight ) + ColorLUTsTarget * LutWeight" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorScale_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Contains the color value that will be multiplied to the pixel color values during compositing. Default is white = `(1,1,1,1)`.\n\x09 * This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor.\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains the color value that will be multiplied to the pixel color values during compositing. Default is white = `(1,1,1,1)`.\nThis property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorOffset_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Contains the color value that will be added to the pixel color values during compositing. Default is black = `(0,0,0,0)`.\n\x09 * This property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor.\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contains the color value that will be added to the pixel color values during compositing. Default is black = `(0,0,0,0)`.\nThis property only has an effect if \\ref ColorMapType is set to \\ref ColorMapType_GrayscaleToColor." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1225,23 +1365,23 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_ClearColorMap, "ClearColorMap" }, // 94e1327d826109014f4ceab1bf0e830eb74834ac
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMap, "EnableColorMap" }, // 28d299c091b006fe9789a5002144faa6bd3341b5
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMapCurve, "EnableColorMapCurve" }, // 86473ef3e7cd2434a2b5516bdd6c6045a9d0c6a6
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableEdgeColor, "EnableEdgeColor" }, // 210be2a835fafdb6ef8d0ed48be937aeb5838bd3
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut, "RemoveColorLut" }, // 83fe89d62e5efcb3221ed41cb63917e61e8c9ec5
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation, "SetBrightnessContrastSaturation" }, // 3584b72bb9e1ff1188cd3ee0356c1d23828f25f7
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray, "SetColorArray" }, // 1f2a123f3d7964c92b8d0d8590a4d80f6be8e72f
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource, "SetColorLUTSource" }, // d0ca4e5b1c9c37c8b89d5c021163f873d32f31ef
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget, "SetColorLUTTarget" }, // 754f507a3f578a5da64f156dbd02e7fbee5fcade
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight, "SetColorLUTWeight" }, // b292085cdc0d71cb1e50777ddf2d2ff8290c686f
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls, "SetColorMapControls" }, // 834d8f9f7573a6044011bc88420ab2ae22c80ec0
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve, "SetColorMapCurve" }, // 38823e56daaa072c3364699deee062f209509a0d
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapType, "SetColorMapType" }, // 2df0a10f0c555d008be4f13b4ba212df3a253792
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorScaleAndOffset, "SetColorScaleAndOffset" }, // ded05b4cf6df2f2d80df22cce1eec35670bbc179
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetEdgeRenderingColor, "SetEdgeRenderingColor" }, // 67be9943570e5f67462f6fd3f7c4bca75bb8bc5d
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetLayerPlacement, "SetLayerPlacement" }, // 3492f913471999b506d450fb433e98be199ff934
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetTextureOpacity, "SetTextureOpacity" }, // ab61b7deabb8cc17d9a3d77f99208d80dbce7c27
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_ClearColorMap, "ClearColorMap" }, // 97c9abe22182a63aed488c51df0cae6b82b4be7e
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMap, "EnableColorMap" }, // b532d9962a8dda711d0bbd88a473d3210982f2f7
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMapCurve, "EnableColorMapCurve" }, // 09b7c9d6813047d52e0a4bea1136dbf4dd0cb148
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableEdgeColor, "EnableEdgeColor" }, // f3a06e41157df1f7a71f04c5aed75fc828b28235
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut, "RemoveColorLut" }, // be0694e172f405204d3bfb7abbde13821fdd6ebf
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation, "SetBrightnessContrastSaturation" }, // 3ffe7844d5d3004c5eac16b854a25e84bcbc7f34
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray, "SetColorArray" }, // b2f1d5f2cd2b57000ee6c05cd2ac8ad375a5b886
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource, "SetColorLUTSource" }, // 0c674ed75b5f6e9a4c1875ee53da2cdc45f99092
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget, "SetColorLUTTarget" }, // 20a7edd2df44a5d563214e6abeaf0582adadfe79
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight, "SetColorLUTWeight" }, // 2d4a1546a4d9bb354128b3a83b51da5d7d937e09
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls, "SetColorMapControls" }, // 3ca4467c44b925ce7df379ec5573bd57bf6ee42d
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve, "SetColorMapCurve" }, // 258e0c065b2858d57fa00d2312472f1c7bec8baa
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapType, "SetColorMapType" }, // 203dd6e5625daca79f51f9c1acd351874ede2284
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorScaleAndOffset, "SetColorScaleAndOffset" }, // 266f8b9c32d5ce8557d0ebfc37db7efb48c41847
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetEdgeRenderingColor, "SetEdgeRenderingColor" }, // c5373a9f1375db0b1ac8533374e85f0848c996cf
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetLayerPlacement, "SetLayerPlacement" }, // 8e5845055acc1452278409e94c5d5a01586670b9
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetTextureOpacity, "SetTextureOpacity" }, // 8cdbba256bb65fd642246d3bff8425cd8faad7d6
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1256,7 +1396,7 @@ const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TextureOpacit
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bEnableEdgeColor = { "bEnableEdgeColor", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UOculusXRPassthroughLayerBase), &UHT_STATICS::NewProp_bEnableEdgeColor_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bEnableEdgeColor_MetaData), NewProp_bEnableEdgeColor_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_EdgeColor = { "EdgeColor", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, EdgeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EdgeColor_MetaData), NewProp_EdgeColor_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bEnableColorMap = { "bEnableColorMap", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UOculusXRPassthroughLayerBase), &UHT_STATICS::NewProp_bEnableColorMap_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bEnableColorMap_MetaData), NewProp_bEnableColorMap_MetaData) };
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_ColorMapType = { "ColorMapType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ColorMapType_MetaData), NewProp_ColorMapType_MetaData) }; // 82c23f8e672fd79b0b621c686c025efde8589673
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_ColorMapType = { "ColorMapType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ColorMapType_MetaData), NewProp_ColorMapType_MetaData) }; // b67f7573e0e48cb614e62aac84f93e9a5af55b38
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bUseColorMapCurve = { "bUseColorMapCurve", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UOculusXRPassthroughLayerBase), &UHT_STATICS::NewProp_bUseColorMapCurve_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bUseColorMapCurve_MetaData), NewProp_bUseColorMapCurve_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ColorMapCurve = { "ColorMapCurve", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorMapCurve), Z_Construct_UClass_UCurveLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ColorMapCurve_MetaData), NewProp_ColorMapCurve_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_Contrast = { "Contrast", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, Contrast), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Contrast_MetaData), NewProp_Contrast_MetaData) };
@@ -1362,11 +1502,15 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * @brief Represents a passthrough layer which uses automatic environment depth reconstruction to render itself.\n *\n * The Passthrough API enables you to show the user's real environment in your mixed reality experiences.\n * It offers several options to customize the appearance of passthrough, such as adjusting opacity,\n * highlight salient edges in the image, or control the color reproduction.\n * For passthrough to be visible, it must be enabled in the Meta XR Plugin\n * via the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n *\n * Reconstructed passthrough used via this class vanishes when the current component\n * is destroyed. Consider using Persistent Passthrough Layer instead, which remains active throughout the application's lifetime,\n * including across level transitions. See https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough/ for more details.\n */" },
+#endif
 		{ "DisplayName", "Reconstructed Passthrough Layer" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief Represents a passthrough layer which uses automatic environment depth reconstruction to render itself.\n\nThe Passthrough API enables you to show the user's real environment in your mixed reality experiences.\nIt offers several options to customize the appearance of passthrough, such as adjusting opacity,\nhighlight salient edges in the image, or control the color reproduction.\nFor passthrough to be visible, it must be enabled in the Meta XR Plugin\nvia the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n\nReconstructed passthrough used via this class vanishes when the current component\nis destroyed. Consider using Persistent Passthrough Layer instead, which remains active throughout the application's lifetime,\nincluding across level transitions. See https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough/ for more details." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1446,11 +1590,15 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \\deprecated UOculusXRStereoLayerShapeUserDefined is deprecated, use UOculusXRStereoLayerShapeReconstructed instead.\n *\n * @brief Represents a passthrough layer which relies on the geometry and the depth provided by the client to render itself.\n *\n * The Passthrough API enables you to show the user's real environment in your mixed reality experiences.\n * It offers several options to customize the appearance of passthrough, such as adjusting opacity,\n * highlight salient edges in the image, or control the color reproduction.\n * For passthrough to be visible, it must be enabled in the Meta XR Plugin\n * via the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n *\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about surface projected passthrough.\n */" },
+#endif
 		{ "DisplayName", "User Defined Passthrough Layer" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\\deprecated UOculusXRStereoLayerShapeUserDefined is deprecated, use UOculusXRStereoLayerShapeReconstructed instead.\n\n@brief Represents a passthrough layer which relies on the geometry and the depth provided by the client to render itself.\n\nThe Passthrough API enables you to show the user's real environment in your mixed reality experiences.\nIt offers several options to customize the appearance of passthrough, such as adjusting opacity,\nhighlight salient edges in the image, or control the color reproduction.\nFor passthrough to be visible, it must be enabled in the Meta XR Plugin\nvia the \\ref UOculusXRHMDRuntimeSettings::bInsightPassthroughEnabled property.\n\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about surface projected passthrough." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1536,9 +1684,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Adds a procedural geometry onto which the passthrough images will be projected. This only has an effect with the surface projected passthrough layers.\n\x09 * @see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about it.\n\x09 *\n\x09 * @param ProceduralMeshComponent Reference to the component that contains the procedural mesh to be added.\n\x09 * @param updateTransform When the value is `true`, corresponding passthrough will update the transform of the surface mesh every frame.\n\x09 * Otherwise only the initial transform is recorded.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a procedural geometry onto which the passthrough images will be projected. This only has an effect with the surface projected passthrough layers.\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about it.\n\n@param ProceduralMeshComponent Reference to the component that contains the procedural mesh to be added.\n@param updateTransform When the value is `true`, corresponding passthrough will update the transform of the surface mesh every frame.\nOtherwise only the initial transform is recorded." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProceduralMeshComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -1604,9 +1756,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Adds a static geometry onto which the passthrough images will be projected. This only has an effect with the surface projected passthrough layers.\n\x09 * @see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about it.\n\x09 *\n\x09 * @param StaticMeshComponent Reference to the component that contains the static mesh to be added.\n\x09 * @param updateTransform When the value is `true`, corresponding passthrough layer will update the transform of the surface mesh every frame.\n\x09 * Otherwise only the initial transform is recorded.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds a static geometry onto which the passthrough images will be projected. This only has an effect with the surface projected passthrough layers.\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-customize-passthrough-surface-projected-passthrough/ to learn more about it.\n\n@param StaticMeshComponent Reference to the component that contains the static mesh to be added.\n@param updateTransform When the value is `true`, corresponding passthrough layer will update the transform of the surface mesh every frame.\nOtherwise only the initial transform is recorded." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMeshComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -1672,11 +1828,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * \\deprecated Adds a static geometry onto which the passthrough images will be projected. This method is deprecated in favour of \\ref AddStaticSurfaceGeometry().\n\x09 *\n\x09 * @param StaticMeshActor The actor containing the static geometry.\n\x09 * @param bUpdateTransform When the value is `true`, current layer will update the transform of the mesh every frame.\n\x09 * Otherwise only the initial transform is recorded.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Please use AddStaticSurfaceGeometry instead" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\\deprecated Adds a static geometry onto which the passthrough images will be projected. This method is deprecated in favour of \\ref AddStaticSurfaceGeometry().\n\n@param StaticMeshActor The actor containing the static geometry.\n@param bUpdateTransform When the value is `true`, current layer will update the transform of the mesh every frame.\nOtherwise only the initial transform is recorded." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1739,11 +1899,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * \\deprecated Checks if the actor contains a static geomenty that has been added to the current component. This method is deprecated in favour of \\ref IsSurfaceGeometryComponent().\n\x09 * @param StaticMeshActor The actor for which the check is to be made.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Please use IsSurfaceGeometryComponent instead" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\\deprecated Checks if the actor contains a static geomenty that has been added to the current component. This method is deprecated in favour of \\ref IsSurfaceGeometryComponent().\n@param StaticMeshActor The actor for which the check is to be made." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1805,9 +1969,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Checks if the current component contains the mesh passed as an argument.\n\x09 * @param MeshComponent The component with the mesh for which the check is to be made.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if the current component contains the mesh passed as an argument.\n@param MeshComponent The component with the mesh for which the check is to be made." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MeshComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -1868,9 +2036,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Manually mark the stereo layer passthrough effect for updating.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Manually mark the stereo layer passthrough effect for updating." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1911,9 +2083,13 @@ struct UHT_STATICS
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Calling this method results in broadcasting \\ref OnLayerResumed event if `InLayerId` matches the Id of the current passthrough layer.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Calling this method results in broadcasting \\ref OnLayerResumed event if `InLayerId` matches the Id of the current passthrough layer." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1967,9 +2143,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Removes previously added procedural geometry from the projection surface.\n\x09 * @param ProceduralMeshComponent Reference to the component that contains the procedural mesh to be removed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes previously added procedural geometry from the projection surface.\n@param ProceduralMeshComponent Reference to the component that contains the procedural mesh to be removed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProceduralMeshComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -2026,9 +2206,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Removes previously added static geometry from the projection surface.\n\x09 * @param StaticMeshComponent Reference to the component that contains the static mesh to be removed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes previously added static geometry from the projection surface.\n@param StaticMeshComponent Reference to the component that contains the static mesh to be removed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMeshComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -2085,11 +2269,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "Passthrough" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * \\deprecated Removes previously added static geometry from the projection surface. This method is deprecated in favour of \\ref RemoveStaticSurfaceGeometry().\n\x09 * @param StaticMeshActor The actor with the static geometry to be removed.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Please use RemoveStaticSurfaceGeometry instead" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\\deprecated Removes previously added static geometry from the projection surface. This method is deprecated in favour of \\ref RemoveStaticSurfaceGeometry().\n@param StaticMeshActor The actor with the static geometry to be removed." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2141,17 +2329,25 @@ struct UHT_STATICS
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "OculusXRHMD" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \\deprecated UOculusXRPassthroughLayerComponent is deprecated, use persistent passthrough instead.\n * See https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough/ for more details.\n *\n * @brief A component which defines reusable passthrough behavior that can be added to different types of Actors.\n *\n * The Passthrough API enables you to show the user's real environment in your mixed reality experiences.\n * It offers several options to customize the appearance of passthrough, such as adjusting opacity,\n * highlight salient edges in the image, or control the color reproduction.\n *\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-overview/ to learn more about passthrough and its features\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-tutorial/ to create a simple app which uses passthrough\n * @see https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough to learn more about persistent passthrough\n */" },
+#endif
 		{ "HideCategories", "Object LOD Lighting TextureStreaming Trigger PhysicsVolume" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\\deprecated UOculusXRPassthroughLayerComponent is deprecated, use persistent passthrough instead.\nSee https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough/ for more details.\n\n@brief A component which defines reusable passthrough behavior that can be added to different types of Actors.\n\nThe Passthrough API enables you to show the user's real environment in your mixed reality experiences.\nIt offers several options to customize the appearance of passthrough, such as adjusting opacity,\nhighlight salient edges in the image, or control the color reproduction.\n\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-overview/ to learn more about passthrough and its features\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-passthrough-tutorial/ to create a simple app which uses passthrough\n@see https://developers.meta.com/horizon/documentation/unreal/unreal-persistent-passthrough to learn more about persistent passthrough" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnLayerResumed_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Occurs when current passthrough layer has been rendered and presented on the HMD screen for the first time after being restarted.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Occurs when current passthrough layer has been rendered and presented on the HMD screen for the first time after being restarted." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PassthroughComponentMap_MetaData[] = {
 		{ "EditInline", "true" },
@@ -2180,16 +2376,16 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddProceduralSurfaceGeometry, "AddProceduralSurfaceGeometry" }, // 19fd90de49bb9e985edbc4e1e05ce82df7477fe6
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddStaticSurfaceGeometry, "AddStaticSurfaceGeometry" }, // 61fe60e2088e057b5bbe1748b21e66ae3e347ede
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddSurfaceGeometry, "AddSurfaceGeometry" }, // 1efef9dd3d10f3f13ac9dda9027ed455caeae8dc
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometry, "IsSurfaceGeometry" }, // b51229d56fc254714a04b22267cbaaf84add876b
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometryComponent, "IsSurfaceGeometryComponent" }, // abfcf6a5254ddeb7898df34138ba456f97c31bc2
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate, "MarkPassthroughStyleForUpdate" }, // d7d796848c896b4329b02c87dc95c060eb9e55ce
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_OnAnyLayerResumedEvent, "OnAnyLayerResumedEvent" }, // 4840d10a68b0edf96b3c34abded6db06d451ba63
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveProceduralSurfaceGeometry, "RemoveProceduralSurfaceGeometry" }, // 9a13c48acdbafd221bca0f03087f7b99bf70f8a8
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveStaticSurfaceGeometry, "RemoveStaticSurfaceGeometry" }, // ca683d7642881c69754fdc54e07b9ab978c36712
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveSurfaceGeometry, "RemoveSurfaceGeometry" }, // fe394f04d1a4327e213b202f6f6f0217553b36b5
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddProceduralSurfaceGeometry, "AddProceduralSurfaceGeometry" }, // 6cf2907fc8a0ea7e48378a3bd9ce23299255b9e7
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddStaticSurfaceGeometry, "AddStaticSurfaceGeometry" }, // 4b22671cdef72cdae0c6173edca5235ce1cebf39
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddSurfaceGeometry, "AddSurfaceGeometry" }, // dbcd5a42f23109d32d8fe58f96004dc0a023fa22
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometry, "IsSurfaceGeometry" }, // 02c86e858f989e9eea2738c472f9bf6690ca2485
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometryComponent, "IsSurfaceGeometryComponent" }, // 2808bde7da651d2d791803836b2716b7462d52f1
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate, "MarkPassthroughStyleForUpdate" }, // fc0dfb3c5c66e299ff56bae58795b9595215c7a9
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_OnAnyLayerResumedEvent, "OnAnyLayerResumedEvent" }, // c0bf91a20178a77d34bcd644686a80553714c0e4
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveProceduralSurfaceGeometry, "RemoveProceduralSurfaceGeometry" }, // 2db16c1d7b3920e5dfefcd3b4212f717cee053fb
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveStaticSurfaceGeometry, "RemoveStaticSurfaceGeometry" }, // 0dffae4b6ea1bb3601e8ec59bc097256896470fd
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveSurfaceGeometry, "RemoveSurfaceGeometry" }, // e76bd9f447b7ec02a68a8a91efea17e9db635861
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -2278,17 +2474,17 @@ UOculusXRPassthroughLayerComponent::~UOculusXRPassthroughLayerComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h__Script_OculusXRPassthrough_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h__Script_OculusXRPassthrough_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPassthroughLayerBase, TEXT("UOculusXRPassthroughLayerBase"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerBase), 3821526609U) },
-		{ Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed, TEXT("UOculusXRStereoLayerShapeReconstructed"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeReconstructed, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeReconstructed), 2398958086U) },
-		{ Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined, TEXT("UOculusXRStereoLayerShapeUserDefined"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeUserDefined, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeUserDefined), 3943319144U) },
-		{ Z_Construct_UClass_UOculusXRPassthroughLayerComponent, TEXT("UOculusXRPassthroughLayerComponent"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerComponent), 3083547151U) },
+		{ Z_Construct_UClass_UOculusXRPassthroughLayerBase, TEXT("UOculusXRPassthroughLayerBase"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerBase), 1713785558U) },
+		{ Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed, TEXT("UOculusXRStereoLayerShapeReconstructed"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeReconstructed, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeReconstructed), 1092427490U) },
+		{ Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined, TEXT("UOculusXRStereoLayerShapeUserDefined"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeUserDefined, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeUserDefined), 474953445U) },
+		{ Z_Construct_UClass_UOculusXRPassthroughLayerComponent, TEXT("UOculusXRPassthroughLayerComponent"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerComponent), 476869924U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h__Script_OculusXRPassthrough_1baf6df9ef59a4df0ad36c671a06d3697cb17515{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h__Script_OculusXRPassthrough_59b4ef2f06ae5636246a6f33545e61f8b7290dd2{
 	TEXT("/Script/OculusXRPassthrough"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

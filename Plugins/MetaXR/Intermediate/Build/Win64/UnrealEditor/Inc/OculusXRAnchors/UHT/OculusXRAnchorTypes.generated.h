@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRAnchorLocationFlags_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAnchorLocationFlags(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_67_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_67_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAnchorLocationFlags_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAnchorLocationFlags(ETypeConstructPhase::Inner); }
 
@@ -34,7 +34,7 @@ struct FOculusXRAnchorLocationFlags;
 struct Z_Construct_UScriptStruct_FOculusXRUUID_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRUUID(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_105_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_105_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRUUID_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRUUID(ETypeConstructPhase::Inner); }
 
@@ -46,7 +46,7 @@ struct FOculusXRUUID;
 struct Z_Construct_UScriptStruct_FOculusXRUInt64_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRUInt64(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_143_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_143_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRUInt64_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRUInt64(ETypeConstructPhase::Inner); }
 
@@ -58,7 +58,7 @@ struct FOculusXRUInt64;
 struct Z_Construct_UScriptStruct_FOculusXRAnchor_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAnchor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_174_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_174_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAnchor_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAnchor(ETypeConstructPhase::Inner); }
 
@@ -70,7 +70,7 @@ struct FOculusXRAnchor;
 struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryInfo_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSpaceQueryInfo(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_244_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_244_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSpaceQueryInfo_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSpaceQueryInfo(ETypeConstructPhase::Inner); }
 
@@ -82,7 +82,7 @@ struct FOculusXRSpaceQueryInfo;
 struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_276_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_276_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult(ETypeConstructPhase::Inner); }
 
@@ -94,7 +94,7 @@ struct FOculusXRSpaceQueryResult;
 struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryFilterValues_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSpaceQueryFilterValues(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_296_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_296_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSpaceQueryFilterValues_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSpaceQueryFilterValues(ETypeConstructPhase::Inner); }
 
@@ -106,7 +106,7 @@ struct FOculusXRSpaceQueryFilterValues;
 struct Z_Construct_UClass_UOculusXRSpaceDiscoveryFilterBase_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRSpaceDiscoveryFilterBase(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSpaceDiscoveryFilterBase_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRSpaceDiscoveryFilterBase(ETypeConstructPhase); \
@@ -115,7 +115,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSpaceDiscoveryFilterBase)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRSpaceDiscoveryFilterBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -127,12 +127,12 @@ public: \
 	NO_API virtual ~UOculusXRSpaceDiscoveryFilterBase();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_305_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_305_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_308_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -145,7 +145,7 @@ class UOculusXRSpaceDiscoveryFilterBase;
 struct Z_Construct_UScriptStruct_FOculusXRSpaceDiscoveryInfo_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSpaceDiscoveryInfo(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_319_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_319_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSpaceDiscoveryInfo_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSpaceDiscoveryInfo(ETypeConstructPhase::Inner); }
 
@@ -157,7 +157,7 @@ struct FOculusXRSpaceDiscoveryInfo;
 struct Z_Construct_UScriptStruct_FOculusXRAnchorsDiscoverResult_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAnchorsDiscoverResult(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_332_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_332_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAnchorsDiscoverResult_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAnchorsDiscoverResult(ETypeConstructPhase::Inner); }
 
@@ -169,7 +169,7 @@ struct FOculusXRAnchorsDiscoverResult;
 struct Z_Construct_UClass_UOculusXRSpaceDiscoveryIdsFilter_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRSpaceDiscoveryIdsFilter(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSpaceDiscoveryIdsFilter_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRSpaceDiscoveryIdsFilter(ETypeConstructPhase); \
@@ -178,7 +178,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSpaceDiscoveryIdsFilter)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRSpaceDiscoveryIdsFilter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -190,12 +190,12 @@ public: \
 	NO_API virtual ~UOculusXRSpaceDiscoveryIdsFilter();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_358_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_358_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_361_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -208,7 +208,7 @@ class UOculusXRSpaceDiscoveryIdsFilter;
 struct Z_Construct_UClass_UOculusXRSpaceDiscoveryComponentsFilter_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRSpaceDiscoveryComponentsFilter(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSpaceDiscoveryComponentsFilter_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRSpaceDiscoveryComponentsFilter(ETypeConstructPhase); \
@@ -217,7 +217,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSpaceDiscoveryComponentsFilter)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRSpaceDiscoveryComponentsFilter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -229,12 +229,12 @@ public: \
 	NO_API virtual ~UOculusXRSpaceDiscoveryComponentsFilter();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_381_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_381_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_384_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -247,7 +247,7 @@ class UOculusXRSpaceDiscoveryComponentsFilter;
 struct Z_Construct_UScriptStruct_FOculusXRRoomLayout_Statics;
 OCULUSXRANCHORS_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRRoomLayout(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_399_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_399_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRRoomLayout_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRRoomLayout(ETypeConstructPhase::Inner); }
 
@@ -256,7 +256,7 @@ struct FOculusXRRoomLayout;
 // ********** End ScriptStruct FOculusXRRoomLayout *************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h
 
 // ********** Begin Enum EOculusXRAnchorResult *****************************************************
 #define FOREACH_ENUM_EOCULUSXRANCHORRESULT(op) \

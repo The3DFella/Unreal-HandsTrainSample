@@ -35,7 +35,7 @@ struct FOculusXRUUID;
 struct Z_Construct_UScriptStruct_FMRUKMeshSegment_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKMeshSegment(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_14_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_14_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKMeshSegment_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKMeshSegment(ETypeConstructPhase::Inner); }
 
@@ -44,7 +44,7 @@ struct FMRUKMeshSegment;
 // ********** End ScriptStruct FMRUKMeshSegment ****************************************************
 
 // ********** Begin Class UMRUKLoadFromDevice ******************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnSceneLoaded); \
 	DECLARE_FUNCTION(execLoadSceneFromDeviceAsync);
 
@@ -52,7 +52,7 @@ struct FMRUKMeshSegment;
 struct Z_Construct_UClass_UMRUKLoadFromDevice_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKLoadFromDevice(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKLoadFromDevice_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKLoadFromDevice(ETypeConstructPhase); \
@@ -61,7 +61,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKLoadFromDevice)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKLoadFromDevice(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -73,13 +73,13 @@ public: \
 	NO_API virtual ~UMRUKLoadFromDevice();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_23_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_23_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ class UMRUKLoadFromDevice;
 // ********** End Class UMRUKLoadFromDevice ********************************************************
 
 // ********** Begin Class UMRUKConfigureTrackables *************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnTrackablesConfigured); \
 	DECLARE_FUNCTION(execConfigureTrackablesAsync);
 
@@ -97,7 +97,7 @@ class UMRUKLoadFromDevice;
 struct Z_Construct_UClass_UMRUKConfigureTrackables_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKConfigureTrackables(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKConfigureTrackables_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKConfigureTrackables(ETypeConstructPhase); \
@@ -106,7 +106,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKConfigureTrackables)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKConfigureTrackables(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -118,13 +118,13 @@ public: \
 	NO_API virtual ~UMRUKConfigureTrackables();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_67_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_67_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_70_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -134,7 +134,7 @@ class UMRUKConfigureTrackables;
 // ********** End Class UMRUKConfigureTrackables ***************************************************
 
 // ********** Begin Class UMRUKLoadFromJson ********************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnSceneLoaded); \
 	DECLARE_FUNCTION(execLoadSceneFromJsonAsync);
 
@@ -142,7 +142,7 @@ class UMRUKConfigureTrackables;
 struct Z_Construct_UClass_UMRUKLoadFromJson_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKLoadFromJson(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKLoadFromJson_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKLoadFromJson(ETypeConstructPhase); \
@@ -151,7 +151,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKLoadFromJson)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKLoadFromJson(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -163,13 +163,13 @@ public: \
 	NO_API virtual ~UMRUKLoadFromJson();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_93_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_93_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_96_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -179,7 +179,7 @@ class UMRUKLoadFromJson;
 // ********** End Class UMRUKLoadFromJson **********************************************************
 
 // ********** Begin Class UMRUKBPLibrary ***********************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetMatrixColumn); \
 	DECLARE_FUNCTION(execConstructTexture2D); \
 	DECLARE_FUNCTION(execComputeDirectionAwayFromClosestWall); \
@@ -193,7 +193,7 @@ class UMRUKLoadFromJson;
 struct Z_Construct_UClass_UMRUKBPLibrary_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKBPLibrary(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKBPLibrary_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKBPLibrary(ETypeConstructPhase); \
@@ -202,7 +202,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKBPLibrary)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKBPLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -214,13 +214,13 @@ public: \
 	NO_API virtual ~UMRUKBPLibrary();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_125_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_125_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h_128_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -230,6 +230,6 @@ class UMRUKBPLibrary;
 // ********** End Class UMRUKBPLibrary *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

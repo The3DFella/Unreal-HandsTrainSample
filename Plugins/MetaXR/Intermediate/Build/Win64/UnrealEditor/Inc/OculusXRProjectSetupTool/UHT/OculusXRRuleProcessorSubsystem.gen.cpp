@@ -31,10 +31,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The rule processor handles registration and querying of rules\n */" },
+#endif
 		{ "IncludePath", "OculusXRRuleProcessorSubsystem.h" },
 		{ "ModuleRelativePath", "Public/OculusXRRuleProcessorSubsystem.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The rule processor handles registration and querying of rules" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -109,14 +113,14 @@ UOculusXRRuleProcessorSubsystem::~UOculusXRRuleProcessorSubsystem() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h__Script_OculusXRProjectSetupTool_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h__Script_OculusXRProjectSetupTool_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRRuleProcessorSubsystem, TEXT("UOculusXRRuleProcessorSubsystem"), &Z_Registration_Info_UClass_UOculusXRRuleProcessorSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRRuleProcessorSubsystem), 2648693533U) },
+		{ Z_Construct_UClass_UOculusXRRuleProcessorSubsystem, TEXT("UOculusXRRuleProcessorSubsystem"), &Z_Registration_Info_UClass_UOculusXRRuleProcessorSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRRuleProcessorSubsystem), 3358141504U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h__Script_OculusXRProjectSetupTool_95cb86a695eb34076ed40afaa8c657090cd263d0{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h__Script_OculusXRProjectSetupTool_074011485c3462cfcff79a30d266e7f75b29ff84{
 	TEXT("/Script/OculusXRProjectSetupTool"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

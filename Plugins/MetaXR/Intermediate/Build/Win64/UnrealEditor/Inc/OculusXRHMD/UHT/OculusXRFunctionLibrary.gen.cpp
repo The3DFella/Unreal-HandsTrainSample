@@ -65,14 +65,18 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Adds loading splash screen with parameters\n\x09 *\n\x09 * @param Texture\x09\x09\x09(in) A texture asset to be used for the splash.\n\x09 * @param TranslationInMeters (in) Initial translation of the center of the splash screen (in meters).\n\x09 * @param Rotation\x09\x09\x09(in) Initial rotation of the splash screen, with the origin at the center of the splash screen.\n\x09 * @param SizeInMeters\x09\x09(in) Size, in meters, of the quad with the splash screen.\n\x09 * @param DeltaRotation\x09\x09(in) Incremental rotation, that is added each 2nd frame to the quad transform. The quad is rotated around the center of the quad.\n\x09 * @param bClearBeforeAdd\x09(in) If true, clears splashes before adding a new one.\n\x09 */" },
+#endif
 		{ "CPP_Default_bClearBeforeAdd", "false" },
 		{ "CPP_Default_DeltaRotation", "" },
 		{ "CPP_Default_SizeInMeters", "(X=1.000,Y=1.000)" },
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use Add Loading Screen Splash from the Head Mounted Display Loading Screen functions instead." },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds loading splash screen with parameters\n\n@param Texture                       (in) A texture asset to be used for the splash.\n@param TranslationInMeters (in) Initial translation of the center of the splash screen (in meters).\n@param Rotation                      (in) Initial rotation of the splash screen, with the origin at the center of the splash screen.\n@param SizeInMeters          (in) Size, in meters, of the quad with the splash screen.\n@param DeltaRotation         (in) Incremental rotation, that is added each 2nd frame to the quad transform. The quad is rotated around the center of the quad.\n@param bClearBeforeAdd       (in) If true, clears splashes before adding a new one." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -150,9 +154,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Performance" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Begin a named profiling region for performance analysis.\n\x09 * This marks the start of a region that can be measured by profiling tools.\n\x09 * Call EndProfilingRegion() to end the region.\n\x09 *\n\x09 * @param RegionName (in) Name of the profiling region to begin\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Begin a named profiling region for performance analysis.\nThis marks the start of a region that can be measured by profiling tools.\nCall EndProfilingRegion() to end the region.\n\n@param RegionName (in) Name of the profiling region to begin" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RegionName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -205,11 +213,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Removes all the splash screens.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use Clear Loading Screen Splashes from the Head Mounted Display Loading Screen functions instead." },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes all the splash screens." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -251,9 +263,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enables/disables orientation tracking on devices that support it.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enables/disables orientation tracking on devices that support it." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -311,9 +327,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enables/disables positional tracking on devices that support it.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enables/disables positional tracking on devices that support it." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -367,9 +387,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Performance" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * End the currently active profiling region that was started with BeginProfilingRegion().\n\x09 * Profiling regions must be properly paired with begin/end calls.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "End the currently active profiling region that was started with BeginProfilingRegion().\nProfiling regions must be properly paired with begin/end calls." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -411,9 +435,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the current available frequencies\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current available frequencies" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -470,9 +498,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns current base rotation and base offset.\n\x09 * The base offset is currently used base position offset, previously set by the\n\x09 * ResetPosition or SetBasePositionOffset calls. It represents a vector that translates the HMD's position\n\x09 * into (0,0,0) point, in meters.\n\x09 * The axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.\n\x09 *\n\x09 * @param OutRotation\x09\x09\x09(out) Rotator object with base rotation\n\x09 * @param OutBaseOffsetInMeters\x09(out) base position offset, vector, in meters.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns current base rotation and base offset.\nThe base offset is currently used base position offset, previously set by the\nResetPosition or SetBasePositionOffset calls. It represents a vector that translates the HMD's position\ninto (0,0,0) point, in meters.\nThe axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.\n\n@param OutRotation                   (out) Rotator object with base rotation\n@param OutBaseOffsetInMeters (out) base position offset, vector, in meters." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -531,11 +563,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns current base rotation and position offset.\n\x09 *\n\x09 * @param OutRot\x09\x09\x09(out) Rotator object with base rotation\n\x09 * @param OutPosOffset\x09\x09(out) the vector with previously set position offset.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "A hack, proper camera positioning should be used" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns current base rotation and position offset.\n\n@param OutRot                        (out) Rotator object with base rotation\n@param OutPosOffset          (out) the vector with previously set position offset." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -594,9 +630,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the current controller's type\n\x09 * @param deviceHand\x09\x09\x09\x09(in) The hand to get the position from\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current controller's type\n@param deviceHand                            (in) The hand to get the position from" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -659,9 +699,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the current display frequency\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current display frequency" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -825,9 +869,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns whether eye-tracked foveated rendering is supported or not\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether eye-tracked foveated rendering is supported or not" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -884,9 +932,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the current multiresolution level\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current multiresolution level" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -942,9 +994,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the foveated rendering method currently being used.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the foveated rendering method currently being used." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1000,9 +1056,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the GPU frame time on supported mobile platforms (Go for now)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the GPU frame time on supported mobile platforms (Go for now)" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1056,9 +1116,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the GPU utilization availability and value\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the GPU utilization availability and value" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1121,9 +1185,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Guardian" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the dimensions in UE world space of the requested Boundary Type\n\x09 * @param BoundaryType\x09\x09\x09(in) An enum representing the boundary type requested, either Outer Boundary (exact guardian bounds) or PlayArea (rectangle inside the Outer Boundary)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the dimensions in UE world space of the requested Boundary Type\n@param BoundaryType                  (in) An enum representing the boundary type requested, either Outer Boundary (exact guardian bounds) or PlayArea (rectangle inside the Outer Boundary)" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1138,7 +1206,7 @@ struct UHT_STATICS
 
 // ********** Begin Function GetGuardianDimensions Property Definitions ****************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoundaryType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianDimensions_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 2178ab04eecab8541ac9cf766ef6d85244410b83
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianDimensions_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 3ccf115c419b274b91a449c91cc36ae5023c97aa
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianDimensions_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_BoundaryType_Underlying,
@@ -1185,10 +1253,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Guardian" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the list of points in UE world space of the requested Boundary Type\n\x09 * @param BoundaryType\x09\x09\x09(in) An enum representing the boundary type requested, either Outer Boundary (exact guardian bounds) or PlayArea (rectangle inside the Outer Boundary)\n\x09 * @param UsePawnSpace\x09\x09\x09(in) Boolean indicating to return the points in world space or pawn space\n\x09 */" },
+#endif
 		{ "CPP_Default_UsePawnSpace", "false" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the list of points in UE world space of the requested Boundary Type\n@param BoundaryType                  (in) An enum representing the boundary type requested, either Outer Boundary (exact guardian bounds) or PlayArea (rectangle inside the Outer Boundary)\n@param UsePawnSpace                  (in) Boolean indicating to return the points in world space or pawn space" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1209,7 +1281,7 @@ struct UHT_STATICS
 
 // ********** Begin Function GetGuardianPoints Property Definitions ********************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoundaryType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianPoints_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 2178ab04eecab8541ac9cf766ef6d85244410b83
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianPoints_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 3ccf115c419b274b91a449c91cc36ae5023c97aa
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_UsePawnSpace = { "UsePawnSpace", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRFunctionLibrary_eventGetGuardianPoints_Parms), &UHT_STATICS::NewProp_UsePawnSpace_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetGuardianPoints_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
@@ -1259,9 +1331,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the color space of the target HMD\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the color space of the target HMD" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1336,10 +1412,10 @@ struct UHT_STATICS
 
 // ********** Begin Function GetNodeGuardianIntersection Property Definitions **********************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_DeviceType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // 89be8033432191e994bf3382af611bd8db362474
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // acf429d83a3748ebfd59a9340053b1a765452c66
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoundaryType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 2178ab04eecab8541ac9cf766ef6d85244410b83
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, ReturnValue), Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, METADATA_PARAMS(0, nullptr) }; // 55052884969e8698e881e58e279c07ba862abe01
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 3ccf115c419b274b91a449c91cc36ae5023c97aa
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetNodeGuardianIntersection_Parms, ReturnValue), Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, METADATA_PARAMS(0, nullptr) }; // 5add85d8526a5835a240bbca2767c929b75c79f4
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_DeviceType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_DeviceType,
@@ -1386,9 +1462,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the performance metrics\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the performance metrics" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1400,7 +1480,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function GetPerformanceMetrics Property Definitions ****************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_PerformanceMetrics = { "PerformanceMetrics", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPerformanceMetrics_Parms, PerformanceMetrics), Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics, METADATA_PARAMS(0, nullptr) }; // 1484a204c13b2f0ec78cb9620f079821086db8b6
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_PerformanceMetrics = { "PerformanceMetrics", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPerformanceMetrics_Parms, PerformanceMetrics), Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics, METADATA_PARAMS(0, nullptr) }; // 37b890515ff15de5c42badc7f095441cf4bf2551
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_PerformanceMetrics,
 };
@@ -1442,9 +1522,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Guardian" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns the transform of the play area rectangle, defining its position, rotation and scale to apply to a unit cube to match it with the play area.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the transform of the play area rectangle, defining its position, rotation and scale to apply to a unit cube to match it with the play area." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1519,8 +1603,8 @@ struct UHT_STATICS
 // ********** Begin Function GetPointGuardianIntersection Property Definitions *********************
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Point = { "Point", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPointGuardianIntersection_Parms, Point), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Point_MetaData), NewProp_Point_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoundaryType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPointGuardianIntersection_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 2178ab04eecab8541ac9cf766ef6d85244410b83
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPointGuardianIntersection_Parms, ReturnValue), Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, METADATA_PARAMS(0, nullptr) }; // 55052884969e8698e881e58e279c07ba862abe01
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoundaryType = { "BoundaryType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPointGuardianIntersection_Parms, BoundaryType), Z_Construct_UEnum_OculusXRHMD_EOculusXRBoundaryType, METADATA_PARAMS(0, nullptr) }; // 3ccf115c419b274b91a449c91cc36ae5023c97aa
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetPointGuardianIntersection_Parms, ReturnValue), Z_Construct_UScriptStruct_FOculusXRGuardianTestResult, METADATA_PARAMS(0, nullptr) }; // 5add85d8526a5835a240bbca2767c929b75c79f4
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Point,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_BoundaryType_Underlying,
@@ -1571,12 +1655,16 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Grabs the current orientation and position for the HMD.  If positional tracking is not available, DevicePosition will be a zero vector\n\x09 *\n\x09 * @param DeviceRotation\x09(out) The device's current rotation\n\x09 * @param DevicePosition\x09(out) The device's current position, in its own tracking space\n\x09 * @param NeckPosition\x09\x09(out) The estimated neck position, calculated using NeckToEye vector from User Profile. Same coordinate space as DevicePosition.\n\x09 * @param bUseOrienationForPlayerCamera\x09(in) Should be set to 'true' if the orientation is going to be used to update orientation of the camera manually.\n\x09 * @param bUsePositionForPlayerCamera\x09(in) Should be set to 'true' if the position is going to be used to update position of the camera manually.\n\x09 * @param PositionScale\x09\x09(in) The 3D scale that will be applied to position.\n\x09 */" },
+#endif
 		{ "CPP_Default_bUseOrienationForPlayerCamera", "false" },
 		{ "CPP_Default_bUsePositionForPlayerCamera", "false" },
 		{ "CPP_Default_PositionScale", "" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Grabs the current orientation and position for the HMD.  If positional tracking is not available, DevicePosition will be a zero vector\n\n@param DeviceRotation        (out) The device's current rotation\n@param DevicePosition        (out) The device's current position, in its own tracking space\n@param NeckPosition          (out) The estimated neck position, calculated using NeckToEye vector from User Profile. Same coordinate space as DevicePosition.\n@param bUseOrienationForPlayerCamera (in) Should be set to 'true' if the orientation is going to be used to update orientation of the camera manually.\n@param bUsePositionForPlayerCamera   (in) Should be set to 'true' if the position is going to be used to update position of the camera manually.\n@param PositionScale         (in) The 3D scale that will be applied to position." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PositionScale_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1666,10 +1754,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Reports raw sensor data. If HMD doesn't support any of the parameters then it will be set to zero.\n\x09 *\n\x09 * @param AngularAcceleration\x09[Deprecated] (out) Angular acceleration in radians per second per second.\n\x09 * @param LinearAcceleration\x09\x09[Deprecated] (out) Acceleration in meters per second per second.\n\x09 * @param AngularVelocity\x09\x09(out) Angular velocity in radians per second.\n\x09 * @param LinearVelocity\x09\x09\x09(out) Velocity in meters per second.\n\x09 * @param TimeInSeconds\x09\x09\x09(out) Time when the reported IMU reading took place, in seconds.\n\x09 */" },
+#endif
 		{ "CPP_Default_DeviceType", "HMD" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reports raw sensor data. If HMD doesn't support any of the parameters then it will be set to zero.\n\n@param AngularAcceleration   [Deprecated] (out) Angular acceleration in radians per second per second.\n@param LinearAcceleration            [Deprecated] (out) Acceleration in meters per second per second.\n@param AngularVelocity               (out) Angular velocity in radians per second.\n@param LinearVelocity                        (out) Velocity in meters per second.\n@param TimeInSeconds                 (out) Time when the reported IMU reading took place, in seconds." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1693,7 +1785,7 @@ const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_AngularVeloc
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LinearVelocity = { "LinearVelocity", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetRawSensorData_Parms, LinearVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TimeInSeconds = { "TimeInSeconds", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetRawSensorData_Parms, TimeInSeconds), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_DeviceType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetRawSensorData_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // 89be8033432191e994bf3382af611bd8db362474
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetRawSensorData_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // acf429d83a3748ebfd59a9340053b1a765452c66
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_AngularAcceleration,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_LinearAcceleration,
@@ -1747,9 +1839,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the suggested CPU and GPU levels to the Oculus device.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the suggested CPU and GPU levels to the Oculus device." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1813,9 +1909,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns true if system headset is in 3dof mode\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if system headset is in 3dof mode" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1873,9 +1973,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns current user profile.\n\x09 *\n\x09 * @param Profile\x09\x09(out) Structure to hold current user profile.\n\x09 * @return (boolean)\x09True, if user profile was acquired.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns current user profile.\n\n@param Profile               (out) Structure to hold current user profile.\n@return (boolean)    True, if user profile was acquired." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1892,7 +1996,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function GetUserProfile Property Definitions ***********************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Profile = { "Profile", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetUserProfile_Parms, Profile), Z_Construct_UScriptStruct_FOculusXRHmdUserProfile, METADATA_PARAMS(0, nullptr) }; // 489142c88c6968b38db516fa9b1246228a794089
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Profile = { "Profile", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventGetUserProfile_Parms, Profile), Z_Construct_UScriptStruct_FOculusXRHmdUserProfile, METADATA_PARAMS(0, nullptr) }; // 51229c73210f4ad04e45598a0a41d9b4114d1d75
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRFunctionLibrary_eventGetUserProfile_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Profile,
@@ -1936,9 +2040,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns currently selected MetaXR XrApi backend\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns currently selected MetaXR XrApi backend" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1994,9 +2102,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns true, if the app has input focus.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true, if the app has input focus." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2053,9 +2165,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns true, if the system overlay is present.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true, if the system overlay is present." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2112,9 +2228,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Checks if color passthrough is supported\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if color passthrough is supported" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2172,9 +2292,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns if the device is currently tracked by the runtime or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns if the device is currently tracked by the runtime or not." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2193,7 +2317,7 @@ struct UHT_STATICS
 
 // ********** Begin Function IsDeviceTracked Property Definitions **********************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_DeviceType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventIsDeviceTracked_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // 89be8033432191e994bf3382af611bd8db362474
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_DeviceType = { "DeviceType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRFunctionLibrary_eventIsDeviceTracked_Parms, DeviceType), Z_Construct_UEnum_OculusXRHMD_EOculusXRTrackedDeviceType, METADATA_PARAMS(0, nullptr) }; // acf429d83a3748ebfd59a9340053b1a765452c66
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRFunctionLibrary_eventIsDeviceTracked_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_DeviceType_Underlying,
@@ -2238,9 +2362,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns true if StartEnvironmentDepth() has been called and is currently running.\n\x09 * If called right after calling StartEnvironmentDepth() it'll return false as it needs some time for EnvironmentDepth to start\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if StartEnvironmentDepth() has been called and is currently running.\nIf called right after calling StartEnvironmentDepth() it'll return false as it needs some time for EnvironmentDepth to start" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2297,9 +2425,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary|Guardian" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Returns true if the Guardian has been set up by the user, false if the user is in \"seated\" mode and has not set up a play space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if the Guardian has been set up by the user, false if the user is in \"seated\" mode and has not set up a play space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2413,9 +2545,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get a system recommendation on whether Passthrough should be active.\n\x09 * When set, it is recommended for apps which optionally support an MR experience\n\x09 * with Passthrough to default to that mode.\n\x09 * Currently, this is determined based on whether the user has Passthrough active in the home environment.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a system recommendation on whether Passthrough should be active.\nWhen set, it is recommended for apps which optionally support an MR experience\nwith Passthrough to default to that mode.\nCurrently, this is determined based on whether the user has Passthrough active in the home environment." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2472,9 +2608,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Checks if passthrough is supported\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks if passthrough is supported" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2533,9 +2673,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets 'base rotation' - the rotation that will be subtracted from\n\x09 * the actual HMD orientation.\n\x09 * Sets base position offset (in meters). The base position offset is the distance from the physical (0, 0, 0) position\n\x09 * to current HMD position (bringing the (0, 0, 0) point to the current HMD position)\n\x09 * Note, this vector is set by ResetPosition call; use this method with care.\n\x09 * The axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.\n\x09 *\n\x09 * @param Rotation\x09\x09\x09(in) Rotator object with base rotation\n\x09 * @param BaseOffsetInMeters (in) the vector to be set as base offset, in meters.\n\x09 * @param Options\x09\x09\x09(in) specifies either position, orientation or both should be set.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets 'base rotation' - the rotation that will be subtracted from\nthe actual HMD orientation.\nSets base position offset (in meters). The base position offset is the distance from the physical (0, 0, 0) position\nto current HMD position (bringing the (0, 0, 0) point to the current HMD position)\nNote, this vector is set by ResetPosition call; use this method with care.\nThe axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.\n\n@param Rotation                      (in) Rotator object with base rotation\n@param BaseOffsetInMeters (in) the vector to be set as base offset, in meters.\n@param Options                       (in) specifies either position, orientation or both should be set." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2599,11 +2743,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets 'base rotation' - the rotation that will be subtracted from\n\x09 * the actual HMD orientation.\n\x09 * The position offset might be added to current HMD position,\n\x09 * effectively moving the virtual camera by the specified offset. The addition\n\x09 * occurs after the HMD orientation and position are applied.\n\x09 *\n\x09 * @param BaseRot\x09\x09\x09(in) Rotator object with base rotation\n\x09 * @param PosOffset\x09\x09\x09(in) the vector to be added to HMD position.\n\x09 * @param Options\x09\x09\x09(in) specifies either position, orientation or both should be set.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "A hack, proper camera positioning should be used" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets 'base rotation' - the rotation that will be subtracted from\nthe actual HMD orientation.\nThe position offset might be added to current HMD position,\neffectively moving the virtual camera by the specified offset. The addition\noccurs after the HMD orientation and position are applied.\n\n@param BaseRot                       (in) Rotator object with base rotation\n@param PosOffset                     (in) the vector to be added to HMD position.\n@param Options                       (in) specifies either position, orientation or both should be set." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2665,9 +2813,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the target HMD to do color space correction to a specific color space\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the target HMD to do color space correction to a specific color space" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2726,10 +2878,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the Color Scale/Offset\n\x09 */" },
+#endif
 		{ "CPP_Default_bApplyToAllLayers", "false" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the Color Scale/Offset" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2796,11 +2952,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the CPU and GPU levels as hints to the Oculus device (Deprecated).\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecatedMessage", "Deprecated. Please use Get/SetSuggestedCpuAndGpuPerformanceLevels instead" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the CPU and GPU levels as hints to the Oculus device (Deprecated)." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2858,9 +3018,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the requested display frequency\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the requested display frequency" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2914,9 +3078,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * When hands removal is enabled and hand tracking is active, the region\n\x09 * of the depth texture which contains the hands will be replaced with\n\x09 * the best estimate for depth behind the hands.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When hands removal is enabled and hand tracking is active, the region\nof the depth texture which contains the hands will be replaced with\nthe best estimate for depth behind the hands." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -2974,9 +3142,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the eyebuffer sharpen type. This amplifies contrast and fine details.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the eyebuffer sharpen type. This amplifies contrast and fine details." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3034,9 +3206,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the requested foveated rendering level for the next frame, and whether FFR's level is now dynamic or not. Changes to foveated rendering persist across map changes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the requested foveated rendering level for the next frame, and whether FFR's level is now dynamic or not. Changes to foveated rendering persist across map changes." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3101,9 +3277,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the requested foveated rendering method. Changes to foveated rendering persist across map changes.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the requested foveated rendering method. Changes to foveated rendering persist across map changes." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3218,9 +3398,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Turns on or off local dimming\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Turns on or off local dimming" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3278,11 +3462,15 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Scales the HMD position that gets added to the virtual camera position.\n\x09 *\n\x09 * @param PosScale3D\x09(in) the scale to apply to the HMD position.\n\x09 */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "This feature is no longer supported." },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Scales the HMD position that gets added to the virtual camera position.\n\n@param PosScale3D    (in) the scale to apply to the HMD position." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3337,9 +3525,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the suggested CPU and GPU levels to the Oculus device.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the suggested CPU and GPU levels to the Oculus device." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3404,9 +3596,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the occlusions mode using environment depth. When occlusions are enabled\n\x09 * virtual objects that are behind physical objects will be occluded so that\n\x09 * the sense of immersion is preserved.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the occlusions mode using environment depth. When occlusions are enabled\nvirtual objects that are behind physical objects will be occluded so that\nthe sense of immersion is preserved." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif // WITH_METADATA
@@ -3464,9 +3660,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Create the environment depth texture swap chain and start receiving\n\x09 * depth texture every frame until stopped.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create the environment depth texture swap chain and start receiving\ndepth texture every frame until stopped." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3504,9 +3704,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusLibrary" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Destroy the environment depth texture swap chain and stop receiving\n\x09 * new depth textures every frame. Call this when environment depth is\n\x09 * no longer needed to free up resources.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Destroy the environment depth texture swap chain and stop receiving\nnew depth textures every frame. Call this when environment depth is\nno longer needed to free up resources." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3543,10 +3747,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// namespace OculusXRHMD\n" },
+#endif
 		{ "IncludePath", "OculusXRFunctionLibrary.h" },
 		{ "ModuleRelativePath", "Public/OculusXRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "namespace OculusXRHMD" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -3613,63 +3821,63 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_AddLoadingSplashScreen, "AddLoadingSplashScreen" }, // 8381415cf2ac80cb0cf84d8270d92afa72ab371f
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_BeginProfilingRegion, "BeginProfilingRegion" }, // 952db5e4d5bb29168a0657f1299d99e3519dbc19
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_ClearLoadingSplashScreens, "ClearLoadingSplashScreens" }, // aee07b20c52d6a163c81c920d6b29220d316ca80
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EnableOrientationTracking, "EnableOrientationTracking" }, // 04d1bc06a4fab8d6902fa7a1bce1b93b93b7f0dc
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EnablePositionTracking, "EnablePositionTracking" }, // 9508c81c1e7c27b0fc81a9a456889b6a4cebffc0
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EndProfilingRegion, "EndProfilingRegion" }, // c4bf57a25bc5ac1a582a4abacc030d3e4be7ec80
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetAvailableDisplayFrequencies, "GetAvailableDisplayFrequencies" }, // 5f550f03af0a8983466707291e7ce1ae13b35c86
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetBaseRotationAndBaseOffsetInMeters, "GetBaseRotationAndBaseOffsetInMeters" }, // 5c716c5a34868db12f0174b45a9664f59260df0e
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetBaseRotationAndPositionOffset, "GetBaseRotationAndPositionOffset" }, // 2cb0b7cf9c3b7de1e46e9c15f6438b5998afd19f
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetControllerType, "GetControllerType" }, // 90c9cbdc28f295180ce20b12b337f812abc22374
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetCurrentDisplayFrequency, "GetCurrentDisplayFrequency" }, // e51678eda64d48b36d2344a4c41e5bde3583bf7b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_AddLoadingSplashScreen, "AddLoadingSplashScreen" }, // d6d878de51ca0ba104146aa02567964644ba7388
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_BeginProfilingRegion, "BeginProfilingRegion" }, // 8ceb156102c8f77941aadd19f3413af0e30af652
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_ClearLoadingSplashScreens, "ClearLoadingSplashScreens" }, // 2bd9f891189130b4a75fff9d6a0b1266d15b18a0
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EnableOrientationTracking, "EnableOrientationTracking" }, // a7bf3a39e951970df62834d7a184d6dde056622b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EnablePositionTracking, "EnablePositionTracking" }, // abc34c40e64787870c70592c564a9306d6f60a49
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_EndProfilingRegion, "EndProfilingRegion" }, // 9ab870fc080f2343a533d9890daeb51438de8a80
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetAvailableDisplayFrequencies, "GetAvailableDisplayFrequencies" }, // 80aa75a0ea041c8bd49ffaf0a79fff65e92a73f5
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetBaseRotationAndBaseOffsetInMeters, "GetBaseRotationAndBaseOffsetInMeters" }, // ff7cc054796bacff4577d1ae2c72d2175ad27afa
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetBaseRotationAndPositionOffset, "GetBaseRotationAndPositionOffset" }, // c4741fe52e7b518dd83a03f3c6a7b81bbb9d2036
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetControllerType, "GetControllerType" }, // d87167fd5b36a9054808972f8074f0ab1d21bf24
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetCurrentDisplayFrequency, "GetCurrentDisplayFrequency" }, // 40575d491c48202427d1aa8c994f160851dda736
 		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetDeviceName, "GetDeviceName" }, // 91382528ab183d797e6681365d5453e169f64006
 		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetDeviceType, "GetDeviceType" }, // 28f8d672854ba84f5f2601bc1f04bff898abe430
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetEyeTrackedFoveatedRenderingSupported, "GetEyeTrackedFoveatedRenderingSupported" }, // 200a3d8b4db3966c0329087e9bdf728ba5eb4226
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetFoveatedRenderingLevel, "GetFoveatedRenderingLevel" }, // 29dfca0eacbc49500882e9a5d73840e8e92bdd45
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetFoveatedRenderingMethod, "GetFoveatedRenderingMethod" }, // 08dc529c0585a092eb6c4c82d02d11330731e8d5
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGPUFrameTime, "GetGPUFrameTime" }, // 3b29509717197be9d942b2d222087f4387f3cbbf
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGPUUtilization, "GetGPUUtilization" }, // 28469909a6039110a106fed1cb5729cbe38712cf
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGuardianDimensions, "GetGuardianDimensions" }, // 535dba171a70c3aafabe598b84c693f07a1c5c43
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGuardianPoints, "GetGuardianPoints" }, // 788bb84509abce1ee7a99d5c43b52b6e558d7ac8
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetHmdColorDesc, "GetHmdColorDesc" }, // ef4a83ea946c261a260f4d19353903d110b675fd
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetNodeGuardianIntersection, "GetNodeGuardianIntersection" }, // d4b1e01773fe09d85a0d9a2515f15cebc291f08d
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPerformanceMetrics, "GetPerformanceMetrics" }, // 7cdbaa0f1be1eec8482805f8722b9ccd10ffe184
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPlayAreaTransform, "GetPlayAreaTransform" }, // 09d80eafdf8a94ee47c2b7aca05d146f4b99292b
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPointGuardianIntersection, "GetPointGuardianIntersection" }, // 6527a130a37911549f0ed8d0783a4020a2d0f30d
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPose, "GetPose" }, // c7e2c4aa1f6e705e077b8a55dabac28c37d5e93f
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetRawSensorData, "GetRawSensorData" }, // ab63f5d7cc7e7641bfb2a0400bf70dae72c10804
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetSuggestedCpuAndGpuPerformanceLevels, "GetSuggestedCpuAndGpuPerformanceLevels" }, // a1e2874ef2af0295b7c94c1935e651f25bd8e160
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetSystemHmd3DofModeEnabled, "GetSystemHmd3DofModeEnabled" }, // 14e1c5674fff57a052e505250329ff0955cc357e
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetUserProfile, "GetUserProfile" }, // 9760ba4c49a31d9a59daf4afb97b949d3520caeb
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetXrApi, "GetXrApi" }, // 954081f2ca32a18e66c763a3a42f24b4c911edad
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_HasInputFocus, "HasInputFocus" }, // fdd35d74281c4b45eb558141469d621af125af15
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_HasSystemOverlayPresent, "HasSystemOverlayPresent" }, // 32b478236ca589ab33c054da2d996332f31cc946
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsColorPassthroughSupported, "IsColorPassthroughSupported" }, // 90dd816e2b843fae24c541aaa767ea3aeae36594
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsDeviceTracked, "IsDeviceTracked" }, // 0b0d4f6d58ae0f3b246e1fb5c72eb7e48ac5d06e
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsEnvironmentDepthStarted, "IsEnvironmentDepthStarted" }, // 8105d1713bf5fec1ea1fd81f8afcb449797280e2
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsGuardianConfigured, "IsGuardianConfigured" }, // 5f4c6e9ccbeeb9d7c8e3e64f411a85725cf68fc9
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetEyeTrackedFoveatedRenderingSupported, "GetEyeTrackedFoveatedRenderingSupported" }, // 462497bf67633de9cc9d5ca5e26280d50d1e0d8a
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetFoveatedRenderingLevel, "GetFoveatedRenderingLevel" }, // c0eea3dfafb8b32c71bc27492eb619a10139cea7
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetFoveatedRenderingMethod, "GetFoveatedRenderingMethod" }, // 211514fea29ae91c49b72163418d2713b675f644
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGPUFrameTime, "GetGPUFrameTime" }, // 947027158cde4772fa49b696feb467fb4e285661
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGPUUtilization, "GetGPUUtilization" }, // 8a691c1b3fd058ab257fb38165add129d7d9ee46
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGuardianDimensions, "GetGuardianDimensions" }, // ff81d22464513e713ebfa39fffba175fbc41eedd
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetGuardianPoints, "GetGuardianPoints" }, // 529251cdef21a7c6ec2ed080d10bd63945886124
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetHmdColorDesc, "GetHmdColorDesc" }, // d482931e3411f76eacec7815bbd077e18972d43b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetNodeGuardianIntersection, "GetNodeGuardianIntersection" }, // fcf39f7c9e9e6703d19423f370fb4d40c47d6ff5
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPerformanceMetrics, "GetPerformanceMetrics" }, // 77e81e7ed998aa45986ade26a8f4b2de0f86dba7
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPlayAreaTransform, "GetPlayAreaTransform" }, // 7224c5b49397c189ad91f2d22a967d6228ff6d2c
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPointGuardianIntersection, "GetPointGuardianIntersection" }, // 2b3d337e0e623d4cdd295944f15a452971faefcc
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetPose, "GetPose" }, // 1bcb5dbf7ca45ce9af3744836b075b930e8c3e21
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetRawSensorData, "GetRawSensorData" }, // 39a3013896beb7a13526931cff8466d0b4449e63
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetSuggestedCpuAndGpuPerformanceLevels, "GetSuggestedCpuAndGpuPerformanceLevels" }, // bf83bf604fbe49a823b880fa52ca6eaf3e352770
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetSystemHmd3DofModeEnabled, "GetSystemHmd3DofModeEnabled" }, // 3cdfd7058114502fe7ff730a409601957c6dae04
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetUserProfile, "GetUserProfile" }, // b822ffb96acf76f6611c6f687474070a32491f27
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_GetXrApi, "GetXrApi" }, // 873fbd115a47f2087fd1c320845716d5b053ed5b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_HasInputFocus, "HasInputFocus" }, // 7f7312e462ecf6c678060fb2d121a731bf393c5b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_HasSystemOverlayPresent, "HasSystemOverlayPresent" }, // e6e74b8080b0e580c86690a94d106a46ff31fd49
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsColorPassthroughSupported, "IsColorPassthroughSupported" }, // c4021850ce897ca395a3126298d836aadff45251
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsDeviceTracked, "IsDeviceTracked" }, // 0cb60e6983edd00fe61c22d101ba66480131b064
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsEnvironmentDepthStarted, "IsEnvironmentDepthStarted" }, // 28d2eb325f3a4e8cbda264dc66d07f9308a20676
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsGuardianConfigured, "IsGuardianConfigured" }, // 7de453181e33a67d6d5f241de8fa78294cf00b30
 		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsGuardianDisplayed, "IsGuardianDisplayed" }, // f75290b04e8303886044d85d84e56e24dbad89e0
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsPassthroughRecommended, "IsPassthroughRecommended" }, // 1b4ba741b7f6cdd8b4b8a56bd08597a7831435ed
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsPassthroughSupported, "IsPassthroughSupported" }, // b1f10a1552585c0820681e5f5c2b5b11e33ef0e9
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetBaseRotationAndBaseOffsetInMeters, "SetBaseRotationAndBaseOffsetInMeters" }, // bf8151ee7aa042f3edf52aa170b33029a0dc2ece
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetBaseRotationAndPositionOffset, "SetBaseRotationAndPositionOffset" }, // 118106dd9443919c322bc2542d98e82b1f7bbddf
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetClientColorDesc, "SetClientColorDesc" }, // 5b3a0a63a1e387fb6a22ec246a08448782bd976e
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetColorScaleAndOffset, "SetColorScaleAndOffset" }, // 04be67de398aa751b48fe0c58fd31ef1ca6ad8af
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetCPUAndGPULevels, "SetCPUAndGPULevels" }, // 8a1aeaa35f065af015d2eafb553ef99430c39002
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetDisplayFrequency, "SetDisplayFrequency" }, // d969b48f88646d36d819923cbac006d51efcd535
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetEnvironmentDepthHandRemoval, "SetEnvironmentDepthHandRemoval" }, // f176a1cffc92e4a62a598fb2b687ac4774c39481
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetEyeBufferSharpenType, "SetEyeBufferSharpenType" }, // 3403a9c1cb645fb446bb4f14992d7e4b2f24b5a2
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetFoveatedRenderingLevel, "SetFoveatedRenderingLevel" }, // 6ff1bcce563c14dde80273a81891e690519692b7
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetFoveatedRenderingMethod, "SetFoveatedRenderingMethod" }, // 80b925d672faf06438129f7c2c14647270d28a8a
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsPassthroughRecommended, "IsPassthroughRecommended" }, // 45f71496129dca3c63abd0eb91bdfd82ccde343e
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_IsPassthroughSupported, "IsPassthroughSupported" }, // 34bdcc7f75df0a0e82266f67bd59160f1a57e6b5
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetBaseRotationAndBaseOffsetInMeters, "SetBaseRotationAndBaseOffsetInMeters" }, // 1947dfac38d4d75a16cbe8910ff3f6ddf28f0c49
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetBaseRotationAndPositionOffset, "SetBaseRotationAndPositionOffset" }, // e38a93472befc60f457106b83e887d8f02d23968
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetClientColorDesc, "SetClientColorDesc" }, // 127ac752719668ce046af6d5037c78cc318adfc7
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetColorScaleAndOffset, "SetColorScaleAndOffset" }, // 0f34e7d8d8957074831faa175f487672bf31cf8b
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetCPUAndGPULevels, "SetCPUAndGPULevels" }, // 3ca0bc7c834e6f99d2919e25a2c926ed3cca5670
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetDisplayFrequency, "SetDisplayFrequency" }, // 1f19cbdc7c0e84c8ca592956450ac282d6c2ad63
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetEnvironmentDepthHandRemoval, "SetEnvironmentDepthHandRemoval" }, // 901c0cf88f9aaed264182b2eaa5134e9218a8869
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetEyeBufferSharpenType, "SetEyeBufferSharpenType" }, // 427413b81a70e10f74af16296631ff9d618d4d6c
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetFoveatedRenderingLevel, "SetFoveatedRenderingLevel" }, // 2f7e83447201165ea669f210319917b48adefe21
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetFoveatedRenderingMethod, "SetFoveatedRenderingMethod" }, // 7eff9a107ea374a23789b6281812d530ff3156dc
 		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetGuardianVisibility, "SetGuardianVisibility" }, // 20c90bfa9cc3e9e1b7d2cd1322fef718a5c30778
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetLocalDimmingOn, "SetLocalDimmingOn" }, // f549e8f23b06b3f3d9eaa3811938823d0d910f3b
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetPositionScale3D, "SetPositionScale3D" }, // a402989bd4860bf5c2aa6b2bb4b07ba38b531e5e
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetSuggestedCpuAndGpuPerformanceLevels, "SetSuggestedCpuAndGpuPerformanceLevels" }, // 9bb6cc0021a1ecae05124436f2558252303d34ae
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetXROcclusionsMode, "SetXROcclusionsMode" }, // a99937843da3aac69eb101f99769ae596a117d50
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_StartEnvironmentDepth, "StartEnvironmentDepth" }, // 2e3995e0672595f861fb08a709fb582b84fed694
-		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_StopEnvironmentDepth, "StopEnvironmentDepth" }, // f56437bab4fa1fe428267a25b2ecbd557f03c96c
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetLocalDimmingOn, "SetLocalDimmingOn" }, // 7dc2be5b6cb7b9b880bce6d4a84ea01ea556cb28
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetPositionScale3D, "SetPositionScale3D" }, // a328a4369da589bd5e1260b5f88192213b314b85
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetSuggestedCpuAndGpuPerformanceLevels, "SetSuggestedCpuAndGpuPerformanceLevels" }, // 45e7fcb7eca96c5e6b60736ecd00ab6db66e7d12
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_SetXROcclusionsMode, "SetXROcclusionsMode" }, // 7be710a6fc4638630e05ad6823777209f1b20720
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_StartEnvironmentDepth, "StartEnvironmentDepth" }, // 279c2eb694ad738ccc3dfc67f23e8fa577fcdd23
+		{ &Z_Construct_UFunction_UOculusXRFunctionLibrary_StopEnvironmentDepth, "StopEnvironmentDepth" }, // c16c8929d13bead2fb846b25b61b62430039d662
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -3744,14 +3952,14 @@ UOculusXRFunctionLibrary::~UOculusXRFunctionLibrary() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRFunctionLibrary_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRFunctionLibrary_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRFunctionLibrary, TEXT("UOculusXRFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRFunctionLibrary), 3555687486U) },
+		{ Z_Construct_UClass_UOculusXRFunctionLibrary, TEXT("UOculusXRFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRFunctionLibrary), 4170256913U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRFunctionLibrary_h__Script_OculusXRHMD_f36268060228d3ad01a6362544a4caddfe32d62c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRFunctionLibrary_h__Script_OculusXRHMD_b1f2bd066f24b795ad81984d811e813c0337b5d3{
 	TEXT("/Script/OculusXRHMD"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

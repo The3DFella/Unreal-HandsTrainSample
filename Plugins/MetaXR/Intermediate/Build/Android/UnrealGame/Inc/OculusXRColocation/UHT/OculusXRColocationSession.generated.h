@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRColocationSession_Statics;
 OCULUSXRCOLOCATION_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRColocationSession(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSession_h_11_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSession_h_11_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRColocationSession_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRColocationSession(ETypeConstructPhase::Inner); }
 
@@ -30,6 +30,6 @@ struct FOculusXRColocationSession;
 // ********** End ScriptStruct FOculusXRColocationSession ******************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRColocation_Public_OculusXRColocationSession_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRColocation_Public_OculusXRColocationSession_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

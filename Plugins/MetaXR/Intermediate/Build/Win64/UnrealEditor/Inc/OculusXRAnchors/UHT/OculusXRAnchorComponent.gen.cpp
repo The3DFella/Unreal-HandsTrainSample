@@ -286,7 +286,7 @@ struct UHT_STATICS
 
 // ********** Begin Function IsStoredAtLocation Property Definitions *******************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Location_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorComponent_eventIsStoredAtLocation_Parms, Location), Z_Construct_UEnum_OculusXRAnchors_EOculusXRSpaceStorageLocation, METADATA_PARAMS(0, nullptr) }; // 810cbabe948a169e63afdaad253c78b329c5b0d2
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorComponent_eventIsStoredAtLocation_Parms, Location), Z_Construct_UEnum_OculusXRAnchors_EOculusXRSpaceStorageLocation, METADATA_PARAMS(0, nullptr) }; // 920cba6c998c206f10bef9da516f98d1e7e6f8f4
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRAnchorComponent_eventIsStoredAtLocation_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Location_Underlying,
@@ -409,7 +409,7 @@ struct UHT_STATICS
 		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_GetUUID, "GetUUID" }, // dae273a2f36a23f27deac25ce049d134a47a4d57
 		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_HasValidHandle, "HasValidHandle" }, // 7af825e0bbe603dc96b6ffc5193c365d4308ca02
 		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_IsSaved, "IsSaved" }, // f02a50098399e71149ea28836ef646a44fc4d184
-		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_IsStoredAtLocation, "IsStoredAtLocation" }, // 973a86cb580b78d09e8d2d8840318e81741f6a34
+		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_IsStoredAtLocation, "IsStoredAtLocation" }, // 30b22403750956f51117e9eaa022c205cfc4cda6
 		{ &Z_Construct_UFunction_UOculusXRAnchorComponent_SetHandle, "SetHandle" }, // 017dfee0b34fbfd4190b31206017150c1f971be2
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -493,14 +493,14 @@ UOculusXRAnchorComponent::~UOculusXRAnchorComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h__Script_OculusXRAnchors_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h__Script_OculusXRAnchors_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRAnchorComponent, TEXT("UOculusXRAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAnchorComponent), 4259284223U) },
+		{ Z_Construct_UClass_UOculusXRAnchorComponent, TEXT("UOculusXRAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAnchorComponent), 3959248003U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h__Script_OculusXRAnchors_ce1f34922cee18c53a171087c793fc2d978f8890{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h__Script_OculusXRAnchors_c44f85c971e5548b227763e2dc82b898d762d7a0{
 	TEXT("/Script/OculusXRAnchors"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

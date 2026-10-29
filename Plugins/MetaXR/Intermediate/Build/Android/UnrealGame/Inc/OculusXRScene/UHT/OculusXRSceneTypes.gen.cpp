@@ -141,7 +141,7 @@ UEnum* Z_Construct_UEnum_OculusXRScene_EOculusXRBoundaryVisibility(ETypeConstruc
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -151,7 +151,7 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FSceneTypesPlaceholder, Z_Construct_UScriptStruct_FSceneTypesPlaceholder_Statics::NewStructOps, TEXT("SceneTypesPlaceholder"),&Z_Registration_Info_UScriptStruct_FSceneTypesPlaceholder, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSceneTypesPlaceholder), 1460834567U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h__Script_OculusXRScene_e6019ea88b55918850cf747f8cdd9b051ce2fb5c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h__Script_OculusXRScene_e6019ea88b55918850cf747f8cdd9b051ce2fb5c{
 	TEXT("/Script/OculusXRScene"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

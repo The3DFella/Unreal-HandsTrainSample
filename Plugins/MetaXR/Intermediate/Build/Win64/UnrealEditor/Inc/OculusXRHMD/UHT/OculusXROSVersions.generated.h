@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXROSVersion_Statics;
 OCULUSXRHMD_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXROSVersion(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXROSVersions_h_12_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXROSVersions_h_12_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXROSVersion_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXROSVersion(ETypeConstructPhase::Inner); }
 
@@ -30,6 +30,6 @@ struct FOculusXROSVersion;
 // ********** End ScriptStruct FOculusXROSVersion **************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXROSVersions_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXROSVersions_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

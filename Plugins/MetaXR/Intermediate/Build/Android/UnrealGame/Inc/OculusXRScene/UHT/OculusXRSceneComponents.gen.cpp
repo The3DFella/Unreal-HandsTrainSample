@@ -769,7 +769,7 @@ UOculusXRTriangleMeshAnchorComponent::~UOculusXRTriangleMeshAnchorComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -780,7 +780,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UOculusXRTriangleMeshAnchorComponent, TEXT("UOculusXRTriangleMeshAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRTriangleMeshAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRTriangleMeshAnchorComponent), 1189209281U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h__Script_OculusXRScene_0eed6fd1c980f95f2a3138eec99042c6fc84ab05{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneComponents_h__Script_OculusXRScene_0eed6fd1c980f95f2a3138eec99042c6fc84ab05{
 	TEXT("/Script/OculusXRScene"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -43,9 +43,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Returns the current boundary visibility\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the current boundary visibility" },
+#endif
 		{ "WorldContext", "WorldContext" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldContext_MetaData[] = {
@@ -119,9 +123,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Returns the requested boundary visibility state\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the requested boundary visibility state" },
+#endif
 		{ "WorldContext", "WorldContext" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldContext_MetaData[] = {
@@ -194,9 +202,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_INTERNAL_CODE // XR_META_room_entity_info\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_INTERNAL_CODE  XR_META_room_entity_info" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AnchorHandle_MetaData[] = {
 		{ "NativeConst", "" },
@@ -259,10 +271,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Returns the room layout for the specified anchor handle that contains a RoomLayout component\n" },
+#endif
 		{ "CPP_Default_MaxWallsCapacity", "64" },
 		{ "ModuleRelativePath", "Public/OculusXRSceneFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the room layout for the specified anchor handle that contains a RoomLayout component" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -282,7 +298,7 @@ struct UHT_STATICS
 
 // ********** Begin Function GetRoomLayout Property Definitions ************************************
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_AnchorHandle = { "AnchorHandle", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneFunctionLibrary_eventGetRoomLayout_Parms, AnchorHandle), Z_Construct_UScriptStruct_FOculusXRUInt64, METADATA_PARAMS(0, nullptr) }; // 0ab4709cb2804e21f162f0dd5de2faa610085c80
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RoomLayoutOut = { "RoomLayoutOut", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneFunctionLibrary_eventGetRoomLayout_Parms, RoomLayoutOut), Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // df542186269ff3396141f01e65c0a867c2bdfdde
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_RoomLayoutOut = { "RoomLayoutOut", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneFunctionLibrary_eventGetRoomLayout_Parms, RoomLayoutOut), Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // 14f9f9ea3873ab538f6a0cceac92dfa0949fc1d4
 const UECodeGen_Private::FIntPropertyParams UHT_STATICS::NewProp_MaxWallsCapacity = { "MaxWallsCapacity", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneFunctionLibrary_eventGetRoomLayout_Parms, MaxWallsCapacity), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRSceneFunctionLibrary_eventGetRoomLayout_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
@@ -333,9 +349,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Scene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Requests to change the current boundary visibility\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests to change the current boundary visibility" },
+#endif
 		{ "WorldContext", "WorldContext" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldContext_MetaData[] = {
@@ -418,11 +438,11 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetBoundaryVisibility, "GetBoundaryVisibility" }, // 8638cd76e1493ad0aed58fc6d19c16d5e2e5b3d2
-		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRequestedBoundaryVisibility, "GetRequestedBoundaryVisibility" }, // 610c27f92babb13569a0c741b16029dfb5c5d823
-		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRoomLabel, "GetRoomLabel" }, // b032e35d4172f7f234b3b62902a1b70de78d87f4
-		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRoomLayout, "GetRoomLayout" }, // c93ecfea2e18e306aebea1d5995a6e090c6c9c8c
-		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_RequestBoundaryVisibility, "RequestBoundaryVisibility" }, // 9734f7211cd059c0cf7c2540778f5d8efd57175a
+		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetBoundaryVisibility, "GetBoundaryVisibility" }, // 3f40991285743a6892e98c65460f29238c90a590
+		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRequestedBoundaryVisibility, "GetRequestedBoundaryVisibility" }, // eba95cfe74ec0c2d43dc3c51adc9640e525fc6b5
+		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRoomLabel, "GetRoomLabel" }, // 3b95753bb4df6d49137e7da4403518ed8bd2940c
+		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_GetRoomLayout, "GetRoomLayout" }, // e8c9b834a793e16334dd7e5c805ef7d4568a35df
+		{ &Z_Construct_UFunction_UOculusXRSceneFunctionLibrary_RequestBoundaryVisibility, "RequestBoundaryVisibility" }, // 62a48c0515395997d42de57064fa66fc9bd26977
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -498,14 +518,14 @@ UOculusXRSceneFunctionLibrary::~UOculusXRSceneFunctionLibrary() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h__Script_OculusXRScene_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h__Script_OculusXRScene_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRSceneFunctionLibrary, TEXT("UOculusXRSceneFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRSceneFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneFunctionLibrary), 624143655U) },
+		{ Z_Construct_UClass_UOculusXRSceneFunctionLibrary, TEXT("UOculusXRSceneFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRSceneFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneFunctionLibrary), 1372281453U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h__Script_OculusXRScene_4add4f58268644105d862033eeb3ba64d8dfe17c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneFunctionLibrary_h__Script_OculusXRScene_42490c0330eca1fb7559055f7923558a96c71ba6{
 	TEXT("/Script/OculusXRScene"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

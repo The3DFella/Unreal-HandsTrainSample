@@ -68,7 +68,7 @@ struct UHT_STATICS
 
 // ********** Begin Class UBPNode_InitializePersistentPassthrough Property Definitions *************
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bShowInputPin = { "bShowInputPin", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UBPNode_InitializePersistentPassthrough), &UHT_STATICS::NewProp_bShowInputPin_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bShowInputPin_MetaData), NewProp_bShowInputPin_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LayerParameters = { "LayerParameters", nullptr, (EPropertyFlags)0x0010008000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UBPNode_InitializePersistentPassthrough, LayerParameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LayerParameters_MetaData), NewProp_LayerParameters_MetaData) }; // b5649aea41103dd7e4fc54d1598dc2a247a61a3e
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_LayerParameters = { "LayerParameters", nullptr, (EPropertyFlags)0x0010008000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UBPNode_InitializePersistentPassthrough, LayerParameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LayerParameters_MetaData), NewProp_LayerParameters_MetaData) }; // f60dba641b6907809055df15d23ac88321672792
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_bShowInputPin,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_LayerParameters,
@@ -138,14 +138,14 @@ IMPLEMENT_FSTRUCTUREDARCHIVE_SERIALIZER(UBPNode_InitializePersistentPassthrough)
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRUncookedOnly_Private_BPNode_InitializePersistentPassthrough_h__Script_OculusXRUncookedOnly_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRUncookedOnly_Private_BPNode_InitializePersistentPassthrough_h__Script_OculusXRUncookedOnly_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UBPNode_InitializePersistentPassthrough, TEXT("UBPNode_InitializePersistentPassthrough"), &Z_Registration_Info_UClass_UBPNode_InitializePersistentPassthrough, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBPNode_InitializePersistentPassthrough), 106625984U) },
+		{ Z_Construct_UClass_UBPNode_InitializePersistentPassthrough, TEXT("UBPNode_InitializePersistentPassthrough"), &Z_Registration_Info_UClass_UBPNode_InitializePersistentPassthrough, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBPNode_InitializePersistentPassthrough), 2345114321U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRUncookedOnly_Private_BPNode_InitializePersistentPassthrough_h__Script_OculusXRUncookedOnly_e291c7097aac2f1094ed12b00911e1241bd3ae14{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRUncookedOnly_Private_BPNode_InitializePersistentPassthrough_h__Script_OculusXRUncookedOnly_41eecafec590ec1ae3d0c850b43fefaa335ba2f9{
 	TEXT("/Script/OculusXRUncookedOnly"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

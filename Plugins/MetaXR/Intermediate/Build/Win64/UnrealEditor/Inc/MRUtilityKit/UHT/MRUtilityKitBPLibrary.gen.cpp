@@ -156,10 +156,14 @@ struct UHT_STATICS
 		{ "AutoCreateRefTerm", "RoomAnchorUUIDs, GroupUUID" },
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// metaxr_redact_ifdef OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n// metaxr_redact_endif OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n// metaxr_redact_ifdef OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n// metaxr_redact_endif OVR_PARTNER_CODE // XR_META_spatial_entity_room_sharing\n" },
+#endif
 		{ "CPP_Default_SceneModel", "V1" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "metaxr_redact_ifdef OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing\nmetaxr_redact_endif OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing\nmetaxr_redact_ifdef OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing\nmetaxr_redact_endif OVR_PARTNER_CODE  XR_META_spatial_entity_room_sharing" },
+#endif
 		{ "WorldContext", "WorldContext" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldContext_MetaData[] = {
@@ -294,10 +298,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Load the scene async from device.\n */" },
+#endif
 		{ "IncludePath", "MRUtilityKitBPLibrary.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load the scene async from device." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Success_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
@@ -318,7 +326,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKLoadFromDevice_LoadSceneFromDeviceAsync, "LoadSceneFromDeviceAsync" }, // bf0528cb0706e312660498f2a56de3e9cbf1a43a
+		{ &Z_Construct_UFunction_UMRUKLoadFromDevice_LoadSceneFromDeviceAsync, "LoadSceneFromDeviceAsync" }, // 7cf6325a9c6fa745faeddedce3fbacc96f7df99d
 		{ &Z_Construct_UDelegateFunction_UMRUKLoadFromDevice_MRUKLoaded__DelegateSignature, "MRUKLoaded__DelegateSignature" }, // d5c4d5b40c615990c70ef9b4fd45ff8037ac10d8
 		{ &Z_Construct_UFunction_UMRUKLoadFromDevice_OnSceneLoaded, "OnSceneLoaded" }, // 465551bcaa32d438ca775ba9fb65ca9b56c4a2b2
 	};
@@ -471,7 +479,7 @@ struct UHT_STATICS
 
 // ********** Begin Function ConfigureTrackablesAsync Property Definitions *************************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_WorldContext = { "WorldContext", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKConfigureTrackables_eventConfigureTrackablesAsync_Parms, WorldContext), Z_Construct_UClass_UObject, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WorldContext_MetaData), NewProp_WorldContext_MetaData) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Configuration = { "Configuration", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKConfigureTrackables_eventConfigureTrackablesAsync_Parms, Configuration), Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Configuration_MetaData), NewProp_Configuration_MetaData) }; // 20bbcc5de4a03cbe1cf8a3671ac45a8790dc3fd1
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Configuration = { "Configuration", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKConfigureTrackables_eventConfigureTrackablesAsync_Parms, Configuration), Z_Construct_UScriptStruct_FMRUKTrackerConfiguration, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Configuration_MetaData), NewProp_Configuration_MetaData) }; // fd80a2a24e5de9634425ea9dc39165e8e443f869
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(MRUKConfigureTrackables_eventConfigureTrackablesAsync_Parms, ReturnValue), Z_Construct_UClass_UMRUKConfigureTrackables, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_WorldContext,
@@ -570,10 +578,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Configure trackables async.\n */" },
+#endif
 		{ "IncludePath", "MRUtilityKitBPLibrary.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Configure trackables async." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Success_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
@@ -594,7 +606,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKConfigureTrackables_ConfigureTrackablesAsync, "ConfigureTrackablesAsync" }, // e99cd079b9f3a105b271d6ea1e0f22ec403a1e86
+		{ &Z_Construct_UFunction_UMRUKConfigureTrackables_ConfigureTrackablesAsync, "ConfigureTrackablesAsync" }, // b58e70fe2d8e1f1783c8215255c41591b5fbd3a1
 		{ &Z_Construct_UDelegateFunction_UMRUKConfigureTrackables_MRUKTrackablesConfigured__DelegateSignature, "MRUKTrackablesConfigured__DelegateSignature" }, // b5c091d3160a3b5e6717e0f66e491da05d7ad3de
 		{ &Z_Construct_UFunction_UMRUKConfigureTrackables_OnTrackablesConfigured, "OnTrackablesConfigured" }, // 72565bac775430562c1fb7e0339938f90b9afada
 	};
@@ -976,9 +988,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Compute the centroid of a polygon that is defined by the points.\n\x09 *  The centroid may be outside of the polygon in case the polygon is non convex.\n\x09 * @param PolygonPoints Points that define the polygon.\n\x09 * @return The centroid.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compute the centroid of a polygon that is defined by the points.\nThe centroid may be outside of the polygon in case the polygon is non convex.\n@param PolygonPoints Points that define the polygon.\n@return The centroid." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PolygonPoints_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1044,9 +1060,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Compute the direction that faces away from the closest wall of the given anchor.\n\x09 * @param Anchor The anchor for which the direction should be computed.\n\x09 * @param OutCardinalAxisIndex The index of the computed cardinal axis. Can be either 0, 1, 2 or 3\n\x09 * @param ExcludedAxes Axes to exclude in the computation. Can contain 0, 1, 2, 3\n\x09 * @return The direction\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Compute the direction that faces away from the closest wall of the given anchor.\n@param Anchor The anchor for which the direction should be computed.\n@param OutCardinalAxisIndex The index of the computed cardinal axis. Can be either 0, 1, 2 or 3\n@param ExcludedAxes Axes to exclude in the computation. Can contain 0, 1, 2, 3\n@return The direction" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Anchor_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1123,9 +1143,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Construct a 2D texture from a render target.\n\x09 * @param RenderTarget2D The render target from which the texture should be created.\n\x09 * @param Outer\x09The (optional) outer object for the created texture.\n\x09 * @param TexName Name for the new texture.\n\x09 * @return The newly created texture.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Construct a 2D texture from a render target.\n@param RenderTarget2D The render target from which the texture should be created.\n@param Outer The (optional) outer object for the created texture.\n@param TexName Name for the new texture.\n@return The newly created texture." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TexName_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1203,9 +1227,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Extract a column from a matrix.\n\x09 * @param Matrix The matrix to use.\n\x09 * @param Index The column index.\n\x09 * @return The column of the matrix.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Extract a column from a matrix.\n@param Matrix The matrix to use.\n@param Index The column index.\n@return The column of the matrix." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Matrix_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1269,9 +1297,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if the current Unreal Engine is the fork of Meta.\n\x09 * @return Whether its the fork or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if the current Unreal Engine is the fork of Meta.\n@return Whether its the fork or not." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1332,9 +1364,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load the global mesh from the device.\n\x09 * @param SpaceHandle       Space handle of the room.\n\x09 * @param OutProceduralMesh Procedural mesh to load the triangle data in.\n\x09 * @param LoadCollision     Whether to generate collision or not.\n\x09 * @param WorldContext      Context of the world.\n\x09 * @return                  Whether the load was successful or not.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load the global mesh from the device.\n@param SpaceHandle       Space handle of the room.\n@param OutProceduralMesh Procedural mesh to load the triangle data in.\n@param LoadCollision     Whether to generate collision or not.\n@param WorldContext      Context of the world.\n@return                  Whether the load was successful or not." },
+#endif
 		{ "WorldContext", "WorldContext" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OutProceduralMesh_MetaData[] = {
@@ -1418,9 +1454,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * (Re)Calculate Normals and Tangents of the given procedural mesh.\n\x09 * @param Mesh The procedural mesh.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "(Re)Calculate Normals and Tangents of the given procedural mesh.\n@param Mesh The procedural mesh." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[] = {
 		{ "EditInline", "true" },
@@ -1478,9 +1518,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * In Unreal Engine, scale is always applied in the local space to avoid any skew.\n\x09 * This means that if you have a component which has a 90 degree rotation and is scaled, or any of its\n\x09 * children are scaled then the scale axes will not be applied as you would expect. This is can make it\n\x09 * very awkward to work with when trying to scale the actors to fit within the scene volumes. To work around\n\x09 * this problem, this function will attempt to adjust the scale axes recursively to match the expected behaviour.\n\x09 * This will only work reliably if the rotations involved are 90 degrees, if they are not then it will pick the closest axis.\n\x09 * @param SceneComponent        The component where the scale should be set\n\x09 * @param UnRotatedScale        The scale you would like to have without considering any rotations\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "In Unreal Engine, scale is always applied in the local space to avoid any skew.\nThis means that if you have a component which has a 90 degree rotation and is scaled, or any of its\nchildren are scaled then the scale axes will not be applied as you would expect. This is can make it\nvery awkward to work with when trying to scale the actors to fit within the scene volumes. To work around\nthis problem, this function will attempt to adjust the scale axes recursively to match the expected behaviour.\nThis will only work reliably if the rotations involved are 90 degrees, if they are not then it will pick the closest axis.\n@param SceneComponent        The component where the scale should be set\n@param UnRotatedScale        The scale you would like to have without considering any rotations" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SceneComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -1539,10 +1583,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Mixed Reality Utility Kit Blueprint Function Library.\n * See functions for further information.\n */" },
+#endif
 		{ "IncludePath", "MRUtilityKitBPLibrary.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mixed Reality Utility Kit Blueprint Function Library.\nSee functions for further information." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1560,14 +1608,14 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_ComputeCentroid, "ComputeCentroid" }, // 4981cff5b6ad8416b8c0b2a11818308d4726d05a
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_ComputeDirectionAwayFromClosestWall, "ComputeDirectionAwayFromClosestWall" }, // e0ddd9d6360f5109adb4c933c130253a4ad6ae5d
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_ConstructTexture2D, "ConstructTexture2D" }, // 42429ea9e62e8c65eaa0ab452d424e11a268f74e
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_GetMatrixColumn, "GetMatrixColumn" }, // a8fa14841a298d759895783275724ab58445f654
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_IsUnrealEngineMetaFork, "IsUnrealEngineMetaFork" }, // 83317726d2c28ec00e89812aecfe191baa21ce3c
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_LoadGlobalMeshFromDevice, "LoadGlobalMeshFromDevice" }, // b4fd677dacccc9ad88836cf09268fdcc28f5cfcb
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_RecalculateProceduralMeshAndTangents, "RecalculateProceduralMeshAndTangents" }, // 742ef99352b54b47939241eb2be04bc77eb30bb4
-		{ &Z_Construct_UFunction_UMRUKBPLibrary_SetScaleRecursivelyAdjustingForRotation, "SetScaleRecursivelyAdjustingForRotation" }, // 9a113eb29ef08b0bdb0b5bae3326b28b11b07508
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_ComputeCentroid, "ComputeCentroid" }, // 46d1c0e1b6fd3107394c94ed46eabaa93ed37414
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_ComputeDirectionAwayFromClosestWall, "ComputeDirectionAwayFromClosestWall" }, // 09560a25ffdeaeee20930278407944b22aacc2e8
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_ConstructTexture2D, "ConstructTexture2D" }, // b65021ab9881baf1b9ede262045a2dbbf80270b8
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_GetMatrixColumn, "GetMatrixColumn" }, // 5da43323833c7a3128e6211cbc61852a5f9fca8b
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_IsUnrealEngineMetaFork, "IsUnrealEngineMetaFork" }, // d9336a639524806b9065917920fee79edf4de5a7
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_LoadGlobalMeshFromDevice, "LoadGlobalMeshFromDevice" }, // 96ac5e253a9460df9254b7d3431899c137c20056
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_RecalculateProceduralMeshAndTangents, "RecalculateProceduralMeshAndTangents" }, // d876dd26e42b90a643ddc30aa45351161961b734
+		{ &Z_Construct_UFunction_UMRUKBPLibrary_SetScaleRecursivelyAdjustingForRotation, "SetScaleRecursivelyAdjustingForRotation" }, // df47a78d63a20b4e3ba3e2708676da5abbc58de0
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1643,20 +1691,20 @@ UMRUKBPLibrary::~UMRUKBPLibrary() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ Z_Construct_UScriptStruct_FMRUKMeshSegment, Z_Construct_UScriptStruct_FMRUKMeshSegment_Statics::NewStructOps, TEXT("MRUKMeshSegment"),&Z_Registration_Info_UScriptStruct_FMRUKMeshSegment, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKMeshSegment), 749985491U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKLoadFromDevice, TEXT("UMRUKLoadFromDevice"), &Z_Registration_Info_UClass_UMRUKLoadFromDevice, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKLoadFromDevice), 2150598889U) },
-		{ Z_Construct_UClass_UMRUKConfigureTrackables, TEXT("UMRUKConfigureTrackables"), &Z_Registration_Info_UClass_UMRUKConfigureTrackables, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKConfigureTrackables), 2138082969U) },
+		{ Z_Construct_UClass_UMRUKLoadFromDevice, TEXT("UMRUKLoadFromDevice"), &Z_Registration_Info_UClass_UMRUKLoadFromDevice, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKLoadFromDevice), 1370900180U) },
+		{ Z_Construct_UClass_UMRUKConfigureTrackables, TEXT("UMRUKConfigureTrackables"), &Z_Registration_Info_UClass_UMRUKConfigureTrackables, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKConfigureTrackables), 1154229082U) },
 		{ Z_Construct_UClass_UMRUKLoadFromJson, TEXT("UMRUKLoadFromJson"), &Z_Registration_Info_UClass_UMRUKLoadFromJson, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKLoadFromJson), 3365697325U) },
-		{ Z_Construct_UClass_UMRUKBPLibrary, TEXT("UMRUKBPLibrary"), &Z_Registration_Info_UClass_UMRUKBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKBPLibrary), 3667628657U) },
+		{ Z_Construct_UClass_UMRUKBPLibrary, TEXT("UMRUKBPLibrary"), &Z_Registration_Info_UClass_UMRUKBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKBPLibrary), 1273355209U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h__Script_MRUtilityKit_33b55696029e210756803aa69ca4f8ef22819605{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitBPLibrary_h__Script_MRUtilityKit_4edffca3219f17fb0c874647b70a0f240711c2fd{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

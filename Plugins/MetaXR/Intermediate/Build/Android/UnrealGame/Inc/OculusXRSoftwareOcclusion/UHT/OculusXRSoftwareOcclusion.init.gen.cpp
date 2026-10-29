@@ -18,7 +18,7 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			nullptr,
 			0,
 			PKG_CompiledIn | 0x00000000,
-			0xA4973425,
+			0x55EA97C1,
 			0xA33357C7,
 			METADATA_PARAMS(0, nullptr)
 		};
@@ -26,5 +26,5 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 	}
 	return Z_Registration_Info_UPackage__Script_OculusXRSoftwareOcclusion.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OculusXRSoftwareOcclusion(Z_Construct_UPackage__Script_OculusXRSoftwareOcclusion, TEXT("/Script/OculusXRSoftwareOcclusion"), Z_Registration_Info_UPackage__Script_OculusXRSoftwareOcclusion, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA4973425, 0xA33357C7));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OculusXRSoftwareOcclusion(Z_Construct_UPackage__Script_OculusXRSoftwareOcclusion, TEXT("/Script/OculusXRSoftwareOcclusion"), Z_Registration_Info_UPackage__Script_OculusXRSoftwareOcclusion, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x55EA97C1, 0xA33357C7));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

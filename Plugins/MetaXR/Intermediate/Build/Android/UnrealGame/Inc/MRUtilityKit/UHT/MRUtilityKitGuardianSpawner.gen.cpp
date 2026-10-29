@@ -253,9 +253,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintSetter", "" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the density of the grid.\n\x09 * @param Density The grid density.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the density of the grid.\n@param Density The grid density." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -310,9 +314,13 @@ struct UHT_STATICS
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "BlueprintSetter", "" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the guardian material to a different one.\n\x09 * @param Material The guardian material.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the guardian material to a different one.\n@param Material The guardian material." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -366,9 +374,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Spawn the guardian. This will get called automatically after the mixed reality utility kit has\n\x09 * been initialized if SpawnMode is set to something other than None.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Spawn the guardian. This will get called automatically after the mixed reality utility kit has\nbeen initialized if SpawnMode is set to something other than None." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -418,43 +430,67 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This class helps with spawning a guardian if the player gets close to any furniture or walls. This is useful if your application has a full VR mode.\n * It can spawn a guardian for each room in the scene. It can also spawn a guardian for the current room only.\n * For details about the guardian see the AMRUKGuardian class.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Guardian" },
 		{ "IncludePath", "MRUtilityKitGuardianSpawner.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This class helps with spawning a guardian if the player gets close to any furniture or walls. This is useful if your application has a full VR mode.\nIt can spawn a guardian for each room in the scene. It can also spawn a guardian for the current room only.\nFor details about the guardian see the AMRUKGuardian class." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnMode_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether SpawnGuardian() should be called automatically after the mixed reality utility kit\n\x09 * has been initialized.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether SpawnGuardian() should be called automatically after the mixed reality utility kit\nhas been initialized." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GuardianDistance_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * How close the camera needs to come to a surface before the guardian appears.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How close the camera needs to come to a surface before the guardian appears." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnableFade_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether the fading value should be calculated for the shader or not.\n\x09 * If fading is not needed this can save performance.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the fading value should be calculated for the shader or not.\nIf fading is not needed this can save performance." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GuardianMaterial_MetaData[] = {
 		{ "BlueprintSetter", "SetGuardianMaterial" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The material to use for the guardian. It needs to have a scalar parameter Fade\n\x09 * and a vector parameter WallScale. If this material is not set a default one\n\x09 * will be used.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The material to use for the guardian. It needs to have a scalar parameter Fade\nand a vector parameter WallScale. If this material is not set a default one\nwill be used." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GridDensity_MetaData[] = {
 		{ "BlueprintSetter", "SetGridDensity" },
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * How dense the grid should be.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How dense the grid should be." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DynamicGuardianMaterial_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardianSpawner.h" },
@@ -490,9 +526,9 @@ struct UHT_STATICS
 		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_OnRoomCreated, "OnRoomCreated" }, // 424d21c5b2be92e8da515cdde5e8abb2a0889b16
 		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_OnRoomRemoved, "OnRoomRemoved" }, // 13ffca51239e08d136e08b8f398f616da8f26aca
 		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_OnRoomUpdated, "OnRoomUpdated" }, // 1e6071cc4c90a2132c1ebc81cb1bd0cf1cf9d139
-		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SetGridDensity, "SetGridDensity" }, // ee22a92bff17d6fd5785689db06d8350b44db705
-		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SetGuardianMaterial, "SetGuardianMaterial" }, // ff3c414884e2bfd035d55aa066aef2c1cc5fe4c6
-		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SpawnGuardians, "SpawnGuardians" }, // 3057aa1df94fa8e54300143276d0bcae90afd39a
+		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SetGridDensity, "SetGridDensity" }, // 507815d9a7f7cdfad7150adb340e2853bc81881e
+		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SetGuardianMaterial, "SetGuardianMaterial" }, // 220a6bff25a46b9fd40b6e7d7af414f8741b0258
+		{ &Z_Construct_UFunction_AMRUKGuardianSpawner_SpawnGuardians, "SpawnGuardians" }, // e35eabfc79e0ab5e8f833d6485b30a9fce26bb50
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -503,7 +539,7 @@ struct UHT_STATICS
 
 // ********** Begin Class AMRUKGuardianSpawner Property Definitions ********************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_SpawnMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKGuardianSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // 9aaa30d266ddf9b26a48a402d10bef878b6a1931
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_SpawnMode = { "SpawnMode", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKGuardianSpawner, SpawnMode), Z_Construct_UEnum_MRUtilityKit_EMRUKSpawnMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnMode_MetaData), NewProp_SpawnMode_MetaData) }; // a81a39a3c2baadd905d9be1ef0fe13d87d7487cc
 const UECodeGen_Private::FDoublePropertyParams UHT_STATICS::NewProp_GuardianDistance = { "GuardianDistance", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Double, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKGuardianSpawner, GuardianDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GuardianDistance_MetaData), NewProp_GuardianDistance_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_EnableFade = { "EnableFade", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(AMRUKGuardianSpawner), &UHT_STATICS::NewProp_EnableFade_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnableFade_MetaData), NewProp_EnableFade_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_GuardianMaterial = { "GuardianMaterial", nullptr, (EPropertyFlags)0x0124080000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKGuardianSpawner, GuardianMaterial), Z_Construct_UClass_UMaterialInstance, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GuardianMaterial_MetaData), NewProp_GuardianMaterial_MetaData) };
@@ -587,14 +623,14 @@ AMRUKGuardianSpawner::~AMRUKGuardianSpawner() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKGuardianSpawner, TEXT("AMRUKGuardianSpawner"), &Z_Registration_Info_UClass_AMRUKGuardianSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKGuardianSpawner), 164855851U) },
+		{ Z_Construct_UClass_AMRUKGuardianSpawner, TEXT("AMRUKGuardianSpawner"), &Z_Registration_Info_UClass_AMRUKGuardianSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKGuardianSpawner), 2782883048U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h__Script_MRUtilityKit_c442d230a3a8598fc74b2aada01d910ddf43a81e{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h__Script_MRUtilityKit_8a9dd6e3b3e4fb1650875a752efe8559c88dae32{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

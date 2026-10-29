@@ -24,7 +24,7 @@ class UPrimitiveComponent;
 struct Z_Construct_UClass_UMRUKDestructibleMeshComponent_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKDestructibleMeshComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKDestructibleMeshComponent_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKDestructibleMeshComponent(ETypeConstructPhase); \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKDestructibleMeshComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UMRUKDestructibleMeshComponent(UMRUKDestructibleMeshComponent&&) = delete; \
 	UMRUKDestructibleMeshComponent(const UMRUKDestructibleMeshComponent&) = delete; \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~UMRUKDestructibleMeshComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_19_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_19_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ class UMRUKDestructibleMeshComponent;
 // ********** End Class UMRUKDestructibleMeshComponent *********************************************
 
 // ********** Begin Class AMRUKDestructibleGlobalMesh **********************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execRemoveGlobalMeshSegment); \
 	DECLARE_FUNCTION(execCreateDestructibleMesh);
 
@@ -66,7 +66,7 @@ class UMRUKDestructibleMeshComponent;
 struct Z_Construct_UClass_AMRUKDestructibleGlobalMesh_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_AMRUKDestructibleGlobalMesh(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMRUKDestructibleGlobalMesh_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_AMRUKDestructibleGlobalMesh(ETypeConstructPhase); \
@@ -75,7 +75,7 @@ public: \
 	DECLARE_SERIALIZER(AMRUKDestructibleGlobalMesh)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMRUKDestructibleGlobalMesh(AMRUKDestructibleGlobalMesh&&) = delete; \
 	AMRUKDestructibleGlobalMesh(const AMRUKDestructibleGlobalMesh&) = delete; \
@@ -85,13 +85,13 @@ public: \
 	NO_API virtual ~AMRUKDestructibleGlobalMesh();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_75_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_75_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_78_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -101,7 +101,7 @@ class AMRUKDestructibleGlobalMesh;
 // ********** End Class AMRUKDestructibleGlobalMesh ************************************************
 
 // ********** Begin Class AMRUKDestructibleGlobalMeshSpawner ***************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnRoomRemoved); \
 	DECLARE_FUNCTION(execOnRoomCreated); \
 	DECLARE_FUNCTION(execAddDestructibleGlobalMesh); \
@@ -111,7 +111,7 @@ class AMRUKDestructibleGlobalMesh;
 struct Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner(ETypeConstructPhase); \
@@ -120,7 +120,7 @@ public: \
 	DECLARE_SERIALIZER(AMRUKDestructibleGlobalMeshSpawner)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMRUKDestructibleGlobalMeshSpawner(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -132,13 +132,13 @@ public: \
 	NO_API virtual ~AMRUKDestructibleGlobalMeshSpawner();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_136_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_136_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h_139_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -148,6 +148,6 @@ class AMRUKDestructibleGlobalMeshSpawner;
 // ********** End Class AMRUKDestructibleGlobalMeshSpawner *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

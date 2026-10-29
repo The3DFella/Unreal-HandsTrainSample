@@ -22,7 +22,7 @@ class AMRUKRoom;
 struct Z_Construct_UScriptStruct_FMRUKRandomSpawnSettings_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKRandomSpawnSettings(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_18_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_18_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKRandomSpawnSettings_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKRandomSpawnSettings(ETypeConstructPhase::Inner); }
 
@@ -31,7 +31,7 @@ struct FMRUKRandomSpawnSettings;
 // ********** End ScriptStruct FMRUKRandomSpawnSettings ********************************************
 
 // ********** Begin Class AMRUtilityKitPositionGenerator *******************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execSceneLoaded); \
 	DECLARE_FUNCTION(execGenerateRandomPositionsOnSurfaceInRoom); \
 	DECLARE_FUNCTION(execGenerateRandomPositionsOnSurface);
@@ -40,7 +40,7 @@ struct FMRUKRandomSpawnSettings;
 struct Z_Construct_UClass_AMRUtilityKitPositionGenerator_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_AMRUtilityKitPositionGenerator(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMRUtilityKitPositionGenerator_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_AMRUtilityKitPositionGenerator(ETypeConstructPhase); \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(AMRUtilityKitPositionGenerator)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMRUtilityKitPositionGenerator(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -61,13 +61,13 @@ public: \
 	NO_API virtual ~AMRUtilityKitPositionGenerator();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_96_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_96_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h_99_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -77,6 +77,6 @@ class AMRUtilityKitPositionGenerator;
 // ********** End Class AMRUtilityKitPositionGenerator *********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

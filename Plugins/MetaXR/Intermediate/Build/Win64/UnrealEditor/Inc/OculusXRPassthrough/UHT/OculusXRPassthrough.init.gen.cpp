@@ -26,7 +26,7 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			SingletonFuncArray,
 			UE_ARRAY_COUNT(SingletonFuncArray),
 			PKG_CompiledIn | 0x00000000,
-			0x8B25F3DB,
+			0xCED44157,
 			0xD28A0C94,
 			METADATA_PARAMS(0, nullptr)
 		};
@@ -34,5 +34,5 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 	}
 	return Z_Registration_Info_UPackage__Script_OculusXRPassthrough.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OculusXRPassthrough(Z_Construct_UPackage__Script_OculusXRPassthrough, TEXT("/Script/OculusXRPassthrough"), Z_Registration_Info_UPackage__Script_OculusXRPassthrough, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8B25F3DB, 0xD28A0C94));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_OculusXRPassthrough(Z_Construct_UPackage__Script_OculusXRPassthrough, TEXT("/Script/OculusXRPassthrough"), Z_Registration_Info_UPackage__Script_OculusXRPassthrough, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xCED44157, 0xD28A0C94));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

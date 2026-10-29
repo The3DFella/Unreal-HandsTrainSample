@@ -44,14 +44,14 @@ struct FOculusXRUInt64;
 struct FOculusXRUUID;
 
 // ********** Begin Class UOculusXRAsyncAction_CreateSpatialAnchor *********************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncCreateSpatialAnchor);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_CreateSpatialAnchor_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_CreateSpatialAnchor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_CreateSpatialAnchor_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_CreateSpatialAnchor(ETypeConstructPhase); \
@@ -60,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_CreateSpatialAnchor)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_CreateSpatialAnchor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -72,13 +72,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_CreateSpatialAnchor();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_56_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_56_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_59_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -88,14 +88,14 @@ class UOculusXRAsyncAction_CreateSpatialAnchor;
 // ********** End Class UOculusXRAsyncAction_CreateSpatialAnchor ***********************************
 
 // ********** Begin Class UOculusXRAsyncAction_EraseAnchor *****************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncEraseAnchor);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchor_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchor_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchor(ETypeConstructPhase); \
@@ -104,7 +104,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_EraseAnchor)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_EraseAnchor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -116,13 +116,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_EraseAnchor();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_85_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_85_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_88_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -132,14 +132,14 @@ class UOculusXRAsyncAction_EraseAnchor;
 // ********** End Class UOculusXRAsyncAction_EraseAnchor *******************************************
 
 // ********** Begin Class UOculusXRAsyncAction_SaveAnchor ******************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncSaveAnchor);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchor_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchor_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchor(ETypeConstructPhase); \
@@ -148,7 +148,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_SaveAnchor)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_SaveAnchor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -160,13 +160,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_SaveAnchor();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_114_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_114_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_117_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -176,14 +176,14 @@ class UOculusXRAsyncAction_SaveAnchor;
 // ********** End Class UOculusXRAsyncAction_SaveAnchor ********************************************
 
 // ********** Begin Class UOculusXRAsyncAction_SaveAnchorList **************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncSaveAnchorList);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchorList_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchorList(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchorList_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchorList(ETypeConstructPhase); \
@@ -192,7 +192,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_SaveAnchorList)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_SaveAnchorList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -204,13 +204,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_SaveAnchorList();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_143_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_143_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_146_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -220,7 +220,7 @@ class UOculusXRAsyncAction_SaveAnchorList;
 // ********** End Class UOculusXRAsyncAction_SaveAnchorList ****************************************
 
 // ********** Begin Class UOculusXRAsyncAction_QueryAnchors ****************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncQueryAnchorsAdvanced); \
 	DECLARE_FUNCTION(execOculusXRAsyncQueryAnchors);
 
@@ -228,7 +228,7 @@ class UOculusXRAsyncAction_SaveAnchorList;
 struct Z_Construct_UClass_UOculusXRAsyncAction_QueryAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_QueryAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_QueryAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_QueryAnchors(ETypeConstructPhase); \
@@ -237,7 +237,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_QueryAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_QueryAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -249,13 +249,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_QueryAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_171_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_171_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_174_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -265,14 +265,14 @@ class UOculusXRAsyncAction_QueryAnchors;
 // ********** End Class UOculusXRAsyncAction_QueryAnchors ******************************************
 
 // ********** Begin Class UOculusXRAsyncAction_SetAnchorComponentStatus ****************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncSetAnchorComponentStatus);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_SetAnchorComponentStatus_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_SetAnchorComponentStatus(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_SetAnchorComponentStatus_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_SetAnchorComponentStatus(ETypeConstructPhase); \
@@ -281,7 +281,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_SetAnchorComponentStatus)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_SetAnchorComponentStatus(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -293,13 +293,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_SetAnchorComponentStatus();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_200_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_200_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_203_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -309,14 +309,14 @@ class UOculusXRAsyncAction_SetAnchorComponentStatus;
 // ********** End Class UOculusXRAsyncAction_SetAnchorComponentStatus ******************************
 
 // ********** Begin Class UOculusXRAsyncAction_SetComponentStatus **********************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncSetComponentStatus);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_SetComponentStatus_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_SetComponentStatus(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_SetComponentStatus_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_SetComponentStatus(ETypeConstructPhase); \
@@ -325,7 +325,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_SetComponentStatus)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_SetComponentStatus(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -337,13 +337,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_SetComponentStatus();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_233_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_233_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_236_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -353,14 +353,14 @@ class UOculusXRAsyncAction_SetComponentStatus;
 // ********** End Class UOculusXRAsyncAction_SetComponentStatus ************************************
 
 // ********** Begin Class UOculusXRAsyncAction_ShareAnchors ****************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncShareAnchors);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchors(ETypeConstructPhase); \
@@ -369,7 +369,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_ShareAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_ShareAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -381,13 +381,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_ShareAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_261_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_261_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_264_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -397,14 +397,14 @@ class UOculusXRAsyncAction_ShareAnchors;
 // ********** End Class UOculusXRAsyncAction_ShareAnchors ******************************************
 
 // ********** Begin Class UOculusXRAsyncAction_SaveAnchors *****************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncSaveAnchors);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_SaveAnchors(ETypeConstructPhase); \
@@ -413,7 +413,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_SaveAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_SaveAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -425,13 +425,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_SaveAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_293_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_293_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_296_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -441,14 +441,14 @@ class UOculusXRAsyncAction_SaveAnchors;
 // ********** End Class UOculusXRAsyncAction_SaveAnchors *******************************************
 
 // ********** Begin Class UOculusXRAsyncAction_EraseAnchors ****************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncEraseAnchors);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_EraseAnchors(ETypeConstructPhase); \
@@ -457,7 +457,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_EraseAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_EraseAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -469,13 +469,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_EraseAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_319_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_319_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_322_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -485,14 +485,14 @@ class UOculusXRAsyncAction_EraseAnchors;
 // ********** End Class UOculusXRAsyncAction_EraseAnchors ******************************************
 
 // ********** Begin Class UOculusXRAsyncAction_DiscoverAnchors *************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncDiscoverAnchors);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_DiscoverAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_DiscoverAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_DiscoverAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_DiscoverAnchors(ETypeConstructPhase); \
@@ -501,7 +501,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_DiscoverAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_DiscoverAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -513,13 +513,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_DiscoverAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_348_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_348_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_351_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -529,14 +529,14 @@ class UOculusXRAsyncAction_DiscoverAnchors;
 // ********** End Class UOculusXRAsyncAction_DiscoverAnchors ***************************************
 
 // ********** Begin Class UOculusXRAsyncAction_GetSharedAnchors ************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRAsyncGetSharedAnchors);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchors_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchors(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchors_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchors(ETypeConstructPhase); \
@@ -545,7 +545,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_GetSharedAnchors)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_GetSharedAnchors(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -557,13 +557,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_GetSharedAnchors();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_378_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_378_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_381_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -573,14 +573,14 @@ class UOculusXRAsyncAction_GetSharedAnchors;
 // ********** End Class UOculusXRAsyncAction_GetSharedAnchors **************************************
 
 // ********** Begin Class UOculusXRAsyncAction_ShareAnchorsWithGroups ******************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRShareAnchorsWithGroupsAsync);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchorsWithGroups_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchorsWithGroups(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchorsWithGroups_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_ShareAnchorsWithGroups(ETypeConstructPhase); \
@@ -589,7 +589,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_ShareAnchorsWithGroups)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_ShareAnchorsWithGroups(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -601,13 +601,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_ShareAnchorsWithGroups();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_404_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_404_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_407_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -617,14 +617,14 @@ class UOculusXRAsyncAction_ShareAnchorsWithGroups;
 // ********** End Class UOculusXRAsyncAction_ShareAnchorsWithGroups ********************************
 
 // ********** Begin Class UOculusXRAsyncAction_GetSharedAnchorsFromGroup ***************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOculusXRGetSharedAnchorsFromGroupAsync);
 
 
 struct Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchorsFromGroup_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchorsFromGroup(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchorsFromGroup_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRAsyncAction_GetSharedAnchorsFromGroup(ETypeConstructPhase); \
@@ -633,7 +633,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRAsyncAction_GetSharedAnchorsFromGroup)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRAsyncAction_GetSharedAnchorsFromGroup(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -645,13 +645,13 @@ public: \
 	NO_API virtual ~UOculusXRAsyncAction_GetSharedAnchorsFromGroup();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_427_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_427_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h_430_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -661,6 +661,6 @@ class UOculusXRAsyncAction_GetSharedAnchorsFromGroup;
 // ********** End Class UOculusXRAsyncAction_GetSharedAnchorsFromGroup *****************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorLatentActions_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

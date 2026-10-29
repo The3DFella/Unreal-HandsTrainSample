@@ -31,44 +31,72 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Meta XR Project Setup tool Settings\n */" },
+#endif
 		{ "IncludePath", "OculusXRPSTSettings.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Meta XR Project Setup tool Settings" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IgnoredRules_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief Ignored rules by developer\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief Ignored rules by developer" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurrentPlatform_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief Selected platform for development\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief Selected platform for development" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bBackGroundChecks_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief If tools should periodically check if list of rules and rules' status\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief If tools should periodically check if list of rules and rules' status" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bStopBuildOnUnAppliedCriticalItems_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief If build should fail if critical rule is not applied\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief If build should fail if critical rule is not applied" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bGuidedTutorialComplete_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief If guided tutorial has been completed/skipped\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief If guided tutorial has been completed/skipped" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShowGuidedTutorial_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * @brief If guided tutorial showed\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPSTSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "@brief If guided tutorial showed" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -187,14 +215,14 @@ UOculusXRPSTSettings::~UOculusXRPSTSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPSTSettings, TEXT("UOculusXRPSTSettings"), &Z_Registration_Info_UClass_UOculusXRPSTSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPSTSettings), 3961193537U) },
+		{ Z_Construct_UClass_UOculusXRPSTSettings, TEXT("UOculusXRPSTSettings"), &Z_Registration_Info_UClass_UOculusXRPSTSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPSTSettings), 4081336763U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_1c7442cb5b27e0ed0731a024d926ce59f178b73c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_246a6a62408366659458b5da1894ba6eb3a77e40{
 	TEXT("/Script/OculusXRProjectSetupTool"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

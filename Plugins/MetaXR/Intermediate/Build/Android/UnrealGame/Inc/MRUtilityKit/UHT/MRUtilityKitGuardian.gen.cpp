@@ -37,9 +37,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Attaches the procedural mesh component to this actor.\n\x09 * @param GuardianMesh The mesh to attach.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardian.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Attaches the procedural mesh component to this actor.\n@param GuardianMesh The mesh to attach." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GuardianMesh_MetaData[] = {
 		{ "EditInline", "true" },
@@ -92,19 +96,27 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The Guardian is a procedural mesh that is generated from the anchor geometry and has the guardian material applied.\n * It is used to show the player where the walls and furniture. It prevents the player from walking into walls or furniture.\n * It uses TryGetClosestSurfacePosition to determine if the player is close to the walls or furniture.\n * This can be beneficial if your application has a full VR mode.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Guardian Actor" },
 		{ "IncludePath", "MRUtilityKitGuardian.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardian.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Guardian is a procedural mesh that is generated from the anchor geometry and has the guardian material applied.\nIt is used to show the player where the walls and furniture. It prevents the player from walking into walls or furniture.\nIt uses TryGetClosestSurfacePosition to determine if the player is close to the walls or furniture.\nThis can be beneficial if your application has a full VR mode." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GuardianMeshComponent_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Procedural mesh that is generated from the anchor geometry and has the guardian material applied.\n\x09 */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitGuardian.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Procedural mesh that is generated from the anchor geometry and has the guardian material applied." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -117,7 +129,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKGuardian_CreateGuardian, "CreateGuardian" }, // 4918da337ed9cef5d3aa4d07ec6a8cde4424a303
+		{ &Z_Construct_UFunction_AMRUKGuardian_CreateGuardian, "CreateGuardian" }, // d055cda6ec8e019f0bd0575c80fb3958f11fc566
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -200,14 +212,14 @@ AMRUKGuardian::~AMRUKGuardian() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardian_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardian_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKGuardian, TEXT("AMRUKGuardian"), &Z_Registration_Info_UClass_AMRUKGuardian, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKGuardian), 3823607138U) },
+		{ Z_Construct_UClass_AMRUKGuardian, TEXT("AMRUKGuardian"), &Z_Registration_Info_UClass_AMRUKGuardian, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKGuardian), 1079489691U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardian_h__Script_MRUtilityKit_35bc30ee95733bc74fe268aea5930608a054ef09{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardian_h__Script_MRUtilityKit_ded9577c3c65f8ede496af94c6c812bd22a3b79a{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

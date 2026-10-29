@@ -37,10 +37,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Calculate the seat poses that are available on the actor.\n\x09 * This gets called automatically after the room has been loaded.\n\x09 * However, it's okay to call this function again with a different SeatWidth.\n\x09 * The seat poses will then get recalculated.\n\x09 *\n\x09 * @param SeatWidth The width of each seat.\n\x09 */" },
+#endif
 		{ "CPP_Default_SeatWidth", "60.000000" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSeatsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Calculate the seat poses that are available on the actor.\nThis gets called automatically after the room has been loaded.\nHowever, it's okay to call this function again with a different SeatWidth.\nThe seat poses will then get recalculated.\n\n@param SeatWidth The width of each seat." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -90,10 +94,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * This component gets attached to Anchors which have seats available.\n * Seats can be used for example to spawn avatars in the correct locations.\n */" },
+#endif
 		{ "IncludePath", "MRUtilityKitSeatsComponent.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSeatsComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This component gets attached to Anchors which have seats available.\nSeats can be used for example to spawn avatars in the correct locations." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SeatPoses_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
@@ -111,7 +119,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKSeatsComponent_CalculateSeatPoses, "CalculateSeatPoses" }, // 3a917bedaafe6a946ee977b38db860a61f94813e
+		{ &Z_Construct_UFunction_UMRUKSeatsComponent_CalculateSeatPoses, "CalculateSeatPoses" }, // bfd6d7d3022b1c7ec3158acdce9fa644ed271e3b
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -197,14 +205,14 @@ UMRUKSeatsComponent::~UMRUKSeatsComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKSeatsComponent, TEXT("UMRUKSeatsComponent"), &Z_Registration_Info_UClass_UMRUKSeatsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKSeatsComponent), 84135050U) },
+		{ Z_Construct_UClass_UMRUKSeatsComponent, TEXT("UMRUKSeatsComponent"), &Z_Registration_Info_UClass_UMRUKSeatsComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKSeatsComponent), 4168023956U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h__Script_MRUtilityKit_44479b0b12abd1180cb1109beb478358899ae065{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSeatsComponent_h__Script_MRUtilityKit_a094be5d1690be54353dac3940c4c4f4acdc4b44{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

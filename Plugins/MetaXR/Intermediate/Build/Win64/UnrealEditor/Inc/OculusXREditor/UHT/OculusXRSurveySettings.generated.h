@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRSurveySettings_Statics;
 OCULUSXREDITOR_API UClass* Z_Construct_UClass_UOculusXRSurveySettings(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_INCLASS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_INCLASS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSurveySettings_Statics; \
 	friend OCULUSXREDITOR_API UClass* ::Z_Construct_UClass_UOculusXRSurveySettings(ETypeConstructPhase); \
@@ -32,7 +32,7 @@ public: \
 
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	OCULUSXREDITOR_API UOculusXRSurveySettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOculusXRSurveySettings) \
@@ -44,12 +44,12 @@ public: \
 	OCULUSXREDITOR_API virtual ~UOculusXRSurveySettings();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_9_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_GENERATED_BODY_LEGACY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_9_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_INCLASS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_STANDARD_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_INCLASS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -59,6 +59,6 @@ class UOculusXRSurveySettings;
 // ********** End Class UOculusXRSurveySettings ****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

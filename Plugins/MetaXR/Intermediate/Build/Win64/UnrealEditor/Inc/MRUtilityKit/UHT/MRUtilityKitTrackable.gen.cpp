@@ -37,60 +37,96 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "ClassGroupNames", "MRUtilityKit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Represents a trackable object in the Mixed Reality Utility Kit.\n * A trackable is a type of object that can be detected and tracked by the runtime,\n * such as keyboards and QR codes. Unlike scene anchors, trackables can move dynamically\n * and may become temporarily untracked if they cannot be seen by the device.\n *\n * Trackables are instantiated and managed by UMRUKSubsystem. When a new trackable is detected,\n * the subsystem creates an AMRUKTrackable actor and invokes the OnTrackableAdded event.\n */" },
+#endif
 		{ "DisplayName", "MR Utility Kit Trackable" },
 		{ "IncludePath", "MRUtilityKitTrackable.h" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Represents a trackable object in the Mixed Reality Utility Kit.\nA trackable is a type of object that can be detected and tracked by the runtime,\nsuch as keyboards and QR codes. Unlike scene anchors, trackables can move dynamically\nand may become temporarily untracked if they cannot be seen by the device.\n\nTrackables are instantiated and managed by UMRUKSubsystem. When a new trackable is detected,\nthe subsystem creates an AMRUKTrackable actor and invokes the OnTrackableAdded event." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TrackableType_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The type of this trackable (e.g., Keyboard, QRCode)\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The type of this trackable (e.g., Keyboard, QRCode)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IsTracked_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Whether this trackable is currently being tracked.\n\x09 * A trackable may become temporarily untracked if it cannot be seen by the device.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether this trackable is currently being tracked.\nA trackable may become temporarily untracked if it cannot be seen by the device." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlaneBounds_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If the trackable has a plane attached to it, this represents the bounds of that plane in\n\x09 * local coordinate space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the trackable has a plane attached to it, this represents the bounds of that plane in\nlocal coordinate space." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlaneBoundary2D_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If the trackable has a plane attached to it, this represents the boundary of it in\n\x09 * local coordinate space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the trackable has a plane attached to it, this represents the boundary of it in\nlocal coordinate space." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_VolumeBounds_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * If the trackable has a volume attached to it, this represents the bounds of that volume in\n\x09 * local coordinate space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the trackable has a volume attached to it, this represents the bounds of that volume in\nlocal coordinate space." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PayloadType_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The type of payload the trackable carries.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The type of payload the trackable carries." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MarkerPayloadString_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The marker's payload as a string.\n\x09 * If this trackable is a marker (e.g., a QR Code) and its payload can be interpreted as a string,\n\x09 * this property contains the decoded string. Otherwise, it is empty.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The marker's payload as a string.\nIf this trackable is a marker (e.g., a QR Code) and its payload can be interpreted as a string,\nthis property contains the decoded string. Otherwise, it is empty." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MarkerPayloadBytes_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The marker's payload as raw bytes.\n\x09 * If this trackable is a marker (e.g., a QR Code), this property contains the raw payload bytes.\n\x09 * Otherwise, the array is empty.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitTrackable.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The marker's payload as raw bytes.\nIf this trackable is a marker (e.g., a QR Code), this property contains the raw payload bytes.\nOtherwise, the array is empty." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -122,14 +158,14 @@ struct UHT_STATICS
 
 // ********** Begin Class AMRUKTrackable Property Definitions **************************************
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_TrackableType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_TrackableType = { "TrackableType", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, TrackableType), Z_Construct_UEnum_MRUtilityKit_EMRUKTrackableType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TrackableType_MetaData), NewProp_TrackableType_MetaData) }; // c402d4baa6affba11a6f723d98b2e50ad723d2ec
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_TrackableType = { "TrackableType", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, TrackableType), Z_Construct_UEnum_MRUtilityKit_EMRUKTrackableType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TrackableType_MetaData), NewProp_TrackableType_MetaData) }; // ce46a772726f2cc231c45af456e904a4d579992f
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_IsTracked = { "IsTracked", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(AMRUKTrackable), &UHT_STATICS::NewProp_IsTracked_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IsTracked_MetaData), NewProp_IsTracked_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_PlaneBounds = { "PlaneBounds", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, PlaneBounds), Z_Construct_UScriptStruct_FBox2D, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlaneBounds_MetaData), NewProp_PlaneBounds_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_PlaneBoundary2D_Inner = { "PlaneBoundary2D", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_PlaneBoundary2D = { "PlaneBoundary2D", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, PlaneBoundary2D), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlaneBoundary2D_MetaData), NewProp_PlaneBoundary2D_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_VolumeBounds = { "VolumeBounds", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, VolumeBounds), Z_Construct_UScriptStruct_FBox, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_VolumeBounds_MetaData), NewProp_VolumeBounds_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_PayloadType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_PayloadType = { "PayloadType", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, PayloadType), Z_Construct_UEnum_MRUtilityKit_EMRUKMarkerPayloadType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PayloadType_MetaData), NewProp_PayloadType_MetaData) }; // 8e7d2d975d17a755f9fcf909c2fc2ebdec83d45a
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_PayloadType = { "PayloadType", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, PayloadType), Z_Construct_UEnum_MRUtilityKit_EMRUKMarkerPayloadType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PayloadType_MetaData), NewProp_PayloadType_MetaData) }; // bf2f1983f6687b2bb4fac2813df77f88bd6ae3a8
 const UECodeGen_Private::FStrPropertyParams UHT_STATICS::NewProp_MarkerPayloadString = { "MarkerPayloadString", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Str, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, MarkerPayloadString), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MarkerPayloadString_MetaData), NewProp_MarkerPayloadString_MetaData) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_MarkerPayloadBytes_Inner = { "MarkerPayloadBytes", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_MarkerPayloadBytes = { "MarkerPayloadBytes", nullptr, (EPropertyFlags)0x0010000000022815, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(AMRUKTrackable, MarkerPayloadBytes), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MarkerPayloadBytes_MetaData), NewProp_MarkerPayloadBytes_MetaData) };
@@ -211,14 +247,14 @@ AMRUKTrackable::~AMRUKTrackable() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitTrackable_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitTrackable_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKTrackable, TEXT("AMRUKTrackable"), &Z_Registration_Info_UClass_AMRUKTrackable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKTrackable), 1307561298U) },
+		{ Z_Construct_UClass_AMRUKTrackable, TEXT("AMRUKTrackable"), &Z_Registration_Info_UClass_AMRUKTrackable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKTrackable), 33897911U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitTrackable_h__Script_MRUtilityKit_e49f0fa97b224b4f38a80dbb220e3be38b63fa32{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitTrackable_h__Script_MRUtilityKit_d7d74ac1be3e49e1dd33eed0640bcd3f3ffc7afb{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

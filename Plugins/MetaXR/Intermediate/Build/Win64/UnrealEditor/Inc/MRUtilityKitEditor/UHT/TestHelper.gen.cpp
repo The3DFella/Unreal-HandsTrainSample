@@ -608,7 +608,7 @@ AMeshResizer::~AMeshResizer() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h__Script_MRUtilityKitEditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h__Script_MRUtilityKitEditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -616,7 +616,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_AMeshResizer, TEXT("AMeshResizer"), &Z_Registration_Info_UClass_AMeshResizer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMeshResizer), 1521061663U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h__Script_MRUtilityKitEditor_f6425febd644a632b991e3ec71e3b4d13c05a935{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h__Script_MRUtilityKitEditor_f6425febd644a632b991e3ec71e3b4d13c05a935{
 	TEXT("/Script/MRUtilityKitEditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

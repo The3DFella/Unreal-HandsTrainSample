@@ -124,14 +124,14 @@ UOculusXRSceneCaptureCubemap::~UOculusXRSceneCaptureCubemap() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRSceneCaptureCubemap_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRSceneCaptureCubemap_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRSceneCaptureCubemap, TEXT("UOculusXRSceneCaptureCubemap"), &Z_Registration_Info_UClass_UOculusXRSceneCaptureCubemap, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneCaptureCubemap), 423798935U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRSceneCaptureCubemap_h__Script_OculusXRHMD_243dd7ba72bdd7d3154227bfe181cab81b6489bd{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRSceneCaptureCubemap_h__Script_OculusXRHMD_243dd7ba72bdd7d3154227bfe181cab81b6489bd{
 	TEXT("/Script/OculusXRHMD"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

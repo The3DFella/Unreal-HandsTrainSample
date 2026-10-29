@@ -32,7 +32,9 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "OculusXRResourceHolder.h" },
 		{ "ModuleRelativePath", "Private/OculusXRResourceHolder.h" },
 	};
@@ -121,14 +123,14 @@ UOculusXRResourceHolder::~UOculusXRResourceHolder() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRResourceHolder, TEXT("UOculusXRResourceHolder"), &Z_Registration_Info_UClass_UOculusXRResourceHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRResourceHolder), 3805848495U) },
+		{ Z_Construct_UClass_UOculusXRResourceHolder, TEXT("UOculusXRResourceHolder"), &Z_Registration_Info_UClass_UOculusXRResourceHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRResourceHolder), 2111116329U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h__Script_OculusXRHMD_97f9099147a972ba93f5915aba2dd37f22a737d7{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h__Script_OculusXRHMD_75d22b72153512f5699e13e16ea1cc3aa286a45f{
 	TEXT("/Script/OculusXRHMD"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

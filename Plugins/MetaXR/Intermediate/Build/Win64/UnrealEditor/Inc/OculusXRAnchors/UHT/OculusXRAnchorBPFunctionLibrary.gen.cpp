@@ -206,7 +206,7 @@ struct UHT_STATICS
 };
 
 // ********** Begin Function GetAnchorComponent Property Definitions *******************************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_QueryResult = { "QueryResult", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventGetAnchorComponent_Parms, QueryResult), Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_QueryResult_MetaData), NewProp_QueryResult_MetaData) }; // 195d72d59cfe6a2735c130a00247a62023643e57
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_QueryResult = { "QueryResult", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventGetAnchorComponent_Parms, QueryResult), Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_QueryResult_MetaData), NewProp_QueryResult_MetaData) }; // 47853c1019241d7af73b7ae23b9a2f320ca2a473
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_ComponentType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_ComponentType = { "ComponentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventGetAnchorComponent_Parms, ComponentType), Z_Construct_UEnum_OculusXRAnchors_EOculusXRSpaceComponentType, METADATA_PARAMS(0, nullptr) }; // 6d84567b9d77c8d30b7001f875ec87f709dae647
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Outer = { "Outer", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventGetAnchorComponent_Parms, Outer), Z_Construct_UClass_UObject, METADATA_PARAMS(0, nullptr) };
@@ -660,7 +660,7 @@ const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_WorldContext
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Handle = { "Handle", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, Handle), Z_Construct_UScriptStruct_FOculusXRUInt64, METADATA_PARAMS(0, nullptr) }; // 0ab4709cb2804e21f162f0dd5de2faa610085c80
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_UUID = { "UUID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, UUID), Z_Construct_UScriptStruct_FOculusXRUUID, METADATA_PARAMS(0, nullptr) }; // d7395a6d2338d4853510292d7685ec0e9506b1f6
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_AnchorLocation_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_AnchorLocation = { "AnchorLocation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, AnchorLocation), Z_Construct_UEnum_OculusXRAnchors_EOculusXRSpaceStorageLocation, METADATA_PARAMS(0, nullptr) }; // 810cbabe948a169e63afdaad253c78b329c5b0d2
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_AnchorLocation = { "AnchorLocation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, AnchorLocation), Z_Construct_UEnum_OculusXRAnchors_EOculusXRSpaceStorageLocation, METADATA_PARAMS(0, nullptr) }; // 920cba6c998c206f10bef9da516f98d1e7e6f8f4
 const UECodeGen_Private::FClassPropertyParams UHT_STATICS::NewProp_ActorClass = { "ActorClass", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Class, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, ActorClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UObject, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Owner = { "Owner", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, Owner), Z_Construct_UClass_AActor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Instigator = { "Instigator", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorHandle_Parms, Instigator), Z_Construct_UClass_APawn, METADATA_PARAMS(0, nullptr) };
@@ -757,7 +757,7 @@ struct UHT_STATICS
 
 // ********** Begin Function SpawnActorWithAnchorQueryResults Property Definitions *****************
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, WorldContextObject), Z_Construct_UClass_UObject, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_QueryResult = { "QueryResult", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, QueryResult), Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_QueryResult_MetaData), NewProp_QueryResult_MetaData) }; // 195d72d59cfe6a2735c130a00247a62023643e57
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_QueryResult = { "QueryResult", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, QueryResult), Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_QueryResult_MetaData), NewProp_QueryResult_MetaData) }; // 47853c1019241d7af73b7ae23b9a2f320ca2a473
 const UECodeGen_Private::FClassPropertyParams UHT_STATICS::NewProp_ActorClass = { "ActorClass", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Class, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, ActorClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UObject, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Owner = { "Owner", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, Owner), Z_Construct_UClass_AActor, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_Instigator = { "Instigator", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventSpawnActorWithAnchorQueryResults_Parms, Instigator), Z_Construct_UClass_APawn, METADATA_PARAMS(0, nullptr) };
@@ -882,10 +882,14 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|SpatialAnchor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Try to get the anchors transform. The transform may not always be a available.\n\x09 *\n\x09 * @param Handle The Anchor handle.\n\x09 * @param OutTransform (out) The anchors transform.\n\x09 * @param OutLocationFlags (out) The location flags.\n\x09 * @param Space The space in which this transform should be returned.\n\x09 *\n\x09 * @return Whether or not the transform could be retrieved.\n\x09 */" },
+#endif
 		{ "CPP_Default_Space", "World" },
 		{ "ModuleRelativePath", "Public/OculusXRAnchorBPFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Try to get the anchors transform. The transform may not always be a available.\n\n@param Handle The Anchor handle.\n@param OutTransform (out) The anchors transform.\n@param OutLocationFlags (out) The location flags.\n@param Space The space in which this transform should be returned.\n\n@return Whether or not the transform could be retrieved." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Handle_MetaData[] = {
 		{ "NativeConst", "" },
@@ -913,7 +917,7 @@ const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Handle = { "
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutTransform = { "OutTransform", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventTryGetAnchorTransformByHandle_Parms, OutTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_OutLocationFlags = { "OutLocationFlags", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventTryGetAnchorTransformByHandle_Parms, OutLocationFlags), Z_Construct_UScriptStruct_FOculusXRAnchorLocationFlags, METADATA_PARAMS(0, nullptr) }; // 0a5bfd932a7b8235dda0a692139d8d27ee188aba
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_Space_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_Space = { "Space", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventTryGetAnchorTransformByHandle_Parms, Space), Z_Construct_UEnum_OculusXRAnchors_EOculusXRAnchorSpace, METADATA_PARAMS(0, nullptr) }; // 477dbd27ca3fde1449cedb3fcaa0665d253607c9
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_Space = { "Space", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRAnchorBPFunctionLibrary_eventTryGetAnchorTransformByHandle_Parms, Space), Z_Construct_UEnum_OculusXRAnchors_EOculusXRAnchorSpace, METADATA_PARAMS(0, nullptr) }; // c46105f3f87e047aa5a8b0c38d955fede7c91384
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(OculusXRAnchorBPFunctionLibrary_eventTryGetAnchorTransformByHandle_Parms), &UHT_STATICS::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Handle,
@@ -959,10 +963,14 @@ struct UHT_STATICS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Helper\n" },
+#endif
 		{ "IncludePath", "OculusXRAnchorBPFunctionLibrary.h" },
 		{ "ModuleRelativePath", "Public/OculusXRAnchorBPFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Helper" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -986,16 +994,16 @@ struct UHT_STATICS
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_AnchorHandleToString, "AnchorHandleToString" }, // 1831bcd0e2721e58790cf7376604d733ef800767
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_AnchorUUIDToString, "AnchorUUIDToString" }, // 102b97a416fd245d4c0036ea26981e68d894f82b
-		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_GetAnchorComponent, "GetAnchorComponent" }, // a6cede6c1f6718f512665fbec1993b73e850b035
+		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_GetAnchorComponent, "GetAnchorComponent" }, // 3a1ecc010c0e7c1ddc1d21288a11c82e31ed615a
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_GetAnchorComponentStatus, "GetAnchorComponentStatus" }, // ebf9d624949d70cb096ee4be2878f8448c0a2ee0
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_GetAnchorTransformByHandle, "GetAnchorTransformByHandle" }, // 39ef2fd740a7d7949bfabd5199c5bda6e4ff2704
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_IsAnchorResultSuccess, "IsAnchorResultSuccess" }, // fd3b208febc98f1e860d360ab149c46847e8b67a
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_IsEqual_FOculusXRUInt64, "IsEqual_FOculusXRUInt64" }, // 467ae91f6fea9f17e1d15df4f2ab001f26dcdd67
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_IsEqual_FOculusXRUUID, "IsEqual_FOculusXRUUID" }, // acc86673f1c41ab35cbe5c4045737b8313e7371d
-		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_SpawnActorWithAnchorHandle, "SpawnActorWithAnchorHandle" }, // 3636f5c090182e140f4a120f2fad62bb3c1d4ef4
-		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_SpawnActorWithAnchorQueryResults, "SpawnActorWithAnchorQueryResults" }, // df7a3974bdb4055a35548d1127ec08ddfaf0a00b
+		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_SpawnActorWithAnchorHandle, "SpawnActorWithAnchorHandle" }, // bb68d599f124d9c362689c5e906ddba20a6b7528
+		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_SpawnActorWithAnchorQueryResults, "SpawnActorWithAnchorQueryResults" }, // 32f4655c8120762f8b4ddec03462aa1cf2a9ed07
 		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_StringToAnchorUUID, "StringToAnchorUUID" }, // 08a39c4b9092402017b42a98b95aa49f369ec7b7
-		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_TryGetAnchorTransformByHandle, "TryGetAnchorTransformByHandle" }, // 48c4400b60abe85644542ecbcc24509538769008
+		{ &Z_Construct_UFunction_UOculusXRAnchorBPFunctionLibrary_TryGetAnchorTransformByHandle, "TryGetAnchorTransformByHandle" }, // 95049d99c3cab82f3b0bca15ac7c576989383bb6
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1071,14 +1079,14 @@ UOculusXRAnchorBPFunctionLibrary::~UOculusXRAnchorBPFunctionLibrary() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorBPFunctionLibrary_h__Script_OculusXRAnchors_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorBPFunctionLibrary_h__Script_OculusXRAnchors_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRAnchorBPFunctionLibrary, TEXT("UOculusXRAnchorBPFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRAnchorBPFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAnchorBPFunctionLibrary), 260372463U) },
+		{ Z_Construct_UClass_UOculusXRAnchorBPFunctionLibrary, TEXT("UOculusXRAnchorBPFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRAnchorBPFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAnchorBPFunctionLibrary), 2852115122U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorBPFunctionLibrary_h__Script_OculusXRAnchors_a666db6f5eaf62bdeeb7db20548a3af6d91df4f7{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorBPFunctionLibrary_h__Script_OculusXRAnchors_2f55dfe0a04378fff67b98bf524ef498c6e860da{
 	TEXT("/Script/OculusXRAnchors"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

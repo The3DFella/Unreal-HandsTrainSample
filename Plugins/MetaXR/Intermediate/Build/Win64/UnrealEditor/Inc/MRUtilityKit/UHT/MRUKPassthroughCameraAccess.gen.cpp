@@ -227,9 +227,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the camera intrinsics.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the camera intrinsics." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -291,9 +295,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the pose of the camera.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the pose of the camera." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -359,9 +367,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get a list of all supported resolutions.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a list of all supported resolutions." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -425,9 +437,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Timestamp associated with the latest camera image.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Timestamp associated with the latest camera image." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -491,9 +507,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Start the passthrough camera for the given eye.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Start the passthrough camera for the given eye." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -569,9 +589,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Stop the passthrough camera for the given eye.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop the passthrough camera for the given eye." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -631,9 +655,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Constructs a ray in world space that points to the given point in passthrough camera space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Constructs a ray in world space that points to the given point in passthrough camera space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -704,9 +732,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Converts the world position into the passthrough camera space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Converts the world position into the passthrough camera space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -787,14 +819,14 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetCameraIntrinsics, "GetCameraIntrinsics" }, // 0f2f775b569ad60c76a825b3abadc28b9e1bd99e
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetCameraPose, "GetCameraPose" }, // a94f4cd8c64ba75a0021812b1c2101cc78fd5415
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetSupportedResolutions, "GetSupportedResolutions" }, // 9be0166d9d5df8842e0be2b9ac32a652c0095eec
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetTimestamp, "GetTimestamp" }, // 668aa47f093c89d487898f9f071ecbad88c094a2
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_Play, "Play" }, // 7c88d802c7a73985577960ea12902ce37bda39d4
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_Stop, "Stop" }, // 01e4f15ad5ff68f9c8ff36fb32625b5eda975989
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_ViewportPointToWorldSpaceRay, "ViewportPointToWorldSpaceRay" }, // a1b1b54644524d6edd9e499059921ec086335565
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_WorldToViewportPoint, "WorldToViewportPoint" }, // 9f39a5e537c4a12c606651b7f64033278a0861b4
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetCameraIntrinsics, "GetCameraIntrinsics" }, // 8da8c4a2deaa88d5941cf6784148821ef33dd20d
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetCameraPose, "GetCameraPose" }, // 5cba49595b6cd03f3f257136740a19a18cccb3f7
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetSupportedResolutions, "GetSupportedResolutions" }, // f77929026a4fc0eaf23fb89dc20cec7c75cf5ab8
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_GetTimestamp, "GetTimestamp" }, // bad0ecbe90643c7edaf19dbb3f1b03690f1c0636
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_Play, "Play" }, // 57c7ca8512dbdf619d2a4dae915b1f9392490320
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_Stop, "Stop" }, // 7912d03903680fdc35dc9751e0c058ed7e2eae25
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_ViewportPointToWorldSpaceRay, "ViewportPointToWorldSpaceRay" }, // c23cee8d0f4b9702023f87e79596bfd86aba8d66
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessSubsystem_WorldToViewportPoint, "WorldToViewportPoint" }, // 1a4a356584fc402f2c24140875eba6955e619993
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -880,9 +912,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the camera intrinsics.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the camera intrinsics." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -935,9 +971,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the current camera play state.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the current camera play state." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -994,9 +1034,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the pose of the camera.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the pose of the camera." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1054,9 +1098,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Timestamp associated with the latest camera image.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Timestamp associated with the latest camera image." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1109,9 +1157,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if the camera is currently playing.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if the camera is currently playing." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1242,9 +1294,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Start the passthrough camera.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Start the passthrough camera." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1297,9 +1353,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Stop the passthrough camera.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop the passthrough camera." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1343,9 +1403,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Constructs a ray in world space that points to the given point in passthrough camera space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Constructs a ray in world space that points to the given point in passthrough camera space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1408,9 +1472,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Converts the world position into the passthrough camera space.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Converts the world position into the passthrough camera space." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1468,27 +1536,43 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraEye_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * From which camera eye the video should be played.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "From which camera eye the video should be played." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResolutionWidth_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Max resolution width of the video.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Max resolution width of the video." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResolutionHeight_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Max resolution height of the video.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Max resolution height of the video." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxFramerate_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Maximum framerate of the video.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Maximum framerate of the video." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1515,17 +1599,17 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraIntrinsics, "GetCameraIntrinsics" }, // 6883f9b76d3bfa0139515719c9777b1b45339f83
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraPlayState, "GetCameraPlayState" }, // 71fc92f6b8c26e9724ea9c4188513ac4d63b1f89
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraPose, "GetCameraPose" }, // 89a59c9f26cc80d255ad87210f50cb6bae7057cd
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetTimestamp, "GetTimestamp" }, // 2eb5c05a604e42f1162a89605c1b766b1905ee57
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_IsCameraPlaying, "IsCameraPlaying" }, // 29736694cc76dfe472d8895aaae0e18cf8374f57
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraIntrinsics, "GetCameraIntrinsics" }, // 0e84a03f9cfdf4d3c006a38f94fabedff432d948
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraPlayState, "GetCameraPlayState" }, // 0243678c4690aa10d4fa059e42d54e25bbf2b708
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetCameraPose, "GetCameraPose" }, // f7f721158083b6974a68b45cdbbac69dbde36ed5
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_GetTimestamp, "GetTimestamp" }, // a4fb3aecb3aa79e409fd9971c22db873bff7ab34
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_IsCameraPlaying, "IsCameraPlaying" }, // a335f18c04f7ba189b9ad653143d0d9334ffeaae
 		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_OnResume, "OnResume" }, // 91439fd1351a350e57abd5c0b258d24f35d36d45
 		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_OnSuspend, "OnSuspend" }, // 980ffb22a774a1ce661863ceeabfea42e38a46ab
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_Play, "Play" }, // 53f024b832c4893d36c087eb126e37ecc74a10ff
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_Stop, "Stop" }, // 84c5a43a46204fcfdc5032051678bf30eb382efa
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_ViewportPointToWorldSpaceRay, "ViewportPointToWorldSpaceRay" }, // 46bf13a66823539bb0047f4312c94aee2c3a0f07
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_WorldToViewportPoint, "WorldToViewportPoint" }, // d3d03401f7efe0530bff9aaa41424a4615652746
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_Play, "Play" }, // 5e124d11341ef58b78e8eb956a327bb827e8bce9
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_Stop, "Stop" }, // 2420d81e57ce9dd2c033a4081f80cf274e9bf1e9
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_ViewportPointToWorldSpaceRay, "ViewportPointToWorldSpaceRay" }, // 0fa2be18d26f826d8eab538838a99f91a6c8e321
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccess_WorldToViewportPoint, "WorldToViewportPoint" }, // 3d61c6434aa1fa1fa7a80b9d980de15e4137bd64
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1626,9 +1710,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Gets the current aspect ratio of the texture.\n\x09 *\n\x09 * @return Texture aspect ratio.\n\x09 * @see GetHeight, GetWidth\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the current aspect ratio of the texture.\n\n@return Texture aspect ratio.\n@see GetHeight, GetWidth" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1681,9 +1769,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Gets the current height of the texture.\n\x09 *\n\x09 * @return Texture height (in pixels).\n\x09 * @see GetAspectRatio, GetWidth\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the current height of the texture.\n\n@return Texture height (in pixels).\n@see GetAspectRatio, GetWidth" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1736,9 +1828,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Gets the current width of the texture.\n\x09 *\n\x09 * @return Texture width (in pixels).\n\x09 * @see GetAspectRatio, GetHeight\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUKPassthroughCameraAccess.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the current width of the texture.\n\n@return Texture width (in pixels).\n@see GetAspectRatio, GetHeight" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -1807,9 +1903,9 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetAspectRatio, "GetAspectRatio" }, // 6ae528f12cc6f4cbb3773a69802a7d37ecebfefe
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetHeight, "GetHeight" }, // ee7e5ecaafae9610b690d0a35010dbd49569450d
-		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetWidth, "GetWidth" }, // c4d2060f6dca8861fd468c16bf3ea85a7b7beec6
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetAspectRatio, "GetAspectRatio" }, // 080b9dd16264046460e1f615fbdce0ed3a4d2509
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetHeight, "GetHeight" }, // 1da6f13675f1431a47dba997ad99e8a7e63bddc8
+		{ &Z_Construct_UFunction_UMRUKPassthroughCameraAccessTexture_GetWidth, "GetWidth" }, // ce91c2c544ed0cd75b14a1dc5ffe0e27e0e17899
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1892,7 +1988,7 @@ UMRUKPassthroughCameraAccessTexture::~UMRUKPassthroughCameraAccessTexture() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1903,12 +1999,12 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FMRUKCameraIntrinsics, Z_Construct_UScriptStruct_FMRUKCameraIntrinsics_Statics::NewStructOps, TEXT("MRUKCameraIntrinsics"),&Z_Registration_Info_UScriptStruct_FMRUKCameraIntrinsics, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMRUKCameraIntrinsics), 2355837993U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem, TEXT("UMRUKPassthroughCameraAccessSubsystem"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccessSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccessSubsystem), 1728182869U) },
-		{ Z_Construct_UClass_UMRUKPassthroughCameraAccess, TEXT("UMRUKPassthroughCameraAccess"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccess, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccess), 49929753U) },
-		{ Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture, TEXT("UMRUKPassthroughCameraAccessTexture"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccessTexture, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccessTexture), 2516067290U) },
+		{ Z_Construct_UClass_UMRUKPassthroughCameraAccessSubsystem, TEXT("UMRUKPassthroughCameraAccessSubsystem"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccessSubsystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccessSubsystem), 4143744547U) },
+		{ Z_Construct_UClass_UMRUKPassthroughCameraAccess, TEXT("UMRUKPassthroughCameraAccess"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccess, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccess), 1470459865U) },
+		{ Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture, TEXT("UMRUKPassthroughCameraAccessTexture"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccessTexture, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccessTexture), 826362860U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_c7e767ba12795ed74352fb4be1a5b610ba723fe3{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_7d90162d0a584a790d7487c201ddbda50e9bd28a{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

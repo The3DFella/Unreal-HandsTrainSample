@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping_Statics;
 OCULUSXRMOVEMENT_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h_17_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h_17_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping(ETypeConstructPhase::Inner); }
 
@@ -30,6 +30,6 @@ struct FOculusXRAnimCurveMapping;
 // ********** End ScriptStruct FOculusXRAnimCurveMapping *******************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

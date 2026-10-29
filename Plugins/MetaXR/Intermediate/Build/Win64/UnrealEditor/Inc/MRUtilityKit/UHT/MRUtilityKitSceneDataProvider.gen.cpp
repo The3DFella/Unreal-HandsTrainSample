@@ -40,9 +40,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * Gets you a room from the list of rooms, if bUseRandomRoom is true, a random room will be returned.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets you a room from the list of rooms, if bUseRandomRoom is true, a random room will be returned." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -102,39 +106,59 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Rooms_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * This list holds the rooms that can be loaded, the key is the room type and the value is a data table that contains multiple rooms.\n\x09 * Roomtypes such as Bedrooms, Livingrooms, etc.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This list holds the rooms that can be loaded, the key is the room type and the value is a data table that contains multiple rooms.\nRoomtypes such as Bedrooms, Livingrooms, etc." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseRandomRoom_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * When this is true, a random room will be loaded from the list of rooms.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When this is true, a random room will be loaded from the list of rooms." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseRandomRoomFromClass_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * When this is true, a random room will be loaded a specific room class, defined in Rooms (Bedrooms, Offices, ..).\n\x09 */" },
+#endif
 		{ "EditCondition", "!bUseRandomRoom" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When this is true, a random room will be loaded a specific room class, defined in Rooms (Bedrooms, Offices, ..)." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpecificRoomClass_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * Use this property to define a specific room class to load, only visible when bUseRandomRoomFromClass is true.\n\x09 * This can be a room class such as Bedrooms, Offices, ..\n\x09 */" },
+#endif
 		{ "EditCondition", "bUseRandomRoomFromClass && !bUseRandomRoom" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use this property to define a specific room class to load, only visible when bUseRandomRoomFromClass is true.\nThis can be a room class such as Bedrooms, Offices, .." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpecificRoomName_MetaData[] = {
 		{ "Category", "MR Utility Kit" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09 * Define a specific room to load, only visible when bUseRandomRoom is false.\n\x09 */" },
+#endif
 		{ "EditCondition", "!bUseRandomRoom && !bUseRandomRoomFromClass" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/MRUtilityKitSceneDataProvider.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Define a specific room to load, only visible when bUseRandomRoom is false." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -161,7 +185,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMRUKSceneDataProvider_GetRoom, "GetRoom" }, // 7604c3107a128163a9afc785e65f9cb45f534083
+		{ &Z_Construct_UFunction_AMRUKSceneDataProvider_GetRoom, "GetRoom" }, // 11ae4f4c07ff847867902c58b4ed4fea10cd65dd
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -330,17 +354,17 @@ UScriptStruct* Z_Construct_UScriptStruct_FJSONData(ETypeConstructPhase Phase)
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSceneDataProvider_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSceneDataProvider_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ Z_Construct_UScriptStruct_FJSONData, Z_Construct_UScriptStruct_FJSONData_Statics::NewStructOps, TEXT("JSONData"),&Z_Registration_Info_UScriptStruct_FJSONData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FJSONData), 972786404U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMRUKSceneDataProvider, TEXT("AMRUKSceneDataProvider"), &Z_Registration_Info_UClass_AMRUKSceneDataProvider, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKSceneDataProvider), 4114040917U) },
+		{ Z_Construct_UClass_AMRUKSceneDataProvider, TEXT("AMRUKSceneDataProvider"), &Z_Registration_Info_UClass_AMRUKSceneDataProvider, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKSceneDataProvider), 1359861119U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitSceneDataProvider_h__Script_MRUtilityKit_bf3856db6e3da446ac5db61ef5ee528a97ab7b70{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitSceneDataProvider_h__Script_MRUtilityKit_d428bc216ccde2dc3010f84b3074752d22cc943d{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

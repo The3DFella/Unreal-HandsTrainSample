@@ -20,7 +20,7 @@ class AMRUKAnchor;
 class AMRUKRoom;
 
 // ********** Begin Class URoomAndAnchorObserver ***************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnRoomRemoved); \
 	DECLARE_FUNCTION(execOnRoomUpdated); \
 	DECLARE_FUNCTION(execOnRoomCreated); \
@@ -32,7 +32,7 @@ class AMRUKRoom;
 struct Z_Construct_UClass_URoomAndAnchorObserver_Statics;
 MRUTILITYKITEDITOR_API UClass* Z_Construct_UClass_URoomAndAnchorObserver(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_URoomAndAnchorObserver_Statics; \
 	friend MRUTILITYKITEDITOR_API UClass* ::Z_Construct_UClass_URoomAndAnchorObserver(ETypeConstructPhase); \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(URoomAndAnchorObserver)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API URoomAndAnchorObserver(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -53,13 +53,13 @@ public: \
 	NO_API virtual ~URoomAndAnchorObserver();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_12_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_12_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -72,7 +72,7 @@ class URoomAndAnchorObserver;
 struct Z_Construct_UClass_AMeshResizer_Statics;
 MRUTILITYKITEDITOR_API UClass* Z_Construct_UClass_AMeshResizer(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMeshResizer_Statics; \
 	friend MRUTILITYKITEDITOR_API UClass* ::Z_Construct_UClass_AMeshResizer(ETypeConstructPhase); \
@@ -81,7 +81,7 @@ public: \
 	DECLARE_SERIALIZER(AMeshResizer)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMeshResizer(AMeshResizer&&) = delete; \
 	AMeshResizer(const AMeshResizer&) = delete; \
@@ -91,12 +91,12 @@ public: \
 	NO_API virtual ~AMeshResizer();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_54_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_54_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h_57_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -106,6 +106,6 @@ class AMeshResizer;
 // ********** End Class AMeshResizer ***************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_TestHelper_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_TestHelper_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

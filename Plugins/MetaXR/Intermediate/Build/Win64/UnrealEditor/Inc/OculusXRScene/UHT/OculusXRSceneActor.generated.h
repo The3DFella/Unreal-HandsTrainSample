@@ -24,7 +24,7 @@ struct FOculusXRRoomLayout;
 struct Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics;
 OCULUSXRSCENE_API UScriptStruct* Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_36_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_36_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties(ETypeConstructPhase::Inner); }
 
@@ -33,7 +33,7 @@ struct FOculusXRSpawnedSceneAnchorProperties;
 // ********** End ScriptStruct FOculusXRSpawnedSceneAnchorProperties *******************************
 
 // ********** Begin Class AOculusXRSceneActor ******************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetRoomLayouts); \
 	DECLARE_FUNCTION(execGetActorsBySemanticLabel); \
 	DECLARE_FUNCTION(execSetVisibilityToSceneAnchorsBySemanticLabel); \
@@ -48,7 +48,7 @@ struct FOculusXRSpawnedSceneAnchorProperties;
 struct Z_Construct_UClass_AOculusXRSceneActor_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_AOculusXRSceneActor(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AOculusXRSceneActor_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_AOculusXRSceneActor(ETypeConstructPhase); \
@@ -57,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(AOculusXRSceneActor)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AOculusXRSceneActor(AOculusXRSceneActor&&) = delete; \
 	AOculusXRSceneActor(const AOculusXRSceneActor&) = delete; \
@@ -67,13 +67,13 @@ public: \
 	NO_API virtual ~AOculusXRSceneActor();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_70_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_70_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_73_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -83,7 +83,7 @@ class AOculusXRSceneActor;
 // ********** End Class AOculusXRSceneActor ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h
 
 // ********** Begin Enum EOculusXRLaunchCaptureFlowWhenMissingScene ********************************
 #define FOREACH_ENUM_EOCULUSXRLAUNCHCAPTUREFLOWWHENMISSINGSCENE(op) \

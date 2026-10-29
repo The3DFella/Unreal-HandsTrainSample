@@ -36,19 +36,31 @@ struct UHT_STATICS
 		{ "ModuleRelativePath", "Private/OculusXRSurveySettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FirstLaunchDate_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// First launch date stored as string\n" },
+#endif
 		{ "ModuleRelativePath", "Private/OculusXRSurveySettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "First launch date stored as string" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LaunchCount_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Number of times the editor has been launched\n" },
+#endif
 		{ "ModuleRelativePath", "Private/OculusXRSurveySettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Number of times the editor has been launched" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSurveyShown_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether the survey has been shown to the user\n" },
+#endif
 		{ "ModuleRelativePath", "Private/OculusXRSurveySettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the survey has been shown to the user" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -142,14 +154,14 @@ UOculusXRSurveySettings::~UOculusXRSurveySettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h__Script_OculusXREditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h__Script_OculusXREditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRSurveySettings, TEXT("UOculusXRSurveySettings"), &Z_Registration_Info_UClass_UOculusXRSurveySettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSurveySettings), 3943534787U) },
+		{ Z_Construct_UClass_UOculusXRSurveySettings, TEXT("UOculusXRSurveySettings"), &Z_Registration_Info_UClass_UOculusXRSurveySettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSurveySettings), 3851182236U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h__Script_OculusXREditor_45e1be2774352d46ba72e2c5ab5a163be2664143{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRSurveySettings_h__Script_OculusXREditor_7d5271373eb1bd045df82af4b84fcff390b407ca{
 	TEXT("/Script/OculusXREditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

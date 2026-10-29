@@ -92,9 +92,13 @@ struct UHT_STATICS
 		{ "ModuleRelativePath", "Public/OculusXRPersistentPassthroughInstance.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TempShape_LayerOrder_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// These properties are all the ones from UOculusXRStereoLayerShapeReconstructed.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPersistentPassthroughInstance.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "These properties are all the ones from UOculusXRStereoLayerShapeReconstructed." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TempShape_TextureOpacityFactor_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRPersistentPassthroughInstance.h" },
@@ -201,7 +205,7 @@ const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TempShape_Tex
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_TempShape_bEnableEdgeColor = { "TempShape_bEnableEdgeColor", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(FOculusXRPersistentPassthroughParameters), &UHT_STATICS::NewProp_TempShape_bEnableEdgeColor_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_bEnableEdgeColor_MetaData), NewProp_TempShape_bEnableEdgeColor_MetaData) };
 const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_TempShape_EdgeColor = { "TempShape_EdgeColor", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRPersistentPassthroughParameters, TempShape_EdgeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_EdgeColor_MetaData), NewProp_TempShape_EdgeColor_MetaData) };
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_TempShape_bEnableColorMap = { "TempShape_bEnableColorMap", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(FOculusXRPersistentPassthroughParameters), &UHT_STATICS::NewProp_TempShape_bEnableColorMap_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_bEnableColorMap_MetaData), NewProp_TempShape_bEnableColorMap_MetaData) };
-const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_TempShape_ColorMapType = { "TempShape_ColorMapType", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRPersistentPassthroughParameters, TempShape_ColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_ColorMapType_MetaData), NewProp_TempShape_ColorMapType_MetaData) }; // 82c23f8e672fd79b0b621c686c025efde8589673
+const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_TempShape_ColorMapType = { "TempShape_ColorMapType", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRPersistentPassthroughParameters, TempShape_ColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_ColorMapType_MetaData), NewProp_TempShape_ColorMapType_MetaData) }; // b67f7573e0e48cb614e62aac84f93e9a5af55b38
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_TempShape_bUseColorMapCurve = { "TempShape_bUseColorMapCurve", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(FOculusXRPersistentPassthroughParameters), &UHT_STATICS::NewProp_TempShape_bUseColorMapCurve_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_bUseColorMapCurve_MetaData), NewProp_TempShape_bUseColorMapCurve_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_TempShape_ColorMapCurve = { "TempShape_ColorMapCurve", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRPersistentPassthroughParameters, TempShape_ColorMapCurve), Z_Construct_UClass_UCurveLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_ColorMapCurve_MetaData), NewProp_TempShape_ColorMapCurve_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams UHT_STATICS::NewProp_TempShape_Contrast = { "TempShape_Contrast", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Float, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRPersistentPassthroughParameters, TempShape_Contrast), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TempShape_Contrast_MetaData), NewProp_TempShape_Contrast_MetaData) };
@@ -650,7 +654,7 @@ struct UHT_STATICS
 }; // struct UHT_STATICS
 
 // ********** Begin Class UOculusXRPersistentPassthroughInstance Property Definitions **************
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Parameters = { "Parameters", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPersistentPassthroughInstance, Parameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Parameters_MetaData), NewProp_Parameters_MetaData) }; // b5649aea41103dd7e4fc54d1598dc2a247a61a3e
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_Parameters = { "Parameters", nullptr, (EPropertyFlags)0x0020088000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPersistentPassthroughInstance, Parameters), Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Parameters_MetaData), NewProp_Parameters_MetaData) }; // f60dba641b6907809055df15d23ac88321672792
 const UECodeGen_Private::FMulticastDelegatePropertyParams UHT_STATICS::NewProp_OnLayerResumed = { "OnLayerResumed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPersistentPassthroughInstance, OnLayerResumed), Z_Construct_UDelegateFunction_OculusXRHMD_OculusXRPassthrough_LayerResumed__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnLayerResumed_MetaData), NewProp_OnLayerResumed_MetaData) }; // 2d7af1979ff280f435e329d892d9a4b12e304593
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_Parameters,
@@ -725,17 +729,17 @@ UOculusXRPersistentPassthroughInstance::~UOculusXRPersistentPassthroughInstance(
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPersistentPassthroughInstance_h__Script_OculusXRPassthrough_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPersistentPassthroughInstance_h__Script_OculusXRPassthrough_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters_Statics::NewStructOps, TEXT("OculusXRPersistentPassthroughParameters"),&Z_Registration_Info_UScriptStruct_FOculusXRPersistentPassthroughParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRPersistentPassthroughParameters), 3043269354U) },
+		{ Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters, Z_Construct_UScriptStruct_FOculusXRPersistentPassthroughParameters_Statics::NewStructOps, TEXT("OculusXRPersistentPassthroughParameters"),&Z_Registration_Info_UScriptStruct_FOculusXRPersistentPassthroughParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRPersistentPassthroughParameters), 4128094820U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPersistentPassthroughInstance, TEXT("UOculusXRPersistentPassthroughInstance"), &Z_Registration_Info_UClass_UOculusXRPersistentPassthroughInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPersistentPassthroughInstance), 2932453127U) },
+		{ Z_Construct_UClass_UOculusXRPersistentPassthroughInstance, TEXT("UOculusXRPersistentPassthroughInstance"), &Z_Registration_Info_UClass_UOculusXRPersistentPassthroughInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPersistentPassthroughInstance), 2380701676U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPersistentPassthroughInstance_h__Script_OculusXRPassthrough_406797cb794e697f3ff8c745ca313dc01b0257b6{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPersistentPassthroughInstance_h__Script_OculusXRPassthrough_6535c65c45c09c107430135c8d2f1f4904e6767c{
 	TEXT("/Script/OculusXRPassthrough"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

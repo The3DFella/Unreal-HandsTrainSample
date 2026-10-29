@@ -164,69 +164,113 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkeletonType_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The hand skeleton that will be loaded */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The hand skeleton that will be loaded" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MeshType_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The hand mesh that will be applied to the skeleton */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The hand mesh that will be applied to the skeleton" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ConfidenceBehavior_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Behavior for when hand tracking loses high confidence tracking */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Behavior for when hand tracking loses high confidence tracking" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SystemGestureBehavior_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Behavior for when the system gesture is actived */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Behavior for when the system gesture is actived" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SystemGestureMaterial_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Material that gets applied to the hands when the system gesture is active */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material that gets applied to the hands when the system gesture is active" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bInitializePhysics_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether or not to initialize physics capsules on the skeletal mesh */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not to initialize physics capsules on the skeletal mesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUpdateHandScale_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether or not the hand scale should update based on values from the runtime to match the users hand scale */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not the hand scale should update based on values from the runtime to match the users hand scale" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaterialOverride_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Material override for the runtime skeletal mesh */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Material override for the runtime skeletal mesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BoneNameMappings_MetaData[] = {
 		{ "Category", "CustomSkeletalMesh" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Bone mapping for custom hand skeletal meshes */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Bone mapping for custom hand skeletal meshes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CollisionCapsules_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List of capsule colliders created for the skeletal mesh */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of capsule colliders created for the skeletal mesh" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSkeletalMeshInitialized_MetaData[] = {
 		{ "Category", "HandProperties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether or not the runtime skeletal mesh has been loaded and initialized */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHandComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not the runtime skeletal mesh has been loaded and initialized" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -286,10 +330,10 @@ const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bUpdateHandSca
 const UECodeGen_Private::FObjectPropertyParams UHT_STATICS::NewProp_MaterialOverride = { "MaterialOverride", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Object, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHandComponent, MaterialOverride), Z_Construct_UClass_UMaterialInterface, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaterialOverride_MetaData), NewProp_MaterialOverride_MetaData) };
 const UECodeGen_Private::FNamePropertyParams UHT_STATICS::NewProp_BoneNameMappings_ValueProp = { "BoneNameMappings", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Name, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_BoneNameMappings_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoneNameMappings_Key_KeyProp = { "BoneNameMappings_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(0, nullptr) }; // eb9a4b384999279b49d742093925776b442f190d
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_BoneNameMappings = { "BoneNameMappings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHandComponent, BoneNameMappings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoneNameMappings_MetaData), NewProp_BoneNameMappings_MetaData) }; // eb9a4b384999279b49d742093925776b442f190d
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_CollisionCapsules_Inner = { "CollisionCapsules", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider, METADATA_PARAMS(0, nullptr) }; // 660e29e9cfc1e834816dbccfc7ccfb5a55a92d32
-const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_CollisionCapsules = { "CollisionCapsules", nullptr, (EPropertyFlags)0x0010008000000014, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHandComponent, CollisionCapsules), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CollisionCapsules_MetaData), NewProp_CollisionCapsules_MetaData) }; // 660e29e9cfc1e834816dbccfc7ccfb5a55a92d32
+const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_BoneNameMappings_Key_KeyProp = { "BoneNameMappings_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(0, nullptr) }; // 83506572716d5ad419237dcca819999cca2d3bba
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_BoneNameMappings = { "BoneNameMappings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHandComponent, BoneNameMappings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BoneNameMappings_MetaData), NewProp_BoneNameMappings_MetaData) }; // 83506572716d5ad419237dcca819999cca2d3bba
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_CollisionCapsules_Inner = { "CollisionCapsules", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider, METADATA_PARAMS(0, nullptr) }; // ae74b4637023bdb2f6f842b9446d8520c74dfe2d
+const UECodeGen_Private::FArrayPropertyParams UHT_STATICS::NewProp_CollisionCapsules = { "CollisionCapsules", nullptr, (EPropertyFlags)0x0010008000000014, UECodeGen_Private::EPropertyGenFlags::Array, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHandComponent, CollisionCapsules), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CollisionCapsules_MetaData), NewProp_CollisionCapsules_MetaData) }; // ae74b4637023bdb2f6f842b9446d8520c74dfe2d
 const UECodeGen_Private::FBoolPropertyParams UHT_STATICS::NewProp_bSkeletalMeshInitialized = { "bSkeletalMeshInitialized", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, nullptr, nullptr, 1, sizeof(bool), sizeof(UOculusXRHandComponent), &UHT_STATICS::NewProp_bSkeletalMeshInitialized_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bSkeletalMeshInitialized_MetaData), NewProp_bSkeletalMeshInitialized_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_SkeletonType_Underlying,
@@ -376,7 +420,7 @@ UOculusXRHandComponent::~UOculusXRHandComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h__Script_OculusXRInput_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h__Script_OculusXRInput_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -384,10 +428,10 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_OculusXRInput_EOculusXRSystemGestureBehavior, TEXT("EOculusXRSystemGestureBehavior"), &ZRIE_EOculusXRSystemGestureBehavior, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 331747811U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRHandComponent, TEXT("UOculusXRHandComponent"), &Z_Registration_Info_UClass_UOculusXRHandComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRHandComponent), 2900251781U) },
+		{ Z_Construct_UClass_UOculusXRHandComponent, TEXT("UOculusXRHandComponent"), &Z_Registration_Info_UClass_UOculusXRHandComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRHandComponent), 2718652937U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRHandComponent_h__Script_OculusXRInput_8cdc31fbb04fe96fa5b7f31b6e6a0e3581889e9e{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRHandComponent_h__Script_OculusXRInput_faea11536cf467f9abcae0c6a0853128d5fd1476{
 	TEXT("/Script/OculusXRInput"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

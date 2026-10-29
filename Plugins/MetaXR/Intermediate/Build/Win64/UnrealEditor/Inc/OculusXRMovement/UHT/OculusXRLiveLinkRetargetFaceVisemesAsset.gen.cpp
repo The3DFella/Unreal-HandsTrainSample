@@ -43,9 +43,13 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurveRemapping_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Map face expression to Skeleton's animation curve mapping names.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRLiveLinkRetargetFaceVisemesAsset.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Map face expression to Skeleton's animation curve mapping names." },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -64,10 +68,10 @@ struct UHT_STATICS
 }; // struct UHT_STATICS
 
 // ********** Begin Class UOculusXRLiveLinkRetargetFaceVisemesAsset Property Definitions ***********
-const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_CurveRemapping_ValueProp = { "CurveRemapping", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping, METADATA_PARAMS(0, nullptr) }; // 2fbc8d6c05df1e3e8151dcb426908affa3b47a3d
+const UECodeGen_Private::FStructPropertyParams UHT_STATICS::NewProp_CurveRemapping_ValueProp = { "CurveRemapping", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping, METADATA_PARAMS(0, nullptr) }; // cdd8c705b264d535e97decef178b863cb21053b2
 const UECodeGen_Private::FBytePropertyParams UHT_STATICS::NewProp_CurveRemapping_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams UHT_STATICS::NewProp_CurveRemapping_Key_KeyProp = { "CurveRemapping_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Enum, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OculusXRMovement_EOculusXRFaceVisemesExpression, METADATA_PARAMS(0, nullptr) }; // 8f586d152761fe86bf768acf148e72271daa7be1
-const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_CurveRemapping = { "CurveRemapping", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetFaceVisemesAsset, CurveRemapping), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurveRemapping_MetaData), NewProp_CurveRemapping_MetaData) }; // 8f586d152761fe86bf768acf148e72271daa7be1 2fbc8d6c05df1e3e8151dcb426908affa3b47a3d
+const UECodeGen_Private::FMapPropertyParams UHT_STATICS::NewProp_CurveRemapping = { "CurveRemapping", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Map, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRLiveLinkRetargetFaceVisemesAsset, CurveRemapping), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurveRemapping_MetaData), NewProp_CurveRemapping_MetaData) }; // 8f586d152761fe86bf768acf148e72271daa7be1 cdd8c705b264d535e97decef178b863cb21053b2
 const UECodeGen_Private::FPropertyParamsBase* const UHT_STATICS::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_CurveRemapping_ValueProp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&UHT_STATICS::NewProp_CurveRemapping_Key_KeyProp_Underlying,
@@ -138,14 +142,14 @@ UOculusXRLiveLinkRetargetFaceVisemesAsset::~UOculusXRLiveLinkRetargetFaceVisemes
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetFaceVisemesAsset_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetFaceVisemesAsset_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRLiveLinkRetargetFaceVisemesAsset, TEXT("UOculusXRLiveLinkRetargetFaceVisemesAsset"), &Z_Registration_Info_UClass_UOculusXRLiveLinkRetargetFaceVisemesAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLiveLinkRetargetFaceVisemesAsset), 3846619475U) },
+		{ Z_Construct_UClass_UOculusXRLiveLinkRetargetFaceVisemesAsset, TEXT("UOculusXRLiveLinkRetargetFaceVisemesAsset"), &Z_Registration_Info_UClass_UOculusXRLiveLinkRetargetFaceVisemesAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRLiveLinkRetargetFaceVisemesAsset), 183786736U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetFaceVisemesAsset_h__Script_OculusXRMovement_e13a49a294f63a96afd0ccb9abec0d3e4487775c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRLiveLinkRetargetFaceVisemesAsset_h__Script_OculusXRMovement_67836d4a29c09c1899fbb6ea557076e7bcb2d36b{
 	TEXT("/Script/OculusXRMovement"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

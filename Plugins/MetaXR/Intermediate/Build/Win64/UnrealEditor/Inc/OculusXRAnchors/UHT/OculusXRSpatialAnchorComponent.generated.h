@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRSpatialAnchorComponent_Statics;
 OCULUSXRANCHORS_API UClass* Z_Construct_UClass_UOculusXRSpatialAnchorComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSpatialAnchorComponent_Statics; \
 	friend OCULUSXRANCHORS_API UClass* ::Z_Construct_UClass_UOculusXRSpatialAnchorComponent(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSpatialAnchorComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRSpatialAnchorComponent(UOculusXRSpatialAnchorComponent&&) = delete; \
 	UOculusXRSpatialAnchorComponent(const UOculusXRSpatialAnchorComponent&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UOculusXRSpatialAnchorComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_12_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_12_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UOculusXRSpatialAnchorComponent;
 // ********** End Class UOculusXRSpatialAnchorComponent ********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRSpatialAnchorComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

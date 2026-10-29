@@ -34,9 +34,13 @@ struct UHT_STATICS
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Type_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Reset the rotation values of the eyes to their initial rotation\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reset the rotation values of the eyes to their initial rotation" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -83,45 +87,73 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetMeshComponentName_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The name of the poseable mesh component that this component targets for eyes glazes movement.\n\x09 * This must be the name of a component on this actor.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The name of the poseable mesh component that this component targets for eyes glazes movement.\nThis must be the name of a component on this actor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EyeToBone_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The map of eye to mesh bone that this component supports.\n\x09 * Names are validated on (@see BeginPlay) so only valid bone names will be targeted.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The map of eye to mesh bone that this component supports.\nNames are validated on (@see BeginPlay) so only valid bone names will be targeted." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUpdatePosition_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Update the target mesh position when eye state changes\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Update the target mesh position when eye state changes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUpdateRotation_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Update the target mesh rotation when eye state changes\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Update the target mesh rotation when eye state changes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ConfidenceThreshold_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Do not accept an eye gaze state if confidence is lower than this value. Confidence is in range [0,1].\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Do not accept an eye gaze state if confidence is lower than this value. Confidence is in range [0,1]." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAcceptInvalid_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Bypass eye gaze state validity.\n\x09 *\n\x09 * @Note: It doesn't check the confidence (@see ConfidenceThreshold). The eye gaze state can be marked as invalid. This flag bypass that state flag.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Bypass eye gaze state validity.\n\n@Note: It doesn't check the confidence (@see ConfidenceThreshold). The eye gaze state can be marked as invalid. This flag bypass that state flag." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetPoseableMeshComponent_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The mesh component targeted for eyes\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/OculusXREyeTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The mesh component targeted for eyes" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -155,7 +187,7 @@ struct UHT_STATICS
 	};
 	static FTypeConstructFunc* DependentSingletons[];
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXREyeTrackingComponent_ClearRotationValues, "ClearRotationValues" }, // 561139d7070be665cb90d3a73ab75c8a3981f32f
+		{ &Z_Construct_UFunction_UOculusXREyeTrackingComponent_ClearRotationValues, "ClearRotationValues" }, // a8c0eed51c3b512e9b66b3485beae2de7c658309
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -256,14 +288,14 @@ UOculusXREyeTrackingComponent::~UOculusXREyeTrackingComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXREyeTrackingComponent, TEXT("UOculusXREyeTrackingComponent"), &Z_Registration_Info_UClass_UOculusXREyeTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXREyeTrackingComponent), 3869736109U) },
+		{ Z_Construct_UClass_UOculusXREyeTrackingComponent, TEXT("UOculusXREyeTrackingComponent"), &Z_Registration_Info_UClass_UOculusXREyeTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXREyeTrackingComponent), 2019790005U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h__Script_OculusXRMovement_8a4fb94ae5187d93cfe0bb66fb362743d541f308{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXREyeTrackingComponent_h__Script_OculusXRMovement_04a9b3b44a27221e9bb820aef89f0b61d7c2927a{
 	TEXT("/Script/OculusXRMovement"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

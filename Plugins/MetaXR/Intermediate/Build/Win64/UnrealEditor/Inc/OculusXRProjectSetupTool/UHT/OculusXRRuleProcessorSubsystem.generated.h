@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRRuleProcessorSubsystem_Statics;
 OCULUSXRPROJECTSETUPTOOL_API UClass* Z_Construct_UClass_UOculusXRRuleProcessorSubsystem(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRRuleProcessorSubsystem_Statics; \
 	friend OCULUSXRPROJECTSETUPTOOL_API UClass* ::Z_Construct_UClass_UOculusXRRuleProcessorSubsystem(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRRuleProcessorSubsystem)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRRuleProcessorSubsystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API ~UOculusXRRuleProcessorSubsystem();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_16_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_16_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UOculusXRRuleProcessorSubsystem;
 // ********** End Class UOculusXRRuleProcessorSubsystem ********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRRuleProcessorSubsystem_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

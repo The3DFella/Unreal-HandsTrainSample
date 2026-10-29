@@ -22,7 +22,7 @@ enum class EOculusXRBoundaryVisibility : uint8;
 struct Z_Construct_UClass_UOculusXRSceneEventDelegates_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRSceneEventDelegates(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSceneEventDelegates_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRSceneEventDelegates(ETypeConstructPhase); \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSceneEventDelegates)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOculusXRSceneEventDelegates(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~UOculusXRSceneEventDelegates();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_12_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_12_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,6 +58,6 @@ class UOculusXRSceneEventDelegates;
 // ********** End Class UOculusXRSceneEventDelegates ***********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneEventDelegates_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

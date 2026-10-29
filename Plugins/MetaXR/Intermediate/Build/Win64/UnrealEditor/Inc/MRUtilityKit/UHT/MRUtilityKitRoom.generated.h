@@ -33,7 +33,7 @@ struct FRandomStream;
 struct Z_Construct_UScriptStruct_FMRUKAnchorWithPlaneUVs_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKAnchorWithPlaneUVs(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_71_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_71_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKAnchorWithPlaneUVs_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKAnchorWithPlaneUVs(ETypeConstructPhase::Inner); }
 
@@ -45,7 +45,7 @@ struct FMRUKAnchorWithPlaneUVs;
 struct Z_Construct_UScriptStruct_FMRUKRoomFace_Statics;
 MRUTILITYKIT_API UScriptStruct* Z_Construct_UScriptStruct_FMRUKRoomFace(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_92_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_92_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FMRUKRoomFace_Statics; \
 	UE_NODEBUG static UScriptStruct* StaticStruct() { return Z_Construct_UScriptStruct_FMRUKRoomFace(ETypeConstructPhase::Inner); }
 
@@ -57,7 +57,7 @@ struct FMRUKRoomFace;
 struct Z_Construct_UClass_UMRUKRoomMesh_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKRoomMesh(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UMRUKRoomMesh_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKRoomMesh(ETypeConstructPhase); \
@@ -66,7 +66,7 @@ public: \
 	DECLARE_SERIALIZER(UMRUKRoomMesh)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMRUKRoomMesh(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -78,12 +78,12 @@ public: \
 	NO_API virtual ~UMRUKRoomMesh();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_119_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_119_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_122_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -93,7 +93,7 @@ class UMRUKRoomMesh;
 // ********** End Class UMRUKRoomMesh **************************************************************
 
 // ********** Begin Class AMRUKRoom ****************************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execAddAnchorToRoom); \
 	DECLARE_FUNCTION(execComputeCentroid); \
 	DECLARE_FUNCTION(execGenerateProceduralSceneMesh); \
@@ -128,7 +128,7 @@ class UMRUKRoomMesh;
 struct Z_Construct_UClass_AMRUKRoom_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_AMRUKRoom(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMRUKRoom_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_AMRUKRoom(ETypeConstructPhase); \
@@ -137,7 +137,7 @@ public: \
 	DECLARE_SERIALIZER(AMRUKRoom)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMRUKRoom(AMRUKRoom&&) = delete; \
 	AMRUKRoom(const AMRUKRoom&) = delete; \
@@ -147,13 +147,13 @@ public: \
 	NO_API virtual ~AMRUKRoom();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_146_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_146_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h_149_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -163,7 +163,7 @@ class AMRUKRoom;
 // ********** End Class AMRUKRoom ******************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitRoom_h
 
 // ********** Begin Enum EMRUKSpawnLocation ********************************************************
 #define FOREACH_ENUM_EMRUKSPAWNLOCATION(op) \

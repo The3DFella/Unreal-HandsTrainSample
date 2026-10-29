@@ -106,14 +106,14 @@ AMeshActor::~AMeshActor() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_MeshActor_h__Script_MRUtilityKitEditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_MeshActor_h__Script_MRUtilityKitEditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMeshActor, TEXT("AMeshActor"), &Z_Registration_Info_UClass_AMeshActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMeshActor), 3310956457U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKitEditor_Private_MeshActor_h__Script_MRUtilityKitEditor_dd2df5827c7e66d5ac0e93e58d69ae460314a28c{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKitEditor_Private_MeshActor_h__Script_MRUtilityKitEditor_dd2df5827c7e66d5ac0e93e58d69ae460314a28c{
 	TEXT("/Script/MRUtilityKitEditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRSceneGlobalMeshComponent_Statics;
 OCULUSXRSCENE_API UClass* Z_Construct_UClass_UOculusXRSceneGlobalMeshComponent(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRSceneGlobalMeshComponent_Statics; \
 	friend OCULUSXRSCENE_API UClass* ::Z_Construct_UClass_UOculusXRSceneGlobalMeshComponent(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRSceneGlobalMeshComponent)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRSceneGlobalMeshComponent(UOculusXRSceneGlobalMeshComponent&&) = delete; \
 	UOculusXRSceneGlobalMeshComponent(const UOculusXRSceneGlobalMeshComponent&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UOculusXRSceneGlobalMeshComponent();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_17_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_17_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UOculusXRSceneGlobalMeshComponent;
 // ********** End Class UOculusXRSceneGlobalMeshComponent ******************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneGlobalMeshComponent_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

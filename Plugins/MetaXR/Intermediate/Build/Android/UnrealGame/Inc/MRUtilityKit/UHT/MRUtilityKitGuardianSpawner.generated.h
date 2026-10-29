@@ -20,7 +20,7 @@ class AMRUKRoom;
 class UMaterialInstance;
 
 // ********** Begin Class AMRUKGuardianSpawner *****************************************************
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnRoomRemoved); \
 	DECLARE_FUNCTION(execOnRoomUpdated); \
 	DECLARE_FUNCTION(execOnRoomCreated); \
@@ -33,7 +33,7 @@ class UMaterialInstance;
 struct Z_Construct_UClass_AMRUKGuardianSpawner_Statics;
 MRUTILITYKIT_API UClass* Z_Construct_UClass_AMRUKGuardianSpawner(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_AMRUKGuardianSpawner_Statics; \
 	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_AMRUKGuardianSpawner(ETypeConstructPhase); \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(AMRUKGuardianSpawner)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMRUKGuardianSpawner(AMRUKGuardianSpawner&&) = delete; \
 	AMRUKGuardianSpawner(const AMRUKGuardianSpawner&) = delete; \
@@ -52,13 +52,13 @@ public: \
 	NO_API virtual ~AMRUKGuardianSpawner();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_17_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_GENERATED_BODY \
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_17_PROLOG
+#define FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_ENHANCED_CONSTRUCTORS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_INCLASS_NO_PURE_DECLS \
+	FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -68,6 +68,6 @@ class AMRUKGuardianSpawner;
 // ********** End Class AMRUKGuardianSpawner *******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h
+#define CURRENT_FILE_ID FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGuardianSpawner_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UOculusXRPassthroughColorLutFactory_Statics;
 OCULUSXREDITOR_API UClass* Z_Construct_UClass_UOculusXRPassthroughColorLutFactory(ETypeConstructPhase);
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	friend struct ::Z_Construct_UClass_UOculusXRPassthroughColorLutFactory_Statics; \
 	friend OCULUSXREDITOR_API UClass* ::Z_Construct_UClass_UOculusXRPassthroughColorLutFactory(ETypeConstructPhase); \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UOculusXRPassthroughColorLutFactory)
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UOculusXRPassthroughColorLutFactory(UOculusXRPassthroughColorLutFactory&&) = delete; \
 	UOculusXRPassthroughColorLutFactory(const UOculusXRPassthroughColorLutFactory&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	OCULUSXREDITOR_API virtual ~UOculusXRPassthroughColorLutFactory();
 
 
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_21_PROLOG
-#define FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_GENERATED_BODY \
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_21_PROLOG
+#define FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_INCLASS_NO_PURE_DECLS \
-	FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UOculusXRPassthroughColorLutFactory;
 // ********** End Class UOculusXRPassthroughColorLutFactory ****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h
+#define CURRENT_FILE_ID FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Private_OculusXRPassthroughColorLutAsset_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -36,9 +36,13 @@ struct UHT_STATICS
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurveNames_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Skeleton's animation curve names\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRAnimCurveMapping.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Skeleton's animation curve names" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -100,14 +104,14 @@ UScriptStruct* Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping(ETypeConstruc
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping, Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping_Statics::NewStructOps, TEXT("OculusXRAnimCurveMapping"),&Z_Registration_Info_UScriptStruct_FOculusXRAnimCurveMapping, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRAnimCurveMapping), 800886124U) },
+		{ Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping, Z_Construct_UScriptStruct_FOculusXRAnimCurveMapping_Statics::NewStructOps, TEXT("OculusXRAnimCurveMapping"),&Z_Registration_Info_UScriptStruct_FOculusXRAnimCurveMapping, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRAnimCurveMapping), 3453536005U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_B_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h__Script_OculusXRMovement_3baf91da54f9efea894486b1e860344854f90777{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRAnimCurveMapping_h__Script_OculusXRMovement_d2fde2decaace740968b321a7ef240f38f46549c{
 	TEXT("/Script/OculusXRMovement"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),
