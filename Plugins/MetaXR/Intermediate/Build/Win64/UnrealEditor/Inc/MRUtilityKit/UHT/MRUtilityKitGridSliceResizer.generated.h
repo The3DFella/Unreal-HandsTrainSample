@@ -1,0 +1,78 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MRUtilityKitGridSliceResizer.h"
+
+#ifdef MRUTILITYKIT_MRUtilityKitGridSliceResizer_generated_h
+#error "MRUtilityKitGridSliceResizer.generated.h already included, missing '#pragma once' in MRUtilityKitGridSliceResizer.h"
+#endif
+#define MRUTILITYKIT_MRUtilityKitGridSliceResizer_generated_h
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/IsUEnumClass.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+// ********** Begin Class UMRUKGridSliceResizerComponent *******************************************
+#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execSliceMesh);
+
+
+struct Z_Construct_UClass_UMRUKGridSliceResizerComponent_Statics;
+MRUTILITYKIT_API UClass* Z_Construct_UClass_UMRUKGridSliceResizerComponent(ETypeConstructPhase);
+
+#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_INCLASS_NO_PURE_DECLS \
+private: \
+	friend struct ::Z_Construct_UClass_UMRUKGridSliceResizerComponent_Statics; \
+	friend MRUTILITYKIT_API UClass* ::Z_Construct_UClass_UMRUKGridSliceResizerComponent(ETypeConstructPhase); \
+public: \
+	DECLARE_CLASS2(UMRUKGridSliceResizerComponent, USceneComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MRUtilityKit"), Z_Construct_UClass_UMRUKGridSliceResizerComponent) \
+	DECLARE_SERIALIZER(UMRUKGridSliceResizerComponent)
+
+
+#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_ENHANCED_CONSTRUCTORS \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UMRUKGridSliceResizerComponent(UMRUKGridSliceResizerComponent&&) = delete; \
+	UMRUKGridSliceResizerComponent(const UMRUKGridSliceResizerComponent&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMRUKGridSliceResizerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMRUKGridSliceResizerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMRUKGridSliceResizerComponent) \
+	NO_API virtual ~UMRUKGridSliceResizerComponent();
+
+
+#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_65_PROLOG
+#define FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_INCLASS_NO_PURE_DECLS \
+	FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h_68_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+class UMRUKGridSliceResizerComponent;
+
+// ********** End Class UMRUKGridSliceResizerComponent *********************************************
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_B_HostProject_Plugins_OculusXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h
+
+// ********** Begin Enum EMRUKScaleCenterMode ******************************************************
+#define FOREACH_ENUM_EMRUKSCALECENTERMODE(op) \
+	op(EMRUKScaleCenterMode::None) \
+	op(EMRUKScaleCenterMode::XAxis) \
+	op(EMRUKScaleCenterMode::YAxis) \
+	op(EMRUKScaleCenterMode::ZAxis) 
+
+enum class EMRUKScaleCenterMode : uint8;
+template<> struct TIsUEnumClass<EMRUKScaleCenterMode> { enum { Value = true }; };
+template<> UE_NODEBUG MRUTILITYKIT_NON_ATTRIBUTED_API UEnum* StaticEnum<EMRUKScaleCenterMode>();
+// ********** End Enum EMRUKScaleCenterMode ********************************************************
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
