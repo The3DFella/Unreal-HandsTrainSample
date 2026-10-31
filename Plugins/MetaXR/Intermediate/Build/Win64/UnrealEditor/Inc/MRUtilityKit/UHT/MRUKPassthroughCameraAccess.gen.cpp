@@ -1988,7 +1988,7 @@ UMRUKPassthroughCameraAccessTexture::~UMRUKPassthroughCameraAccessTexture() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -2004,7 +2004,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UMRUKPassthroughCameraAccessTexture, TEXT("UMRUKPassthroughCameraAccessTexture"), &Z_Registration_Info_UClass_UMRUKPassthroughCameraAccessTexture, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKPassthroughCameraAccessTexture), 826362860U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_7d90162d0a584a790d7487c201ddbda50e9bd28a{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUKPassthroughCameraAccess_h__Script_MRUtilityKit_7d90162d0a584a790d7487c201ddbda50e9bd28a{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

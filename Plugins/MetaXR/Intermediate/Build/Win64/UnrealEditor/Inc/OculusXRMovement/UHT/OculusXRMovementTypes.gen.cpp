@@ -1827,7 +1827,7 @@ UScriptStruct* Z_Construct_UScriptStruct_FOculusXREyeGazesState(ETypeConstructPh
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1853,7 +1853,7 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FOculusXREyeGazesState, Z_Construct_UScriptStruct_FOculusXREyeGazesState_Statics::NewStructOps, TEXT("OculusXREyeGazesState"),&Z_Registration_Info_UScriptStruct_FOculusXREyeGazesState, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXREyeGazesState), 1540582107U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_89667191bde3777f969ea6ae1d2a6e1894ff55ae{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRMovementTypes_h__Script_OculusXRMovement_89667191bde3777f969ea6ae1d2a6e1894ff55ae{
 	TEXT("/Script/OculusXRMovement"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

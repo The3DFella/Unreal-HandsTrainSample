@@ -1711,7 +1711,7 @@ UEnum* Z_Construct_UEnum_OculusXRAnchors_EOculusXRAnchorSpace(ETypeConstructPhas
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h__Script_OculusXRAnchors_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h__Script_OculusXRAnchors_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1741,7 +1741,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UOculusXRSpaceDiscoveryComponentsFilter, TEXT("UOculusXRSpaceDiscoveryComponentsFilter"), &Z_Registration_Info_UClass_UOculusXRSpaceDiscoveryComponentsFilter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSpaceDiscoveryComponentsFilter), 1879167020U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h__Script_OculusXRAnchors_c97783a96013ebd556b1ef9bb17bd3ab5feaa5c6{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h__Script_OculusXRAnchors_c97783a96013ebd556b1ef9bb17bd3ab5feaa5c6{
 	TEXT("/Script/OculusXRAnchors"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

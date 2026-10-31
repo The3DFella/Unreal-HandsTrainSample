@@ -481,7 +481,7 @@ UMRUKGridSliceResizerComponent::~UMRUKGridSliceResizerComponent() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -491,7 +491,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UMRUKGridSliceResizerComponent, TEXT("UMRUKGridSliceResizerComponent"), &Z_Registration_Info_UClass_UMRUKGridSliceResizerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMRUKGridSliceResizerComponent), 3769362362U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h__Script_MRUtilityKit_688defcc4e8778e26373c47a0b4c7b0bf40e8b56{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitGridSliceResizer_h__Script_MRUtilityKit_688defcc4e8778e26373c47a0b4c7b0bf40e8b56{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

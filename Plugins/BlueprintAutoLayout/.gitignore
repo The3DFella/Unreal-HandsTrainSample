@@ -1,0 +1,45 @@
+# Unreal Engine build artifacts
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# Visual Studio / Rider / Xcode project files
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# IDE caches
+.vs/
+.idea/
+.vscode/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# UE per-user settings
+*.user
+
+# Misc
+*.pdb
+*.log
+
+# Local wiki page staging (pushed to the GitHub wiki repo, not this one)
+.wiki-staging/
+
+# Local working notes (never published)
+claude-progress.md
+
+# ACPL2 license-signing secret. sync_dist_tools.sh (private acp-dist-tools) writes the
+# native-lane key ONLY into this file, next to the vendored, secret-free ACPLicense.h.
+# It must never be committed: from 2026-08-10 to 2026-10-07 the key sat in the tracked
+# ACPLicense.h here and had to be rotated. CI + .githooks/pre-commit enforce this.
+**/ACPDistTools/ACPLicenseSecret.h
+**/ACPBuildInfo.h
+*.license

@@ -944,7 +944,7 @@ AMRUKDestructibleGlobalMeshSpawner::~AMRUKDestructibleGlobalMeshSpawner() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -953,7 +953,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_AMRUKDestructibleGlobalMeshSpawner, TEXT("AMRUKDestructibleGlobalMeshSpawner"), &Z_Registration_Info_UClass_AMRUKDestructibleGlobalMeshSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUKDestructibleGlobalMeshSpawner), 268999881U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_800bb1ffac34f9d438b859e61f0e887d45a8b3fd{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitDestructibleMesh_h__Script_MRUtilityKit_800bb1ffac34f9d438b859e61f0e887d45a8b3fd{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,

@@ -2430,7 +2430,7 @@ UEnum* Z_Construct_UEnum_OculusXRHMD_ELightingEstimation_CubeFace(ETypeConstruct
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -2467,7 +2467,7 @@ struct UHT_STATICS
 		{ Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics, Z_Construct_UScriptStruct_FOculusXRPerformanceMetrics_Statics::NewStructOps, TEXT("OculusXRPerformanceMetrics"),&Z_Registration_Info_UScriptStruct_FOculusXRPerformanceMetrics, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRPerformanceMetrics), 934842449U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_dc72fc81e1dd97033cb648a83d8ede06b82a55f1{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h__Script_OculusXRHMD_dc72fc81e1dd97033cb648a83d8ede06b82a55f1{
 	TEXT("/Script/OculusXRHMD"),
 	nullptr, 0,
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

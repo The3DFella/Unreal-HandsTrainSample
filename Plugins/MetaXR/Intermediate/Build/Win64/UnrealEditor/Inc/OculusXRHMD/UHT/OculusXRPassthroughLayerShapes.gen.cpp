@@ -212,7 +212,7 @@ UEnum* Z_Construct_UEnum_OculusXRHMD_EOculusXRPassthroughLayerOrder(ETypeConstru
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -220,7 +220,7 @@ struct UHT_STATICS
 		{ Z_Construct_UEnum_OculusXRHMD_EOculusXRPassthroughLayerOrder, TEXT("EOculusXRPassthroughLayerOrder"), &ZRIE_EOculusXRPassthroughLayerOrder, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3354506609U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_e6ef996bb0d26352706d40654da9f05bfe209a6a{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h__Script_OculusXRHMD_e6ef996bb0d26352706d40654da9f05bfe209a6a{
 	TEXT("/Script/OculusXRHMD"),
 	nullptr, 0,
 	nullptr, 0,

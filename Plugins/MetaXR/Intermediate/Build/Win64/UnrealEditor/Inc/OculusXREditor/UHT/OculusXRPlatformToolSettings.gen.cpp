@@ -771,7 +771,7 @@ UOculusXRPlatformToolSettings::~UOculusXRPlatformToolSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h__Script_OculusXREditor_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h__Script_OculusXREditor_Statics
 struct UHT_STATICS
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -788,7 +788,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_UOculusXRPlatformToolSettings, TEXT("UOculusXRPlatformToolSettings"), &Z_Registration_Info_UClass_UOculusXRPlatformToolSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPlatformToolSettings), 3660476204U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h__Script_OculusXREditor_3b6cc9665812fb988069b9239289a00d8ef75751{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXREditor_Public_OculusXRPlatformToolSettings_h__Script_OculusXREditor_3b6cc9665812fb988069b9239289a00d8ef75751{
 	TEXT("/Script/OculusXREditor"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

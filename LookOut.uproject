@@ -45,6 +45,10 @@
 		{
 			"Name": "EditorToolset",
 			"Enabled": true
+		},
+		{
+			"Name": "BlueprintAutoLayout",
+			"Enabled": true
 		}
 	]
 }

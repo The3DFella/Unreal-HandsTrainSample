@@ -603,7 +603,7 @@ AMRUtilityKitPositionGenerator::~AMRUtilityKitPositionGenerator() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h__Script_MRUtilityKit_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h__Script_MRUtilityKit_Statics
 struct UHT_STATICS
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
@@ -613,7 +613,7 @@ struct UHT_STATICS
 		{ Z_Construct_UClass_AMRUtilityKitPositionGenerator, TEXT("AMRUtilityKitPositionGenerator"), &Z_Registration_Info_UClass_AMRUtilityKitPositionGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMRUtilityKitPositionGenerator), 3839130287U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h__Script_MRUtilityKit_7b6751cca1f9ff19c741c26103974661d9d1b46f{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_MRUtilityKit_Public_MRUtilityKitPositionGenerator_h__Script_MRUtilityKit_7b6751cca1f9ff19c741c26103974661d9d1b46f{
 	TEXT("/Script/MRUtilityKit"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	UHT_STATICS::ScriptStructInfo, UE_ARRAY_COUNT(UHT_STATICS::ScriptStructInfo),

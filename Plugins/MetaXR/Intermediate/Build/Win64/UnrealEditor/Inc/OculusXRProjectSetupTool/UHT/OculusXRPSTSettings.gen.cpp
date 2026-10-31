@@ -215,14 +215,14 @@ UOculusXRPSTSettings::~UOculusXRPSTSettings() {}
 #ifdef UHT_STATICS
 #error UHT_STATICS already defined
 #endif
-#define UHT_STATICS Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_Statics
+#define UHT_STATICS Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_Statics
 struct UHT_STATICS
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRPSTSettings, TEXT("UOculusXRPSTSettings"), &Z_Registration_Info_UClass_UOculusXRPSTSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPSTSettings), 4081336763U) },
 	};
 }; // UHT_STATICS 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_HandsTrainSample_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_246a6a62408366659458b5da1894ba6eb3a77e40{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LookOut_Plugins_MetaXR_Source_OculusXRProjectSetupTool_Public_OculusXRPSTSettings_h__Script_OculusXRProjectSetupTool_246a6a62408366659458b5da1894ba6eb3a77e40{
 	TEXT("/Script/OculusXRProjectSetupTool"),
 	UHT_STATICS::ClassInfo, UE_ARRAY_COUNT(UHT_STATICS::ClassInfo),
 	nullptr, 0,
