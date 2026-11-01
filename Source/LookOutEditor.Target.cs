@@ -9,11 +9,11 @@ LICENSE file in the root directory of this source tree.
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class HandsTrainSampleTarget : TargetRules
+public class LookOutEditorTarget : TargetRules
 {
-    public HandsTrainSampleTarget(TargetInfo Target) : base(Target)
+    public LookOutEditorTarget(TargetInfo Target) : base(Target)
     {
-        Type = TargetType.Game;
+        Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.Latest;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         ExtraModuleNames.AddRange(new string[] { "HandsTrainSample" });
